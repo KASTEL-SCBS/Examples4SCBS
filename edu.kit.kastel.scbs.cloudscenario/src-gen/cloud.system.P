@@ -1,0 +1,2519 @@
+
+/** BEGIN system, ID: '304', NAME: 'defaultSystem' */
+system(304).
+assemblyContexts(304,[305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325]).
+connectors(304,[326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372]).
+providedRoles(304,[373,374,375,376,377,378,379,380,381,382]).
+requiredRoles(304,[]).
+
+/** BEGIN assemblyContext, ID: '305', NAME: 'OwnCloudA' */
+assemblyContext(305).
+encapsulatedComponent(305,[44]).
+/** END assemblyContext, ID: '305', NAME: 'OwnCloudA' */
+
+
+/** BEGIN assemblyContext, ID: '306', NAME: 'DBLogging' */
+assemblyContext(306).
+encapsulatedComponent(306,[43]).
+/** END assemblyContext, ID: '306', NAME: 'DBLogging' */
+
+
+/** BEGIN assemblyContext, ID: '307', NAME: 'Database' */
+assemblyContext(307).
+encapsulatedComponent(307,[42]).
+/** END assemblyContext, ID: '307', NAME: 'Database' */
+
+
+/** BEGIN assemblyContext, ID: '308', NAME: 'NetworkFilesystem' */
+assemblyContext(308).
+encapsulatedComponent(308,[45]).
+/** END assemblyContext, ID: '308', NAME: 'NetworkFilesystem' */
+
+
+/** BEGIN assemblyContext, ID: '309', NAME: 'NWFSLogging' */
+assemblyContext(309).
+encapsulatedComponent(309,[43]).
+/** END assemblyContext, ID: '309', NAME: 'NWFSLogging' */
+
+
+/** BEGIN assemblyContext, ID: '310', NAME: 'OCALogging' */
+assemblyContext(310).
+encapsulatedComponent(310,[43]).
+/** END assemblyContext, ID: '310', NAME: 'OCALogging' */
+
+
+/** BEGIN assemblyContext, ID: '311', NAME: 'LoadBalancer' */
+assemblyContext(311).
+encapsulatedComponent(311,[46]).
+/** END assemblyContext, ID: '311', NAME: 'LoadBalancer' */
+
+
+/** BEGIN assemblyContext, ID: '312', NAME: 'LBLogging' */
+assemblyContext(312).
+encapsulatedComponent(312,[43]).
+/** END assemblyContext, ID: '312', NAME: 'LBLogging' */
+
+
+/** BEGIN assemblyContext, ID: '313', NAME: 'OwnCloudB' */
+assemblyContext(313).
+encapsulatedComponent(313,[44]).
+/** END assemblyContext, ID: '313', NAME: 'OwnCloudB' */
+
+
+/** BEGIN assemblyContext, ID: '314', NAME: 'OCBLogging' */
+assemblyContext(314).
+encapsulatedComponent(314,[43]).
+/** END assemblyContext, ID: '314', NAME: 'OCBLogging' */
+
+
+/** BEGIN assemblyContext, ID: '315', NAME: 'DBAdminTool' */
+assemblyContext(315).
+encapsulatedComponent(315,[41]).
+/** END assemblyContext, ID: '315', NAME: 'DBAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '316', NAME: 'NWFSAdminTool' */
+assemblyContext(316).
+encapsulatedComponent(316,[49]).
+/** END assemblyContext, ID: '316', NAME: 'NWFSAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '317', NAME: 'OCAAdminTool' */
+assemblyContext(317).
+encapsulatedComponent(317,[50]).
+/** END assemblyContext, ID: '317', NAME: 'OCAAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '318', NAME: 'OCBAdminTool' */
+assemblyContext(318).
+encapsulatedComponent(318,[50]).
+/** END assemblyContext, ID: '318', NAME: 'OCBAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '319', NAME: 'LBAdminTool' */
+assemblyContext(319).
+encapsulatedComponent(319,[51]).
+/** END assemblyContext, ID: '319', NAME: 'LBAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '320', NAME: 'FileManagerA' */
+assemblyContext(320).
+encapsulatedComponent(320,[47]).
+/** END assemblyContext, ID: '320', NAME: 'FileManagerA' */
+
+
+/** BEGIN assemblyContext, ID: '321', NAME: 'CalendarA' */
+assemblyContext(321).
+encapsulatedComponent(321,[48]).
+/** END assemblyContext, ID: '321', NAME: 'CalendarA' */
+
+
+/** BEGIN assemblyContext, ID: '322', NAME: 'FileManagerB' */
+assemblyContext(322).
+encapsulatedComponent(322,[47]).
+/** END assemblyContext, ID: '322', NAME: 'FileManagerB' */
+
+
+/** BEGIN assemblyContext, ID: '323', NAME: 'CalendarB' */
+assemblyContext(323).
+encapsulatedComponent(323,[48]).
+/** END assemblyContext, ID: '323', NAME: 'CalendarB' */
+
+
+/** BEGIN assemblyContext, ID: '324', NAME: 'PublicFileManager' */
+assemblyContext(324).
+encapsulatedComponent(324,[52]).
+/** END assemblyContext, ID: '324', NAME: 'PublicFileManager' */
+
+
+/** BEGIN assemblyContext, ID: '325', NAME: 'PublicCalendar' */
+assemblyContext(325).
+encapsulatedComponent(325,[53]).
+/** END assemblyContext, ID: '325', NAME: 'PublicCalendar' */
+
+
+/** BEGIN assemblyConnector, ID: '326', NAME: 'Connector LoadBalancer -> LBLogging' */
+assemblyConnector(326).
+requiringAssemblyContext(326,[311]).
+providingAssemblyContext(326,[312]).
+providedRole(326,[77]).
+requiredRole(326,[90]).
+/** END assemblyConnector, ID: '326', NAME: 'Connector LoadBalancer -> LBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '327', NAME: 'Connector LBAdminTool -> LoadBalancer' */
+assemblyConnector(327).
+requiringAssemblyContext(327,[319]).
+providingAssemblyContext(327,[311]).
+providedRole(327,[87]).
+requiredRole(327,[107]).
+/** END assemblyConnector, ID: '327', NAME: 'Connector LBAdminTool -> LoadBalancer' */
+
+
+/** BEGIN assemblyConnector, ID: '328', NAME: 'Connector LBAdminTool -> LBLogging' */
+assemblyConnector(328).
+requiringAssemblyContext(328,[319]).
+providingAssemblyContext(328,[312]).
+providedRole(328,[76]).
+requiredRole(328,[108]).
+/** END assemblyConnector, ID: '328', NAME: 'Connector LBAdminTool -> LBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '329', NAME: 'Connector LBAdminTool -> LBLogging' */
+assemblyConnector(329).
+requiringAssemblyContext(329,[319]).
+providingAssemblyContext(329,[312]).
+providedRole(329,[77]).
+requiredRole(329,[109]).
+/** END assemblyConnector, ID: '329', NAME: 'Connector LBAdminTool -> LBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '330', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+assemblyConnector(330).
+requiringAssemblyContext(330,[311]).
+providingAssemblyContext(330,[305]).
+providedRole(330,[78]).
+requiredRole(330,[92]).
+/** END assemblyConnector, ID: '330', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '387', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '387', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '387', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '387', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '389', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '389', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '389', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '389', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '391', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '391', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '391', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '391', NAME: 'null' */
+
+dataSetMapEntry(394).
+dataIdentifier(1,394).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '393', NAME: 'null' */
+parametersAndDataPair(395).
+
+parameterSources(395,[*]).
+
+dataTargets(395,[394]).
+/** END dataSetMapParameter2KeySubstitution, ID: '393', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '393', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[395]).
+/** END dataSetMapParameter2KeySubstitution, ID: '393', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '396', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '396', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '396', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '396', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '398', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '398', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '398', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '398', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '400', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '400', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '400', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '400', NAME: 'null' */
+
+dataSetMapEntry(403).
+dataIdentifier(1,403).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '402', NAME: 'null' */
+parametersAndDataPair(404).
+
+parameterSources(404,[*]).
+
+dataTargets(404,[403]).
+/** END dataSetMapParameter2KeySubstitution, ID: '402', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '402', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(330,[404]).
+/** END dataSetMapParameter2KeySubstitution, ID: '402', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '331', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+assemblyConnector(331).
+requiringAssemblyContext(331,[311]).
+providingAssemblyContext(331,[305]).
+providedRole(331,[79]).
+requiredRole(331,[91]).
+/** END assemblyConnector, ID: '331', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '409', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '409', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '409', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '409', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '410', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '410', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '410', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '410', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '411', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '411', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '411', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '411', NAME: 'null' */
+
+dataSetMapEntry(413).
+dataIdentifier(1,413).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '412', NAME: 'null' */
+parametersAndDataPair(414).
+
+parameterSources(414,[*]).
+
+dataTargets(414,[413]).
+/** END dataSetMapParameter2KeySubstitution, ID: '412', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '412', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[414]).
+/** END dataSetMapParameter2KeySubstitution, ID: '412', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '415', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '415', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '415', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '415', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '416', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '416', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '416', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '416', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '417', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '417', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '417', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '417', NAME: 'null' */
+
+dataSetMapEntry(419).
+dataIdentifier(1,419).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '418', NAME: 'null' */
+parametersAndDataPair(420).
+
+parameterSources(420,[*]).
+
+dataTargets(420,[419]).
+/** END dataSetMapParameter2KeySubstitution, ID: '418', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '418', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(331,[420]).
+/** END dataSetMapParameter2KeySubstitution, ID: '418', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '332', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+assemblyConnector(332).
+requiringAssemblyContext(332,[317]).
+providingAssemblyContext(332,[305]).
+providedRole(332,[78]).
+requiredRole(332,[102]).
+/** END assemblyConnector, ID: '332', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '425', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '425', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '425', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '425', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '426', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '426', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '426', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '426', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '427', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '427', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '427', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '427', NAME: 'null' */
+
+dataSetMapEntry(429).
+dataIdentifier(1,429).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '428', NAME: 'null' */
+parametersAndDataPair(430).
+
+parameterSources(430,[*]).
+
+dataTargets(430,[429]).
+/** END dataSetMapParameter2KeySubstitution, ID: '428', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '428', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[430]).
+/** END dataSetMapParameter2KeySubstitution, ID: '428', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '431', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '431', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '431', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '431', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '432', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '432', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '432', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '432', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '433', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '433', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '433', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '433', NAME: 'null' */
+
+dataSetMapEntry(435).
+dataIdentifier(1,435).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '434', NAME: 'null' */
+parametersAndDataPair(436).
+
+parameterSources(436,[*]).
+
+dataTargets(436,[435]).
+/** END dataSetMapParameter2KeySubstitution, ID: '434', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '434', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(332,[436]).
+/** END dataSetMapParameter2KeySubstitution, ID: '434', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '333', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+assemblyConnector(333).
+requiringAssemblyContext(333,[317]).
+providingAssemblyContext(333,[305]).
+providedRole(333,[79]).
+requiredRole(333,[103]).
+/** END assemblyConnector, ID: '333', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '441', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '441', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '441', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '441', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '442', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '442', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '442', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '442', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '443', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '443', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '443', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '443', NAME: 'null' */
+
+dataSetMapEntry(445).
+dataIdentifier(1,445).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '444', NAME: 'null' */
+parametersAndDataPair(446).
+
+parameterSources(446,[*]).
+
+dataTargets(446,[445]).
+/** END dataSetMapParameter2KeySubstitution, ID: '444', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '444', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[446]).
+/** END dataSetMapParameter2KeySubstitution, ID: '444', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '447', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '447', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '447', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '447', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '448', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '448', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '448', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '448', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '449', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '449', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '449', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '449', NAME: 'null' */
+
+dataSetMapEntry(451).
+dataIdentifier(1,451).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '450', NAME: 'null' */
+parametersAndDataPair(452).
+
+parameterSources(452,[*]).
+
+dataTargets(452,[451]).
+/** END dataSetMapParameter2KeySubstitution, ID: '450', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '450', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(333,[452]).
+/** END dataSetMapParameter2KeySubstitution, ID: '450', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '334', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+assemblyConnector(334).
+requiringAssemblyContext(334,[318]).
+providingAssemblyContext(334,[313]).
+providedRole(334,[78]).
+requiredRole(334,[102]).
+/** END assemblyConnector, ID: '334', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '457', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '457', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '457', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '457', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '458', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '458', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '458', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '458', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '459', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '459', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '459', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '459', NAME: 'null' */
+
+dataSetMapEntry(461).
+dataIdentifier(1,461).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '460', NAME: 'null' */
+parametersAndDataPair(462).
+
+parameterSources(462,[*]).
+
+dataTargets(462,[461]).
+/** END dataSetMapParameter2KeySubstitution, ID: '460', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '460', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[462]).
+/** END dataSetMapParameter2KeySubstitution, ID: '460', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '463', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '463', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '463', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '463', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '464', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '464', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '464', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '464', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '465', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '465', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '465', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '465', NAME: 'null' */
+
+dataSetMapEntry(467).
+dataIdentifier(1,467).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '466', NAME: 'null' */
+parametersAndDataPair(468).
+
+parameterSources(468,[*]).
+
+dataTargets(468,[467]).
+/** END dataSetMapParameter2KeySubstitution, ID: '466', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '466', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(334,[468]).
+/** END dataSetMapParameter2KeySubstitution, ID: '466', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '335', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+assemblyConnector(335).
+requiringAssemblyContext(335,[318]).
+providingAssemblyContext(335,[313]).
+providedRole(335,[79]).
+requiredRole(335,[103]).
+/** END assemblyConnector, ID: '335', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '473', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '473', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '473', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '473', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '474', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '474', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '474', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '474', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '475', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '475', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '475', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '475', NAME: 'null' */
+
+dataSetMapEntry(477).
+dataIdentifier(1,477).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '476', NAME: 'null' */
+parametersAndDataPair(478).
+
+parameterSources(478,[*]).
+
+dataTargets(478,[477]).
+/** END dataSetMapParameter2KeySubstitution, ID: '476', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '476', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[478]).
+/** END dataSetMapParameter2KeySubstitution, ID: '476', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '479', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '479', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '479', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '479', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '480', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '480', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '480', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '480', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '481', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '481', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '481', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '481', NAME: 'null' */
+
+dataSetMapEntry(483).
+dataIdentifier(1,483).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '482', NAME: 'null' */
+parametersAndDataPair(484).
+
+parameterSources(484,[*]).
+
+dataTargets(484,[483]).
+/** END dataSetMapParameter2KeySubstitution, ID: '482', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '482', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(335,[484]).
+/** END dataSetMapParameter2KeySubstitution, ID: '482', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '336', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+assemblyConnector(336).
+requiringAssemblyContext(336,[318]).
+providingAssemblyContext(336,[314]).
+providedRole(336,[77]).
+requiredRole(336,[105]).
+/** END assemblyConnector, ID: '336', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '337', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+assemblyConnector(337).
+requiringAssemblyContext(337,[318]).
+providingAssemblyContext(337,[314]).
+providedRole(337,[76]).
+requiredRole(337,[104]).
+/** END assemblyConnector, ID: '337', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '338', NAME: 'Connector OCAAdminTool -> OCALogging' */
+assemblyConnector(338).
+requiringAssemblyContext(338,[317]).
+providingAssemblyContext(338,[310]).
+providedRole(338,[77]).
+requiredRole(338,[105]).
+/** END assemblyConnector, ID: '338', NAME: 'Connector OCAAdminTool -> OCALogging' */
+
+
+/** BEGIN assemblyConnector, ID: '339', NAME: 'Connector OCAAdminTool -> OCALogging' */
+assemblyConnector(339).
+requiringAssemblyContext(339,[317]).
+providingAssemblyContext(339,[310]).
+providedRole(339,[76]).
+requiredRole(339,[104]).
+/** END assemblyConnector, ID: '339', NAME: 'Connector OCAAdminTool -> OCALogging' */
+
+
+/** BEGIN assemblyConnector, ID: '340', NAME: 'Connector OwnCloudB -> OCBLogging' */
+assemblyConnector(340).
+requiringAssemblyContext(340,[313]).
+providingAssemblyContext(340,[314]).
+providedRole(340,[77]).
+requiredRole(340,[82]).
+/** END assemblyConnector, ID: '340', NAME: 'Connector OwnCloudB -> OCBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '341', NAME: 'Connector OwnCloudA -> OCALogging' */
+assemblyConnector(341).
+requiringAssemblyContext(341,[305]).
+providingAssemblyContext(341,[310]).
+providedRole(341,[77]).
+requiredRole(341,[82]).
+/** END assemblyConnector, ID: '341', NAME: 'Connector OwnCloudA -> OCALogging' */
+
+
+/** BEGIN assemblyConnector, ID: '342', NAME: 'Connector OwnCloudA -> Database' */
+assemblyConnector(342).
+requiringAssemblyContext(342,[305]).
+providingAssemblyContext(342,[307]).
+providedRole(342,[74]).
+requiredRole(342,[80]).
+/** END assemblyConnector, ID: '342', NAME: 'Connector OwnCloudA -> Database' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '489', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '489', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '489', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '489', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '490', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '490', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '490', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '490', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '491', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '491', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '491', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '491', NAME: 'null' */
+
+dataSetMapEntry(493).
+dataIdentifier(1,493).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '492', NAME: 'null' */
+parametersAndDataPair(494).
+
+parameterSources(494,[*]).
+
+dataTargets(494,[493]).
+/** END dataSetMapParameter2KeySubstitution, ID: '492', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '492', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[494]).
+/** END dataSetMapParameter2KeySubstitution, ID: '492', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '495', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '495', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '495', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '495', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '496', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '496', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '496', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '496', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '497', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '497', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '497', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '497', NAME: 'null' */
+
+dataSetMapEntry(499).
+dataIdentifier(1,499).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '498', NAME: 'null' */
+parametersAndDataPair(500).
+
+parameterSources(500,[*]).
+
+dataTargets(500,[499]).
+/** END dataSetMapParameter2KeySubstitution, ID: '498', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '498', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(342,[500]).
+/** END dataSetMapParameter2KeySubstitution, ID: '498', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '343', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
+assemblyConnector(343).
+requiringAssemblyContext(343,[305]).
+providingAssemblyContext(343,[308]).
+providedRole(343,[83]).
+requiredRole(343,[81]).
+/** END assemblyConnector, ID: '343', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '505', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '505', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '505', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '505', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '506', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '506', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '506', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '506', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '507', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '507', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '507', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '507', NAME: 'null' */
+
+dataSetMapEntry(509).
+dataIdentifier(1,509).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '508', NAME: 'null' */
+parametersAndDataPair(510).
+
+parameterSources(510,[*]).
+
+dataTargets(510,[509]).
+/** END dataSetMapParameter2KeySubstitution, ID: '508', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '508', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[510]).
+/** END dataSetMapParameter2KeySubstitution, ID: '508', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '511', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '511', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '511', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '511', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '512', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '512', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '512', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '512', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '513', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '513', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '513', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '513', NAME: 'null' */
+
+dataSetMapEntry(515).
+dataIdentifier(1,515).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '514', NAME: 'null' */
+parametersAndDataPair(516).
+
+parameterSources(516,[*]).
+
+dataTargets(516,[515]).
+/** END dataSetMapParameter2KeySubstitution, ID: '514', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '514', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(343,[516]).
+/** END dataSetMapParameter2KeySubstitution, ID: '514', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '344', NAME: 'Connector OwnCloudB -> Database' */
+assemblyConnector(344).
+requiringAssemblyContext(344,[313]).
+providingAssemblyContext(344,[307]).
+providedRole(344,[74]).
+requiredRole(344,[80]).
+/** END assemblyConnector, ID: '344', NAME: 'Connector OwnCloudB -> Database' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '521', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '521', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '521', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '521', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '522', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '522', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '522', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '522', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '523', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '523', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '523', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '523', NAME: 'null' */
+
+dataSetMapEntry(525).
+dataIdentifier(1,525).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '524', NAME: 'null' */
+parametersAndDataPair(526).
+
+parameterSources(526,[*]).
+
+dataTargets(526,[525]).
+/** END dataSetMapParameter2KeySubstitution, ID: '524', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '524', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[526]).
+/** END dataSetMapParameter2KeySubstitution, ID: '524', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '527', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '527', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '527', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '527', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '528', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '528', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '528', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '528', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '529', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '529', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '529', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '529', NAME: 'null' */
+
+dataSetMapEntry(531).
+dataIdentifier(1,531).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '530', NAME: 'null' */
+parametersAndDataPair(532).
+
+parameterSources(532,[*]).
+
+dataTargets(532,[531]).
+/** END dataSetMapParameter2KeySubstitution, ID: '530', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '530', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(344,[532]).
+/** END dataSetMapParameter2KeySubstitution, ID: '530', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '345', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
+assemblyConnector(345).
+requiringAssemblyContext(345,[313]).
+providingAssemblyContext(345,[308]).
+providedRole(345,[83]).
+requiredRole(345,[81]).
+/** END assemblyConnector, ID: '345', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '537', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '537', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '537', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '537', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '538', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '538', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '538', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '538', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '539', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '539', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '539', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '539', NAME: 'null' */
+
+dataSetMapEntry(541).
+dataIdentifier(1,541).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '540', NAME: 'null' */
+parametersAndDataPair(542).
+
+parameterSources(542,[*]).
+
+dataTargets(542,[541]).
+/** END dataSetMapParameter2KeySubstitution, ID: '540', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '540', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[542]).
+/** END dataSetMapParameter2KeySubstitution, ID: '540', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '543', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '543', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '543', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '543', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '544', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '544', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '544', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '544', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '545', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '545', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '545', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '545', NAME: 'null' */
+
+dataSetMapEntry(547).
+dataIdentifier(1,547).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '546', NAME: 'null' */
+parametersAndDataPair(548).
+
+parameterSources(548,[*]).
+
+dataTargets(548,[547]).
+/** END dataSetMapParameter2KeySubstitution, ID: '546', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '546', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(345,[548]).
+/** END dataSetMapParameter2KeySubstitution, ID: '546', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '346', NAME: 'Connector DBAdminTool -> Database' */
+assemblyConnector(346).
+requiringAssemblyContext(346,[315]).
+providingAssemblyContext(346,[307]).
+providedRole(346,[74]).
+requiredRole(346,[71]).
+/** END assemblyConnector, ID: '346', NAME: 'Connector DBAdminTool -> Database' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '553', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '553', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '553', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '553', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '554', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '554', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '554', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '554', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '555', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '555', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '555', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '555', NAME: 'null' */
+
+dataSetMapEntry(557).
+dataIdentifier(1,557).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '556', NAME: 'null' */
+parametersAndDataPair(558).
+
+parameterSources(558,[*]).
+
+dataTargets(558,[557]).
+/** END dataSetMapParameter2KeySubstitution, ID: '556', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '556', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[558]).
+/** END dataSetMapParameter2KeySubstitution, ID: '556', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '559', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '559', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '559', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '559', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '560', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '560', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '560', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '560', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '561', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '561', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '561', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '561', NAME: 'null' */
+
+dataSetMapEntry(563).
+dataIdentifier(1,563).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '562', NAME: 'null' */
+parametersAndDataPair(564).
+
+parameterSources(564,[*]).
+
+dataTargets(564,[563]).
+/** END dataSetMapParameter2KeySubstitution, ID: '562', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '562', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(346,[564]).
+/** END dataSetMapParameter2KeySubstitution, ID: '562', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '347', NAME: 'Connector DBAdminTool -> DBLogging' */
+assemblyConnector(347).
+requiringAssemblyContext(347,[315]).
+providingAssemblyContext(347,[306]).
+providedRole(347,[77]).
+requiredRole(347,[73]).
+/** END assemblyConnector, ID: '347', NAME: 'Connector DBAdminTool -> DBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '348', NAME: 'Connector DBAdminTool -> DBLogging' */
+assemblyConnector(348).
+requiringAssemblyContext(348,[315]).
+providingAssemblyContext(348,[306]).
+providedRole(348,[76]).
+requiredRole(348,[72]).
+/** END assemblyConnector, ID: '348', NAME: 'Connector DBAdminTool -> DBLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '349', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+assemblyConnector(349).
+requiringAssemblyContext(349,[316]).
+providingAssemblyContext(349,[309]).
+providedRole(349,[76]).
+requiredRole(349,[99]).
+/** END assemblyConnector, ID: '349', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '350', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+assemblyConnector(350).
+requiringAssemblyContext(350,[316]).
+providingAssemblyContext(350,[309]).
+providedRole(350,[77]).
+requiredRole(350,[100]).
+/** END assemblyConnector, ID: '350', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '351', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
+assemblyConnector(351).
+requiringAssemblyContext(351,[316]).
+providingAssemblyContext(351,[308]).
+providedRole(351,[83]).
+requiredRole(351,[98]).
+/** END assemblyConnector, ID: '351', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '569', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '569', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '569', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '569', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '570', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '570', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '570', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '570', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '571', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '571', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '571', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '571', NAME: 'null' */
+
+dataSetMapEntry(573).
+dataIdentifier(1,573).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '572', NAME: 'null' */
+parametersAndDataPair(574).
+
+parameterSources(574,[*]).
+
+dataTargets(574,[573]).
+/** END dataSetMapParameter2KeySubstitution, ID: '572', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '572', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[574]).
+/** END dataSetMapParameter2KeySubstitution, ID: '572', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '575', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '575', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '575', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '575', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '576', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '576', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '576', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '576', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '577', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '577', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '577', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '577', NAME: 'null' */
+
+dataSetMapEntry(579).
+dataIdentifier(1,579).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '578', NAME: 'null' */
+parametersAndDataPair(580).
+
+parameterSources(580,[*]).
+
+dataTargets(580,[579]).
+/** END dataSetMapParameter2KeySubstitution, ID: '578', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '578', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(351,[580]).
+/** END dataSetMapParameter2KeySubstitution, ID: '578', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '352', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
+assemblyConnector(352).
+requiringAssemblyContext(352,[308]).
+providingAssemblyContext(352,[309]).
+providedRole(352,[77]).
+requiredRole(352,[84]).
+/** END assemblyConnector, ID: '352', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
+
+
+/** BEGIN assemblyConnector, ID: '353', NAME: 'Connector Database -> DBLogging' */
+assemblyConnector(353).
+requiringAssemblyContext(353,[307]).
+providingAssemblyContext(353,[306]).
+providedRole(353,[77]).
+requiredRole(353,[75]).
+/** END assemblyConnector, ID: '353', NAME: 'Connector Database -> DBLogging' */
+
+
+/** BEGIN providedDelegationConnector, ID: '354', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
+providedDelegationConnector(354).
+innerProvidedRole(354,[70]).
+outerProvidedRole(354,[376]).
+assemblyContext(354,[307]).
+/** END providedDelegationConnector, ID: '354', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
+
+
+/** BEGIN providedDelegationConnector, ID: '355', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
+providedDelegationConnector(355).
+innerProvidedRole(355,[97]).
+outerProvidedRole(355,[375]).
+assemblyContext(355,[316]).
+/** END providedDelegationConnector, ID: '355', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
+
+
+/** BEGIN providedDelegationConnector, ID: '356', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+providedDelegationConnector(356).
+innerProvidedRole(356,[101]).
+outerProvidedRole(356,[374]).
+assemblyContext(356,[317]).
+/** END providedDelegationConnector, ID: '356', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+
+
+/** BEGIN providedDelegationConnector, ID: '357', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
+providedDelegationConnector(357).
+innerProvidedRole(357,[106]).
+outerProvidedRole(357,[373]).
+assemblyContext(357,[319]).
+/** END providedDelegationConnector, ID: '357', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
+
+
+/** BEGIN providedDelegationConnector, ID: '358', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+providedDelegationConnector(358).
+innerProvidedRole(358,[101]).
+outerProvidedRole(358,[374]).
+assemblyContext(358,[318]).
+/** END providedDelegationConnector, ID: '358', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+
+
+/** BEGIN assemblyConnector, ID: '359', NAME: 'Connector FileManagerA -> LoadBalancer' */
+assemblyConnector(359).
+requiringAssemblyContext(359,[320]).
+providingAssemblyContext(359,[311]).
+providedRole(359,[85]).
+requiredRole(359,[94]).
+/** END assemblyConnector, ID: '359', NAME: 'Connector FileManagerA -> LoadBalancer' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(359,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '584', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '584', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '584', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(359,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '584', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '585', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '585', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '585', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(359,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '585', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '586', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '586', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '586', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(359,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '586', NAME: 'null' */
+
+dataSetMapEntry(588).
+dataIdentifier(1,588).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '587', NAME: 'null' */
+parametersAndDataPair(589).
+
+parameterSources(589,[*]).
+
+dataTargets(589,[588]).
+/** END dataSetMapParameter2KeySubstitution, ID: '587', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '587', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(359,[589]).
+/** END dataSetMapParameter2KeySubstitution, ID: '587', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '360', NAME: 'Connector CalendarA -> LoadBalancer' */
+assemblyConnector(360).
+requiringAssemblyContext(360,[321]).
+providingAssemblyContext(360,[311]).
+providedRole(360,[86]).
+requiredRole(360,[96]).
+/** END assemblyConnector, ID: '360', NAME: 'Connector CalendarA -> LoadBalancer' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(360,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '581', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '592', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '592', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '592', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(360,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '592', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '593', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '593', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '593', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(360,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '593', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '594', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '594', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '594', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(360,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '594', NAME: 'null' */
+
+dataSetMapEntry(596).
+dataIdentifier(1,596).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '595', NAME: 'null' */
+parametersAndDataPair(597).
+
+parameterSources(597,[*]).
+
+dataTargets(597,[596]).
+/** END dataSetMapParameter2KeySubstitution, ID: '595', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '595', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(360,[597]).
+/** END dataSetMapParameter2KeySubstitution, ID: '595', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '361', NAME: 'Connector FileManagerB -> LoadBalancer' */
+assemblyConnector(361).
+requiringAssemblyContext(361,[322]).
+providingAssemblyContext(361,[311]).
+providedRole(361,[85]).
+requiredRole(361,[94]).
+/** END assemblyConnector, ID: '361', NAME: 'Connector FileManagerB -> LoadBalancer' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(361,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '601', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '601', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '601', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(361,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '601', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '602', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '602', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '602', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(361,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '602', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '603', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '603', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '603', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(361,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '603', NAME: 'null' */
+
+dataSetMapEntry(605).
+dataIdentifier(1,605).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '604', NAME: 'null' */
+parametersAndDataPair(606).
+
+parameterSources(606,[*]).
+
+dataTargets(606,[605]).
+/** END dataSetMapParameter2KeySubstitution, ID: '604', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '604', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(361,[606]).
+/** END dataSetMapParameter2KeySubstitution, ID: '604', NAME: 'null' */
+
+
+/** BEGIN assemblyConnector, ID: '362', NAME: 'Connector CalendarB -> LoadBalancer' */
+assemblyConnector(362).
+requiringAssemblyContext(362,[323]).
+providingAssemblyContext(362,[311]).
+providedRole(362,[86]).
+requiredRole(362,[96]).
+/** END assemblyConnector, ID: '362', NAME: 'Connector CalendarB -> LoadBalancer' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(362,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '598', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '609', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '609', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '609', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(362,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '609', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '610', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '610', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '610', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(362,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '610', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '611', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '611', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '611', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(362,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '611', NAME: 'null' */
+
+dataSetMapEntry(613).
+dataIdentifier(1,613).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '612', NAME: 'null' */
+parametersAndDataPair(614).
+
+parameterSources(614,[*]).
+
+dataTargets(614,[613]).
+/** END dataSetMapParameter2KeySubstitution, ID: '612', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '612', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(362,[614]).
+/** END dataSetMapParameter2KeySubstitution, ID: '612', NAME: 'null' */
+
+
+/** BEGIN providedDelegationConnector, ID: '363', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
+providedDelegationConnector(363).
+innerProvidedRole(363,[95]).
+outerProvidedRole(363,[380]).
+assemblyContext(363,[321]).
+/** END providedDelegationConnector, ID: '363', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
+
+
+/** BEGIN providedDelegationConnector, ID: '364', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
+providedDelegationConnector(364).
+innerProvidedRole(364,[95]).
+outerProvidedRole(364,[379]).
+assemblyContext(364,[323]).
+/** END providedDelegationConnector, ID: '364', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
+
+
+/** BEGIN providedDelegationConnector, ID: '365', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
+providedDelegationConnector(365).
+innerProvidedRole(365,[93]).
+outerProvidedRole(365,[378]).
+assemblyContext(365,[322]).
+/** END providedDelegationConnector, ID: '365', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
+
+
+/** BEGIN assemblyConnector, ID: '366', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+assemblyConnector(366).
+requiringAssemblyContext(366,[311]).
+providingAssemblyContext(366,[313]).
+providedRole(366,[79]).
+requiredRole(366,[91]).
+/** END assemblyConnector, ID: '366', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '619', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '619', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '619', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '619', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '620', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '620', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '620', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '620', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '621', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '621', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '621', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '621', NAME: 'null' */
+
+dataSetMapEntry(623).
+dataIdentifier(1,623).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '622', NAME: 'null' */
+parametersAndDataPair(624).
+
+parameterSources(624,[*]).
+
+dataTargets(624,[623]).
+/** END dataSetMapParameter2KeySubstitution, ID: '622', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '622', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[624]).
+/** END dataSetMapParameter2KeySubstitution, ID: '622', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '625', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '625', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '625', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '625', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '626', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '626', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '626', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '626', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '627', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '627', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '627', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '627', NAME: 'null' */
+
+dataSetMapEntry(629).
+dataIdentifier(1,629).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '628', NAME: 'null' */
+parametersAndDataPair(630).
+
+parameterSources(630,[*]).
+
+dataTargets(630,[629]).
+/** END dataSetMapParameter2KeySubstitution, ID: '628', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '628', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(366,[630]).
+/** END dataSetMapParameter2KeySubstitution, ID: '628', NAME: 'null' */
+
+
+/** BEGIN providedDelegationConnector, ID: '367', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
+providedDelegationConnector(367).
+innerProvidedRole(367,[93]).
+outerProvidedRole(367,[377]).
+assemblyContext(367,[320]).
+/** END providedDelegationConnector, ID: '367', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
+
+
+/** BEGIN assemblyConnector, ID: '368', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+assemblyConnector(368).
+requiringAssemblyContext(368,[311]).
+providingAssemblyContext(368,[313]).
+providedRole(368,[78]).
+requiredRole(368,[92]).
+/** END assemblyConnector, ID: '368', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '635', NAME: 'null' */
+parametersAndDataPair(388).
+
+parameterSources(388,[*]).
+
+dataTargets(388,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '635', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '635', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[388]).
+/** END dataSetMapParameter2KeySubstitution, ID: '635', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '636', NAME: 'null' */
+parametersAndDataPair(390).
+
+parameterSources(390,[*]).
+
+dataTargets(390,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '636', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '636', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[390]).
+/** END dataSetMapParameter2KeySubstitution, ID: '636', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '637', NAME: 'null' */
+parametersAndDataPair(392).
+
+parameterSources(392,[*]).
+
+dataTargets(392,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '637', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '637', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[392]).
+/** END dataSetMapParameter2KeySubstitution, ID: '637', NAME: 'null' */
+
+dataSetMapEntry(639).
+dataIdentifier(1,639).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '638', NAME: 'null' */
+parametersAndDataPair(640).
+
+parameterSources(640,[*]).
+
+dataTargets(640,[639]).
+/** END dataSetMapParameter2KeySubstitution, ID: '638', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '638', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[640]).
+/** END dataSetMapParameter2KeySubstitution, ID: '638', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '641', NAME: 'null' */
+parametersAndDataPair(397).
+
+parameterSources(397,[*]).
+
+dataTargets(397,[4]).
+/** END dataSetMapParameter2KeySubstitution, ID: '641', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '641', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[397]).
+/** END dataSetMapParameter2KeySubstitution, ID: '641', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '642', NAME: 'null' */
+parametersAndDataPair(399).
+
+parameterSources(399,[*]).
+
+dataTargets(399,[5]).
+/** END dataSetMapParameter2KeySubstitution, ID: '642', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '642', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[399]).
+/** END dataSetMapParameter2KeySubstitution, ID: '642', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '643', NAME: 'null' */
+parametersAndDataPair(401).
+
+parameterSources(401,[*]).
+
+dataTargets(401,[6]).
+/** END dataSetMapParameter2KeySubstitution, ID: '643', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '643', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[401]).
+/** END dataSetMapParameter2KeySubstitution, ID: '643', NAME: 'null' */
+
+dataSetMapEntry(645).
+dataIdentifier(1,645).
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '644', NAME: 'null' */
+parametersAndDataPair(646).
+
+parameterSources(646,[*]).
+
+dataTargets(646,[645]).
+/** END dataSetMapParameter2KeySubstitution, ID: '644', NAME: 'null' */
+
+
+/** BEGIN dataSetMapParameter2KeySubstitution, ID: '644', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(368,[646]).
+/** END dataSetMapParameter2KeySubstitution, ID: '644', NAME: 'null' */
+
+
+/** BEGIN providedDelegationConnector, ID: '369', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
+providedDelegationConnector(369).
+innerProvidedRole(369,[112]).
+outerProvidedRole(369,[382]).
+assemblyContext(369,[325]).
+/** END providedDelegationConnector, ID: '369', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
+
+
+/** BEGIN providedDelegationConnector, ID: '370', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
+providedDelegationConnector(370).
+innerProvidedRole(370,[110]).
+outerProvidedRole(370,[381]).
+assemblyContext(370,[324]).
+/** END providedDelegationConnector, ID: '370', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
+
+
+/** BEGIN assemblyConnector, ID: '371', NAME: 'Connector PublicFileManager -> LoadBalancer' */
+assemblyConnector(371).
+requiringAssemblyContext(371,[324]).
+providingAssemblyContext(371,[311]).
+providedRole(371,[88]).
+requiredRole(371,[111]).
+/** END assemblyConnector, ID: '371', NAME: 'Connector PublicFileManager -> LoadBalancer' */
+
+
+/** BEGIN assemblyConnector, ID: '372', NAME: 'Connector PublicCalendar -> LoadBalancer' */
+assemblyConnector(372).
+requiringAssemblyContext(372,[325]).
+providingAssemblyContext(372,[311]).
+providedRole(372,[89]).
+requiredRole(372,[113]).
+/** END assemblyConnector, ID: '372', NAME: 'Connector PublicCalendar -> LoadBalancer' */
+
+
+/** BEGIN operationProvidedRole, ID: '373', NAME: 'Provided_ILBAdminTool' */
+operationProvidedRole(373).
+providedInterface(373,[67]).
+/** END operationProvidedRole, ID: '373', NAME: 'Provided_ILBAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '374', NAME: 'Provided_IOCAdminTool' */
+operationProvidedRole(374).
+providedInterface(374,[66]).
+/** END operationProvidedRole, ID: '374', NAME: 'Provided_IOCAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '375', NAME: 'Provided_INWFSAdminTool' */
+operationProvidedRole(375).
+providedInterface(375,[64]).
+/** END operationProvidedRole, ID: '375', NAME: 'Provided_INWFSAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '376', NAME: 'Provided_IDBAdminTool' */
+operationProvidedRole(376).
+providedInterface(376,[54]).
+/** END operationProvidedRole, ID: '376', NAME: 'Provided_IDBAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '377', NAME: 'Provided_IWebDAVA' */
+operationProvidedRole(377).
+providedInterface(377,[59]).
+/** END operationProvidedRole, ID: '377', NAME: 'Provided_IWebDAVA' */
+
+
+/** BEGIN operationProvidedRole, ID: '378', NAME: 'Provided_IWebDAVB' */
+operationProvidedRole(378).
+providedInterface(378,[59]).
+/** END operationProvidedRole, ID: '378', NAME: 'Provided_IWebDAVB' */
+
+
+/** BEGIN operationProvidedRole, ID: '379', NAME: 'Provided_ICalDAVB' */
+operationProvidedRole(379).
+providedInterface(379,[60]).
+/** END operationProvidedRole, ID: '379', NAME: 'Provided_ICalDAVB' */
+
+
+/** BEGIN operationProvidedRole, ID: '380', NAME: 'Provided_ICalDAVA' */
+operationProvidedRole(380).
+providedInterface(380,[60]).
+/** END operationProvidedRole, ID: '380', NAME: 'Provided_ICalDAVA' */
+
+
+/** BEGIN operationProvidedRole, ID: '381', NAME: 'Provided_IPublicFileManGUI' */
+operationProvidedRole(381).
+providedInterface(381,[68]).
+/** END operationProvidedRole, ID: '381', NAME: 'Provided_IPublicFileManGUI' */
+
+
+/** BEGIN operationProvidedRole, ID: '382', NAME: 'Provided_IPublicCalendarGUI' */
+operationProvidedRole(382).
+providedInterface(382,[69]).
+/** END operationProvidedRole, ID: '382', NAME: 'Provided_IPublicCalendarGUI' */
+
+/** END system, ID: '304', NAME: 'defaultSystem' */
+

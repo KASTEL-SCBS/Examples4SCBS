@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1">
+  <allocation:Allocation id="_HBggcIF4EeWfuPeHmai7FA" entityName="defaultAllocation">
+    <targetResourceEnvironment_Allocation href="minimal.resourceenvironment#/"/>
+    <system_Allocation href="minimal.system#_N058UIF3EeWfuPeHmai7FA"/>
+    <allocationContexts_Allocation id="_I76-sIF4EeWfuPeHmai7FA" entityName="Allocation_Assembly_bc1 &lt;bc1> &lt;bc1>">
+      <resourceContainer_AllocationContext href="minimal.resourceenvironment#_se8dMIF2EeWfuPeHmai7FA"/>
+      <assemblyContext_AllocationContext href="minimal.system#_2jjgQIF3EeWfuPeHmai7FA"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_KclgMIF4EeWfuPeHmai7FA" entityName="Allocation_Assembly_bc2 &lt;bc2> &lt;bc2>">
+      <resourceContainer_AllocationContext href="minimal.resourceenvironment#_u0afwYF2EeWfuPeHmai7FA"/>
+      <assemblyContext_AllocationContext href="minimal.system#_Z2HEYIF3EeWfuPeHmai7FA"/>
+    </allocationContexts_Allocation>
+  </allocation:Allocation>
+</xmi:XMI>

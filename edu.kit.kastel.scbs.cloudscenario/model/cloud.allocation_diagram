@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//allocation http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_S7IlwBalEeabKfvw_S-vrQ" type="allocation" name="cloud.allocation_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_TjiCgBalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjipkBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjipkRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_5vKQEBalEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_5vKQEhalEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5vKQExalEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_3BJKoBalEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5vKQERalEeabKfvw_S-vrQ" x="6" y="4"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7Jdq4BalEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7JeR8BalEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7JeR8RalEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_6WPeMBalEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Jdq4RalEeabKfvw_S-vrQ" x="121" y="49"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8lLa8BalEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8lMCABalEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8lMCARalEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_7uNWsBalEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8lLa8RalEeabKfvw_S-vrQ" x="220" y="3"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjiCgRalEeabKfvw_S-vrQ" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjipkhalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjiplBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjiplRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_lFK30BamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_lFK30hamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_lFK30xamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_kOfugBamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lFK30RamEeabKfvw_S-vrQ" x="5" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mW3wQBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mW4XUBamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mW4XURamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_ln1gABamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mW3wQRamEeabKfvw_S-vrQ" x="205" y="48"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nptRIBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nptRIhamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_nptRIxamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_ms9VABamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nptRIRamEeabKfvw_S-vrQ" x="330" y="3"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_orWBoNQpEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjipkxalEeabKfvw_S-vrQ" x="490"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjiplhalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQoBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQoRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_zHqiMBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zHqiMhamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zHqiMxamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_yZFk8BamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zHqiMRamEeabKfvw_S-vrQ" x="5" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0MMhUBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0MNIYBamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0MNIYRamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_zkAf8BamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0MMhURamEeabKfvw_S-vrQ" x="120" y="48"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2krboBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2ksCsBamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2ksCsRamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_06mfcBamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2krboRamEeabKfvw_S-vrQ" x="235" y="3"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjiplxalEeabKfvw_S-vrQ" y="135" width="501" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjjQohalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQpBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQpRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_8gnOkBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8gnOkhamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8gnOkxamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_7ikR8BamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8gnOkRamEeabKfvw_S-vrQ" x="5" y="4"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="__t64EBamEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="__t64EhamEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__t64ExamEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_9Ux2cBamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__t64ERamEeabKfvw_S-vrQ" x="235" y="4"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_A2lwUBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_A2lwUhanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_A2mXYBanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#__8A-cBamEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2lwURanEeabKfvw_S-vrQ" x="120" y="49"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_rsXioNQpEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjjQoxalEeabKfvw_S-vrQ" x="510" y="135" width="596" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjjQphalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQqBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQqRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_HLO-MBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_HLO-MhanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_HLO-MxanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_GeZtYBanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLO-MRanEeabKfvw_S-vrQ" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LP9X4BanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LP9X4hanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LP9X4xanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_HgQL8BanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LP9X4RanEeabKfvw_S-vrQ" x="255" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MwUXYBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_MwUXYhanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_MwUXYxanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_LrgEYBanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MwUXYRanEeabKfvw_S-vrQ" x="154" y="48"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjjQpxalEeabKfvw_S-vrQ" x="290" y="265" width="506" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjjQqhalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQrBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQrRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_VlXsgBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_VlYTkBanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_VlYTkRanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_Uc3zYBanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VlXsgRanEeabKfvw_S-vrQ" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_awMyoBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_awMyohanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_awNZsBanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_Zz9z4BanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_awMyoRanEeabKfvw_S-vrQ" y="53"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjjQqxalEeabKfvw_S-vrQ" y="400"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjjQrhalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQsBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQsRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_drjwgBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_drjwghanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_drjwgxanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_c0SxUBanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_drjwgRanEeabKfvw_S-vrQ" x="5" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fui78BanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_fujjABanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_fujjARanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_eDLmUBanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fui78RanEeabKfvw_S-vrQ" x="5" y="53"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_IvtWANQqEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjjQrxalEeabKfvw_S-vrQ" x="435" y="400"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TjjQshalEeabKfvw_S-vrQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQtBalEeabKfvw_S-vrQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TjjQtRalEeabKfvw_S-vrQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_kKuzYBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kKvacRanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kKvachanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_hhL-QBanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kKvacBanEeabKfvw_S-vrQ" x="5" y="3"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_lF-ToBanEeabKfvw_S-vrQ" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_lF-TohanEeabKfvw_S-vrQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_lF-ToxanEeabKfvw_S-vrQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="cloud.allocation#_kdG80BanEeabKfvw_S-vrQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lF-ToRanEeabKfvw_S-vrQ" x="5" y="53"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_KNx2gNQqEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjjQsxalEeabKfvw_S-vrQ" x="805" y="400"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_S7IlwRalEeabKfvw_S-vrQ"/>
+  <element xmi:type="allocation:Allocation" href="cloud.allocation#_S7EUUBalEeabKfvw_S-vrQ"/>
+</notation:Diagram>

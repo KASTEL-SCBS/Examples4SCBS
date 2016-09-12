@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_JiPBICHdEd6lJo4DCALHMw" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <allocationContexts_Allocation id="_gmLeoCsoEeK79cj3OHITwQ" entityName="Allocation_Energy Visualization">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_GAeeUCpXEeKNWc2UWjbmuw"/>
+    <assemblyContext_AllocationContext href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_F2TWgJzgEeWPbeRUuP85Tg" entityName="Allocation_Database &lt;DBMS>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_GAeeUCpXEeKNWc2UWjbmuw"/>
+    <assemblyContext_AllocationContext href="default.system#_0w4YkJzdEeWPbeRUuP85Tg"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_ruJP8JzhEeWvbrCzHVJijg" entityName="Allocation_Energy Meter">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_nZhOgJzgEeWPbeRUuP85Tg"/>
+    <assemblyContext_AllocationContext href="default.system#_I6t0oJzeEeWPbeRUuP85Tg"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality.adversary:Adversaries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary" id="_zL3-UJnXEeW9QcwNk_byOg" name="as">
+  <adversaries id="_0GArUJnXEeW9QcwNk_byOg" name="a1">
+    <mayKnowDataSets href="minimal.confidentiality#_caBQw5nPEeWFvY6gasgxmA"/>
+    <mayKnowDataSets href="minimal.confidentiality#_dImOA5nPEeWFvY6gasgxmA"/>
+    <locationsAndTamperProtectionsPairs href="minimal.confidentiality#_gHbWoJnPEeWFvY6gasgxmA"/>
+  </adversaries>
+  <adversaries id="_8QuI4JzKEeWqHJhPAbbnOA" name="a2">
+    <mayKnowDataSets href="minimal.confidentiality#_caBQw5nPEeWFvY6gasgxmA"/>
+    <mayKnowDataSets href="minimal.confidentiality#_dImOA5nPEeWFvY6gasgxmA"/>
+    <locationsAndTamperProtectionsPairs href="minimal.confidentiality#_gHbWoJnPEeWFvY6gasgxmA"/>
+    <locationsAndTamperProtectionsPairs href="minimal.confidentiality#_QkqYoJzKEeWmguDFcONRWw"/>
+  </adversaries>
+</edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>

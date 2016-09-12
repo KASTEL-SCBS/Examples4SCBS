@@ -1,0 +1,20 @@
+
+/** BEGIN allocation, ID: '67', NAME: 'defaultAllocation' */
+allocation(67).
+allocationContexts(67,[68,69]).
+
+/** BEGIN allocationContext, ID: '68', NAME: 'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>' */
+allocationContext(68).
+resourceContainer(68,[65]).
+assemblyContext_AllocationContext(68,[43]).
+/** END allocationContext, ID: '68', NAME: 'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>' */
+
+
+/** BEGIN allocationContext, ID: '69', NAME: 'Allocation_Assembly_FileManager <FileManager> <FileManager>' */
+allocationContext(69).
+resourceContainer(69,[66]).
+assemblyContext_AllocationContext(69,[44]).
+/** END allocationContext, ID: '69', NAME: 'Allocation_Assembly_FileManager <FileManager> <FileManager>' */
+
+/** END allocation, ID: '67', NAME: 'defaultAllocation' */
+

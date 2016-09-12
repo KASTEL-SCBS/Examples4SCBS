@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1">
+  <system:System id="_NLn1wNQsEeWaFY2No-N26g" entityName="defaultSystem">
+    <assemblyContexts__ComposedStructure id="_lmyX8NSLEeWaFY2No-N26g" entityName="OwnCloudA">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_d5Ri4NDLEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_h00R4NQtEeWaFY2No-N26g" entityName="DBLogging">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_kOA94NQtEeWaFY2No-N26g" entityName="Database">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_GvZHQNQuEeWaFY2No-N26g" entityName="NetworkFilesystem">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_iGbf0NDLEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_EkiZQNQuEeWaFY2No-N26g" entityName="NWFSLogging">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_ZG3ecOuTEeWMdaaSirUv0Q" entityName="OCALogging">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_dsQ8QOuTEeWMdaaSirUv0Q" entityName="LoadBalancer">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_WaE9sNDcEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_y1yTsOuTEeWMdaaSirUv0Q" entityName="LBLogging">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_3vlUMOuTEeWMdaaSirUv0Q" entityName="OwnCloudB">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_d5Ri4NDLEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_ASwPIOuUEeWMdaaSirUv0Q" entityName="OCBLogging">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_EkZqgOuUEeWMdaaSirUv0Q" entityName="DBAdminTool">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_8Zt1INDFEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_y6exAOuUEeWMdaaSirUv0Q" entityName="NWFSAdminTool">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_H0LagNQtEeWaFY2No-N26g"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_1PYy4OuUEeWMdaaSirUv0Q" entityName="OCAAdminTool">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_OzkCUNSMEeWaFY2No-N26g"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_5n_K0OuUEeWMdaaSirUv0Q" entityName="OCBAdminTool">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_OzkCUNSMEeWaFY2No-N26g"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_ZxyY0OuVEeWMdaaSirUv0Q" entityName="LBAdminTool">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_6Mu-AOuREeWMdaaSirUv0Q"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_YHrRABaCEeabKfvw_S-vrQ" entityName="FileManagerA">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_ZSDwENDfEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_aP3FgBaCEeabKfvw_S-vrQ" entityName="CalendarA">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_dCc4gNDfEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_bu1k8BaCEeabKfvw_S-vrQ" entityName="FileManagerB">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_ZSDwENDfEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_dzgycBaCEeabKfvw_S-vrQ" entityName="CalendarB">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_dCc4gNDfEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_2IfbkG9eEeam26epJlCOmw" entityName="PublicFileManager">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_jUlkkG9GEeam26epJlCOmw"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_3UQEEG9eEeam26epJlCOmw" entityName="PublicCalendar">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_k4_WkG9GEeam26epJlCOmw"/>
+    </assemblyContexts__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_XOPeAOuVEeWMdaaSirUv0Q" entityName="Connector LoadBalancer -> LBLogging" requiringAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_y1yTsOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_YqSasOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_3ELU0OuVEeWMdaaSirUv0Q" entityName="Connector LBAdminTool -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_ZxyY0OuVEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_bt9SINDcEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_Knfq0OuTEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4KutMOuVEeWMdaaSirUv0Q" entityName="Connector LBAdminTool -> LBLogging" requiringAssemblyContext_AssemblyConnector="_ZxyY0OuVEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_y1yTsOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_Or4tUOuTEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4tmwwOuVEeWMdaaSirUv0Q" entityName="Connector LBAdminTool -> LBLogging" requiringAssemblyContext_AssemblyConnector="_ZxyY0OuVEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_y1yTsOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_h18R8OuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iaY7cOuXEeWMdaaSirUv0Q" entityName="Connector LoadBalancer -> OwnCloudA" requiringAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_fNnFUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_0kqI8OuWEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jDtlQOuXEeWMdaaSirUv0Q" entityName="Connector LoadBalancer -> OwnCloudA" requiringAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_fvVSUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_zzP6IOuWEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_szxKEOuXEeWMdaaSirUv0Q" entityName="Connector OCAAdminTool -> OwnCloudA" requiringAssemblyContext_AssemblyConnector="_1PYy4OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_fNnFUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_zOx60NSPEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_tUM9oOuXEeWMdaaSirUv0Q" entityName="Connector OCAAdminTool -> OwnCloudA" requiringAssemblyContext_AssemblyConnector="_1PYy4OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_fvVSUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_z5azQNSPEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_uBceIOuXEeWMdaaSirUv0Q" entityName="Connector OCBAdminTool -> OwnCloudB" requiringAssemblyContext_AssemblyConnector="_5n_K0OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_fNnFUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_zOx60NSPEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ufwx0OuXEeWMdaaSirUv0Q" entityName="Connector OCBAdminTool -> OwnCloudB" requiringAssemblyContext_AssemblyConnector="_5n_K0OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_fvVSUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_z5azQNSPEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_wwxyMOuXEeWMdaaSirUv0Q" entityName="Connector OCBAdminTool -> OCBLogging" requiringAssemblyContext_AssemblyConnector="_5n_K0OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_ASwPIOuUEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_g34uQOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_xX4OcOuXEeWMdaaSirUv0Q" entityName="Connector OCBAdminTool -> OCBLogging" requiringAssemblyContext_AssemblyConnector="_5n_K0OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_ASwPIOuUEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_MhNlgOuTEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_x8vPAOuXEeWMdaaSirUv0Q" entityName="Connector OCAAdminTool -> OCALogging" requiringAssemblyContext_AssemblyConnector="_1PYy4OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_ZG3ecOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_g34uQOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ymAOcOuXEeWMdaaSirUv0Q" entityName="Connector OCAAdminTool -> OCALogging" requiringAssemblyContext_AssemblyConnector="_1PYy4OuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_ZG3ecOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_MhNlgOuTEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_zsYnsOuXEeWMdaaSirUv0Q" entityName="Connector OwnCloudB -> OCBLogging" requiringAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_ASwPIOuUEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_XXfWEOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0QidoOuXEeWMdaaSirUv0Q" entityName="Connector OwnCloudA -> OCALogging" requiringAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g" providingAssemblyContext_AssemblyConnector="_ZG3ecOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_XXfWEOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_1WO6YOuXEeWMdaaSirUv0Q" entityName="Connector OwnCloudA -> Database" requiringAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g" providingAssemblyContext_AssemblyConnector="_kOA94NQtEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_ajrAYNDIEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_pnHEsNSJEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_2QOdcOuXEeWMdaaSirUv0Q" entityName="Connector OwnCloudA -> NetworkFilesystem" requiringAssemblyContext_AssemblyConnector="_lmyX8NSLEeWaFY2No-N26g" providingAssemblyContext_AssemblyConnector="_GvZHQNQuEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_u6br4NDNEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_um3jQNSJEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_31VaEOuXEeWMdaaSirUv0Q" entityName="Connector OwnCloudB -> Database" requiringAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_kOA94NQtEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_ajrAYNDIEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_pnHEsNSJEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4xhVgOuXEeWMdaaSirUv0Q" entityName="Connector OwnCloudB -> NetworkFilesystem" requiringAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_GvZHQNQuEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_u6br4NDNEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_um3jQNSJEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_-mryEOuXEeWMdaaSirUv0Q" entityName="Connector DBAdminTool -> Database" requiringAssemblyContext_AssemblyConnector="_EkZqgOuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_kOA94NQtEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_ajrAYNDIEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_76AHgNQsEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__ydosOuXEeWMdaaSirUv0Q" entityName="Connector DBAdminTool -> DBLogging" requiringAssemblyContext_AssemblyConnector="_EkZqgOuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_h00R4NQtEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_dWZkgOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_evVwkOuYEeWMdaaSirUv0Q" entityName="Connector DBAdminTool -> DBLogging" requiringAssemblyContext_AssemblyConnector="_EkZqgOuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_h00R4NQtEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_-DtmANQsEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gRsUIOuYEeWMdaaSirUv0Q" entityName="Connector NWFSAdminTool -> NWFSLogging" requiringAssemblyContext_AssemblyConnector="_y6exAOuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_EkiZQNQuEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_QmAcgNQtEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_itwG4OuYEeWMdaaSirUv0Q" entityName="Connector NWFSAdminTool -> NWFSLogging" requiringAssemblyContext_AssemblyConnector="_y6exAOuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_EkiZQNQuEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_ft6OcOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lIVS8OuYEeWMdaaSirUv0Q" entityName="Connector NWFSAdminTool -> NetworkFilesystem" requiringAssemblyContext_AssemblyConnector="_y6exAOuUEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_GvZHQNQuEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_u6br4NDNEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_PrQEcNQtEeWaFY2No-N26g"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oY-kUOuYEeWMdaaSirUv0Q" entityName="Connector NetworkFilesystem -> NWFSLogging" requiringAssemblyContext_AssemblyConnector="_GvZHQNQuEeWaFY2No-N26g" providingAssemblyContext_AssemblyConnector="_EkiZQNQuEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_VkqGgOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pLowUOuYEeWMdaaSirUv0Q" entityName="Connector Database -> DBLogging" requiringAssemblyContext_AssemblyConnector="_kOA94NQtEeWaFY2No-N26g" providingAssemblyContext_AssemblyConnector="_h00R4NQtEeWaFY2No-N26g">
+      <providedRole_AssemblyConnector href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_USMZEOuUEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_S1-2sBX6EeabKfvw_S-vrQ" entityName="ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database" outerProvidedRole_ProvidedDelegationConnector="_PK_LoBX6EeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_kOA94NQtEeWaFY2No-N26g">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_AtFQIOuTEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Zca_MBX6EeabKfvw_S-vrQ" entityName="ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool" outerProvidedRole_ProvidedDelegationConnector="_MvvRMBX6EeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_y6exAOuUEeWMdaaSirUv0Q">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_lLmGgOuREeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ahnssBX6EeabKfvw_S-vrQ" entityName="ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool" outerProvidedRole_ProvidedDelegationConnector="_Ku9FMBX6EeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_1PYy4OuUEeWMdaaSirUv0Q">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_5Uxl0OuSEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_bYAiIBX6EeabKfvw_S-vrQ" entityName="ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool" outerProvidedRole_ProvidedDelegationConnector="_Ch6LQBX6EeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_ZxyY0OuVEeWMdaaSirUv0Q">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_CdwjkOuTEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_dqzrMBX6EeabKfvw_S-vrQ" entityName="ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool" outerProvidedRole_ProvidedDelegationConnector="_Ku9FMBX6EeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_5n_K0OuUEeWMdaaSirUv0Q">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_5Uxl0OuSEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bogokBaEEeabKfvw_S-vrQ" entityName="Connector FileManagerA -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_YHrRABaCEeabKfvw_S-vrQ" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_a-HwoNDcEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_cT-ncBaEEeabKfvw_S-vrQ" entityName="Connector CalendarA -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_aP3FgBaCEeabKfvw_S-vrQ" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_bZNxMNDcEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_6YX4UBX5EeabKfvw_S-vrQ"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_dQHfkBaEEeabKfvw_S-vrQ" entityName="Connector FileManagerB -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_bu1k8BaCEeabKfvw_S-vrQ" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_a-HwoNDcEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_eE-rABaEEeabKfvw_S-vrQ" entityName="Connector CalendarB -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_dzgycBaCEeabKfvw_S-vrQ" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_bZNxMNDcEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_6YX4UBX5EeabKfvw_S-vrQ"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="___hd4BaEEeabKfvw_S-vrQ" entityName="ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar" outerProvidedRole_ProvidedDelegationConnector="_3mf9cBaEEeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_aP3FgBaCEeabKfvw_S-vrQ">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_elgmsNDfEeWt5tzvTAzZ8A"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__lcJ8BaEEeabKfvw_S-vrQ" entityName="ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar" outerProvidedRole_ProvidedDelegationConnector="_5IAMcBaEEeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_dzgycBaCEeabKfvw_S-vrQ">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_elgmsNDfEeWt5tzvTAzZ8A"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_1qI-cBaEEeabKfvw_S-vrQ" entityName="ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager" outerProvidedRole_ProvidedDelegationConnector="_sR748BaEEeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_bu1k8BaCEeabKfvw_S-vrQ">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_d9lrENDfEeWt5tzvTAzZ8A"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_5OZk0DFeEeadhIGaXELbXg" entityName="Connector LoadBalancer -> OwnCloudB" requiringAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_fvVSUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_zzP6IOuWEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_2oeO8BaEEeabKfvw_S-vrQ" entityName="ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager" outerProvidedRole_ProvidedDelegationConnector="_qcJcABaEEeabKfvw_S-vrQ" assemblyContext_ProvidedDelegationConnector="_YHrRABaCEeabKfvw_S-vrQ">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_d9lrENDfEeWt5tzvTAzZ8A"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_52KvcDFeEeadhIGaXELbXg" entityName="Connector LoadBalancer -> OwnCloudB" requiringAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q" providingAssemblyContext_AssemblyConnector="_3vlUMOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_fNnFUNDbEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_0kqI8OuWEeWMdaaSirUv0Q"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_BsZjoG9fEeam26epJlCOmw" entityName="ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar" outerProvidedRole_ProvidedDelegationConnector="_-f9SQG9dEeam26epJlCOmw" assemblyContext_ProvidedDelegationConnector="_3UQEEG9eEeam26epJlCOmw">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_X2BRsG9VEeam26epJlCOmw"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CON3QG9fEeam26epJlCOmw" entityName="ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager" outerProvidedRole_ProvidedDelegationConnector="_9Ou68G9dEeam26epJlCOmw" assemblyContext_ProvidedDelegationConnector="_2IfbkG9eEeam26epJlCOmw">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_J5w8wG9WEeam26epJlCOmw"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bOzm4G9fEeam26epJlCOmw" entityName="Connector PublicFileManager -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_2IfbkG9eEeam26epJlCOmw" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_GeLQkG9fEeam26epJlCOmw"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_Wf3-IG9VEeam26epJlCOmw"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_b3hMsG9fEeam26epJlCOmw" entityName="Connector PublicCalendar -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_3UQEEG9eEeam26epJlCOmw" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_IBWTgG9fEeam26epJlCOmw"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_RZUUAG9VEeam26epJlCOmw"/>
+    </connectors__ComposedStructure>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Ch6LQBX6EeabKfvw_S-vrQ" entityName="Provided_ILBAdminTool">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_oO2cIOuREeWMdaaSirUv0Q"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Ku9FMBX6EeabKfvw_S-vrQ" entityName="Provided_IOCAdminTool">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_mcREMOuREeWMdaaSirUv0Q"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_MvvRMBX6EeabKfvw_S-vrQ" entityName="Provided_INWFSAdminTool">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_aymqYNSQEeWaFY2No-N26g"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_PK_LoBX6EeabKfvw_S-vrQ" entityName="Provided_IDBAdminTool">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_HmJRUNDGEeWt5tzvTAzZ8A"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qcJcABaEEeabKfvw_S-vrQ" entityName="Provided_IWebDAVA">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sR748BaEEeabKfvw_S-vrQ" entityName="Provided_IWebDAVB">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_5IAMcBaEEeabKfvw_S-vrQ" entityName="Provided_ICalDAVB">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_MDDuQNDWEeWt5tzvTAzZ8A"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3mf9cBaEEeabKfvw_S-vrQ" entityName="Provided_ICalDAVA">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_MDDuQNDWEeWt5tzvTAzZ8A"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_9Ou68G9dEeam26epJlCOmw" entityName="Provided_IPublicFileManGUI">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_chXY0G6MEeam26epJlCOmw"/>
+    </providedRoles_InterfaceProvidingEntity>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-f9SQG9dEeam26epJlCOmw" entityName="Provided_IPublicCalendarGUI">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_rAVj0G6MEeam26epJlCOmw"/>
+    </providedRoles_InterfaceProvidingEntity>
+  </system:System>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_bogokBaEEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/cloud.confidentiality#_9guu4DSOEea1eICDPlZMAQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_cT-ncBaEEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/cloud.confidentiality#_9guu4DSOEea1eICDPlZMAQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_dQHfkBaEEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/cloud.confidentiality#_3862KDSQEeaHiKwXLDiEtg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_eE-rABaEEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/cloud.confidentiality#_3862KDSQEeaHiKwXLDiEtg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterUsage" appliedTo="_kOA94NQtEeWaFY2No-N26g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <usages href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <usages href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterUsage" appliedTo="_GvZHQNQuEeWaFY2No-N26g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <usages href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <usages href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterUsage" appliedTo="_lmyX8NSLEeWaFY2No-N26g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <usages href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <usages href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterUsage" appliedTo="_3vlUMOuTEeWMdaaSirUv0Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <usages href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <usages href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterUsage" appliedTo="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <usages href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <usages href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_bOzm4G9fEeam26epJlCOmw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/cloud.confidentiality#_Ro7rSG9_EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_b3hMsG9fEeam26epJlCOmw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/cloud.confidentiality#_Ro7rSG9_EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

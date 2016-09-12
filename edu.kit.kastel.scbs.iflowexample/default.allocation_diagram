@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//allocation http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_WKF6QCsoEeKXPs1IFilRgQ" type="allocation" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_RqcZwMN-EeWPE-QAhbUzuQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqdA0MN-EeWPE-QAhbUzuQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqdA0cN-EeWPE-QAhbUzuQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_8EL0QMODEeWst9mTsticNA" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8EL0QsODEeWst9mTsticNA" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8EL0Q8ODEeWst9mTsticNA" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_7WY6IMODEeWst9mTsticNA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EL0QcODEeWst9mTsticNA" x="7" y="9" width="349" height="85"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_HM_VsMN5EeWPE-QAhbUzuQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqcZwcN-EeWPE-QAhbUzuQ" width="373" height="157"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_RqdA0sN-EeWPE-QAhbUzuQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqdA1MN-EeWPE-QAhbUzuQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqdA1cN-EeWPE-QAhbUzuQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_AUd9sMOEEeWst9mTsticNA" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_AUd9ssOEEeWst9mTsticNA" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_AUd9s8OEEeWst9mTsticNA" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#__rFpgMODEeWst9mTsticNA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AUd9scOEEeWst9mTsticNA" x="7" y="9" width="241" height="85"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_fuWBEMN4EeWPE-QAhbUzuQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqdA08N-EeWPE-QAhbUzuQ" x="396" width="277" height="157"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_RqdA1sN-EeWPE-QAhbUzuQ" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqdA2MN-EeWPE-QAhbUzuQ" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqdA2cN-EeWPE-QAhbUzuQ" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_EroyQMOEEeWst9mTsticNA" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ErpZUMOEEeWst9mTsticNA" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ErpZUcOEEeWst9mTsticNA" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_Drzs8MOEEeWst9mTsticNA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EroyQcOEEeWst9mTsticNA" x="7" y="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ITgQ0MOEEeWst9mTsticNA" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ITg34MOEEeWst9mTsticNA" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ITg34cOEEeWst9mTsticNA" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_HxxcwMOEEeWst9mTsticNA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ITgQ0cOEEeWst9mTsticNA" x="7" y="6" width="409" height="61"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqdA18N-EeWPE-QAhbUzuQ" x="12" y="180" width="661" height="169"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WKF6QSsoEeKXPs1IFilRgQ"/>
+  <element xmi:type="allocation:Allocation" href="default.allocation#_JiPBICHdEd6lJo4DCALHMw"/>
+</notation:Diagram>

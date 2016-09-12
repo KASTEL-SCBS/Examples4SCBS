@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality.adversary:Adversaries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_xpahcFQxEeam-co1cfiBiw" name="minimalcloud">
+  <adversaries id="_yG6VwFQxEeam-co1cfiBiw" name="End User A">
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="minimalcloud.confidentiality#_Jet0kFQwEeam-co1cfiBiw"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="minimalcloud.confidentiality#_Pd2akFQyEea2F_ez8ICPxQ"/>
+    <locationsAndTamperProtectionsPairs href="minimalcloud.confidentiality#_s98ba1QyEea2F_ez8ICPxQ"/>
+    <locationsAndTamperProtectionsPairs href="minimalcloud.confidentiality#_huJsu1QzEea2F_ez8ICPxQ"/>
+  </adversaries>
+  <adversaries id="_5NxOQFQyEea2F_ez8ICPxQ" name="End User B">
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="minimalcloud.confidentiality#_Jet0kFQwEeam-co1cfiBiw"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="minimalcloud.confidentiality#_SqmqclQyEea2F_ez8ICPxQ"/>
+    <locationsAndTamperProtectionsPairs href="minimalcloud.confidentiality#_xj8WK1QyEea2F_ez8ICPxQ"/>
+    <locationsAndTamperProtectionsPairs href="minimalcloud.confidentiality#_huJsu1QzEea2F_ez8ICPxQ"/>
+  </adversaries>
+</edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>

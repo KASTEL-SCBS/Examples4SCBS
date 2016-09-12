@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="CompositeModel" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="2002" fontName="Segoe UI">
+    <children xsi:type="notation:DecorationNode" type="5012"/>
+    <children xsi:type="notation:DecorationNode" type="7002">
+      <children xsi:type="notation:Shape" type="3006" fontName="Segoe UI">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Segoe UI">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="56" y="-38"/>
+          </children>
+          <element href="default.repository#_qZKs0CHbEd62GabW1zGSBw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="-29" y="24"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="default.repository#_QecioJqrEeWvQ_r7FgUerw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="190" y="45"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="default.repository#_T8CD0JqrEeWvQ_r7FgUerw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="175" y="147" width="191" height="76"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="default.repository#_gzn2wJqqEeWvQ_r7FgUerw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="-29" y="36"/>
+        </children>
+        <element href="default.system#_0w4YkJzdEeWPbeRUuP85Tg"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="619" y="291"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="default.repository#_lOcRsJqpEeWvQ_r7FgUerw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="default.system#_I6t0oJzeEeWPbeRUuP85Tg"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="619" y="27"/>
+      </children>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Segoe UI">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" x="135" y="58"/>
+      </children>
+      <element href="default.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="192"/>
+    </children>
+    <element href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="108" y="60" width="877" height="481"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.0/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+    <element href="default.system#__VHF0CHcEd6lJo4DCALHMw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -111, 130]$[129, -125, -12, 5]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.0/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="default.system#_H4IWQJzeEeWPbeRUuP85Tg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -200, -136]$[205, 135, -2, -1]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(1.0,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.06666666666666667,0.4666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.0/@children.3" target="//@children.0/@children.1/@children.2/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="default.system#_OlEIUJzeEeWPbeRUuP85Tg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -273, 37]$[276, -32, -4, 5]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(1.0,1.0)"/>
+  </edges>
+</notation:Diagram>

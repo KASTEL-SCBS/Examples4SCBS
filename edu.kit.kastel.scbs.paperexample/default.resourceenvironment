@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1">
+  <resourceenvironment:ResourceEnvironment>
+    <linkingResources__ResourceEnvironment id="_x61RIJzgEeWPbeRUuP85Tg" entityName="Wireless" connectedResourceContainers_LinkingResource="_nZhOgJzgEeWPbeRUuP85Tg _GAeeUCpXEeKNWc2UWjbmuw">
+      <communicationLinkResourceSpecifications_LinkingResource id="_x614MJzgEeWPbeRUuP85Tg">
+        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+        <latency_CommunicationLinkResourceSpecification specification="1"/>
+        <throughput_CommunicationLinkResourceSpecification specification="1"/>
+      </communicationLinkResourceSpecifications_LinkingResource>
+    </linkingResources__ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_GAeeUCpXEeKNWc2UWjbmuw" entityName="Energy Visualization">
+      <activeResourceSpecifications_ResourceContainer id="_KFRwgCpXEeKNWc2UWjbmuw">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="1.0810638521955225"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_nZhOgJzgEeWPbeRUuP85Tg" entityName="Energy Meter"/>
+  </resourceenvironment:ResourceEnvironment>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_x61RIJzgEeWPbeRUuP85Tg">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_58XAAIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_mZHyYJzpEeWvbrCzHVJijg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_GAeeUCpXEeKNWc2UWjbmuw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_1rCUwIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_349CIJzwEeWvbrCzHVJijg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_nZhOgJzgEeWPbeRUuP85Tg">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_1rCUwIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_xWMfwJzwEeWvbrCzHVJijg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Sharing" appliedTo="_GAeeUCpXEeKNWc2UWjbmuw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_vvbR8IOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FurtherPhysicalConnections" appliedTo="_GAeeUCpXEeKNWc2UWjbmuw" connectionType="possible">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_zSr9UIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FurtherPhysicalConnections" appliedTo="_nZhOgJzgEeWPbeRUuP85Tg" connectionType="complete">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_zSr9UIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Sharing" appliedTo="_nZhOgJzgEeWPbeRUuP85Tg" sharing="exclusive">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_vvbR8IOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

@@ -1,0 +1,52 @@
+
+/** BEGIN functionalParameter, ID: '26', NAME: 'null' */
+/** END functionalParameter, ID: '26', NAME: 'null' */
+
+
+/** BEGIN functionalParameter, ID: '27', NAME: 'null' */
+/** END functionalParameter, ID: '27', NAME: 'null' */
+
+
+/** BEGIN informationFlowParameter, ID: '26', NAME: 'null' */
+/** END informationFlowParameter, ID: '26', NAME: 'null' */
+
+
+/** BEGIN informationFlowParameter, ID: '27', NAME: 'null' */
+/** END informationFlowParameter, ID: '27', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '26', NAME: 'null' */
+parametersAndDataPairs(31,[6, 7]).
+parametersAndDataPairs(32,[6, 7]).
+parametersAndDataPairs(33,[6, 7]).
+parametersAndDataPairs(34,[6, 7]).
+/** END informationFlow, ID: '26', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '27', NAME: 'null' */
+parametersAndDataPairs(38,[6, 7]).
+parametersAndDataPairs(39,[6, 7]).
+parametersAndDataPairs(40,[6, 7]).
+parametersAndDataPairs(41,[6, 7]).
+/** END informationFlow, ID: '27', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '33', NAME: 'null' */
+parametersAndDataPairs(33,[8]).
+/** END informationFlow, ID: '33', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '40', NAME: 'null' */
+parametersAndDataPairs(40,[8]).
+/** END informationFlow, ID: '40', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '34', NAME: 'null' */
+parametersAndDataPairs(34,[9]).
+/** END informationFlow, ID: '34', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '41', NAME: 'null' */
+parametersAndDataPairs(41,[9]).
+/** END informationFlow, ID: '41', NAME: 'null' */
+

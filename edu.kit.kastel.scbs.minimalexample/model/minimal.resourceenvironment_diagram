@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_KDy3oIF2EeWfuPeHmai7FA" type="ResourceEnvironmentModel" name="minimal.resourceenvironment_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_S-DqcJdPEeWHzts0ISpBLA" type="2004" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-FfoJdPEeWHzts0ISpBLA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-FfoZdPEeWHzts0ISpBLA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_S-FfopdPEeWHzts0ISpBLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_S-Ffo5dPEeWHzts0ISpBLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-FfpJdPEeWHzts0ISpBLA" type="7007"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="minimal.resourceenvironment#_se8dMIF2EeWfuPeHmai7FA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S-ERgJdPEeWHzts0ISpBLA" y="209"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S-GGsJdPEeWHzts0ISpBLA" type="2004" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-GGspdPEeWHzts0ISpBLA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-GtwJdPEeWHzts0ISpBLA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_S-GtwZdPEeWHzts0ISpBLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_S-GtwpdPEeWHzts0ISpBLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-Gtw5dPEeWHzts0ISpBLA" type="7007"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="minimal.resourceenvironment#_u0afwYF2EeWfuPeHmai7FA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S-GGsZdPEeWHzts0ISpBLA" x="310" y="209"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S-HU0JdPEeWHzts0ISpBLA" type="2005" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-HU0pdPEeWHzts0ISpBLA" type="5024"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S-HU05dPEeWHzts0ISpBLA" type="7006">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_S-HU1JdPEeWHzts0ISpBLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_S-HU1ZdPEeWHzts0ISpBLA"/>
+    </children>
+    <element xmi:type="resourceenvironment:LinkingResource" href="minimal.resourceenvironment#_ts9IcIF2EeWfuPeHmai7FA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S-HU0ZdPEeWHzts0ISpBLA" x="215"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_UQMAsJdPEeWHzts0ISpBLA" type="2004" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UQMnwJdPEeWHzts0ISpBLA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UQMnwZdPEeWHzts0ISpBLA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_UQMnwpdPEeWHzts0ISpBLA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_UQMnw5dPEeWHzts0ISpBLA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UQNO0JdPEeWHzts0ISpBLA" type="7007"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="minimal.resourceenvironment#_UPqcQJdPEeWHzts0ISpBLA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UQMAsZdPEeWHzts0ISpBLA" x="226" y="583"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KDy3oYF2EeWfuPeHmai7FA"/>
+  <element xmi:type="resourceenvironment:ResourceEnvironment" href="minimal.resourceenvironment#/0"/>
+</notation:Diagram>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_S7EUUBalEeabKfvw_S-vrQ" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="cloud.resourceenvironment#/"/>
+  <system_Allocation href="cloud.system#_NLn1wNQsEeWaFY2No-N26g"/>
+  <allocationContexts_Allocation id="_3BJKoBalEeabKfvw_S-vrQ" entityName="Allocation_Database &lt;Database>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_kOA94NQtEeWaFY2No-N26g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_6WPeMBalEeabKfvw_S-vrQ" entityName="Allocation_DBLogging &lt;Logging>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_h00R4NQtEeWaFY2No-N26g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_7uNWsBalEeabKfvw_S-vrQ" entityName="Allocation_DBAdminTool &lt;DBAdminTool>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_EkZqgOuUEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_kOfugBamEeabKfvw_S-vrQ" entityName="Allocation_NetworkFilesystem &lt;NetworkFilesystem>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_orWBoNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_GvZHQNQuEeWaFY2No-N26g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_ln1gABamEeabKfvw_S-vrQ" entityName="Allocation_NWFSLogging &lt;Logging>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_orWBoNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_EkiZQNQuEeWaFY2No-N26g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_ms9VABamEeabKfvw_S-vrQ" entityName="Allocation_NWFSAdminTool &lt;NWFSAdminTool>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_orWBoNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_y6exAOuUEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_yZFk8BamEeabKfvw_S-vrQ" entityName="Allocation_OwnCloudA &lt;OwnCloud>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_zkAf8BamEeabKfvw_S-vrQ" entityName="Allocation_OCALogging &lt;Logging>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_ZG3ecOuTEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_06mfcBamEeabKfvw_S-vrQ" entityName="Allocation_OCAAdminTool &lt;OCAdminTool>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_1PYy4OuUEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_7ikR8BamEeabKfvw_S-vrQ" entityName="Allocation_OwnCloudB &lt;OwnCloud>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_rsXioNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_3vlUMOuTEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_9Ux2cBamEeabKfvw_S-vrQ" entityName="Allocation_OCBLogging &lt;Logging>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_rsXioNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_ASwPIOuUEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="__8A-cBamEeabKfvw_S-vrQ" entityName="Allocation_OCBAdminTool &lt;OCAdminTool>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_rsXioNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_5n_K0OuUEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_GeZtYBanEeabKfvw_S-vrQ" entityName="Allocation_LoadBalancer &lt;LoadBalancer>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_dsQ8QOuTEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_HgQL8BanEeabKfvw_S-vrQ" entityName="Allocation_LBAdminTool &lt;LBAdminTool>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_ZxyY0OuVEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_LrgEYBanEeabKfvw_S-vrQ" entityName="Allocation_LBLogging &lt;Logging>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_y1yTsOuTEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Uc3zYBanEeabKfvw_S-vrQ" entityName="Allocation_FileManagerA &lt;FileManager>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Zz9z4BanEeabKfvw_S-vrQ" entityName="Allocation_CalendarA &lt;Calendar>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_c0SxUBanEeabKfvw_S-vrQ" entityName="Allocation_FileManagerB &lt;FileManager>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_IvtWANQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_bu1k8BaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_eDLmUBanEeabKfvw_S-vrQ" entityName="Allocation_CalendarB &lt;Calendar>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_IvtWANQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_dzgycBaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_hhL-QBanEeabKfvw_S-vrQ" entityName="Allocation_FileManagerGuest &lt;FileManager>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_KNx2gNQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_fXiJ8BaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_kdG80BanEeabKfvw_S-vrQ" entityName="Allocation_CalendarGuest &lt;Calendar>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_KNx2gNQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_mDYW4BaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

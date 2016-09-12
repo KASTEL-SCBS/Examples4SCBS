@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_bZM5oFQvEeam-co1cfiBiw" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="minimalcloud.resourceenvironment#/"/>
+  <system_Allocation href="minimalcloudNoSubstitution.system#_uC4oAE9BEeaZ-ru15blW9g"/>
+  <allocationContexts_Allocation id="_czwzIFQvEeam-co1cfiBiw" entityName="Allocation_Assembly_CloudStorage &lt;CloudStorage> &lt;CloudStorage>">
+    <resourceContainer_AllocationContext href="minimalcloud.resourceenvironment#_SVFOwE9CEeaZ-ru15blW9g"/>
+    <assemblyContext_AllocationContext href="minimalcloudNoSubstitution.system#_wYHaAE9BEeaZ-ru15blW9g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_etAMsFQvEeam-co1cfiBiw" entityName="Allocation_Assembly_FileManager &lt;FileManager> &lt;FileManager>">
+    <resourceContainer_AllocationContext href="minimalcloud.resourceenvironment#_UKMWQE9CEeaZ-ru15blW9g"/>
+    <assemblyContext_AllocationContext href="minimalcloudNoSubstitution.system#_ztG_4E9BEeaZ-ru15blW9g"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

@@ -1,0 +1,114 @@
+
+/** BEGIN confidentialitySpecification, ID: '1', NAME: 'minimalcloud' */
+confidentialitySpecification(1).
+dataIdentifier(1,[2,3,4]).
+dataSetMaps(1,[5]).
+parametersAndDataPairs(1,[6,7,8,9]).
+locations(1,[10,11,12,13]).
+tamperProtections(1,[14]).
+locationsAndTamperProtectionsPairs(1,[15,16,17,18]).
+
+/** BEGIN dataSet, ID: '2', NAME: 'PublicData' */
+dataSet(2).
+/** END dataSet, ID: '2', NAME: 'PublicData' */
+
+
+/** BEGIN dataSetMapEntry, ID: '3', NAME: 'A' */
+dataSetMapEntry(3).
+map(3,[5]).
+/** END dataSetMapEntry, ID: '3', NAME: 'A' */
+
+
+/** BEGIN dataSetMapEntry, ID: '4', NAME: 'B' */
+dataSetMapEntry(4).
+map(4,[5]).
+/** END dataSetMapEntry, ID: '4', NAME: 'B' */
+
+
+/** BEGIN dataSetMap, ID: '5', NAME: 'UserData' */
+dataSetMap(5).
+/** END dataSetMap, ID: '5', NAME: 'UserData' */
+
+
+/** BEGIN parametersAndDataPair, ID: '6', NAME: 'p=[*, s] - d=[UserData[Self]]' */
+parametersAndDataPair(6).
+parameterSources(6,[*,s]).
+dataTargets(6,[]).
+/** END parametersAndDataPair, ID: '6', NAME: 'p=[*, s] - d=[UserData[Self]]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '7', NAME: 'p=[sizeOf(*)] - d=[PublicData]' */
+parametersAndDataPair(7).
+parameterSources(7,[19]).
+dataTargets(7,[2]).
+/** END parametersAndDataPair, ID: '7', NAME: 'p=[sizeOf(*)] - d=[PublicData]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '8', NAME: 'p=[fileName, data, f] - d=[UserData[Friends]]' */
+parametersAndDataPair(8).
+parameterSources(8,[fileName,data,f]).
+dataTargets(8,[]).
+/** END parametersAndDataPair, ID: '8', NAME: 'p=[fileName, data, f] - d=[UserData[Friends]]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '9', NAME: 'p=[fileName, data] - d=[PublicData]' */
+parametersAndDataPair(9).
+parameterSources(9,[fileName,data]).
+dataTargets(9,[2]).
+/** END parametersAndDataPair, ID: '9', NAME: 'p=[fileName, data] - d=[PublicData]' */
+
+
+/** BEGIN location, ID: '10', NAME: 'internet' */
+location(10).
+/** END location, ID: '10', NAME: 'internet' */
+
+
+/** BEGIN location, ID: '11', NAME: 'userAHome' */
+location(11).
+/** END location, ID: '11', NAME: 'userAHome' */
+
+
+/** BEGIN location, ID: '12', NAME: 'userBHome' */
+location(12).
+/** END location, ID: '12', NAME: 'userBHome' */
+
+
+/** BEGIN location, ID: '13', NAME: 'outerzone' */
+location(13).
+/** END location, ID: '13', NAME: 'outerzone' */
+
+
+/** BEGIN tamperProtection, ID: '14', NAME: 'perimeterprotection' */
+tamperProtection(14).
+/** END tamperProtection, ID: '14', NAME: 'perimeterprotection' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[userAHome] - t=[]' */
+locationsAndTamperProtectionsPair(15).
+locations(15,[11]).
+tamperProtections(15,[]).
+/** END locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[userAHome] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '16', NAME: 'l=[userBHome] - t=[]' */
+locationsAndTamperProtectionsPair(16).
+locations(16,[12]).
+tamperProtections(16,[]).
+/** END locationsAndTamperProtectionsPair, ID: '16', NAME: 'l=[userBHome] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '17', NAME: 'l=[outerzone] - t=[perimeterprotection]' */
+locationsAndTamperProtectionsPair(17).
+locations(17,[13]).
+tamperProtections(17,[14]).
+/** END locationsAndTamperProtectionsPair, ID: '17', NAME: 'l=[outerzone] - t=[perimeterprotection]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '18', NAME: 'l=[internet] - t=[]' */
+locationsAndTamperProtectionsPair(18).
+locations(18,[10]).
+tamperProtections(18,[]).
+/** END locationsAndTamperProtectionsPair, ID: '18', NAME: 'l=[internet] - t=[]' */
+
+/** END confidentialitySpecification, ID: '1', NAME: 'minimalcloud' */
+

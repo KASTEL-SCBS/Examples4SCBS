@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="CompositeModel" name="minimalcloudA.system_diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="2002" fontName="Ubuntu">
+    <children xsi:type="notation:DecorationNode" type="5012"/>
+    <children xsi:type="notation:DecorationNode" type="7002">
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-85" y="52"/>
+          </children>
+          <element href="minimalcloud.repository#_kRH6YE8-EeaZ-ru15blW9g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="139" y="38"/>
+        </children>
+        <element href="minimalcloudA.system#_wYHaAE9BEeaZ-ru15blW9g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="5" y="25"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="81" y="42"/>
+          </children>
+          <element href="minimalcloud.repository#_lYcu0E8-EeaZ-ru15blW9g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="139" y="35"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-82" y="37"/>
+          </children>
+          <element href="minimalcloud.repository#_l8FAUE8-EeaZ-ru15blW9g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="-29" y="40"/>
+        </children>
+        <element href="minimalcloudA.system#_ztG_4E9BEeaZ-ru15blW9g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="405" y="20"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- A" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="225" y="35" height="36"/>
+      </children>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="minimalcloudA.system#__RjTcE9BEeaZ-ru15blW9g"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="805" y="65"/>
+    </children>
+    <element href="minimalcloudA.system#_uC4oAE9BEeaZ-ru15blW9g"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="150" y="95" width="791" height="201"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="minimalcloudA.system#_uC4oAE9BEeaZ-ru15blW9g"/>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.1/@children.2" target="//@children.0/@children.1/@children.0/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="minimalcloudA.system#_-F8b8E9BEeaZ-ru15blW9g"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[-8, 0, 224, -3]$[-230, 7, 2, 4]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="minimalcloudA.system#_FH7Q8E9CEeaZ-ru15blW9g"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[-30, 0, 176, -20]$[-199, 11, 7, -9]"/>
+  </edges>
+</notation:Diagram>

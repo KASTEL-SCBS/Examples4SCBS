@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1">
+  <system:System id="_N058UIF3EeWfuPeHmai7FA" entityName="defaultSystem">
+    <assemblyContexts__ComposedStructure id="_Z2HEYIF3EeWfuPeHmai7FA" entityName="Assembly_bc2 &lt;bc2>">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="minimal.repository#_7F2z0HZgEeWugo6pNEBApg"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_2jjgQIF3EeWfuPeHmai7FA" entityName="Assembly_bc1 &lt;bc1>">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="minimal.repository#_QEhD8IF2EeWfuPeHmai7FA"/>
+    </assemblyContexts__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_9LFN4IF3EeWfuPeHmai7FA" entityName="Connector Assembly_bc1 &lt;bc1> -> Assembly_bc2 &lt;bc2>" requiringAssemblyContext_AssemblyConnector="_2jjgQIF3EeWfuPeHmai7FA" providingAssemblyContext_AssemblyConnector="_Z2HEYIF3EeWfuPeHmai7FA">
+      <providedRole_AssemblyConnector href="minimal.repository#_Gw0mIHZhEeWugo6pNEBApg"/>
+      <requiredRole_AssemblyConnector href="minimal.repository#_SQArJYF2EeWfuPeHmai7FA"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-FOh8IF3EeWfuPeHmai7FA" entityName="ProvDelegation Provided_sysIface -> bc1ProvidesSysIface" outerProvidedRole_ProvidedDelegationConnector="_sLk_0IF3EeWfuPeHmai7FA" assemblyContext_ProvidedDelegationConnector="_2jjgQIF3EeWfuPeHmai7FA">
+      <innerProvidedRole_ProvidedDelegationConnector href="minimal.repository#_xJENgYF3EeWfuPeHmai7FA"/>
+    </connectors__ComposedStructure>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sLk_0IF3EeWfuPeHmai7FA" entityName="Provided_sysIface">
+      <providedInterface__OperationProvidedRole href="minimal.repository#_cwgY94F3EeWfuPeHmai7FA"/>
+    </providedRoles_InterfaceProvidingEntity>
+  </system:System>
+</xmi:XMI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1">
+  <resourceenvironment:ResourceEnvironment entityName="FlightPlannerScenario">
+    <linkingResources__ResourceEnvironment id="_67lcMMN9EeWPE-QAhbUzuQ" entityName="Internet" connectedResourceContainers_LinkingResource="_fuWBEMN4EeWPE-QAhbUzuQ _HM_VsMN5EeWPE-QAhbUzuQ">
+      <communicationLinkResourceSpecifications_LinkingResource id="_67lcMcN9EeWPE-QAhbUzuQ">
+        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+        <latency_CommunicationLinkResourceSpecification specification="1"/>
+        <throughput_CommunicationLinkResourceSpecification specification="1"/>
+      </communicationLinkResourceSpecifications_LinkingResource>
+    </linkingResources__ResourceEnvironment>
+    <linkingResources__ResourceEnvironment id="_niT6YMN9EeWPE-QAhbUzuQ" entityName="4G + Internet" connectedResourceContainers_LinkingResource="_Lq-ZYMN4EeWPE-QAhbUzuQ _fuWBEMN4EeWPE-QAhbUzuQ">
+      <communicationLinkResourceSpecifications_LinkingResource id="_niT6YcN9EeWPE-QAhbUzuQ">
+        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+        <latency_CommunicationLinkResourceSpecification specification="1"/>
+        <throughput_CommunicationLinkResourceSpecification specification="1"/>
+      </communicationLinkResourceSpecifications_LinkingResource>
+    </linkingResources__ResourceEnvironment>
+    <linkingResources__ResourceEnvironment id="_1XdFQMN9EeWPE-QAhbUzuQ" entityName="OpenWifi + Internet" connectedResourceContainers_LinkingResource="_fuWBEMN4EeWPE-QAhbUzuQ _Lq-ZYMN4EeWPE-QAhbUzuQ">
+      <communicationLinkResourceSpecifications_LinkingResource id="_1XdsUMN9EeWPE-QAhbUzuQ">
+        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+        <latency_CommunicationLinkResourceSpecification specification="1"/>
+        <throughput_CommunicationLinkResourceSpecification specification="1"/>
+      </communicationLinkResourceSpecifications_LinkingResource>
+    </linkingResources__ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_HM_VsMN5EeWPE-QAhbUzuQ" entityName="AgencyServer"/>
+    <resourceContainer_ResourceEnvironment id="_fuWBEMN4EeWPE-QAhbUzuQ" entityName="AirlineServer"/>
+    <resourceContainer_ResourceEnvironment id="_Lq-ZYMN4EeWPE-QAhbUzuQ" entityName="MobilePhone"/>
+  </resourceenvironment:ResourceEnvironment>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Encryption" appliedTo="_67lcMMN9EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_7R9hAIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Encryption" appliedTo="_niT6YMN9EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_7R9hAIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Encryption" appliedTo="_1XdFQMN9EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_7R9hAIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FurtherPhysicalConnections" appliedTo="_HM_VsMN5EeWPE-QAhbUzuQ" connectionType="possible">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_zSr9UIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Sharing" appliedTo="_HM_VsMN5EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_vvbR8IOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FurtherPhysicalConnections" appliedTo="_fuWBEMN4EeWPE-QAhbUzuQ" connectionType="possible">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_zSr9UIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Sharing" appliedTo="_fuWBEMN4EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_vvbR8IOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FurtherPhysicalConnections" appliedTo="_Lq-ZYMN4EeWPE-QAhbUzuQ" connectionType="possible">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_zSr9UIOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Sharing" appliedTo="_Lq-ZYMN4EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_vvbR8IOkEeW0_uLqifoM5g"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_Lq-ZYMN4EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_1rCUwIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_RmAIsM6BEeWqSdNpnh9tmQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_fuWBEMN4EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_1rCUwIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_-YubgM6AEeWqSdNpnh9tmQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_HM_VsMN5EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_1rCUwIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_QBclsM6BEeWqSdNpnh9tmQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_1XdFQMN9EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_58XAAIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_XwoCcM6CEeWqSdNpnh9tmQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_niT6YMN9EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_58XAAIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_txU5gM6CEeWqSdNpnh9tmQ"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_8bxUsM6CEeWqSdNpnh9tmQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_67lcMMN9EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_58XAAIOkEeW0_uLqifoM5g"/>
+      <locationsAndTamperProtectionsPairs href="default.confidentiality#_8bxUsM6CEeWqSdNpnh9tmQ"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

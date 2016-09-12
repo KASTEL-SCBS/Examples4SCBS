@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1">
+  <repository:Repository id="_VigGoE86EeaZ-ru15blW9g" entityName="minimalcloudRepository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_XOkm4E86EeaZ-ru15blW9g" entityName="FileManager">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lYcu0E8-EeaZ-ru15blW9g" entityName="Provided_GUI_FileManager" providedInterface__OperationProvidedRole="_no_DgE89EeaZ-ru15blW9g"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_l8FAUE8-EeaZ-ru15blW9g" entityName="Required_ObjectStorage_FileManager" requiredInterface__OperationRequiredRole="_jCkSAE89EeaZ-ru15blW9g"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lYd88E8-EeaZ-ru15blW9g" describedService__SEFF="_SLg_4E8-EeaZ-ru15blW9g">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_lYd88U8-EeaZ-ru15blW9g" entityName="start" successor_AbstractAction="_lYd88k8-EeaZ-ru15blW9g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_lYd88k8-EeaZ-ru15blW9g" entityName="stop" predecessor_AbstractAction="_lYd88U8-EeaZ-ru15blW9g"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lYekAE8-EeaZ-ru15blW9g" describedService__SEFF="_S9B8YE8-EeaZ-ru15blW9g">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_lYfLEE8-EeaZ-ru15blW9g" entityName="start" successor_AbstractAction="_lYfLEU8-EeaZ-ru15blW9g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_lYfLEU8-EeaZ-ru15blW9g" entityName="stop" predecessor_AbstractAction="_lYfLEE8-EeaZ-ru15blW9g"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_YKT2YE86EeaZ-ru15blW9g" entityName="CloudStorage">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kRH6YE8-EeaZ-ru15blW9g" entityName="Provided_ObjectStorage_CloudStorage" providedInterface__OperationProvidedRole="_jCkSAE89EeaZ-ru15blW9g"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kRP2ME8-EeaZ-ru15blW9g" describedService__SEFF="_qO2SgE89EeaZ-ru15blW9g">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_kRQdQE8-EeaZ-ru15blW9g" entityName="start" successor_AbstractAction="_kRQdQU8-EeaZ-ru15blW9g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_kRQdQU8-EeaZ-ru15blW9g" entityName="stop" predecessor_AbstractAction="_kRQdQE8-EeaZ-ru15blW9g"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kRRrYE8-EeaZ-ru15blW9g" describedService__SEFF="_DEpHYE8-EeaZ-ru15blW9g">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_kRRrYU8-EeaZ-ru15blW9g" entityName="start" successor_AbstractAction="_kRRrYk8-EeaZ-ru15blW9g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_kRRrYk8-EeaZ-ru15blW9g" entityName="stop" predecessor_AbstractAction="_kRRrYU8-EeaZ-ru15blW9g"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_jCkSAE89EeaZ-ru15blW9g" entityName="ObjectStorage">
+      <signatures__OperationInterface id="_4H3l4E8_EeaZ-ru15blW9g" entityName="get">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_r4nQME8-EeaZ-ru15blW9g" entityName="putSelf">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_qO2SgE89EeaZ-ru15blW9g" entityName="putFriends">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
+        <parameters__OperationSignature parameterName="token">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_DEpHYE8-EeaZ-ru15blW9g" entityName="putPublic">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_no_DgE89EeaZ-ru15blW9g" entityName="GUI">
+      <signatures__OperationInterface id="_-HjQYE8_EeaZ-ru15blW9g" entityName="load">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_QFpDEE8_EeaZ-ru15blW9g" entityName="backup">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_SLg_4E8-EeaZ-ru15blW9g" entityName="share">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
+        <parameters__OperationSignature parameterName="token">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_S9B8YE8-EeaZ-ru15blW9g" entityName="publish">
+        <parameters__OperationSignature parameterName="fileName">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_38jYp089EeaZ-ru15blW9g" entityName="bytes">
+      <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.5"/>
+    </dataTypes__Repository>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
+      <functionalParameters href="../spec/minimalcloud.confidentiality#_cBcv9lQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_no_DgE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
+      <functionalParameters href="../spec/minimalcloud.confidentiality#_cBcv9lQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
+      <dataParameters href="../spec/minimalcloud.confidentiality#_W6by0VQwEeam-co1cfiBiw"/>
+      <dataParameters href="../spec/minimalcloud.confidentiality#_ZdPGwVQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_no_DgE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
+      <dataParameters href="../spec/minimalcloud.confidentiality#_W6by0VQwEeam-co1cfiBiw"/>
+      <dataParameters href="../spec/minimalcloud.confidentiality#_ZdPGwVQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_qGy6BVQwEeam-co1cfiBiw"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_xrO71VQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_no_DgE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_qGy6BVQwEeam-co1cfiBiw"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_xrO71VQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_qO2SgE89EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_-aCwxVQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_SLg_4E8-EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_-aCwxVQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_DEpHYE8-EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_35XSBVQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_S9B8YE8-EeaZ-ru15blW9g">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="../spec/minimalcloud.confidentiality#_35XSBVQwEeam-co1cfiBiw"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

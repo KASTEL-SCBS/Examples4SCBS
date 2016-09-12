@@ -1,0 +1,24 @@
+
+/** BEGIN resourceEnvironment, ID: 'aName', NAME: 'aName' */
+resourceEnvironment(aName).
+linkingResources(aName,[58]).
+resourceContainer(aName,[59,60]).
+
+/** BEGIN linkingResource, ID: '58', NAME: 'Internet' */
+linkingResource(58).
+connectedResourceContainers(58,[60,59]).
+communicationLinkResourceSpecifications(58,[]).
+/** END linkingResource, ID: '58', NAME: 'Internet' */
+
+
+/** BEGIN resourceContainer, ID: '59', NAME: 'CloudContainer' */
+resourceContainer(59).
+/** END resourceContainer, ID: '59', NAME: 'CloudContainer' */
+
+
+/** BEGIN resourceContainer, ID: '60', NAME: 'UserContainer' */
+resourceContainer(60).
+/** END resourceContainer, ID: '60', NAME: 'UserContainer' */
+
+/** END resourceEnvironment, ID: 'aName', NAME: 'aName' */
+

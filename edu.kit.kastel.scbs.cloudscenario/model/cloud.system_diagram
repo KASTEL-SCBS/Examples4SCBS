@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="CompositeModel" name="cloud.system_diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="2002" fontName="Ubuntu">
+    <children xsi:type="notation:DecorationNode" type="5012"/>
+    <children xsi:type="notation:DecorationNode" type="7002">
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="127" y="18"/>
+          </children>
+          <element href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="76" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="6" y="79"/>
+        </children>
+        <element href="cloud.system#_h00R4NQtEeWaFY2No-N26g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="415" y="15"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-52" y="38"/>
+          </children>
+          <element href="cloud.repository#_ajrAYNDIEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="10" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_USMZEOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_kOA94NQtEeWaFY2No-N26g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="75" y="5"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="127" y="28"/>
+          </children>
+          <element href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="61" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-65" y="23"/>
+          </children>
+          <element href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="10" y="79"/>
+        </children>
+        <element href="cloud.system#_EkiZQNQuEeWaFY2No-N26g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="1085" y="5"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="159" y="8"/>
+          </children>
+          <element href="cloud.repository#_u6br4NDNEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="60" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_VkqGgOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="139" y="44"/>
+        </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_GvZHQNQuEeWaFY2No-N26g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="695"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_fNnFUNDbEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="16" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="108" y="23"/>
+          </children>
+          <element href="cloud.repository#_fvVSUNDbEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="72" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-78" y="11"/>
+          </children>
+          <element href="cloud.repository#_pnHEsNSJEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="10" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_um3jQNSJEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="66" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_XXfWEOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="129" y="345"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="122" y="13"/>
+          </children>
+          <element href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="71" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-89" y="18"/>
+          </children>
+          <element href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="25" y="79"/>
+        </children>
+        <element href="cloud.system#_ZG3ecOuTEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="499" y="330"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-95" y="13"/>
+          </children>
+          <element href="cloud.repository#_a-HwoNDcEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="1" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-7" y="48"/>
+          </children>
+          <element href="cloud.repository#_bZNxMNDcEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="44" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="142" y="32"/>
+          </children>
+          <element href="cloud.repository#_bt9SINDcEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="139" y="5"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="122" y="1"/>
+          </children>
+          <element href="cloud.repository#_YqSasOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="100" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="100" y="-19"/>
+          </children>
+          <element href="cloud.repository#_zzP6IOuWEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="55" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-121" y="16"/>
+          </children>
+          <element href="cloud.repository#_0kqI8OuWEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="15" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="172" y="43"/>
+          </children>
+          <element href="cloud.repository#_GeLQkG9fEeam26epJlCOmw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="79" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="170" y="8"/>
+          </children>
+          <element href="cloud.repository#_IBWTgG9fEeam26epJlCOmw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="109" y="79"/>
+        </children>
+        <element href="cloud.system#_dsQ8QOuTEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="277" y="745"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="137" y="23"/>
+          </children>
+          <element href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="85" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-90" y="8"/>
+          </children>
+          <element href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="-29" y="35"/>
+        </children>
+        <element href="cloud.system#_y1yTsOuTEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="832" y="605"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_fNnFUNDbEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="27" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="112" y="23"/>
+          </children>
+          <element href="cloud.repository#_fvVSUNDbEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="87" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-58" y="11"/>
+          </children>
+          <element href="cloud.repository#_pnHEsNSJEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="20" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="152" y="6"/>
+          </children>
+          <element href="cloud.repository#_um3jQNSJEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="90" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_XXfWEOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_3vlUMOuTEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="785" y="355"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="112" y="23"/>
+          </children>
+          <element href="cloud.repository#_25WnENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="96" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_3UqqENDJEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="45" y="79"/>
+        </children>
+        <element href="cloud.system#_ASwPIOuUEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="1135" y="345"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_AtFQIOuTEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_76AHgNQsEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="50" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_-DtmANQsEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_dWZkgOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_EkZqgOuUEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="225" y="180"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_lLmGgOuREeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_PrQEcNQtEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="40" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_QmAcgNQtEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_ft6OcOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_y6exAOuUEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="865" y="185"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_5Uxl0OuSEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-136" y="11"/>
+          </children>
+          <element href="cloud.repository#_zOx60NSPEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="26" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="160" y="16"/>
+          </children>
+          <element href="cloud.repository#_z5azQNSPEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="56" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_MhNlgOuTEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="158" y="10"/>
+          </children>
+          <element href="cloud.repository#_g34uQOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_1PYy4OuUEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="309" y="505"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_5Uxl0OuSEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-120" y="11"/>
+          </children>
+          <element href="cloud.repository#_zOx60NSPEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="45" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="150" y="11"/>
+          </children>
+          <element href="cloud.repository#_z5azQNSPEeWaFY2No-N26g"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="81" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_MhNlgOuTEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="153" y="15"/>
+          </children>
+          <element href="cloud.repository#_g34uQOuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="cloud.system#_5n_K0OuUEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="1014" y="525"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="143" y="18"/>
+          </children>
+          <element href="cloud.repository#_CdwjkOuTEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="45" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="166" y="11"/>
+          </children>
+          <element href="cloud.repository#_Knfq0OuTEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="45" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_Or4tUOuTEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="139" y="50"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_h18R8OuUEeWMdaaSirUv0Q"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="139" y="5"/>
+        </children>
+        <element href="cloud.system#_ZxyY0OuVEeWMdaaSirUv0Q"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="552" y="710"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-74" y="31"/>
+          </children>
+          <element href="cloud.repository#_d9lrENDfEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="60" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-101" y="-4"/>
+          </children>
+          <element href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="56" y="-29"/>
+        </children>
+        <element href="cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="-74" y="920"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="127" y="33"/>
+          </children>
+          <element href="cloud.repository#_elgmsNDfEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="41" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_6YX4UBX5EeabKfvw_S-vrQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="46" y="-29"/>
+        </children>
+        <element href="cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="106" y="918"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-90" y="38"/>
+          </children>
+          <element href="cloud.repository#_d9lrENDfEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="55" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-81" y="-6"/>
+          </children>
+          <element href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="56" y="-29"/>
+        </children>
+        <element href="cloud.system#_bu1k8BaCEeabKfvw_S-vrQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="491" y="925"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="124" y="28"/>
+          </children>
+          <element href="cloud.repository#_elgmsNDfEeWt5tzvTAzZ8A"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="60" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_6YX4UBX5EeabKfvw_S-vrQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="66" y="-29"/>
+        </children>
+        <element href="cloud.system#_dzgycBaCEeabKfvw_S-vrQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="656" y="925"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- A" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="-9" y="790" width="96" height="31"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- B" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="271" y="935" width="96" height="31"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- B" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="381" y="935" width="96" height="31"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- A" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="106" y="790" width="91" height="31"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="cloud.repository#_J5w8wG9WEeam26epJlCOmw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="56" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="-9" y="-29"/>
+          </children>
+          <element href="cloud.repository#_Wf3-IG9VEeam26epJlCOmw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="41" y="-29"/>
+        </children>
+        <element href="cloud.system#_2IfbkG9eEeam26epJlCOmw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="976" y="920"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Ubuntu">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="-3" y="38"/>
+          </children>
+          <element href="cloud.repository#_X2BRsG9VEeam26epJlCOmw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="40" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Ubuntu">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" x="24" y="-19"/>
+          </children>
+          <element href="cloud.repository#_RZUUAG9VEeam26epJlCOmw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="35" y="-29"/>
+        </children>
+        <element href="cloud.system#_3UQEEG9eEeam26epJlCOmw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="1201" y="915"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- Public" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="1121" y="825" height="26"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self &lt;- Public" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="866" y="925" height="26"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="281" y="775" width="121" height="46"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="136" y="375" width="126" height="46"/>
+      </children>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="cloud.system#_Ch6LQBX6EeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="850"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="cloud.system#_Ku9FMBX6EeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="620"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="cloud.system#_MvvRMBX6EeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="310"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="cloud.system#_PK_LoBX6EeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="85"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" x="-46" y="20"/>
+      </children>
+      <element href="cloud.system#_qcJcABaEEeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="115" y="1116"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" x="-75" y="27"/>
+      </children>
+      <element href="cloud.system#_sR748BaEEeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="670" y="1116"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" x="105" y="22"/>
+      </children>
+      <element href="cloud.system#_3mf9cBaEEeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="275" y="1116"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="cloud.system#_5IAMcBaEEeabKfvw_S-vrQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="855" y="1116"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="cloud.system#_9Ou68G9dEeam26epJlCOmw"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="1160" y="1116"/>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" x="158" y="30"/>
+      </children>
+      <element href="cloud.system#_-f9SQG9dEeam26epJlCOmw"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="1395" y="1116"/>
+    </children>
+    <element href="cloud.system#_NLn1wNQsEeWaFY2No-N26g"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="-85" y="-15" width="1586" height="1117"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="cloud.system#_NLn1wNQsEeWaFY2No-N26g"/>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.6/@children.4" target="//@children.0/@children.1/@children.7/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_XOPeAOuVEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, -426, 68]$[0, -76, -426, 0]$[411, -77, -15, -1]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.14/@children.2" target="//@children.0/@children.1/@children.6/@children.3">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_3ELU0OuVEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 181, -77]$[-90, -6, 91, -75]$[-168, 63, 13, -6]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.14/@children.3" target="//@children.0/@children.1/@children.7/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_4KutMOuVEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -264, -56]$[276, 53, 5, -3]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.14/@children.4" target="//@children.0/@children.1/@children.7/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_4tmwwOuVEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -249, -134]$[255, 134, -1, 0]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.6/@children.6" target="//@children.0/@children.1/@children.4/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_iaY7cOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 127, 146]$[-133, -148, -6, 4]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.6/@children.5" target="//@children.0/@children.1/@children.4/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_jDtlQOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 136, 147]$[-136, -163, 0, -10]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.4666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.12/@children.2" target="//@children.0/@children.1/@children.4/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_szxKEOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 143, 33]$[-138, -36, 5, 3]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.12/@children.3" target="//@children.0/@children.1/@children.4/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_tUM9oOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 123, 33]$[-128, -36, -5, 3]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.36666666666666664,0.23333333333333334)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.13/@children.2" target="//@children.0/@children.1/@children.8/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_uBceIOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 208, 22]$[-207, -20, 1, 8]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.5333333333333333,0.2)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.6666666666666666)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.13/@children.3" target="//@children.0/@children.1/@children.8/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_ufwx0OuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 183, 25]$[-183, -32, 0, -1]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.3333333333333333,0.16666666666666666)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.13/@children.5" target="//@children.0/@children.1/@children.9/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_wwxyMOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[6, 0, -15, 77]$[16, -71, -5, 6]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.13/@children.4" target="//@children.0/@children.1/@children.9/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_xX4OcOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[6, 0, -53, 106]$[59, -94, 0, 12]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.12/@children.5" target="//@children.0/@children.1/@children.5/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_x8vPAOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -52, 73]$[53, -71, -4, 2]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.4,0.2)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.12/@children.4" target="//@children.0/@children.1/@children.5/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_ymAOcOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -86, 102]$[85, -97, -6, 5]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.8/@children.5" target="//@children.0/@children.1/@children.9/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_zsYnsOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -187, -22]$[188, 23, -4, 1]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.4/@children.5" target="//@children.0/@children.1/@children.5/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_0QidoOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -187, -18]$[186, 23, -6, 5]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.4/@children.3" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_1WO6YOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 41, 168]$[-41, -162, 0, 12]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.3333333333333333,0.16666666666666666)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.4/@children.4" target="//@children.0/@children.1/@children.3/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_2QOdcOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, -560, 229]$[355, -51, -205, 186]$[555, -224, -5, 13]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.8/@children.3" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_31VaEOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 720, 235]$[-184, -172, 536, 71]$[-712, -236, 8, 7]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.8/@children.4" target="//@children.0/@children.1/@children.3/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_4xhVgOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 120, 240]$[-65, -62, 55, 186]$[-118, -234, 2, 14]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.10/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_-mryEOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 143, 44]$[-147, -41, -4, 9]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.3,0.2)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.10/@children.4" target="//@children.0/@children.1/@children.0/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#__ydosOuXEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -37, 66]$[38, -65, -4, 1]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.03333333333333333,0.36666666666666664)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.10/@children.3" target="//@children.0/@children.1/@children.0/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_evVwkOuYEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -85, 88]$[91, -83, 1, 5]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.16666666666666666,0.36666666666666664)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.3,0.8)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.11/@children.3" target="//@children.0/@children.1/@children.2/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_gRsUIOuYEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -101, 106]$[105, -107, -1, -1]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.11/@children.4" target="//@children.0/@children.1/@children.2/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_itwG4OuYEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -56, 77]$[62, -66, 1, 11]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.5)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.11/@children.2" target="//@children.0/@children.1/@children.3/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_lIVS8OuYEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -6, 112, 52]$[-116, -56, -4, 2]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.3/@children.2" target="//@children.0/@children.1/@children.2/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_oY-kUOuYEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -191, -30]$[198, 30, 2, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.36666666666666664,0.23333333333333334)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.1/@children.2" target="//@children.0/@children.1/@children.0/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_pLowUOuYEeWMdaaSirUv0Q"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[5, 0, -150, -37]$[149, 40, -6, 3]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.5" target="//@children.0/@children.1/@children.10/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_S1-2sBX6EeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -137, -38]$[165, 44, -2, 6]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.18333333333333332,0.4166666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.4" target="//@children.0/@children.1/@children.11/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_Zca_MBX6EeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -881, 56]$[905, -57, -6, -1]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.23333333333333334,0.48333333333333334)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.4666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.3" target="//@children.0/@children.1/@children.12/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_ahnssBX6EeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -334, 15]$[364, -16, 0, -1]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.21666666666666667,0.6)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.14/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_bYAiIBX6EeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -825, 31]$[589, 20, -266, 51]$[807, 0, -48, 31]$[848, -21, -7, 10]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.3" target="//@children.0/@children.1/@children.13/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_dqzrMBX6EeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -1039, -5]$[1067, 8, -2, 3]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.15,0.4666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.15/@children.2" target="//@children.0/@children.1/@children.6/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_bogokBaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, -259, 49]$[258, -52, -1, 5]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.4666666666666667,0.8333333333333334)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.16/@children.2" target="//@children.0/@children.1/@children.6/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_cT-ncBaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, -145, 50]$[141, -52, -4, 6]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.3333333333333333,0.8)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.17/@children.2" target="//@children.0/@children.1/@children.6/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_dQHfkBaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 237, 54]$[-238, -57, -1, 5]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.43333333333333335,0.8333333333333334)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.18/@children.2" target="//@children.0/@children.1/@children.6/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_eE-rABaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 365, 64]$[-370, -70, -5, 2]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.7" target="//@children.0/@children.1/@children.17/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_1qI-cBaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -23, -1, 30]$[1, -50, 0, 3]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.4,0.8666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.6" target="//@children.0/@children.1/@children.15/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_2oeO8BaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -23, -4, 42]$[2, -66, -2, -1]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.38333333333333336,0.8)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.9" target="//@children.0/@children.1/@children.18/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#__lcJ8BaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -23, 14, 39]$[-19, -63, -5, -1]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.23333333333333334,0.4666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.8" target="//@children.0/@children.1/@children.16/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#___hd4BaEEeabKfvw_S-vrQ"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -23, 3, 42]$[-5, -66, -2, -1]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@edges.33" target="//@children.0/@children.1/@children.19" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[13, 4, 143, -5]$[-81, 4, 49, -5]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.3983739837398374,0.5822784810126582)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.20" target="//@edges.35" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[12, 27, 72, -15]$[-2, 44, 58, 2]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.13186813186813187,0.5)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.5086505190311419,0.5238095238095238)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.6/@children.5" target="//@children.0/@children.1/@children.8/@children.2">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_5OZk0DFeEeadhIGaXELbXg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, -541, 265]$[541, -267, 0, 6]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.5333333333333333,0.8)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.6/@children.6" target="//@children.0/@children.1/@children.8/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_52KvcDFeEeadhIGaXELbXg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, -520, 274]$[512, -275, -8, 7]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.22" target="//@edges.34" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[16, 27, -22, -74]$[45, 97, 7, -4]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2457627118644068,0.7280701754385965)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.21" target="//@edges.36" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[38, -8, -155, 45]$[288, -55, 95, -2]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.4791666666666667,0.13043478260869565)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.3981191222570533,0.39669421487603307)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.11" target="//@children.0/@children.1/@children.24/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_BsZjoG9fEeam26epJlCOmw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -30, -45, 62]$[41, -91, -4, 1]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.10" target="//@children.0/@children.1/@children.23/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_CON3QG9fEeam26epJlCOmw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -30, -71, 57]$[69, -87, -2, 0]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.23/@children.2" target="//@children.0/@children.1/@children.6/@children.7">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_bOzm4G9fEeam26epJlCOmw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 662, 51]$[-663, -52, -1, 7]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.4666666666666667,0.7666666666666667)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.24/@children.2" target="//@children.0/@children.1/@children.6/@children.8">
+    <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
+    <element href="cloud.system#_b3hMsG9fEeam26epJlCOmw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 850, 54]$[-850, -63, 0, -1]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.25" target="//@edges.50" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[33, 24, -129, -88]$[-1275, 30, -1437, -82]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.8459770114942529,0.7142857142857143)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.26" target="//@edges.49" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[74, -26, -158, 38]$[232, -80, 0, -16]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.8883994126284875,0.7901234567901234)"/>
+  </edges>
+</notation:Diagram>

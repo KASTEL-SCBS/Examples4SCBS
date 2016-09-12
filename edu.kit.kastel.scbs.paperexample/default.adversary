@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality.adversary:Adversaries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary" id="_A5jBQJzjEeWvbrCzHVJijg">
+  <adversaries id="_mXBykJznEeWvbrCzHVJijg" name="inhabitant">
+    <mayKnowDataSets href="default.confidentiality#_zUcrQ5znEeWvbrCzHVJijg"/>
+    <mayKnowDataSets href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
+    <mayKnowDataSets href="default.confidentiality#_v6fF05znEeWvbrCzHVJijg"/>
+    <locationsAndTamperProtectionsPairs href="default.confidentiality#__NCNYJzoEeWvbrCzHVJijg"/>
+  </adversaries>
+  <adversaries id="_p0uBcJznEeWvbrCzHVJijg" name="guest">
+    <mayKnowDataSets href="default.confidentiality#_v6fF05znEeWvbrCzHVJijg"/>
+    <mayKnowDataSets href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
+    <locationsAndTamperProtectionsPairs href="default.confidentiality#_RBu-EJzpEeWvbrCzHVJijg"/>
+  </adversaries>
+  <adversaries id="_rJKE0JznEeWvbrCzHVJijg" name="passer-by-adversary">
+    <mayKnowDataSets href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
+    <locationsAndTamperProtectionsPairs href="default.confidentiality#_U1yegJzpEeWvbrCzHVJijg"/>
+  </adversaries>
+</edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_JiPBICHdEd6lJo4DCALHMw" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/0"/>
+  <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <allocationContexts_Allocation id="_gmLeoCsoEeK79cj3OHITwQ" entityName="Allocation_Energy Visualization">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_GAeeUCpXEeKNWc2UWjbmuw"/>
+    <assemblyContext_AllocationContext href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_F2TWgJzgEeWPbeRUuP85Tg" entityName="Allocation_Database &lt;DBMS>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_GAeeUCpXEeKNWc2UWjbmuw"/>
+    <assemblyContext_AllocationContext href="default.system#_0w4YkJzdEeWPbeRUuP85Tg"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_ruJP8JzhEeWvbrCzHVJijg" entityName="Allocation_Energy Meter">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_nZhOgJzgEeWPbeRUuP85Tg"/>
+    <assemblyContext_AllocationContext href="default.system#_I6t0oJzeEeWPbeRUuP85Tg"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_7WY6IMODEeWst9mTsticNA" entityName="Allocation_TravelAgency &lt;TravelAgency> &lt;TravelAgency>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_HM_VsMN5EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_0WeT8MN-EeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="__rFpgMODEeWst9mTsticNA" entityName="Allocation_Airline &lt;Airline> &lt;Airline>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_fuWBEMN4EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_HRAO0MOAEeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Drzs8MOEEeWst9mTsticNA" entityName="Allocation_CreditCardCenter &lt;CreditCardCenter> &lt;CreditCardCenter>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_XOyEsMOBEeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_HxxcwMOEEeWst9mTsticNA" entityName="Allocation_TravelPlanner &lt;TravelPlanner> &lt;TravelPlanner>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_2pBlYMN-EeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

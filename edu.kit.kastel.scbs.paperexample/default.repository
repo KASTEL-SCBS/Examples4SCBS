@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1">
+  <repository:Repository id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_os1t4CHbEd62GabW1zGSBw" entityName="Energy Visualization">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qZKs0CHbEd62GabW1zGSBw" entityName="Provided_EnergyVisualization" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_QecioJqrEeWvQ_r7FgUerw" entityName="Required_DatabaseInterface_Energy Visualization" requiredInterface__OperationRequiredRole="_01q6sJqoEeWvQ_r7FgUerw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_T8CD0JqrEeWvQ_r7FgUerw" entityName="Required_EnergyMeasurement_Energy Visualization" requiredInterface__OperationRequiredRole="_AHn6oJqqEeWvQ_r7FgUerw"/>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_UhWpUJqpEeWvQ_r7FgUerw" entityName="Energy Meter">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lOcRsJqpEeWvQ_r7FgUerw" entityName="Provided_DatabaseInterface_Energy Meter" providedInterface__OperationProvidedRole="_AHn6oJqqEeWvQ_r7FgUerw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mwuFEOIsEeWuZOK2YocvJA" entityName="Provided_MeasurementAcquisition_Energy Meter" providedInterface__OperationProvidedRole="_aDYPwOIsEeWuZOK2YocvJA"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_mwxIYOIsEeWuZOK2YocvJA" describedService__SEFF="_dLG1sOIsEeWuZOK2YocvJA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_mwy9kOIsEeWuZOK2YocvJA" entityName="start" successor_AbstractAction="_mwzkoOIsEeWuZOK2YocvJA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_mwzkoOIsEeWuZOK2YocvJA" entityName="stop" predecessor_AbstractAction="_mwy9kOIsEeWuZOK2YocvJA"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_c1bi4JqqEeWvQ_r7FgUerw" entityName="DBMS">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gzn2wJqqEeWvQ_r7FgUerw" entityName="Provided_DatabaseInterface_DBMS" providedInterface__OperationProvidedRole="_01q6sJqoEeWvQ_r7FgUerw"/>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_n7g-oCHbEd62GabW1zGSBw" entityName="EnergyVisualization">
+      <signatures__OperationInterface id="_KjhikgzkEeCFg86gxKwVPw" entityName="drawEnergyConsumptionGraph">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_01q6sJqoEeWvQ_r7FgUerw" entityName="DatabaseInterface">
+      <signatures__OperationInterface id="_5cCo4JqoEeWvQ_r7FgUerw" entityName="getValues">
+        <parameters__OperationSignature parameterName="start">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="end">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_5UZv0JqoEeWvQ_r7FgUerw" entityName="storeValue">
+        <parameters__OperationSignature parameterName="timestamp">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="value">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_AHn6oJqqEeWvQ_r7FgUerw" entityName="EnergyMeasurement">
+      <signatures__OperationInterface id="_CLB80JqqEeWvQ_r7FgUerw" entityName="getEnergyValue">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_JCEtIJqqEeWvQ_r7FgUerw" entityName="getCustomerId">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_aDYPwOIsEeWuZOK2YocvJA" entityName="MeasurementAcquisition">
+      <signatures__OperationInterface id="_dLG1sOIsEeWuZOK2YocvJA" entityName="setEnergyValue">
+        <parameters__OperationSignature parameterName="value">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_KjhikgzkEeCFg86gxKwVPw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataSetsPairs href="default.confidentiality#_mShfE7rNEeWnb8dhfi-QRA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_5cCo4JqoEeWvQ_r7FgUerw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataSetsPairs href="default.confidentiality#_yY5H47q1EeWnb8dhfi-QRA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_5UZv0JqoEeWvQ_r7FgUerw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataSetsPairs href="default.confidentiality#_tkkwY7rNEeWnb8dhfi-QRA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_CLB80JqqEeWvQ_r7FgUerw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataSetsPairs href="default.confidentiality#_zS5lI7rNEeWnb8dhfi-QRA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_JCEtIJqqEeWvQ_r7FgUerw">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataSetsPairs href="default.confidentiality#_4YMrA7rNEeWnb8dhfi-QRA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_dLG1sOIsEeWuZOK2YocvJA">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataSetsPairs href="default.confidentiality#_2JKOs-IsEeWuZOK2YocvJA"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

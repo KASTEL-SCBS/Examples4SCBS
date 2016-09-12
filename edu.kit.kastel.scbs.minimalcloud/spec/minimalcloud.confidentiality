@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" id="_H3afkFQwEeam-co1cfiBiw" name="minimalcloud">
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_W6by0VQwEeam-co1cfiBiw" name="Self" definingFunctionalParameter="s"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_ZdPGwVQwEeam-co1cfiBiw" name="Friends" definingFunctionalParameter="f"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_Jet0kFQwEeam-co1cfiBiw" name="PublicData"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_hEfMA1QwEeam-co1cfiBiw" map="_NGCglFQwEeam-co1cfiBiw" parameter="_W6by0VQwEeam-co1cfiBiw"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_UxZCs1QwEeam-co1cfiBiw" map="_NGCglFQwEeam-co1cfiBiw" parameter="_ZdPGwVQwEeam-co1cfiBiw"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" id="_Pd2akFQyEea2F_ez8ICPxQ" map="_NGCglFQwEeam-co1cfiBiw" name="A"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" id="_SqmqclQyEea2F_ez8ICPxQ" map="_NGCglFQwEeam-co1cfiBiw" name="B"/>
+  <dataSetMaps id="_NGCglFQwEeam-co1cfiBiw" name="UserData"/>
+  <parametersAndDataPairs id="_qGy6BVQwEeam-co1cfiBiw" dataTargets="_hEfMA1QwEeam-co1cfiBiw">
+    <parameterSources>*</parameterSources>
+    <parameterSources>s</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_xrO71VQwEeam-co1cfiBiw" dataTargets="_Jet0kFQwEeam-co1cfiBiw">
+    <parameterSources>sizeOf(*)</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_-aCwxVQwEeam-co1cfiBiw" dataTargets="_UxZCs1QwEeam-co1cfiBiw">
+    <parameterSources>fileName</parameterSources>
+    <parameterSources>data</parameterSources>
+    <parameterSources>f</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_35XSBVQwEeam-co1cfiBiw" dataTargets="_Jet0kFQwEeam-co1cfiBiw">
+    <parameterSources>fileName</parameterSources>
+    <parameterSources>data</parameterSources>
+  </parametersAndDataPairs>
+  <addedFunctionalParameters id="_cBcv9lQwEeam-co1cfiBiw" name="s"/>
+  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_5h6x-FQ1Eea2F_ez8ICPxQ" dataParametersToReplace="_W6by0VQwEeam-co1cfiBiw" replacingKey="A"/>
+  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_8wtCKFQ1Eea2F_ez8ICPxQ" dataParametersToReplace="_W6by0VQwEeam-co1cfiBiw" replacingKey="B"/>
+  <locations id="_bbaYyVQyEea2F_ez8ICPxQ" name="internet"/>
+  <locations id="_dVHFWVQyEea2F_ez8ICPxQ" name="userAHome"/>
+  <locations id="_enQpuVQyEea2F_ez8ICPxQ" name="userBHome"/>
+  <locations id="_dDG56VQzEea2F_ez8ICPxQ" name="outerzone"/>
+  <tamperProtections id="_ZNAyGlQzEea2F_ez8ICPxQ" name="perimeterprotection"/>
+  <locationsAndTamperProtectionsPairs id="_s98ba1QyEea2F_ez8ICPxQ" locations="_dVHFWVQyEea2F_ez8ICPxQ"/>
+  <locationsAndTamperProtectionsPairs id="_xj8WK1QyEea2F_ez8ICPxQ" locations="_enQpuVQyEea2F_ez8ICPxQ"/>
+  <locationsAndTamperProtectionsPairs id="_bj9bW1QzEea2F_ez8ICPxQ" locations="_dDG56VQzEea2F_ez8ICPxQ" tamperProtections="_ZNAyGlQzEea2F_ez8ICPxQ"/>
+  <locationsAndTamperProtectionsPairs id="_huJsu1QzEea2F_ez8ICPxQ" locations="_bbaYyVQyEea2F_ez8ICPxQ"/>
+</edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

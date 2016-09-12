@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//allocation http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_WKF6QCsoEeKXPs1IFilRgQ" type="allocation" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_i6MuEJzhEeWvbrCzHVJijg" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i6NVIJzhEeWvbrCzHVJijg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i6NVIZzhEeWvbrCzHVJijg" type="7003"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_GAeeUCpXEeKNWc2UWjbmuw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i6MuEZzhEeWvbrCzHVJijg" x="36" y="36"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_i6N8MJzhEeWvbrCzHVJijg" type="2003" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i6N8MpzhEeWvbrCzHVJijg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i6N8M5zhEeWvbrCzHVJijg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_tBGsoJzhEeWvbrCzHVJijg" type="3002" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tBHTsJzhEeWvbrCzHVJijg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tBHTsZzhEeWvbrCzHVJijg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#_ruJP8JzhEeWvbrCzHVJijg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tBGsoZzhEeWvbrCzHVJijg" x="28" y="1"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_nZhOgJzgEeWPbeRUuP85Tg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i6N8MZzhEeWvbrCzHVJijg" x="48" y="168"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WKF6QSsoEeKXPs1IFilRgQ"/>
+  <element xmi:type="allocation:Allocation" href="default.allocation#_JiPBICHdEd6lJo4DCALHMw"/>
+</notation:Diagram>

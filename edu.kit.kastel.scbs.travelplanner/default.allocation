@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_v9qGYHUDEeahddHrzGUY0w" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <allocationContexts_Allocation id="_z_YPYHUDEeahddHrzGUY0w" entityName="Allocation_TravelAgency &lt;TravelAgency> &lt;TravelAgency>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_HM_VsMN5EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_0WeT8MN-EeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_8Fzj8HUDEeahddHrzGUY0w" entityName="Allocation_Airline &lt;Airline> &lt;Airline>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_fuWBEMN4EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_HRAO0MOAEeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_9Eh2AHUDEeahddHrzGUY0w" entityName="Allocation_TravelPlanner &lt;TravelPlanner> &lt;TravelPlanner>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_2pBlYMN-EeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_976J8HUDEeahddHrzGUY0w" entityName="Allocation_CreditCardCenter &lt;CreditCardCenter> &lt;CreditCardCenter>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    <assemblyContext_AllocationContext href="default.system#_XOyEsMOBEeWst9mTsticNA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

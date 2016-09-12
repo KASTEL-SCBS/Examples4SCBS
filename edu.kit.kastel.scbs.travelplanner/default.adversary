@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality.adversary:Adversaries
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary"
+    xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data"
+    id="_A5jBQJzjEeWvbrCzHVJijg">
+  <adversaries
+      id="_kHs7EMOFEeWst9mTsticNA"
+      name="User">
+    <mayKnowData
+        xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet"
+        href="default.confidentiality#MobilePhone"/>
+    <locationsAndTamperProtectionsPairs
+        href="default.confidentiality#_OGVeIHaZEeaYKN4opFQqKQ"/>
+    <locationsAndTamperProtectionsPairs
+        href="default.confidentiality#_OGqOR3aZEeaYKN4opFQqKQ"/>
+    <locationsAndTamperProtectionsPairs
+        href="default.confidentiality#_OGqORXaZEeaYKN4opFQqKQ"/>
+  </adversaries>
+  <adversaries
+      id="_lU1ckMOFEeWst9mTsticNA"
+      name="Airline">
+    <mayKnowData
+        xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet"
+        href="default.confidentiality#AirlineServer"/>
+    <locationsAndTamperProtectionsPairs
+        href="default.confidentiality#_OGqOQXaZEeaYKN4opFQqKQ"/>
+  </adversaries>
+  <adversaries
+      id="_mQ9GkMOFEeWst9mTsticNA"
+      name="TravelAgency">
+    <mayKnowData
+        xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet"
+        href="default.confidentiality#AgencyServer"/>
+    <locationsAndTamperProtectionsPairs
+        href="default.confidentiality#_OGqOQ3aZEeaYKN4opFQqKQ"/>
+  </adversaries>
+</edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>

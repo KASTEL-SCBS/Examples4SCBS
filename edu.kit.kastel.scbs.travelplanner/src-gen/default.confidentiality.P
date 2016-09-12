@@ -1,0 +1,217 @@
+
+/** BEGIN confidentialitySpecification, ID: '1', NAME: 'null' */
+confidentialitySpecification(1).
+dataIdentifier(1,[2,3,4]).
+dataSetMaps(1,[]).
+parametersAndDataPairs(1,[5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]).
+locations(1,[22,23,24,25,26,27]).
+tamperProtections(1,[]).
+locationsAndTamperProtectionsPairs(1,[28,29,30,31,32,33]).
+
+/** BEGIN dataSet, ID: '2', NAME: 'MobilePhone' */
+dataSet(2).
+/** END dataSet, ID: '2', NAME: 'MobilePhone' */
+
+
+/** BEGIN dataSet, ID: '3', NAME: 'AgencyServer' */
+dataSet(3).
+/** END dataSet, ID: '3', NAME: 'AgencyServer' */
+
+
+/** BEGIN dataSet, ID: '4', NAME: 'AirlineServer' */
+dataSet(4).
+/** END dataSet, ID: '4', NAME: 'AirlineServer' */
+
+
+/** BEGIN parametersAndDataPair, ID: '5', NAME: 'b=[retFlightOffersTA] - p=[\return] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+parametersAndDataPair(5).
+parameterSources(5,[\return]).
+dataTargets(5,[2,3,4]).
+/** END parametersAndDataPair, ID: '5', NAME: 'b=[retFlightOffersTA] - p=[\return] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '6', NAME: 'b=[retFlightOffersTP] - p=[\return] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+parametersAndDataPair(6).
+parameterSources(6,[\return]).
+dataTargets(6,[2,3,4]).
+/** END parametersAndDataPair, ID: '6', NAME: 'b=[retFlightOffersTP] - p=[\return] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '7', NAME: 'b=[getFlightOfferBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+parametersAndDataPair(7).
+parameterSources(7,[requestData]).
+dataTargets(7,[2,3,4]).
+/** END parametersAndDataPair, ID: '7', NAME: 'b=[getFlightOfferBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '8', NAME: 'b=[TAgetFlightOffersBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+parametersAndDataPair(8).
+parameterSources(8,[requestData]).
+dataTargets(8,[2,3,4]).
+/** END parametersAndDataPair, ID: '8', NAME: 'b=[TAgetFlightOffersBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '9', NAME: 'b=[AgetFlightOffersBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+parametersAndDataPair(9).
+parameterSources(9,[requestData]).
+dataTargets(9,[2,3,4]).
+/** END parametersAndDataPair, ID: '9', NAME: 'b=[AgetFlightOffersBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '10', NAME: 'b=[createCCDecl] - p=[\return] - d=[MobilePhone]' */
+parametersAndDataPair(10).
+parameterSources(10,[\return]).
+dataTargets(10,[2]).
+/** END parametersAndDataPair, ID: '10', NAME: 'b=[createCCDecl] - p=[\return] - d=[MobilePhone]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '11', NAME: 'b=[createRelease] - p=[\return] - d=[MobilePhone]' */
+parametersAndDataPair(11).
+parameterSources(11,[\return]).
+dataTargets(11,[2]).
+/** END parametersAndDataPair, ID: '11', NAME: 'b=[createRelease] - p=[\return] - d=[MobilePhone]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '12', NAME: 'b=[releaseCCDParam] - p=[airline] - d=[MobilePhone]' */
+parametersAndDataPair(12).
+parameterSources(12,[airline]).
+dataTargets(12,[2]).
+/** END parametersAndDataPair, ID: '12', NAME: 'b=[releaseCCDParam] - p=[airline] - d=[MobilePhone]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '13', NAME: 'b=[CCreleaseCCDParam] - p=[airline] - d=[MobilePhone]' */
+parametersAndDataPair(13).
+parameterSources(13,[airline]).
+dataTargets(13,[2]).
+/** END parametersAndDataPair, ID: '13', NAME: 'b=[CCreleaseCCDParam] - p=[airline] - d=[MobilePhone]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '14', NAME: 'b=[declassifyCCDParam] - p=[ccd] - d=[MobilePhone]' */
+parametersAndDataPair(14).
+parameterSources(14,[ccd]).
+dataTargets(14,[2]).
+/** END parametersAndDataPair, ID: '14', NAME: 'b=[declassifyCCDParam] - p=[ccd] - d=[MobilePhone]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '15', NAME: 'b=[AconfirmFlightBooking] - p=[\return] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+parametersAndDataPair(15).
+parameterSources(15,[\return]).
+dataTargets(15,[2,4,3]).
+/** END parametersAndDataPair, ID: '15', NAME: 'b=[AconfirmFlightBooking] - p=[\return] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '16', NAME: 'b=[TPconfirmFlightBooking] - p=[\return] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+parametersAndDataPair(16).
+parameterSources(16,[\return]).
+dataTargets(16,[2,4,3]).
+/** END parametersAndDataPair, ID: '16', NAME: 'b=[TPconfirmFlightBooking] - p=[\return] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '17', NAME: 'b=[bookSelectedParam0] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+parametersAndDataPair(17).
+parameterSources(17,[flightOffer]).
+dataTargets(17,[2,4,3]).
+/** END parametersAndDataPair, ID: '17', NAME: 'b=[bookSelectedParam0] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '18', NAME: 'b=[bookSelectedParam1] - p=[ccd_decl] - d=[MobilePhone,AirlineServer]' */
+parametersAndDataPair(18).
+parameterSources(18,[ccd_decl]).
+dataTargets(18,[2,4]).
+/** END parametersAndDataPair, ID: '18', NAME: 'b=[bookSelectedParam1] - p=[ccd_decl] - d=[MobilePhone,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '19', NAME: 'b=[bookFlightOfferParam0] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+parametersAndDataPair(19).
+parameterSources(19,[flightOffer]).
+dataTargets(19,[2,4,3]).
+/** END parametersAndDataPair, ID: '19', NAME: 'b=[bookFlightOfferParam0] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '20', NAME: 'b=[bookFlightOfferParam1] - p=[ccd_decl] - d=[MobilePhone,AirlineServer]' */
+parametersAndDataPair(20).
+parameterSources(20,[ccd_decl]).
+dataTargets(20,[2,4]).
+/** END parametersAndDataPair, ID: '20', NAME: 'b=[bookFlightOfferParam1] - p=[ccd_decl] - d=[MobilePhone,AirlineServer]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '21', NAME: 'b=[payCommisionBindingParam] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+parametersAndDataPair(21).
+parameterSources(21,[flightOffer]).
+dataTargets(21,[2,4,3]).
+/** END parametersAndDataPair, ID: '21', NAME: 'b=[payCommisionBindingParam] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]' */
+
+
+/** BEGIN location, ID: '22', NAME: 'UserControlled' */
+location(22).
+/** END location, ID: '22', NAME: 'UserControlled' */
+
+
+/** BEGIN location, ID: '23', NAME: 'Airline' */
+location(23).
+/** END location, ID: '23', NAME: 'Airline' */
+
+
+/** BEGIN location, ID: '24', NAME: 'TravelAgency' */
+location(24).
+/** END location, ID: '24', NAME: 'TravelAgency' */
+
+
+/** BEGIN location, ID: '25', NAME: 'Street' */
+location(25).
+/** END location, ID: '25', NAME: 'Street' */
+
+
+/** BEGIN location, ID: '26', NAME: 'CoffeShop' */
+location(26).
+/** END location, ID: '26', NAME: 'CoffeShop' */
+
+
+/** BEGIN location, ID: '27', NAME: 'Internet' */
+location(27).
+/** END location, ID: '27', NAME: 'Internet' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '28', NAME: 'UserControlled' */
+locationsAndTamperProtectionsPair(28).
+locations(28,[22]).
+tamperProtections(28,[]).
+/** END locationsAndTamperProtectionsPair, ID: '28', NAME: 'UserControlled' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '29', NAME: 'Airline' */
+locationsAndTamperProtectionsPair(29).
+locations(29,[23]).
+tamperProtections(29,[]).
+/** END locationsAndTamperProtectionsPair, ID: '29', NAME: 'Airline' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '30', NAME: 'TravelAgency' */
+locationsAndTamperProtectionsPair(30).
+locations(30,[24]).
+tamperProtections(30,[]).
+/** END locationsAndTamperProtectionsPair, ID: '30', NAME: 'TravelAgency' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '31', NAME: 'Street' */
+locationsAndTamperProtectionsPair(31).
+locations(31,[25]).
+tamperProtections(31,[]).
+/** END locationsAndTamperProtectionsPair, ID: '31', NAME: 'Street' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '32', NAME: 'CoffeShop' */
+locationsAndTamperProtectionsPair(32).
+locations(32,[26]).
+tamperProtections(32,[]).
+/** END locationsAndTamperProtectionsPair, ID: '32', NAME: 'CoffeShop' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '33', NAME: 'Internet' */
+locationsAndTamperProtectionsPair(33).
+locations(33,[27]).
+tamperProtections(33,[]).
+/** END locationsAndTamperProtectionsPair, ID: '33', NAME: 'Internet' */
+
+/** END confidentialitySpecification, ID: '1', NAME: 'null' */
+

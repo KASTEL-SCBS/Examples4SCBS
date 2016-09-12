@@ -1,0 +1,43 @@
+
+/** BEGIN resourceEnvironment, ID: '131', NAME: 'FlightPlannerScenario' */
+resourceEnvironment(131).
+linkingResources(131,[132,133,134]).
+resourceContainer(131,[135,136,137]).
+
+/** BEGIN linkingResource, ID: '132', NAME: 'Internet' */
+linkingResource(132).
+connectedResourceContainers(132,[136,135]).
+communicationLinkResourceSpecifications(132,[]).
+/** END linkingResource, ID: '132', NAME: 'Internet' */
+
+
+/** BEGIN linkingResource, ID: '133', NAME: '4G + Internet' */
+linkingResource(133).
+connectedResourceContainers(133,[137,136]).
+communicationLinkResourceSpecifications(133,[]).
+/** END linkingResource, ID: '133', NAME: '4G + Internet' */
+
+
+/** BEGIN linkingResource, ID: '134', NAME: 'OpenWifi + Internet' */
+linkingResource(134).
+connectedResourceContainers(134,[136,137]).
+communicationLinkResourceSpecifications(134,[]).
+/** END linkingResource, ID: '134', NAME: 'OpenWifi + Internet' */
+
+
+/** BEGIN resourceContainer, ID: '135', NAME: 'AgencyServer' */
+resourceContainer(135).
+/** END resourceContainer, ID: '135', NAME: 'AgencyServer' */
+
+
+/** BEGIN resourceContainer, ID: '136', NAME: 'AirlineServer' */
+resourceContainer(136).
+/** END resourceContainer, ID: '136', NAME: 'AirlineServer' */
+
+
+/** BEGIN resourceContainer, ID: '137', NAME: 'MobilePhone' */
+resourceContainer(137).
+/** END resourceContainer, ID: '137', NAME: 'MobilePhone' */
+
+/** END resourceEnvironment, ID: '131', NAME: 'FlightPlannerScenario' */
+

@@ -1,0 +1,30 @@
+
+/** BEGIN locationAndTamperProtection, ID: '138', NAME: 'null' */
+locationsAndTamperProtectionsPairs(138,[28]).
+/** END locationAndTamperProtection, ID: '138', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '139', NAME: 'null' */
+locationsAndTamperProtectionsPairs(139,[29]).
+/** END locationAndTamperProtection, ID: '139', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '140', NAME: 'null' */
+locationsAndTamperProtectionsPairs(140,[30]).
+/** END locationAndTamperProtection, ID: '140', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '141', NAME: 'null' */
+locationsAndTamperProtectionsPairs(141,[31,33]).
+/** END locationAndTamperProtection, ID: '141', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '142', NAME: 'null' */
+locationsAndTamperProtectionsPairs(142,[32]).
+/** END locationAndTamperProtection, ID: '142', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '143', NAME: 'null' */
+locationsAndTamperProtectionsPairs(143,[33]).
+/** END locationAndTamperProtection, ID: '143', NAME: 'null' */
+

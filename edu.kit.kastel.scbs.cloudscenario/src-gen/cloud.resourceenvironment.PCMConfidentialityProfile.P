@@ -1,0 +1,90 @@
+
+/** BEGIN furtherPhysicalConnections, ID: '670', NAME: 'null' */
+connectionType(670,[possible]).
+/** END furtherPhysicalConnections, ID: '670', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '670', NAME: 'null' */
+locationsAndTamperProtectionsPairs(670,[28]).
+/** END locationAndTamperProtection, ID: '670', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '670', NAME: 'null' */
+sharing(670,[exclusive]).
+/** END sharing, ID: '670', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '671', NAME: 'null' */
+connectionType(671,[possible]).
+/** END furtherPhysicalConnections, ID: '671', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '671', NAME: 'null' */
+locationsAndTamperProtectionsPairs(671,[28]).
+/** END locationAndTamperProtection, ID: '671', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '671', NAME: 'null' */
+sharing(671,[exclusive]).
+/** END sharing, ID: '671', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '672', NAME: 'null' */
+connectionType(672,[possible]).
+/** END furtherPhysicalConnections, ID: '672', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '672', NAME: 'null' */
+locationsAndTamperProtectionsPairs(672,[29]).
+/** END locationAndTamperProtection, ID: '672', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '672', NAME: 'null' */
+sharing(672,[exclusive]).
+/** END sharing, ID: '672', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '673', NAME: 'null' */
+connectionType(673,[possible]).
+/** END furtherPhysicalConnections, ID: '673', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '673', NAME: 'null' */
+locationsAndTamperProtectionsPairs(673,[29]).
+/** END locationAndTamperProtection, ID: '673', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '673', NAME: 'null' */
+sharing(673,[exclusive]).
+/** END sharing, ID: '673', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '674', NAME: 'null' */
+connectionType(674,[possible]).
+/** END furtherPhysicalConnections, ID: '674', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '674', NAME: 'null' */
+locationsAndTamperProtectionsPairs(674,[29]).
+/** END locationAndTamperProtection, ID: '674', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '674', NAME: 'null' */
+sharing(674,[exclusive]).
+/** END sharing, ID: '674', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '675', NAME: 'null' */
+connectionType(675,[existing]).
+/** END furtherPhysicalConnections, ID: '675', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '675', NAME: 'null' */
+locationsAndTamperProtectionsPairs(675,[]).
+/** END locationAndTamperProtection, ID: '675', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '675', NAME: 'null' */
+sharing(675,[shared]).
+/** END sharing, ID: '675', NAME: 'null' */
+

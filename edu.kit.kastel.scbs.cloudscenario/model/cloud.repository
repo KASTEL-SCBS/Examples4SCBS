@@ -747,14 +747,14 @@
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_fxCQndDdEeWt5tzvTAzZ8A" entityName="application"/>
   </repository:Repository>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_g8MeINDHEeWt5tzvTAzZ8A">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_g8MeINDHEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_g8MeINDHEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
-      <dataParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_g8MeINDHEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -769,9 +769,9 @@
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="../spec/cloud.confidentiality#_pGnX9TSKEeaRTJfWzuCJjw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -780,8 +780,8 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
-      <dataParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Fxhz4NDYEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
@@ -793,7 +793,7 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_HmJRUNDGEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_mP1yIU2DEeaZ-ru15blW9g"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_mP1yIU2DEeaZ-ru15blW9g"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_HmJRUNDGEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -808,9 +808,9 @@
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
       <parametersAndDataPairs href="../spec/cloud.confidentiality#_aQa9VU2EEeaZ-ru15blW9g"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_qVPUUNDLEeWt5tzvTAzZ8A">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_qVPUUNDLEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_qVPUUNDLEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -819,8 +819,8 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_qVPUUNDLEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
-      <dataParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_whpMMNDLEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
@@ -849,9 +849,9 @@
       <parametersAndDataPairs href="../spec/cloud.confidentiality#_OTo3tU2DEeaZ-ru15blW9g"/>
       <parametersAndDataPairs href="../spec/cloud.confidentiality#_pGnX9TSKEeaRTJfWzuCJjw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_MDDuQNDWEeWt5tzvTAzZ8A">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_MDDuQNDWEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_MDDuQNDWEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -860,8 +860,8 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_MDDuQNDWEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
-      <dataParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Nf6b4NDYEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
@@ -875,9 +875,9 @@
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
       <parametersAndDataPairs href="../spec/cloud.confidentiality#_647S9W4lEeam26epJlCOmw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -886,23 +886,23 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
-      <dataParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_aymqYNSQEeWaFY2No-N26g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_mP1yIU2DEeaZ-ru15blW9g"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_mP1yIU2DEeaZ-ru15blW9g"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_mcREMOuREeWMdaaSirUv0Q">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_mP1yIU2DEeaZ-ru15blW9g"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_mP1yIU2DEeaZ-ru15blW9g"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_oO2cIOuREeWMdaaSirUv0Q">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_Ac3qENDdEeWt5tzvTAzZ8A">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_Ac3qENDdEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Ac3qENDdEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
@@ -911,8 +911,8 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_Ac3qENDdEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
-      <dataParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="__Xq8kNDcEeWt5tzvTAzZ8A">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>

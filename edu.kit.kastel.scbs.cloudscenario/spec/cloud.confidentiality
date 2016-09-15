@@ -2,9 +2,9 @@
 <edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" id="_KrZmcBXwEeabKfvw_S-vrQ" name="cloud confidentiality specification">
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_oen9IDSFEeaNBONF_yFtJg" name="LoadBalancerData"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_qyy_MDSFEeaNBONF_yFtJg" name="LogData"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_yjxBITSFEeaNBONF_yFtJg" name="Self" definingFunctionalParameter="s"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_6HZxsTSFEeaNBONF_yFtJg" name="Friends" definingFunctionalParameter="f"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_mP1yIU2DEeaZ-ru15blW9g" name="*"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_yjxBITSFEeaNBONF_yFtJg" name="Self" definingServiceParameter="s"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_6HZxsTSFEeaNBONF_yFtJg" name="Friends" definingServiceParameter="f"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_mP1yIU2DEeaZ-ru15blW9g" name="*"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_-P-JkzSFEeaNBONF_yFtJg" map="_hLqF1DSFEeaNBONF_yFtJg" parameter="_yjxBITSFEeaNBONF_yFtJg"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_NlPtozSKEeaRTJfWzuCJjw" map="_hLqF1DSFEeaNBONF_yFtJg" parameter="_6HZxsTSFEeaNBONF_yFtJg"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_Y26pM02DEeaZ-ru15blW9g" map="_hLqF1DSFEeaNBONF_yFtJg" parameter="_mP1yIU2DEeaZ-ru15blW9g"/>
@@ -33,12 +33,12 @@
   <parametersAndDataPairs id="_647S9W4lEeam26epJlCOmw" dataTargets="_oen9IDSFEeaNBONF_yFtJg">
     <parameterSources>*</parameterSources>
   </parametersAndDataPairs>
-  <addedFunctionalParameters id="_sXMKJjSFEeaNBONF_yFtJg" name="s"/>
-  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_9guu4DSOEea1eICDPlZMAQ" dataParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" replacingKey="A"/>
-  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_3862KDSQEeaHiKwXLDiEtg" dataParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" replacingKey="B"/>
-  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_Ro7rSG9_EeaG0oMKM0Rwgw" dataParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" replacingKey="Public"/>
-  <dataParameterUsages id="_eDZ68G3qEeaTV_gNTVqKQg" requiredDataParameter="_yjxBITSFEeaNBONF_yFtJg" providedDataParameter="_yjxBITSFEeaNBONF_yFtJg"/>
-  <dataParameterUsages id="_uSOcaW9-EeaG0oMKM0Rwgw" requiredDataParameter="_6HZxsTSFEeaNBONF_yFtJg" providedDataParameter="_6HZxsTSFEeaNBONF_yFtJg"/>
+  <addedServiceParameters id="_sXMKJjSFEeaNBONF_yFtJg" name="s"/>
+  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_9guu4DSOEea1eICDPlZMAQ" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="A"/>
+  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_3862KDSQEeaHiKwXLDiEtg" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="B"/>
+  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_Ro7rSG9_EeaG0oMKM0Rwgw" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="Public"/>
+  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" requiredSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" providedSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg"/>
+  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" requiredSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" providedSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg"/>
   <locations id="_0d2e0RXyEeabKfvw_S-vrQ" name="internet"/>
   <locations id="_31ZCYRXyEeabKfvw_S-vrQ" name="userAHome"/>
   <locations id="_68R60RXyEeabKfvw_S-vrQ" name="userBHome"/>

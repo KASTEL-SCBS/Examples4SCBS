@@ -37,8 +37,14 @@
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_9guu4DSOEea1eICDPlZMAQ" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="A"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_3862KDSQEeaHiKwXLDiEtg" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="B"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_Ro7rSG9_EeaG0oMKM0Rwgw" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="Public"/>
-  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" requiredSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" providedSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg"/>
-  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" requiredSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" providedSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg"/>
+  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" providedSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" requiredSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
+    <providedInterfaceNames>*</providedInterfaceNames>
+    <requiredInterfaceNames>*</requiredInterfaceNames>
+  </specificationParameterEquations>
+  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" providedSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" requiredSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg">
+    <providedInterfaceNames>*</providedInterfaceNames>
+    <requiredInterfaceNames>*</requiredInterfaceNames>
+  </specificationParameterEquations>
   <locations id="_0d2e0RXyEeabKfvw_S-vrQ" name="internet"/>
   <locations id="_31ZCYRXyEeabKfvw_S-vrQ" name="userAHome"/>
   <locations id="_68R60RXyEeabKfvw_S-vrQ" name="userBHome"/>

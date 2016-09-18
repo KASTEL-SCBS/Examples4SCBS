@@ -1,68 +1,68 @@
 
-/** BEGIN resourceEnvironment, ID: '688', NAME: 'aName' */
-resourceEnvironment(688).
-linkingResources(688,[689,690,691]).
-resourceContainer(688,[692,693,694,695,696,697,698,699]).
+/** BEGIN resourceEnvironment, ID: '658', NAME: 'aName' */
+resourceEnvironment(658).
+linkingResources(658,[659,660,661]).
+resourceContainer(658,[662,663,664,665,666,667,668,669]).
 
-/** BEGIN linkingResource, ID: '689', NAME: 'Intranet inner' */
-linkingResource(689).
-connectedResourceContainers(689,[693,692,695,694]).
-communicationLinkResourceSpecifications(689,[]).
-/** END linkingResource, ID: '689', NAME: 'Intranet inner' */
-
-
-/** BEGIN linkingResource, ID: '690', NAME: 'Intranet outer' */
-linkingResource(690).
-connectedResourceContainers(690,[695,694,696]).
-communicationLinkResourceSpecifications(690,[]).
-/** END linkingResource, ID: '690', NAME: 'Intranet outer' */
+/** BEGIN linkingResource, ID: '659', NAME: 'Intranet inner' */
+linkingResource(659).
+connectedResourceContainers(659,[663,662,665,664]).
+communicationLinkResourceSpecifications(659,[]).
+/** END linkingResource, ID: '659', NAME: 'Intranet inner' */
 
 
-/** BEGIN linkingResource, ID: '691', NAME: 'Internet' */
-linkingResource(691).
-connectedResourceContainers(691,[697,698,699,696]).
-communicationLinkResourceSpecifications(691,[]).
-/** END linkingResource, ID: '691', NAME: 'Internet' */
+/** BEGIN linkingResource, ID: '660', NAME: 'Intranet outer' */
+linkingResource(660).
+connectedResourceContainers(660,[665,664,666]).
+communicationLinkResourceSpecifications(660,[]).
+/** END linkingResource, ID: '660', NAME: 'Intranet outer' */
 
 
-/** BEGIN resourceContainer, ID: '692', NAME: 'VM A' */
-resourceContainer(692).
-/** END resourceContainer, ID: '692', NAME: 'VM A' */
+/** BEGIN linkingResource, ID: '661', NAME: 'Internet' */
+linkingResource(661).
+connectedResourceContainers(661,[667,668,669,666]).
+communicationLinkResourceSpecifications(661,[]).
+/** END linkingResource, ID: '661', NAME: 'Internet' */
 
 
-/** BEGIN resourceContainer, ID: '693', NAME: 'VM B' */
-resourceContainer(693).
-/** END resourceContainer, ID: '693', NAME: 'VM B' */
+/** BEGIN resourceContainer, ID: '662', NAME: 'VM A' */
+resourceContainer(662).
+/** END resourceContainer, ID: '662', NAME: 'VM A' */
 
 
-/** BEGIN resourceContainer, ID: '694', NAME: 'VM C' */
-resourceContainer(694).
-/** END resourceContainer, ID: '694', NAME: 'VM C' */
+/** BEGIN resourceContainer, ID: '663', NAME: 'VM B' */
+resourceContainer(663).
+/** END resourceContainer, ID: '663', NAME: 'VM B' */
 
 
-/** BEGIN resourceContainer, ID: '695', NAME: 'VM D' */
-resourceContainer(695).
-/** END resourceContainer, ID: '695', NAME: 'VM D' */
+/** BEGIN resourceContainer, ID: '664', NAME: 'VM C' */
+resourceContainer(664).
+/** END resourceContainer, ID: '664', NAME: 'VM C' */
 
 
-/** BEGIN resourceContainer, ID: '696', NAME: 'VM E' */
-resourceContainer(696).
-/** END resourceContainer, ID: '696', NAME: 'VM E' */
+/** BEGIN resourceContainer, ID: '665', NAME: 'VM D' */
+resourceContainer(665).
+/** END resourceContainer, ID: '665', NAME: 'VM D' */
 
 
-/** BEGIN resourceContainer, ID: '697', NAME: 'End User Machine A' */
-resourceContainer(697).
-/** END resourceContainer, ID: '697', NAME: 'End User Machine A' */
+/** BEGIN resourceContainer, ID: '666', NAME: 'VM E' */
+resourceContainer(666).
+/** END resourceContainer, ID: '666', NAME: 'VM E' */
 
 
-/** BEGIN resourceContainer, ID: '698', NAME: 'End User Machine B' */
-resourceContainer(698).
-/** END resourceContainer, ID: '698', NAME: 'End User Machine B' */
+/** BEGIN resourceContainer, ID: '667', NAME: 'End User Machine A' */
+resourceContainer(667).
+/** END resourceContainer, ID: '667', NAME: 'End User Machine A' */
 
 
-/** BEGIN resourceContainer, ID: '699', NAME: 'End User Machine Guest' */
-resourceContainer(699).
-/** END resourceContainer, ID: '699', NAME: 'End User Machine Guest' */
+/** BEGIN resourceContainer, ID: '668', NAME: 'End User Machine B' */
+resourceContainer(668).
+/** END resourceContainer, ID: '668', NAME: 'End User Machine B' */
 
-/** END resourceEnvironment, ID: '688', NAME: 'aName' */
+
+/** BEGIN resourceContainer, ID: '669', NAME: 'End User Machine Guest' */
+resourceContainer(669).
+/** END resourceContainer, ID: '669', NAME: 'End User Machine Guest' */
+
+/** END resourceEnvironment, ID: '658', NAME: 'aName' */
 

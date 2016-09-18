@@ -38,18 +38,6 @@
           <element href="cloud.repository#_USMZEOuUEeWMdaaSirUv0Q"/>
           <layoutConstraint xsi:type="notation:Bounds"/>
         </children>
-        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
-          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
-            <element xsi:nil="true"/>
-          </children>
-          <children xsi:type="notation:BasicDecorationNode" type="Description">
-            <element xsi:nil="true"/>
-          </children>
-          <styles xsi:type="notation:TextStyle"/>
-          <styles xsi:type="notation:LineTypeStyle"/>
-          <element xsi:nil="true"/>
-          <layoutConstraint xsi:type="notation:Bounds"/>
-        </children>
         <element href="cloud.system#_kOA94NQtEeWaFY2No-N26g"/>
         <layoutConstraint xsi:type="notation:Bounds" x="75" y="5"/>
       </children>
@@ -87,18 +75,6 @@
           </children>
           <element href="cloud.repository#_VkqGgOuUEeWMdaaSirUv0Q"/>
           <layoutConstraint xsi:type="notation:Bounds" x="139" y="44"/>
-        </children>
-        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
-          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
-            <element xsi:nil="true"/>
-          </children>
-          <children xsi:type="notation:BasicDecorationNode" type="Description">
-            <element xsi:nil="true"/>
-          </children>
-          <styles xsi:type="notation:TextStyle"/>
-          <styles xsi:type="notation:LineTypeStyle"/>
-          <element xsi:nil="true"/>
-          <layoutConstraint xsi:type="notation:Bounds"/>
         </children>
         <element href="cloud.system#_GvZHQNQuEeWaFY2No-N26g"/>
         <layoutConstraint xsi:type="notation:Bounds" x="695"/>
@@ -277,18 +253,6 @@
             <layoutConstraint xsi:type="notation:Location" y="5"/>
           </children>
           <element href="cloud.repository#_XXfWEOuUEeWMdaaSirUv0Q"/>
-          <layoutConstraint xsi:type="notation:Bounds"/>
-        </children>
-        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
-          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
-            <element xsi:nil="true"/>
-          </children>
-          <children xsi:type="notation:BasicDecorationNode" type="Description">
-            <element xsi:nil="true"/>
-          </children>
-          <styles xsi:type="notation:TextStyle"/>
-          <styles xsi:type="notation:LineTypeStyle"/>
-          <element xsi:nil="true"/>
           <layoutConstraint xsi:type="notation:Bounds"/>
         </children>
         <element href="cloud.system#_3vlUMOuTEeWMdaaSirUv0Q"/>
@@ -678,7 +642,7 @@
         <element xsi:nil="true"/>
         <layoutConstraint xsi:type="notation:Bounds" x="866" y="925" height="26"/>
       </children>
-      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self = *.Self&#xA;*.Friends = *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
         <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
           <element xsi:nil="true"/>
         </children>
@@ -688,9 +652,9 @@
         <styles xsi:type="notation:TextStyle"/>
         <styles xsi:type="notation:LineTypeStyle"/>
         <element xsi:nil="true"/>
-        <layoutConstraint xsi:type="notation:Bounds" x="281" y="775" width="121" height="46"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="281" y="775" width="141" height="46"/>
       </children>
-      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="Self -> Self&#xA;Friends -> Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self = *.Self&#xA;*.Friends = *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
         <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
           <element xsi:nil="true"/>
         </children>
@@ -700,7 +664,43 @@
         <styles xsi:type="notation:TextStyle"/>
         <styles xsi:type="notation:LineTypeStyle"/>
         <element xsi:nil="true"/>
-        <layoutConstraint xsi:type="notation:Bounds" x="136" y="375" width="126" height="46"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="136" y="375" width="136" height="46"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self = *.Self&#xA;*.Friends = *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="81" y="30" width="136" height="51"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self = *.Self&#xA;*.Friends = *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="696" y="25"/>
+      </children>
+      <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self = *.Self&#xA;*.Friends = *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+        <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xsi:type="notation:BasicDecorationNode" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xsi:type="notation:TextStyle"/>
+        <styles xsi:type="notation:LineTypeStyle"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="791" y="380" width="141" height="46"/>
       </children>
     </children>
     <children xsi:type="notation:Shape" type="3011" fontName="Ubuntu">

@@ -1,153 +1,175 @@
 
-/** BEGIN allocation, ID: '676', NAME: 'defaultAllocation' */
-allocation(676).
-allocationContexts(676,[677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697]).
+/** BEGIN allocation, ID: '399', NAME: 'defaultAllocation' */
+description(399,'defaultAllocation').
+allocation(399).
+allocationContexts(399,[400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420]).
 
-/** BEGIN allocationContext, ID: '677', NAME: 'Allocation_Database <Database>' */
-allocationContext(677).
-resourceContainer(677,[662]).
-assemblyContext_AllocationContext(677,[307]).
-/** END allocationContext, ID: '677', NAME: 'Allocation_Database <Database>' */
-
-
-/** BEGIN allocationContext, ID: '678', NAME: 'Allocation_DBLogging <Logging>' */
-allocationContext(678).
-resourceContainer(678,[662]).
-assemblyContext_AllocationContext(678,[306]).
-/** END allocationContext, ID: '678', NAME: 'Allocation_DBLogging <Logging>' */
+/** BEGIN allocationContext, ID: '400', NAME: 'Allocation_Database <Database>' */
+description(400,'Allocation_Database <Database>').
+allocationContext(400).
+resourceContainer(400,[391]).
+assemblyContext_AllocationContext(400,[241]).
+/** END allocationContext, ID: '400', NAME: 'Allocation_Database <Database>' */
 
 
-/** BEGIN allocationContext, ID: '679', NAME: 'Allocation_DBAdminTool <DBAdminTool>' */
-allocationContext(679).
-resourceContainer(679,[662]).
-assemblyContext_AllocationContext(679,[315]).
-/** END allocationContext, ID: '679', NAME: 'Allocation_DBAdminTool <DBAdminTool>' */
+/** BEGIN allocationContext, ID: '401', NAME: 'Allocation_DBLogging <Logging>' */
+description(401,'Allocation_DBLogging <Logging>').
+allocationContext(401).
+resourceContainer(401,[391]).
+assemblyContext_AllocationContext(401,[240]).
+/** END allocationContext, ID: '401', NAME: 'Allocation_DBLogging <Logging>' */
 
 
-/** BEGIN allocationContext, ID: '680', NAME: 'Allocation_NetworkFilesystem <NetworkFilesystem>' */
-allocationContext(680).
-resourceContainer(680,[663]).
-assemblyContext_AllocationContext(680,[308]).
-/** END allocationContext, ID: '680', NAME: 'Allocation_NetworkFilesystem <NetworkFilesystem>' */
+/** BEGIN allocationContext, ID: '402', NAME: 'Allocation_DBAdminTool <DBAdminTool>' */
+description(402,'Allocation_DBAdminTool <DBAdminTool>').
+allocationContext(402).
+resourceContainer(402,[391]).
+assemblyContext_AllocationContext(402,[249]).
+/** END allocationContext, ID: '402', NAME: 'Allocation_DBAdminTool <DBAdminTool>' */
 
 
-/** BEGIN allocationContext, ID: '681', NAME: 'Allocation_NWFSLogging <Logging>' */
-allocationContext(681).
-resourceContainer(681,[663]).
-assemblyContext_AllocationContext(681,[309]).
-/** END allocationContext, ID: '681', NAME: 'Allocation_NWFSLogging <Logging>' */
+/** BEGIN allocationContext, ID: '403', NAME: 'Allocation_NetworkFilesystem <NetworkFilesystem>' */
+description(403,'Allocation_NetworkFilesystem <NetworkFilesystem>').
+allocationContext(403).
+resourceContainer(403,[392]).
+assemblyContext_AllocationContext(403,[242]).
+/** END allocationContext, ID: '403', NAME: 'Allocation_NetworkFilesystem <NetworkFilesystem>' */
 
 
-/** BEGIN allocationContext, ID: '682', NAME: 'Allocation_NWFSAdminTool <NWFSAdminTool>' */
-allocationContext(682).
-resourceContainer(682,[663]).
-assemblyContext_AllocationContext(682,[316]).
-/** END allocationContext, ID: '682', NAME: 'Allocation_NWFSAdminTool <NWFSAdminTool>' */
+/** BEGIN allocationContext, ID: '404', NAME: 'Allocation_NWFSLogging <Logging>' */
+description(404,'Allocation_NWFSLogging <Logging>').
+allocationContext(404).
+resourceContainer(404,[392]).
+assemblyContext_AllocationContext(404,[243]).
+/** END allocationContext, ID: '404', NAME: 'Allocation_NWFSLogging <Logging>' */
 
 
-/** BEGIN allocationContext, ID: '683', NAME: 'Allocation_OwnCloudA <OwnCloud>' */
-allocationContext(683).
-resourceContainer(683,[664]).
-assemblyContext_AllocationContext(683,[305]).
-/** END allocationContext, ID: '683', NAME: 'Allocation_OwnCloudA <OwnCloud>' */
+/** BEGIN allocationContext, ID: '405', NAME: 'Allocation_NWFSAdminTool <NWFSAdminTool>' */
+description(405,'Allocation_NWFSAdminTool <NWFSAdminTool>').
+allocationContext(405).
+resourceContainer(405,[392]).
+assemblyContext_AllocationContext(405,[250]).
+/** END allocationContext, ID: '405', NAME: 'Allocation_NWFSAdminTool <NWFSAdminTool>' */
 
 
-/** BEGIN allocationContext, ID: '684', NAME: 'Allocation_OCALogging <Logging>' */
-allocationContext(684).
-resourceContainer(684,[664]).
-assemblyContext_AllocationContext(684,[310]).
-/** END allocationContext, ID: '684', NAME: 'Allocation_OCALogging <Logging>' */
+/** BEGIN allocationContext, ID: '406', NAME: 'Allocation_OwnCloudA <OwnCloud>' */
+description(406,'Allocation_OwnCloudA <OwnCloud>').
+allocationContext(406).
+resourceContainer(406,[393]).
+assemblyContext_AllocationContext(406,[239]).
+/** END allocationContext, ID: '406', NAME: 'Allocation_OwnCloudA <OwnCloud>' */
 
 
-/** BEGIN allocationContext, ID: '685', NAME: 'Allocation_OCAAdminTool <OCAdminTool>' */
-allocationContext(685).
-resourceContainer(685,[664]).
-assemblyContext_AllocationContext(685,[317]).
-/** END allocationContext, ID: '685', NAME: 'Allocation_OCAAdminTool <OCAdminTool>' */
+/** BEGIN allocationContext, ID: '407', NAME: 'Allocation_OCALogging <Logging>' */
+description(407,'Allocation_OCALogging <Logging>').
+allocationContext(407).
+resourceContainer(407,[393]).
+assemblyContext_AllocationContext(407,[244]).
+/** END allocationContext, ID: '407', NAME: 'Allocation_OCALogging <Logging>' */
 
 
-/** BEGIN allocationContext, ID: '686', NAME: 'Allocation_OwnCloudB <OwnCloud>' */
-allocationContext(686).
-resourceContainer(686,[665]).
-assemblyContext_AllocationContext(686,[313]).
-/** END allocationContext, ID: '686', NAME: 'Allocation_OwnCloudB <OwnCloud>' */
+/** BEGIN allocationContext, ID: '408', NAME: 'Allocation_OCAAdminTool <OCAdminTool>' */
+description(408,'Allocation_OCAAdminTool <OCAdminTool>').
+allocationContext(408).
+resourceContainer(408,[393]).
+assemblyContext_AllocationContext(408,[251]).
+/** END allocationContext, ID: '408', NAME: 'Allocation_OCAAdminTool <OCAdminTool>' */
 
 
-/** BEGIN allocationContext, ID: '687', NAME: 'Allocation_OCBLogging <Logging>' */
-allocationContext(687).
-resourceContainer(687,[665]).
-assemblyContext_AllocationContext(687,[314]).
-/** END allocationContext, ID: '687', NAME: 'Allocation_OCBLogging <Logging>' */
+/** BEGIN allocationContext, ID: '409', NAME: 'Allocation_OwnCloudB <OwnCloud>' */
+description(409,'Allocation_OwnCloudB <OwnCloud>').
+allocationContext(409).
+resourceContainer(409,[394]).
+assemblyContext_AllocationContext(409,[247]).
+/** END allocationContext, ID: '409', NAME: 'Allocation_OwnCloudB <OwnCloud>' */
 
 
-/** BEGIN allocationContext, ID: '688', NAME: 'Allocation_OCBAdminTool <OCAdminTool>' */
-allocationContext(688).
-resourceContainer(688,[665]).
-assemblyContext_AllocationContext(688,[318]).
-/** END allocationContext, ID: '688', NAME: 'Allocation_OCBAdminTool <OCAdminTool>' */
+/** BEGIN allocationContext, ID: '410', NAME: 'Allocation_OCBLogging <Logging>' */
+description(410,'Allocation_OCBLogging <Logging>').
+allocationContext(410).
+resourceContainer(410,[394]).
+assemblyContext_AllocationContext(410,[248]).
+/** END allocationContext, ID: '410', NAME: 'Allocation_OCBLogging <Logging>' */
 
 
-/** BEGIN allocationContext, ID: '689', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
-allocationContext(689).
-resourceContainer(689,[666]).
-assemblyContext_AllocationContext(689,[311]).
-/** END allocationContext, ID: '689', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
+/** BEGIN allocationContext, ID: '411', NAME: 'Allocation_OCBAdminTool <OCAdminTool>' */
+description(411,'Allocation_OCBAdminTool <OCAdminTool>').
+allocationContext(411).
+resourceContainer(411,[394]).
+assemblyContext_AllocationContext(411,[252]).
+/** END allocationContext, ID: '411', NAME: 'Allocation_OCBAdminTool <OCAdminTool>' */
 
 
-/** BEGIN allocationContext, ID: '690', NAME: 'Allocation_LBAdminTool <LBAdminTool>' */
-allocationContext(690).
-resourceContainer(690,[666]).
-assemblyContext_AllocationContext(690,[319]).
-/** END allocationContext, ID: '690', NAME: 'Allocation_LBAdminTool <LBAdminTool>' */
+/** BEGIN allocationContext, ID: '412', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
+description(412,'Allocation_LoadBalancer <LoadBalancer>').
+allocationContext(412).
+resourceContainer(412,[395]).
+assemblyContext_AllocationContext(412,[245]).
+/** END allocationContext, ID: '412', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
 
 
-/** BEGIN allocationContext, ID: '691', NAME: 'Allocation_LBLogging <Logging>' */
-allocationContext(691).
-resourceContainer(691,[666]).
-assemblyContext_AllocationContext(691,[312]).
-/** END allocationContext, ID: '691', NAME: 'Allocation_LBLogging <Logging>' */
+/** BEGIN allocationContext, ID: '413', NAME: 'Allocation_LBAdminTool <LBAdminTool>' */
+description(413,'Allocation_LBAdminTool <LBAdminTool>').
+allocationContext(413).
+resourceContainer(413,[395]).
+assemblyContext_AllocationContext(413,[253]).
+/** END allocationContext, ID: '413', NAME: 'Allocation_LBAdminTool <LBAdminTool>' */
 
 
-/** BEGIN allocationContext, ID: '692', NAME: 'Allocation_FileManagerA <FileManager>' */
-allocationContext(692).
-resourceContainer(692,[667]).
-assemblyContext_AllocationContext(692,[320]).
-/** END allocationContext, ID: '692', NAME: 'Allocation_FileManagerA <FileManager>' */
+/** BEGIN allocationContext, ID: '414', NAME: 'Allocation_LBLogging <Logging>' */
+description(414,'Allocation_LBLogging <Logging>').
+allocationContext(414).
+resourceContainer(414,[395]).
+assemblyContext_AllocationContext(414,[246]).
+/** END allocationContext, ID: '414', NAME: 'Allocation_LBLogging <Logging>' */
 
 
-/** BEGIN allocationContext, ID: '693', NAME: 'Allocation_CalendarA <Calendar>' */
-allocationContext(693).
-resourceContainer(693,[667]).
-assemblyContext_AllocationContext(693,[321]).
-/** END allocationContext, ID: '693', NAME: 'Allocation_CalendarA <Calendar>' */
+/** BEGIN allocationContext, ID: '415', NAME: 'Allocation_FileManagerA <FileManager>' */
+description(415,'Allocation_FileManagerA <FileManager>').
+allocationContext(415).
+resourceContainer(415,[396]).
+assemblyContext_AllocationContext(415,[254]).
+/** END allocationContext, ID: '415', NAME: 'Allocation_FileManagerA <FileManager>' */
 
 
-/** BEGIN allocationContext, ID: '694', NAME: 'Allocation_FileManagerB <FileManager>' */
-allocationContext(694).
-resourceContainer(694,[668]).
-assemblyContext_AllocationContext(694,[322]).
-/** END allocationContext, ID: '694', NAME: 'Allocation_FileManagerB <FileManager>' */
+/** BEGIN allocationContext, ID: '416', NAME: 'Allocation_CalendarA <Calendar>' */
+description(416,'Allocation_CalendarA <Calendar>').
+allocationContext(416).
+resourceContainer(416,[396]).
+assemblyContext_AllocationContext(416,[255]).
+/** END allocationContext, ID: '416', NAME: 'Allocation_CalendarA <Calendar>' */
 
 
-/** BEGIN allocationContext, ID: '695', NAME: 'Allocation_CalendarB <Calendar>' */
-allocationContext(695).
-resourceContainer(695,[668]).
-assemblyContext_AllocationContext(695,[323]).
-/** END allocationContext, ID: '695', NAME: 'Allocation_CalendarB <Calendar>' */
+/** BEGIN allocationContext, ID: '417', NAME: 'Allocation_FileManagerB <FileManager>' */
+description(417,'Allocation_FileManagerB <FileManager>').
+allocationContext(417).
+resourceContainer(417,[397]).
+assemblyContext_AllocationContext(417,[256]).
+/** END allocationContext, ID: '417', NAME: 'Allocation_FileManagerB <FileManager>' */
 
 
-/** BEGIN allocationContext, ID: '696', NAME: 'Allocation_FileManagerGuest <FileManager>' */
-allocationContext(696).
-resourceContainer(696,[669]).
-assemblyContext_AllocationContext(696,[698]).
-/** END allocationContext, ID: '696', NAME: 'Allocation_FileManagerGuest <FileManager>' */
+/** BEGIN allocationContext, ID: '418', NAME: 'Allocation_CalendarB <Calendar>' */
+description(418,'Allocation_CalendarB <Calendar>').
+allocationContext(418).
+resourceContainer(418,[397]).
+assemblyContext_AllocationContext(418,[257]).
+/** END allocationContext, ID: '418', NAME: 'Allocation_CalendarB <Calendar>' */
 
 
-/** BEGIN allocationContext, ID: '697', NAME: 'Allocation_CalendarGuest <Calendar>' */
-allocationContext(697).
-resourceContainer(697,[669]).
-assemblyContext_AllocationContext(697,[699]).
-/** END allocationContext, ID: '697', NAME: 'Allocation_CalendarGuest <Calendar>' */
+/** BEGIN allocationContext, ID: '419', NAME: 'Allocation_FileManagerGuest <FileManager>' */
+description(419,'Allocation_FileManagerGuest <FileManager>').
+allocationContext(419).
+resourceContainer(419,[398]).
+assemblyContext_AllocationContext(419,[421]).
+/** END allocationContext, ID: '419', NAME: 'Allocation_FileManagerGuest <FileManager>' */
 
-/** END allocation, ID: '676', NAME: 'defaultAllocation' */
+
+/** BEGIN allocationContext, ID: '420', NAME: 'Allocation_CalendarGuest <Calendar>' */
+description(420,'Allocation_CalendarGuest <Calendar>').
+allocationContext(420).
+resourceContainer(420,[398]).
+assemblyContext_AllocationContext(420,[422]).
+/** END allocationContext, ID: '420', NAME: 'Allocation_CalendarGuest <Calendar>' */
+
+/** END allocation, ID: '399', NAME: 'defaultAllocation' */
 

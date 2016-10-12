@@ -1,5 +1,6 @@
 
 /** BEGIN confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
+description(1,'cloud confidentiality specification').
 confidentialitySpecification(1).
 dataIdentifier(1,[2,3,4,5,6]).
 dataSetMaps(1,[7]).
@@ -9,39 +10,46 @@ tamperProtections(1,[21]).
 locationsAndTamperProtectionsPairs(1,[22,23,24,25,26,27,28,29,30,31,32]).
 
 /** BEGIN dataSet, ID: '2', NAME: 'LoadBalancerData' */
+description(2,'LoadBalancerData').
 dataSet(2).
 /** END dataSet, ID: '2', NAME: 'LoadBalancerData' */
 
 
 /** BEGIN dataSet, ID: '3', NAME: 'LogData' */
+description(3,'LogData').
 dataSet(3).
 /** END dataSet, ID: '3', NAME: 'LogData' */
 
 
 /** BEGIN dataSetMapEntry, ID: '4', NAME: 'A' */
+description(4,'A').
 dataSetMapEntry(4).
 map(4,[7]).
 /** END dataSetMapEntry, ID: '4', NAME: 'A' */
 
 
 /** BEGIN dataSetMapEntry, ID: '5', NAME: 'B' */
+description(5,'B').
 dataSetMapEntry(5).
 map(5,[7]).
 /** END dataSetMapEntry, ID: '5', NAME: 'B' */
 
 
 /** BEGIN dataSetMapEntry, ID: '6', NAME: 'Public' */
+description(6,'Public').
 dataSetMapEntry(6).
 map(6,[7]).
 /** END dataSetMapEntry, ID: '6', NAME: 'Public' */
 
 
 /** BEGIN dataSetMap, ID: '7', NAME: 'UserData' */
+description(7,'UserData').
 dataSetMap(7).
 /** END dataSetMap, ID: '7', NAME: 'UserData' */
 
 
 /** BEGIN parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Self]]' */
+description(8,'p=[*] - d=[UserData[Self]]').
 parametersAndDataPair(8).
 parameterSources(8,[*]).
 dataTargets(8,[]).
@@ -49,13 +57,15 @@ dataTargets(8,[]).
 
 
 /** BEGIN parametersAndDataPair, ID: '9', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
+description(9,'p=[sizeOf(*)] - d=[UserData[Public]]').
 parametersAndDataPair(9).
-parameterSources(9,[33]).
+parameterSources(9,[sizeOf(*)]).
 dataTargets(9,[6]).
 /** END parametersAndDataPair, ID: '9', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
 
 
 /** BEGIN parametersAndDataPair, ID: '10', NAME: 'p=[*] - d=[UserData[Friends]]' */
+description(10,'p=[*] - d=[UserData[Friends]]').
 parametersAndDataPair(10).
 parameterSources(10,[*]).
 dataTargets(10,[]).
@@ -63,6 +73,7 @@ dataTargets(10,[]).
 
 
 /** BEGIN parametersAndDataPair, ID: '11', NAME: 'p=[*] - d=[UserData[Public]]' */
+description(11,'p=[*] - d=[UserData[Public]]').
 parametersAndDataPair(11).
 parameterSources(11,[*]).
 dataTargets(11,[6]).
@@ -70,6 +81,7 @@ dataTargets(11,[6]).
 
 
 /** BEGIN parametersAndDataPair, ID: '12', NAME: 'p=[*] - d=[UserData[*]]' */
+description(12,'p=[*] - d=[UserData[*]]').
 parametersAndDataPair(12).
 parameterSources(12,[*]).
 dataTargets(12,[]).
@@ -77,6 +89,7 @@ dataTargets(12,[]).
 
 
 /** BEGIN parametersAndDataPair, ID: '13', NAME: 'p=[*] - d=[LogData]' */
+description(13,'p=[*] - d=[LogData]').
 parametersAndDataPair(13).
 parameterSources(13,[*]).
 dataTargets(13,[3]).
@@ -84,6 +97,7 @@ dataTargets(13,[3]).
 
 
 /** BEGIN parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[LoadBalancerData]' */
+description(14,'p=[*] - d=[LoadBalancerData]').
 parametersAndDataPair(14).
 parameterSources(14,[*]).
 dataTargets(14,[2]).
@@ -91,41 +105,49 @@ dataTargets(14,[2]).
 
 
 /** BEGIN location, ID: '15', NAME: 'internet' */
+description(15,'internet').
 location(15).
 /** END location, ID: '15', NAME: 'internet' */
 
 
 /** BEGIN location, ID: '16', NAME: 'userAHome' */
+description(16,'userAHome').
 location(16).
 /** END location, ID: '16', NAME: 'userAHome' */
 
 
 /** BEGIN location, ID: '17', NAME: 'userBHome' */
+description(17,'userBHome').
 location(17).
 /** END location, ID: '17', NAME: 'userBHome' */
 
 
 /** BEGIN location, ID: '18', NAME: 'userGuestHome' */
+description(18,'userGuestHome').
 location(18).
 /** END location, ID: '18', NAME: 'userGuestHome' */
 
 
 /** BEGIN location, ID: '19', NAME: 'innerZone' */
+description(19,'innerZone').
 location(19).
 /** END location, ID: '19', NAME: 'innerZone' */
 
 
 /** BEGIN location, ID: '20', NAME: 'outerZone' */
+description(20,'outerZone').
 location(20).
 /** END location, ID: '20', NAME: 'outerZone' */
 
 
 /** BEGIN tamperProtection, ID: '21', NAME: 'perimeterProtection' */
+description(21,'perimeterProtection').
 tamperProtection(21).
 /** END tamperProtection, ID: '21', NAME: 'perimeterProtection' */
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '22', NAME: 'l=[internet, userAHome] - t=[]' */
+description(22,'l=[internet, userAHome] - t=[]').
 locationsAndTamperProtectionsPair(22).
 locations(22,[15,16]).
 tamperProtections(22,[]).
@@ -133,6 +155,7 @@ tamperProtections(22,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[internet, userBHome] - t=[]' */
+description(23,'l=[internet, userBHome] - t=[]').
 locationsAndTamperProtectionsPair(23).
 locations(23,[15,17]).
 tamperProtections(23,[]).
@@ -140,6 +163,7 @@ tamperProtections(23,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[internet, userGuestHome] - t=[]' */
+description(24,'l=[internet, userGuestHome] - t=[]').
 locationsAndTamperProtectionsPair(24).
 locations(24,[15,18]).
 tamperProtections(24,[]).
@@ -147,6 +171,7 @@ tamperProtections(24,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '25', NAME: 'l=[internet] - t=[]' */
+description(25,'l=[internet] - t=[]').
 locationsAndTamperProtectionsPair(25).
 locations(25,[15]).
 tamperProtections(25,[]).
@@ -154,6 +179,7 @@ tamperProtections(25,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '26', NAME: 'l=[innerZone, outerZone, internet] - t=[]' */
+description(26,'l=[innerZone, outerZone, internet] - t=[]').
 locationsAndTamperProtectionsPair(26).
 locations(26,[19,20,15]).
 tamperProtections(26,[]).
@@ -161,6 +187,7 @@ tamperProtections(26,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '27', NAME: 'l=[innerZone, outerZone] - t=[perimeterProtection]' */
+description(27,'l=[innerZone, outerZone] - t=[perimeterProtection]').
 locationsAndTamperProtectionsPair(27).
 locations(27,[19,20]).
 tamperProtections(27,[21]).
@@ -168,6 +195,7 @@ tamperProtections(27,[21]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '28', NAME: 'l=[innerZone] - t=[perimeterProtection]' */
+description(28,'l=[innerZone] - t=[perimeterProtection]').
 locationsAndTamperProtectionsPair(28).
 locations(28,[19]).
 tamperProtections(28,[21]).
@@ -175,6 +203,7 @@ tamperProtections(28,[21]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '29', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+description(29,'l=[outerZone] - t=[perimeterProtection]').
 locationsAndTamperProtectionsPair(29).
 locations(29,[20]).
 tamperProtections(29,[21]).
@@ -182,6 +211,7 @@ tamperProtections(29,[21]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '30', NAME: 'l=[userAHome] - t=[]' */
+description(30,'l=[userAHome] - t=[]').
 locationsAndTamperProtectionsPair(30).
 locations(30,[16]).
 tamperProtections(30,[]).
@@ -189,6 +219,7 @@ tamperProtections(30,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '31', NAME: 'l=[userBHome] - t=[]' */
+description(31,'l=[userBHome] - t=[]').
 locationsAndTamperProtectionsPair(31).
 locations(31,[17]).
 tamperProtections(31,[]).
@@ -196,6 +227,7 @@ tamperProtections(31,[]).
 
 
 /** BEGIN locationsAndTamperProtectionsPair, ID: '32', NAME: 'l=[userGuestHome] - t=[]' */
+description(32,'l=[userGuestHome] - t=[]').
 locationsAndTamperProtectionsPair(32).
 locations(32,[18]).
 tamperProtections(32,[]).

@@ -26,4 +26,7 @@
     <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_mFh48BXzEeabKfvw_S-vrQ"/>
     <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_dTKrcBXzEeabKfvw_S-vrQ"/>
   </adversaries>
+  <adversaries id="_SuRkUI7cEealUusoPax18A" name="ChuckNorris">
+    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_xz90jI7dEealUusoPax18A"/>
+  </adversaries>
 </edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>

@@ -1,2519 +1,2856 @@
 
-/** BEGIN system, ID: '304', NAME: 'defaultSystem' */
-system(304).
-assemblyContexts(304,[305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325]).
-connectors(304,[326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372]).
-providedRoles(304,[373,374,375,376,377,378,379,380,381,382]).
-requiredRoles(304,[]).
+/** BEGIN system, ID: '238', NAME: 'defaultSystem' */
+description(238,'defaultSystem').
+system(238).
+assemblyContexts(238,[239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259]).
+connectors(238,[260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306]).
+providedRoles(238,[307,308,309,310,311,312,313,314,315,316]).
+requiredRoles(238,[]).
 
-/** BEGIN assemblyContext, ID: '305', NAME: 'OwnCloudA' */
-assemblyContext(305).
-encapsulatedComponent(305,[44]).
-/** END assemblyContext, ID: '305', NAME: 'OwnCloudA' */
+/** BEGIN assemblyContext, ID: '239', NAME: 'OwnCloudA' */
+description(239,'OwnCloudA').
+assemblyContext(239).
+encapsulatedComponent(239,[45]).
+/** END assemblyContext, ID: '239', NAME: 'OwnCloudA' */
 
 
-/** BEGIN assemblyContext, ID: '306', NAME: 'DBLogging' */
-assemblyContext(306).
-encapsulatedComponent(306,[43]).
-/** END assemblyContext, ID: '306', NAME: 'DBLogging' */
+/** BEGIN assemblyContext, ID: '240', NAME: 'DBLogging' */
+description(240,'DBLogging').
+assemblyContext(240).
+encapsulatedComponent(240,[44]).
+/** END assemblyContext, ID: '240', NAME: 'DBLogging' */
 
 
-/** BEGIN assemblyContext, ID: '307', NAME: 'Database' */
-assemblyContext(307).
-encapsulatedComponent(307,[42]).
-/** END assemblyContext, ID: '307', NAME: 'Database' */
+/** BEGIN assemblyContext, ID: '241', NAME: 'Database' */
+description(241,'Database').
+assemblyContext(241).
+encapsulatedComponent(241,[43]).
+/** END assemblyContext, ID: '241', NAME: 'Database' */
 
 
-/** BEGIN assemblyContext, ID: '308', NAME: 'NetworkFilesystem' */
-assemblyContext(308).
-encapsulatedComponent(308,[45]).
-/** END assemblyContext, ID: '308', NAME: 'NetworkFilesystem' */
+/** BEGIN assemblyContext, ID: '242', NAME: 'NetworkFilesystem' */
+description(242,'NetworkFilesystem').
+assemblyContext(242).
+encapsulatedComponent(242,[46]).
+/** END assemblyContext, ID: '242', NAME: 'NetworkFilesystem' */
 
 
-/** BEGIN assemblyContext, ID: '309', NAME: 'NWFSLogging' */
-assemblyContext(309).
-encapsulatedComponent(309,[43]).
-/** END assemblyContext, ID: '309', NAME: 'NWFSLogging' */
+/** BEGIN assemblyContext, ID: '243', NAME: 'NWFSLogging' */
+description(243,'NWFSLogging').
+assemblyContext(243).
+encapsulatedComponent(243,[44]).
+/** END assemblyContext, ID: '243', NAME: 'NWFSLogging' */
 
 
-/** BEGIN assemblyContext, ID: '310', NAME: 'OCALogging' */
-assemblyContext(310).
-encapsulatedComponent(310,[43]).
-/** END assemblyContext, ID: '310', NAME: 'OCALogging' */
+/** BEGIN assemblyContext, ID: '244', NAME: 'OCALogging' */
+description(244,'OCALogging').
+assemblyContext(244).
+encapsulatedComponent(244,[44]).
+/** END assemblyContext, ID: '244', NAME: 'OCALogging' */
 
 
-/** BEGIN assemblyContext, ID: '311', NAME: 'LoadBalancer' */
-assemblyContext(311).
-encapsulatedComponent(311,[46]).
-/** END assemblyContext, ID: '311', NAME: 'LoadBalancer' */
+/** BEGIN assemblyContext, ID: '245', NAME: 'LoadBalancer' */
+description(245,'LoadBalancer').
+assemblyContext(245).
+encapsulatedComponent(245,[47]).
+/** END assemblyContext, ID: '245', NAME: 'LoadBalancer' */
 
 
-/** BEGIN assemblyContext, ID: '312', NAME: 'LBLogging' */
-assemblyContext(312).
-encapsulatedComponent(312,[43]).
-/** END assemblyContext, ID: '312', NAME: 'LBLogging' */
+/** BEGIN assemblyContext, ID: '246', NAME: 'LBLogging' */
+description(246,'LBLogging').
+assemblyContext(246).
+encapsulatedComponent(246,[44]).
+/** END assemblyContext, ID: '246', NAME: 'LBLogging' */
 
 
-/** BEGIN assemblyContext, ID: '313', NAME: 'OwnCloudB' */
-assemblyContext(313).
-encapsulatedComponent(313,[44]).
-/** END assemblyContext, ID: '313', NAME: 'OwnCloudB' */
+/** BEGIN assemblyContext, ID: '247', NAME: 'OwnCloudB' */
+description(247,'OwnCloudB').
+assemblyContext(247).
+encapsulatedComponent(247,[45]).
+/** END assemblyContext, ID: '247', NAME: 'OwnCloudB' */
 
 
-/** BEGIN assemblyContext, ID: '314', NAME: 'OCBLogging' */
-assemblyContext(314).
-encapsulatedComponent(314,[43]).
-/** END assemblyContext, ID: '314', NAME: 'OCBLogging' */
+/** BEGIN assemblyContext, ID: '248', NAME: 'OCBLogging' */
+description(248,'OCBLogging').
+assemblyContext(248).
+encapsulatedComponent(248,[44]).
+/** END assemblyContext, ID: '248', NAME: 'OCBLogging' */
 
 
-/** BEGIN assemblyContext, ID: '315', NAME: 'DBAdminTool' */
-assemblyContext(315).
-encapsulatedComponent(315,[41]).
-/** END assemblyContext, ID: '315', NAME: 'DBAdminTool' */
+/** BEGIN assemblyContext, ID: '249', NAME: 'DBAdminTool' */
+description(249,'DBAdminTool').
+assemblyContext(249).
+encapsulatedComponent(249,[42]).
+/** END assemblyContext, ID: '249', NAME: 'DBAdminTool' */
 
 
-/** BEGIN assemblyContext, ID: '316', NAME: 'NWFSAdminTool' */
-assemblyContext(316).
-encapsulatedComponent(316,[49]).
-/** END assemblyContext, ID: '316', NAME: 'NWFSAdminTool' */
+/** BEGIN assemblyContext, ID: '250', NAME: 'NWFSAdminTool' */
+description(250,'NWFSAdminTool').
+assemblyContext(250).
+encapsulatedComponent(250,[50]).
+/** END assemblyContext, ID: '250', NAME: 'NWFSAdminTool' */
 
 
-/** BEGIN assemblyContext, ID: '317', NAME: 'OCAAdminTool' */
-assemblyContext(317).
-encapsulatedComponent(317,[50]).
-/** END assemblyContext, ID: '317', NAME: 'OCAAdminTool' */
+/** BEGIN assemblyContext, ID: '251', NAME: 'OCAAdminTool' */
+description(251,'OCAAdminTool').
+assemblyContext(251).
+encapsulatedComponent(251,[51]).
+/** END assemblyContext, ID: '251', NAME: 'OCAAdminTool' */
 
 
-/** BEGIN assemblyContext, ID: '318', NAME: 'OCBAdminTool' */
-assemblyContext(318).
-encapsulatedComponent(318,[50]).
-/** END assemblyContext, ID: '318', NAME: 'OCBAdminTool' */
+/** BEGIN assemblyContext, ID: '252', NAME: 'OCBAdminTool' */
+description(252,'OCBAdminTool').
+assemblyContext(252).
+encapsulatedComponent(252,[51]).
+/** END assemblyContext, ID: '252', NAME: 'OCBAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '253', NAME: 'LBAdminTool' */
+description(253,'LBAdminTool').
+assemblyContext(253).
+encapsulatedComponent(253,[52]).
+/** END assemblyContext, ID: '253', NAME: 'LBAdminTool' */
+
+
+/** BEGIN assemblyContext, ID: '254', NAME: 'FileManagerA' */
+description(254,'FileManagerA').
+assemblyContext(254).
+encapsulatedComponent(254,[48]).
+/** END assemblyContext, ID: '254', NAME: 'FileManagerA' */
 
 
-/** BEGIN assemblyContext, ID: '319', NAME: 'LBAdminTool' */
-assemblyContext(319).
-encapsulatedComponent(319,[51]).
-/** END assemblyContext, ID: '319', NAME: 'LBAdminTool' */
+/** BEGIN assemblyContext, ID: '255', NAME: 'CalendarA' */
+description(255,'CalendarA').
+assemblyContext(255).
+encapsulatedComponent(255,[49]).
+/** END assemblyContext, ID: '255', NAME: 'CalendarA' */
 
 
-/** BEGIN assemblyContext, ID: '320', NAME: 'FileManagerA' */
-assemblyContext(320).
-encapsulatedComponent(320,[47]).
-/** END assemblyContext, ID: '320', NAME: 'FileManagerA' */
+/** BEGIN assemblyContext, ID: '256', NAME: 'FileManagerB' */
+description(256,'FileManagerB').
+assemblyContext(256).
+encapsulatedComponent(256,[48]).
+/** END assemblyContext, ID: '256', NAME: 'FileManagerB' */
 
 
-/** BEGIN assemblyContext, ID: '321', NAME: 'CalendarA' */
-assemblyContext(321).
-encapsulatedComponent(321,[48]).
-/** END assemblyContext, ID: '321', NAME: 'CalendarA' */
+/** BEGIN assemblyContext, ID: '257', NAME: 'CalendarB' */
+description(257,'CalendarB').
+assemblyContext(257).
+encapsulatedComponent(257,[49]).
+/** END assemblyContext, ID: '257', NAME: 'CalendarB' */
 
 
-/** BEGIN assemblyContext, ID: '322', NAME: 'FileManagerB' */
-assemblyContext(322).
-encapsulatedComponent(322,[47]).
-/** END assemblyContext, ID: '322', NAME: 'FileManagerB' */
+/** BEGIN assemblyContext, ID: '258', NAME: 'PublicFileManager' */
+description(258,'PublicFileManager').
+assemblyContext(258).
+encapsulatedComponent(258,[53]).
+/** END assemblyContext, ID: '258', NAME: 'PublicFileManager' */
 
 
-/** BEGIN assemblyContext, ID: '323', NAME: 'CalendarB' */
-assemblyContext(323).
-encapsulatedComponent(323,[48]).
-/** END assemblyContext, ID: '323', NAME: 'CalendarB' */
+/** BEGIN assemblyContext, ID: '259', NAME: 'PublicCalendar' */
+description(259,'PublicCalendar').
+assemblyContext(259).
+encapsulatedComponent(259,[54]).
+/** END assemblyContext, ID: '259', NAME: 'PublicCalendar' */
 
 
-/** BEGIN assemblyContext, ID: '324', NAME: 'PublicFileManager' */
-assemblyContext(324).
-encapsulatedComponent(324,[52]).
-/** END assemblyContext, ID: '324', NAME: 'PublicFileManager' */
+/** BEGIN assemblyConnector, ID: '260', NAME: 'Connector LoadBalancer -> LBLogging' */
+description(260,'Connector LoadBalancer -> LBLogging').
+assemblyConnector(260).
+requiringAssemblyContext(260,[245]).
+providingAssemblyContext(260,[246]).
+providedRole(260,[78]).
+requiredRole(260,[91]).
+/** END assemblyConnector, ID: '260', NAME: 'Connector LoadBalancer -> LBLogging' */
 
 
-/** BEGIN assemblyContext, ID: '325', NAME: 'PublicCalendar' */
-assemblyContext(325).
-encapsulatedComponent(325,[53]).
-/** END assemblyContext, ID: '325', NAME: 'PublicCalendar' */
+/** BEGIN assemblyConnector, ID: '261', NAME: 'Connector LBAdminTool -> LoadBalancer' */
+description(261,'Connector LBAdminTool -> LoadBalancer').
+assemblyConnector(261).
+requiringAssemblyContext(261,[253]).
+providingAssemblyContext(261,[245]).
+providedRole(261,[88]).
+requiredRole(261,[108]).
+/** END assemblyConnector, ID: '261', NAME: 'Connector LBAdminTool -> LoadBalancer' */
 
 
-/** BEGIN assemblyConnector, ID: '326', NAME: 'Connector LoadBalancer -> LBLogging' */
-assemblyConnector(326).
-requiringAssemblyContext(326,[311]).
-providingAssemblyContext(326,[312]).
-providedRole(326,[77]).
-requiredRole(326,[90]).
-/** END assemblyConnector, ID: '326', NAME: 'Connector LoadBalancer -> LBLogging' */
+/** BEGIN assemblyConnector, ID: '262', NAME: 'Connector LBAdminTool -> LBLogging' */
+description(262,'Connector LBAdminTool -> LBLogging').
+assemblyConnector(262).
+requiringAssemblyContext(262,[253]).
+providingAssemblyContext(262,[246]).
+providedRole(262,[77]).
+requiredRole(262,[109]).
+/** END assemblyConnector, ID: '262', NAME: 'Connector LBAdminTool -> LBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '327', NAME: 'Connector LBAdminTool -> LoadBalancer' */
-assemblyConnector(327).
-requiringAssemblyContext(327,[319]).
-providingAssemblyContext(327,[311]).
-providedRole(327,[87]).
-requiredRole(327,[107]).
-/** END assemblyConnector, ID: '327', NAME: 'Connector LBAdminTool -> LoadBalancer' */
+/** BEGIN assemblyConnector, ID: '263', NAME: 'Connector LBAdminTool -> LBLogging' */
+description(263,'Connector LBAdminTool -> LBLogging').
+assemblyConnector(263).
+requiringAssemblyContext(263,[253]).
+providingAssemblyContext(263,[246]).
+providedRole(263,[78]).
+requiredRole(263,[110]).
+/** END assemblyConnector, ID: '263', NAME: 'Connector LBAdminTool -> LBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '328', NAME: 'Connector LBAdminTool -> LBLogging' */
-assemblyConnector(328).
-requiringAssemblyContext(328,[319]).
-providingAssemblyContext(328,[312]).
-providedRole(328,[76]).
-requiredRole(328,[108]).
-/** END assemblyConnector, ID: '328', NAME: 'Connector LBAdminTool -> LBLogging' */
+/** BEGIN assemblyConnector, ID: '264', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+description(264,'Connector LoadBalancer -> OwnCloudA').
+assemblyConnector(264).
+requiringAssemblyContext(264,[245]).
+providingAssemblyContext(264,[239]).
+providedRole(264,[79]).
+requiredRole(264,[93]).
+/** END assemblyConnector, ID: '264', NAME: 'Connector LoadBalancer -> OwnCloudA' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
 
-/** BEGIN assemblyConnector, ID: '329', NAME: 'Connector LBAdminTool -> LBLogging' */
-assemblyConnector(329).
-requiringAssemblyContext(329,[319]).
-providingAssemblyContext(329,[312]).
-providedRole(329,[77]).
-requiredRole(329,[109]).
-/** END assemblyConnector, ID: '329', NAME: 'Connector LBAdminTool -> LBLogging' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN assemblyConnector, ID: '330', NAME: 'Connector LoadBalancer -> OwnCloudA' */
-assemblyConnector(330).
-requiringAssemblyContext(330,[311]).
-providingAssemblyContext(330,[305]).
-providedRole(330,[78]).
-requiredRole(330,[92]).
-/** END assemblyConnector, ID: '330', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '387', NAME: 'null' */
-parametersAndDataPair(388).
+parametersAndDataPair(320).
 
-parameterSources(388,[*]).
+parameterSources(320,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '387', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '387', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '387', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '389', NAME: 'null' */
-parametersAndDataPair(390).
+dataTargets(321,[6]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '389', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '389', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '389', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '391', NAME: 'null' */
-parametersAndDataPair(392).
+parametersAndDataPair(323).
 
-parameterSources(392,[*]).
+parameterSources(323,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '391', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '391', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '391', NAME: 'null' */
+parametersAndDataPair(324).
 
-dataSetMapEntry(394).
-dataIdentifier(1,394).
+parameterSources(324,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '393', NAME: 'null' */
-parametersAndDataPair(395).
+dataTargets(324,[318]).
 
-parameterSources(395,[*]).
 
-dataTargets(395,[394]).
-/** END dataSetMapParameter2KeyAssignment, ID: '393', NAME: 'null' */
+parametersAndDataPair(325).
 
+parameterSources(325,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '393', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[395]).
-/** END dataSetMapParameter2KeyAssignment, ID: '393', NAME: 'null' */
+dataTargets(325,[317]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '396', NAME: 'null' */
-parametersAndDataPair(397).
+parametersAndDataPair(326).
 
-parameterSources(397,[*]).
+parameterSources(326,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '396', NAME: 'null' */
+dataTargets(326,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '396', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '396', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(264,[319, 320, 321, 322, 323, 324, 325, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '398', NAME: 'null' */
-parametersAndDataPair(399).
+/** BEGIN assemblyConnector, ID: '265', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+description(265,'Connector LoadBalancer -> OwnCloudA').
+assemblyConnector(265).
+requiringAssemblyContext(265,[245]).
+providingAssemblyContext(265,[239]).
+providedRole(265,[80]).
+requiredRole(265,[92]).
+/** END assemblyConnector, ID: '265', NAME: 'Connector LoadBalancer -> OwnCloudA' */
 
-parameterSources(399,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '398', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '398', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '398', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '400', NAME: 'null' */
-parametersAndDataPair(401).
+parametersAndDataPair(320).
 
-parameterSources(401,[*]).
+parameterSources(320,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '400', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '400', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '400', NAME: 'null' */
+parametersAndDataPair(329).
 
-dataSetMapEntry(403).
-dataIdentifier(1,403).
+parameterSources(329,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '402', NAME: 'null' */
-parametersAndDataPair(404).
+dataTargets(329,[328]).
 
-parameterSources(404,[*]).
 
-dataTargets(404,[403]).
-/** END dataSetMapParameter2KeyAssignment, ID: '402', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '402', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(330,[404]).
-/** END dataSetMapParameter2KeyAssignment, ID: '402', NAME: 'null' */
+dataTargets(321,[6]).
 
 
-/** BEGIN assemblyConnector, ID: '331', NAME: 'Connector LoadBalancer -> OwnCloudA' */
-assemblyConnector(331).
-requiringAssemblyContext(331,[311]).
-providingAssemblyContext(331,[305]).
-providedRole(331,[79]).
-requiredRole(331,[91]).
-/** END assemblyConnector, ID: '331', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '409', NAME: 'null' */
-parametersAndDataPair(388).
+dataTargets(322,[5]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '409', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '409', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '409', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '410', NAME: 'null' */
-parametersAndDataPair(390).
+parametersAndDataPair(330).
 
-parameterSources(390,[*]).
+parameterSources(330,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '410', NAME: 'null' */
+dataTargets(330,[327]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '410', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '410', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '411', NAME: 'null' */
-parametersAndDataPair(392).
+dataTargets(326,[4]).
 
-parameterSources(392,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '411', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(265,[319, 320, 329, 321, 322, 323, 330, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '411', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '411', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '266', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+description(266,'Connector OCAAdminTool -> OwnCloudA').
+assemblyConnector(266).
+requiringAssemblyContext(266,[251]).
+providingAssemblyContext(266,[239]).
+providedRole(266,[79]).
+requiredRole(266,[103]).
+/** END assemblyConnector, ID: '266', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
 
-dataSetMapEntry(413).
-dataIdentifier(1,413).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '412', NAME: 'null' */
-parametersAndDataPair(414).
+parametersAndDataPair(319).
 
-parameterSources(414,[*]).
+parameterSources(319,[*]).
 
-dataTargets(414,[413]).
-/** END dataSetMapParameter2KeyAssignment, ID: '412', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '412', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[414]).
-/** END dataSetMapParameter2KeyAssignment, ID: '412', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '415', NAME: 'null' */
-parametersAndDataPair(397).
+dataTargets(320,[6]).
 
-parameterSources(397,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '415', NAME: 'null' */
+parametersAndDataPair(333).
 
+parameterSources(333,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '415', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '415', NAME: 'null' */
+dataTargets(333,[332]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '416', NAME: 'null' */
-parametersAndDataPair(399).
+parametersAndDataPair(321).
 
-parameterSources(399,[*]).
+parameterSources(321,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '416', NAME: 'null' */
+dataTargets(321,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '416', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '416', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '417', NAME: 'null' */
-parametersAndDataPair(401).
+dataTargets(322,[5]).
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '417', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '417', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '417', NAME: 'null' */
+dataTargets(323,[5]).
 
-dataSetMapEntry(419).
-dataIdentifier(1,419).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '418', NAME: 'null' */
-parametersAndDataPair(420).
+parametersAndDataPair(334).
 
-parameterSources(420,[*]).
+parameterSources(334,[*]).
 
-dataTargets(420,[419]).
-/** END dataSetMapParameter2KeyAssignment, ID: '418', NAME: 'null' */
+dataTargets(334,[331]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '418', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(331,[420]).
-/** END dataSetMapParameter2KeyAssignment, ID: '418', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN assemblyConnector, ID: '332', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
-assemblyConnector(332).
-requiringAssemblyContext(332,[317]).
-providingAssemblyContext(332,[305]).
-providedRole(332,[78]).
-requiredRole(332,[102]).
-/** END assemblyConnector, ID: '332', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+dataTargets(326,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '425', NAME: 'null' */
-parametersAndDataPair(388).
+connectorSpecificParametersAndDataPairs(266,[319, 320, 333, 321, 322, 323, 334, 326]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '425', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '267', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+description(267,'Connector OCAAdminTool -> OwnCloudA').
+assemblyConnector(267).
+requiringAssemblyContext(267,[251]).
+providingAssemblyContext(267,[239]).
+providedRole(267,[80]).
+requiredRole(267,[104]).
+/** END assemblyConnector, ID: '267', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '425', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '425', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '426', NAME: 'null' */
-parametersAndDataPair(390).
+dataTargets(319,[4]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '426', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '426', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '426', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '427', NAME: 'null' */
-parametersAndDataPair(392).
+parametersAndDataPair(321).
 
-parameterSources(392,[*]).
+parameterSources(321,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '427', NAME: 'null' */
+dataTargets(321,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '427', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '427', NAME: 'null' */
+parametersAndDataPair(322).
 
-dataSetMapEntry(429).
-dataIdentifier(1,429).
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '428', NAME: 'null' */
-parametersAndDataPair(430).
+dataTargets(322,[5]).
 
-parameterSources(430,[*]).
 
-dataTargets(430,[429]).
-/** END dataSetMapParameter2KeyAssignment, ID: '428', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '428', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[430]).
-/** END dataSetMapParameter2KeyAssignment, ID: '428', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '431', NAME: 'null' */
-parametersAndDataPair(397).
+parametersAndDataPair(337).
 
-parameterSources(397,[*]).
+parameterSources(337,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '431', NAME: 'null' */
+dataTargets(337,[335]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '431', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '431', NAME: 'null' */
+parametersAndDataPair(338).
 
+parameterSources(338,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '432', NAME: 'null' */
-parametersAndDataPair(399).
+dataTargets(338,[336]).
 
-parameterSources(399,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '432', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '432', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '432', NAME: 'null' */
+dataTargets(326,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '433', NAME: 'null' */
-parametersAndDataPair(401).
+connectorSpecificParametersAndDataPairs(267,[319, 320, 321, 322, 323, 337, 338, 326]).
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '433', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '268', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+description(268,'Connector OCBAdminTool -> OwnCloudB').
+assemblyConnector(268).
+requiringAssemblyContext(268,[252]).
+providingAssemblyContext(268,[247]).
+providedRole(268,[79]).
+requiredRole(268,[103]).
+/** END assemblyConnector, ID: '268', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '433', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '433', NAME: 'null' */
+parametersAndDataPair(319).
 
-dataSetMapEntry(435).
-dataIdentifier(1,435).
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '434', NAME: 'null' */
-parametersAndDataPair(436).
+dataTargets(319,[4]).
 
-parameterSources(436,[*]).
 
-dataTargets(436,[435]).
-/** END dataSetMapParameter2KeyAssignment, ID: '434', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '434', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(332,[436]).
-/** END dataSetMapParameter2KeyAssignment, ID: '434', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN assemblyConnector, ID: '333', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
-assemblyConnector(333).
-requiringAssemblyContext(333,[317]).
-providingAssemblyContext(333,[305]).
-providedRole(333,[79]).
-requiredRole(333,[103]).
-/** END assemblyConnector, ID: '333', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '441', NAME: 'null' */
-parametersAndDataPair(388).
+dataTargets(321,[6]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '441', NAME: 'null' */
+parametersAndDataPair(341).
 
+parameterSources(341,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '441', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '441', NAME: 'null' */
+dataTargets(341,[340]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '442', NAME: 'null' */
-parametersAndDataPair(390).
+parametersAndDataPair(322).
 
-parameterSources(390,[*]).
+parameterSources(322,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '442', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '442', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '442', NAME: 'null' */
+parametersAndDataPair(342).
 
+parameterSources(342,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '443', NAME: 'null' */
-parametersAndDataPair(392).
+dataTargets(342,[339]).
 
-parameterSources(392,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '443', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '443', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '443', NAME: 'null' */
+dataTargets(323,[5]).
 
-dataSetMapEntry(445).
-dataIdentifier(1,445).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '444', NAME: 'null' */
-parametersAndDataPair(446).
+parametersAndDataPair(326).
 
-parameterSources(446,[*]).
+parameterSources(326,[*]).
 
-dataTargets(446,[445]).
-/** END dataSetMapParameter2KeyAssignment, ID: '444', NAME: 'null' */
+dataTargets(326,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '444', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[446]).
-/** END dataSetMapParameter2KeyAssignment, ID: '444', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(268,[319, 320, 321, 341, 322, 342, 323, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '447', NAME: 'null' */
-parametersAndDataPair(397).
+/** BEGIN assemblyConnector, ID: '269', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+description(269,'Connector OCBAdminTool -> OwnCloudB').
+assemblyConnector(269).
+requiringAssemblyContext(269,[252]).
+providingAssemblyContext(269,[247]).
+providedRole(269,[80]).
+requiredRole(269,[104]).
+/** END assemblyConnector, ID: '269', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
 
-parameterSources(397,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '447', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '447', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '447', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '448', NAME: 'null' */
-parametersAndDataPair(399).
+parametersAndDataPair(320).
 
-parameterSources(399,[*]).
+parameterSources(320,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '448', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '448', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '448', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '449', NAME: 'null' */
-parametersAndDataPair(401).
+dataTargets(321,[6]).
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '449', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '449', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '449', NAME: 'null' */
+dataTargets(322,[5]).
 
-dataSetMapEntry(451).
-dataIdentifier(1,451).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '450', NAME: 'null' */
-parametersAndDataPair(452).
+parametersAndDataPair(323).
 
-parameterSources(452,[*]).
+parameterSources(323,[*]).
 
-dataTargets(452,[451]).
-/** END dataSetMapParameter2KeyAssignment, ID: '450', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '450', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(333,[452]).
-/** END dataSetMapParameter2KeyAssignment, ID: '450', NAME: 'null' */
+parametersAndDataPair(345).
 
+parameterSources(345,[*]).
 
-/** BEGIN assemblyConnector, ID: '334', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
-assemblyConnector(334).
-requiringAssemblyContext(334,[318]).
-providingAssemblyContext(334,[313]).
-providedRole(334,[78]).
-requiredRole(334,[102]).
-/** END assemblyConnector, ID: '334', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+dataTargets(345,[344]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '457', NAME: 'null' */
-parametersAndDataPair(388).
+parametersAndDataPair(346).
 
-parameterSources(388,[*]).
+parameterSources(346,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '457', NAME: 'null' */
+dataTargets(346,[343]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '457', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '457', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '458', NAME: 'null' */
-parametersAndDataPair(390).
+dataTargets(326,[4]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '458', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(269,[319, 320, 321, 322, 323, 345, 346, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '458', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '458', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '270', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+description(270,'Connector OCBAdminTool -> OCBLogging').
+assemblyConnector(270).
+requiringAssemblyContext(270,[252]).
+providingAssemblyContext(270,[248]).
+providedRole(270,[78]).
+requiredRole(270,[106]).
+/** END assemblyConnector, ID: '270', NAME: 'Connector OCBAdminTool -> OCBLogging' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '459', NAME: 'null' */
-parametersAndDataPair(392).
+/** BEGIN assemblyConnector, ID: '271', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+description(271,'Connector OCBAdminTool -> OCBLogging').
+assemblyConnector(271).
+requiringAssemblyContext(271,[252]).
+providingAssemblyContext(271,[248]).
+providedRole(271,[77]).
+requiredRole(271,[105]).
+/** END assemblyConnector, ID: '271', NAME: 'Connector OCBAdminTool -> OCBLogging' */
 
-parameterSources(392,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '459', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '272', NAME: 'Connector OCAAdminTool -> OCALogging' */
+description(272,'Connector OCAAdminTool -> OCALogging').
+assemblyConnector(272).
+requiringAssemblyContext(272,[251]).
+providingAssemblyContext(272,[244]).
+providedRole(272,[78]).
+requiredRole(272,[106]).
+/** END assemblyConnector, ID: '272', NAME: 'Connector OCAAdminTool -> OCALogging' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '459', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '459', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '273', NAME: 'Connector OCAAdminTool -> OCALogging' */
+description(273,'Connector OCAAdminTool -> OCALogging').
+assemblyConnector(273).
+requiringAssemblyContext(273,[251]).
+providingAssemblyContext(273,[244]).
+providedRole(273,[77]).
+requiredRole(273,[105]).
+/** END assemblyConnector, ID: '273', NAME: 'Connector OCAAdminTool -> OCALogging' */
 
-dataSetMapEntry(461).
-dataIdentifier(1,461).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '460', NAME: 'null' */
-parametersAndDataPair(462).
+/** BEGIN assemblyConnector, ID: '274', NAME: 'Connector OwnCloudB -> OCBLogging' */
+description(274,'Connector OwnCloudB -> OCBLogging').
+assemblyConnector(274).
+requiringAssemblyContext(274,[247]).
+providingAssemblyContext(274,[248]).
+providedRole(274,[78]).
+requiredRole(274,[83]).
+/** END assemblyConnector, ID: '274', NAME: 'Connector OwnCloudB -> OCBLogging' */
 
-parameterSources(462,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-dataTargets(462,[461]).
-/** END dataSetMapParameter2KeyAssignment, ID: '460', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '275', NAME: 'Connector OwnCloudA -> OCALogging' */
+description(275,'Connector OwnCloudA -> OCALogging').
+assemblyConnector(275).
+requiringAssemblyContext(275,[239]).
+providingAssemblyContext(275,[244]).
+providedRole(275,[78]).
+requiredRole(275,[83]).
+/** END assemblyConnector, ID: '275', NAME: 'Connector OwnCloudA -> OCALogging' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '460', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[462]).
-/** END dataSetMapParameter2KeyAssignment, ID: '460', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '276', NAME: 'Connector OwnCloudA -> Database' */
+description(276,'Connector OwnCloudA -> Database').
+assemblyConnector(276).
+requiringAssemblyContext(276,[239]).
+providingAssemblyContext(276,[241]).
+providedRole(276,[75]).
+requiredRole(276,[81]).
+/** END assemblyConnector, ID: '276', NAME: 'Connector OwnCloudA -> Database' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '463', NAME: 'null' */
-parametersAndDataPair(397).
+parametersAndDataPair(319).
 
-parameterSources(397,[*]).
+parameterSources(319,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '463', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '463', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '463', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '464', NAME: 'null' */
-parametersAndDataPair(399).
+dataTargets(320,[6]).
 
-parameterSources(399,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '464', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '464', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '464', NAME: 'null' */
+dataTargets(321,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '465', NAME: 'null' */
-parametersAndDataPair(401).
+parametersAndDataPair(322).
 
-parameterSources(401,[*]).
+parameterSources(322,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '465', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '465', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '465', NAME: 'null' */
+parametersAndDataPair(349).
 
-dataSetMapEntry(467).
-dataIdentifier(1,467).
+parameterSources(349,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '466', NAME: 'null' */
-parametersAndDataPair(468).
+dataTargets(349,[347]).
 
-parameterSources(468,[*]).
 
-dataTargets(468,[467]).
-/** END dataSetMapParameter2KeyAssignment, ID: '466', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '466', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(334,[468]).
-/** END dataSetMapParameter2KeyAssignment, ID: '466', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN assemblyConnector, ID: '335', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
-assemblyConnector(335).
-requiringAssemblyContext(335,[318]).
-providingAssemblyContext(335,[313]).
-providedRole(335,[79]).
-requiredRole(335,[103]).
-/** END assemblyConnector, ID: '335', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+parametersAndDataPair(350).
 
+parameterSources(350,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '473', NAME: 'null' */
-parametersAndDataPair(388).
+dataTargets(350,[348]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '473', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '473', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '473', NAME: 'null' */
+dataTargets(326,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '474', NAME: 'null' */
-parametersAndDataPair(390).
+connectorSpecificParametersAndDataPairs(276,[319, 320, 321, 322, 349, 323, 350, 326]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '474', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '277', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
+description(277,'Connector OwnCloudA -> NetworkFilesystem').
+assemblyConnector(277).
+requiringAssemblyContext(277,[239]).
+providingAssemblyContext(277,[242]).
+providedRole(277,[84]).
+requiredRole(277,[82]).
+/** END assemblyConnector, ID: '277', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '474', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '474', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '475', NAME: 'null' */
-parametersAndDataPair(392).
+dataTargets(319,[4]).
 
-parameterSources(392,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '475', NAME: 'null' */
+parametersAndDataPair(353).
 
+parameterSources(353,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '475', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '475', NAME: 'null' */
+dataTargets(353,[351]).
 
-dataSetMapEntry(477).
-dataIdentifier(1,477).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '476', NAME: 'null' */
-parametersAndDataPair(478).
+parametersAndDataPair(320).
 
-parameterSources(478,[*]).
+parameterSources(320,[*]).
 
-dataTargets(478,[477]).
-/** END dataSetMapParameter2KeyAssignment, ID: '476', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '476', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[478]).
-/** END dataSetMapParameter2KeyAssignment, ID: '476', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '479', NAME: 'null' */
-parametersAndDataPair(397).
+dataTargets(321,[6]).
 
-parameterSources(397,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '479', NAME: 'null' */
+parametersAndDataPair(354).
 
+parameterSources(354,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '479', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '479', NAME: 'null' */
+dataTargets(354,[352]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '480', NAME: 'null' */
-parametersAndDataPair(399).
+parametersAndDataPair(322).
 
-parameterSources(399,[*]).
+parameterSources(322,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '480', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '480', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '480', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '481', NAME: 'null' */
-parametersAndDataPair(401).
+dataTargets(323,[5]).
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '481', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '481', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '481', NAME: 'null' */
+dataTargets(326,[4]).
 
-dataSetMapEntry(483).
-dataIdentifier(1,483).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '482', NAME: 'null' */
-parametersAndDataPair(484).
+connectorSpecificParametersAndDataPairs(277,[319, 353, 320, 321, 354, 322, 323, 326]).
 
-parameterSources(484,[*]).
 
-dataTargets(484,[483]).
-/** END dataSetMapParameter2KeyAssignment, ID: '482', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '278', NAME: 'Connector OwnCloudB -> Database' */
+description(278,'Connector OwnCloudB -> Database').
+assemblyConnector(278).
+requiringAssemblyContext(278,[247]).
+providingAssemblyContext(278,[241]).
+providedRole(278,[75]).
+requiredRole(278,[81]).
+/** END assemblyConnector, ID: '278', NAME: 'Connector OwnCloudB -> Database' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '482', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(335,[484]).
-/** END dataSetMapParameter2KeyAssignment, ID: '482', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN assemblyConnector, ID: '336', NAME: 'Connector OCBAdminTool -> OCBLogging' */
-assemblyConnector(336).
-requiringAssemblyContext(336,[318]).
-providingAssemblyContext(336,[314]).
-providedRole(336,[77]).
-requiredRole(336,[105]).
-/** END assemblyConnector, ID: '336', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+dataTargets(319,[4]).
 
 
-/** BEGIN assemblyConnector, ID: '337', NAME: 'Connector OCBAdminTool -> OCBLogging' */
-assemblyConnector(337).
-requiringAssemblyContext(337,[318]).
-providingAssemblyContext(337,[314]).
-providedRole(337,[76]).
-requiredRole(337,[104]).
-/** END assemblyConnector, ID: '337', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN assemblyConnector, ID: '338', NAME: 'Connector OCAAdminTool -> OCALogging' */
-assemblyConnector(338).
-requiringAssemblyContext(338,[317]).
-providingAssemblyContext(338,[310]).
-providedRole(338,[77]).
-requiredRole(338,[105]).
-/** END assemblyConnector, ID: '338', NAME: 'Connector OCAAdminTool -> OCALogging' */
+dataTargets(320,[6]).
 
 
-/** BEGIN assemblyConnector, ID: '339', NAME: 'Connector OCAAdminTool -> OCALogging' */
-assemblyConnector(339).
-requiringAssemblyContext(339,[317]).
-providingAssemblyContext(339,[310]).
-providedRole(339,[76]).
-requiredRole(339,[104]).
-/** END assemblyConnector, ID: '339', NAME: 'Connector OCAAdminTool -> OCALogging' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN assemblyConnector, ID: '340', NAME: 'Connector OwnCloudB -> OCBLogging' */
-assemblyConnector(340).
-requiringAssemblyContext(340,[313]).
-providingAssemblyContext(340,[314]).
-providedRole(340,[77]).
-requiredRole(340,[82]).
-/** END assemblyConnector, ID: '340', NAME: 'Connector OwnCloudB -> OCBLogging' */
+dataTargets(321,[6]).
 
 
-/** BEGIN assemblyConnector, ID: '341', NAME: 'Connector OwnCloudA -> OCALogging' */
-assemblyConnector(341).
-requiringAssemblyContext(341,[305]).
-providingAssemblyContext(341,[310]).
-providedRole(341,[77]).
-requiredRole(341,[82]).
-/** END assemblyConnector, ID: '341', NAME: 'Connector OwnCloudA -> OCALogging' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN assemblyConnector, ID: '342', NAME: 'Connector OwnCloudA -> Database' */
-assemblyConnector(342).
-requiringAssemblyContext(342,[305]).
-providingAssemblyContext(342,[307]).
-providedRole(342,[74]).
-requiredRole(342,[80]).
-/** END assemblyConnector, ID: '342', NAME: 'Connector OwnCloudA -> Database' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '489', NAME: 'null' */
-parametersAndDataPair(388).
+parametersAndDataPair(323).
 
-parameterSources(388,[*]).
+parameterSources(323,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '489', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '489', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '489', NAME: 'null' */
+parametersAndDataPair(357).
 
+parameterSources(357,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '490', NAME: 'null' */
-parametersAndDataPair(390).
+dataTargets(357,[355]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '490', NAME: 'null' */
+parametersAndDataPair(358).
 
+parameterSources(358,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '490', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '490', NAME: 'null' */
+dataTargets(358,[356]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '491', NAME: 'null' */
-parametersAndDataPair(392).
+parametersAndDataPair(326).
 
-parameterSources(392,[*]).
+parameterSources(326,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '491', NAME: 'null' */
+dataTargets(326,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '491', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '491', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(278,[319, 320, 321, 322, 323, 357, 358, 326]).
 
-dataSetMapEntry(493).
-dataIdentifier(1,493).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '492', NAME: 'null' */
-parametersAndDataPair(494).
+/** BEGIN assemblyConnector, ID: '279', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
+description(279,'Connector OwnCloudB -> NetworkFilesystem').
+assemblyConnector(279).
+requiringAssemblyContext(279,[247]).
+providingAssemblyContext(279,[242]).
+providedRole(279,[84]).
+requiredRole(279,[82]).
+/** END assemblyConnector, ID: '279', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
 
-parameterSources(494,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
 
-dataTargets(494,[493]).
-/** END dataSetMapParameter2KeyAssignment, ID: '492', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '492', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[494]).
-/** END dataSetMapParameter2KeyAssignment, ID: '492', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '495', NAME: 'null' */
-parametersAndDataPair(397).
+parametersAndDataPair(320).
 
-parameterSources(397,[*]).
+parameterSources(320,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '495', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '495', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '495', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '496', NAME: 'null' */
-parametersAndDataPair(399).
+dataTargets(321,[6]).
 
-parameterSources(399,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '496', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '496', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '496', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '497', NAME: 'null' */
-parametersAndDataPair(401).
+parametersAndDataPair(323).
 
-parameterSources(401,[*]).
+parameterSources(323,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '497', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '497', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '497', NAME: 'null' */
+parametersAndDataPair(361).
 
-dataSetMapEntry(499).
-dataIdentifier(1,499).
+parameterSources(361,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '498', NAME: 'null' */
-parametersAndDataPair(500).
+dataTargets(361,[360]).
 
-parameterSources(500,[*]).
 
-dataTargets(500,[499]).
-/** END dataSetMapParameter2KeyAssignment, ID: '498', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '498', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(342,[500]).
-/** END dataSetMapParameter2KeyAssignment, ID: '498', NAME: 'null' */
+dataTargets(326,[4]).
 
 
-/** BEGIN assemblyConnector, ID: '343', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
-assemblyConnector(343).
-requiringAssemblyContext(343,[305]).
-providingAssemblyContext(343,[308]).
-providedRole(343,[83]).
-requiredRole(343,[81]).
-/** END assemblyConnector, ID: '343', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
+parametersAndDataPair(362).
 
+parameterSources(362,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '505', NAME: 'null' */
-parametersAndDataPair(388).
+dataTargets(362,[359]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '505', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(279,[319, 320, 321, 322, 323, 361, 326, 362]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '505', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '505', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '280', NAME: 'Connector DBAdminTool -> Database' */
+description(280,'Connector DBAdminTool -> Database').
+assemblyConnector(280).
+requiringAssemblyContext(280,[249]).
+providingAssemblyContext(280,[241]).
+providedRole(280,[75]).
+requiredRole(280,[72]).
+/** END assemblyConnector, ID: '280', NAME: 'Connector DBAdminTool -> Database' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '506', NAME: 'null' */
-parametersAndDataPair(390).
+parametersAndDataPair(319).
 
-parameterSources(390,[*]).
+parameterSources(319,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '506', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '506', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '506', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '507', NAME: 'null' */
-parametersAndDataPair(392).
+dataTargets(320,[6]).
 
-parameterSources(392,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '507', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '507', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '507', NAME: 'null' */
+dataTargets(321,[6]).
 
-dataSetMapEntry(509).
-dataIdentifier(1,509).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '508', NAME: 'null' */
-parametersAndDataPair(510).
+parametersAndDataPair(322).
 
-parameterSources(510,[*]).
+parameterSources(322,[*]).
 
-dataTargets(510,[509]).
-/** END dataSetMapParameter2KeyAssignment, ID: '508', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '508', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[510]).
-/** END dataSetMapParameter2KeyAssignment, ID: '508', NAME: 'null' */
+parametersAndDataPair(365).
 
+parameterSources(365,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '511', NAME: 'null' */
-parametersAndDataPair(397).
+dataTargets(365,[363]).
 
-parameterSources(397,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '511', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '511', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '511', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '512', NAME: 'null' */
-parametersAndDataPair(399).
+parametersAndDataPair(366).
 
-parameterSources(399,[*]).
+parameterSources(366,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '512', NAME: 'null' */
+dataTargets(366,[364]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '512', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '512', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '513', NAME: 'null' */
-parametersAndDataPair(401).
+dataTargets(326,[4]).
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '513', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(280,[319, 320, 321, 322, 365, 323, 366, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '513', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '513', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '281', NAME: 'Connector DBAdminTool -> DBLogging' */
+description(281,'Connector DBAdminTool -> DBLogging').
+assemblyConnector(281).
+requiringAssemblyContext(281,[249]).
+providingAssemblyContext(281,[240]).
+providedRole(281,[78]).
+requiredRole(281,[74]).
+/** END assemblyConnector, ID: '281', NAME: 'Connector DBAdminTool -> DBLogging' */
 
-dataSetMapEntry(515).
-dataIdentifier(1,515).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '514', NAME: 'null' */
-parametersAndDataPair(516).
+/** BEGIN assemblyConnector, ID: '282', NAME: 'Connector DBAdminTool -> DBLogging' */
+description(282,'Connector DBAdminTool -> DBLogging').
+assemblyConnector(282).
+requiringAssemblyContext(282,[249]).
+providingAssemblyContext(282,[240]).
+providedRole(282,[77]).
+requiredRole(282,[73]).
+/** END assemblyConnector, ID: '282', NAME: 'Connector DBAdminTool -> DBLogging' */
 
-parameterSources(516,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
 
-dataTargets(516,[515]).
-/** END dataSetMapParameter2KeyAssignment, ID: '514', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '283', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+description(283,'Connector NWFSAdminTool -> NWFSLogging').
+assemblyConnector(283).
+requiringAssemblyContext(283,[250]).
+providingAssemblyContext(283,[243]).
+providedRole(283,[77]).
+requiredRole(283,[100]).
+/** END assemblyConnector, ID: '283', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '514', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(343,[516]).
-/** END dataSetMapParameter2KeyAssignment, ID: '514', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '284', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+description(284,'Connector NWFSAdminTool -> NWFSLogging').
+assemblyConnector(284).
+requiringAssemblyContext(284,[250]).
+providingAssemblyContext(284,[243]).
+providedRole(284,[78]).
+requiredRole(284,[101]).
+/** END assemblyConnector, ID: '284', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
 
-/** BEGIN assemblyConnector, ID: '344', NAME: 'Connector OwnCloudB -> Database' */
-assemblyConnector(344).
-requiringAssemblyContext(344,[313]).
-providingAssemblyContext(344,[307]).
-providedRole(344,[74]).
-requiredRole(344,[80]).
-/** END assemblyConnector, ID: '344', NAME: 'Connector OwnCloudB -> Database' */
+/** BEGIN assemblyConnector, ID: '285', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
+description(285,'Connector NWFSAdminTool -> NetworkFilesystem').
+assemblyConnector(285).
+requiringAssemblyContext(285,[250]).
+providingAssemblyContext(285,[242]).
+providedRole(285,[84]).
+requiredRole(285,[99]).
+/** END assemblyConnector, ID: '285', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '521', NAME: 'null' */
-parametersAndDataPair(388).
+parametersAndDataPair(319).
 
-parameterSources(388,[*]).
+parameterSources(319,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '521', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '521', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '521', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '522', NAME: 'null' */
-parametersAndDataPair(390).
+dataTargets(320,[6]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '522', NAME: 'null' */
+parametersAndDataPair(369).
 
+parameterSources(369,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '522', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '522', NAME: 'null' */
+dataTargets(369,[367]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '523', NAME: 'null' */
-parametersAndDataPair(392).
+parametersAndDataPair(321).
 
-parameterSources(392,[*]).
+parameterSources(321,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '523', NAME: 'null' */
+dataTargets(321,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '523', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '523', NAME: 'null' */
+parametersAndDataPair(322).
 
-dataSetMapEntry(525).
-dataIdentifier(1,525).
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '524', NAME: 'null' */
-parametersAndDataPair(526).
+dataTargets(322,[5]).
 
-parameterSources(526,[*]).
 
-dataTargets(526,[525]).
-/** END dataSetMapParameter2KeyAssignment, ID: '524', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '524', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[526]).
-/** END dataSetMapParameter2KeyAssignment, ID: '524', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '527', NAME: 'null' */
-parametersAndDataPair(397).
+parametersAndDataPair(370).
 
-parameterSources(397,[*]).
+parameterSources(370,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '527', NAME: 'null' */
+dataTargets(370,[368]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '527', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '527', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '528', NAME: 'null' */
-parametersAndDataPair(399).
+dataTargets(326,[4]).
 
-parameterSources(399,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '528', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(285,[319, 320, 369, 321, 322, 323, 370, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '528', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '528', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '286', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
+description(286,'Connector NetworkFilesystem -> NWFSLogging').
+assemblyConnector(286).
+requiringAssemblyContext(286,[242]).
+providingAssemblyContext(286,[243]).
+providedRole(286,[78]).
+requiredRole(286,[85]).
+/** END assemblyConnector, ID: '286', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '529', NAME: 'null' */
-parametersAndDataPair(401).
+/** BEGIN assemblyConnector, ID: '287', NAME: 'Connector Database -> DBLogging' */
+description(287,'Connector Database -> DBLogging').
+assemblyConnector(287).
+requiringAssemblyContext(287,[241]).
+providingAssemblyContext(287,[240]).
+providedRole(287,[78]).
+requiredRole(287,[76]).
+/** END assemblyConnector, ID: '287', NAME: 'Connector Database -> DBLogging' */
 
-parameterSources(401,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '529', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '288', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
+description(288,'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database').
+providedDelegationConnector(288).
+innerProvidedRole(288,[71]).
+outerProvidedRole(288,[310]).
+assemblyContext(288,[241]).
+/** END providedDelegationConnector, ID: '288', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '529', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '529', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '289', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
+description(289,'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool').
+providedDelegationConnector(289).
+innerProvidedRole(289,[98]).
+outerProvidedRole(289,[309]).
+assemblyContext(289,[250]).
+/** END providedDelegationConnector, ID: '289', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
 
-dataSetMapEntry(531).
-dataIdentifier(1,531).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '530', NAME: 'null' */
-parametersAndDataPair(532).
+/** BEGIN providedDelegationConnector, ID: '290', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+description(290,'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool').
+providedDelegationConnector(290).
+innerProvidedRole(290,[102]).
+outerProvidedRole(290,[308]).
+assemblyContext(290,[251]).
+/** END providedDelegationConnector, ID: '290', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
 
-parameterSources(532,[*]).
 
-dataTargets(532,[531]).
-/** END dataSetMapParameter2KeyAssignment, ID: '530', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '291', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
+description(291,'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool').
+providedDelegationConnector(291).
+innerProvidedRole(291,[107]).
+outerProvidedRole(291,[307]).
+assemblyContext(291,[253]).
+/** END providedDelegationConnector, ID: '291', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '530', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(344,[532]).
-/** END dataSetMapParameter2KeyAssignment, ID: '530', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '292', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+description(292,'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool').
+providedDelegationConnector(292).
+innerProvidedRole(292,[102]).
+outerProvidedRole(292,[308]).
+assemblyContext(292,[252]).
+/** END providedDelegationConnector, ID: '292', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
 
 
-/** BEGIN assemblyConnector, ID: '345', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
-assemblyConnector(345).
-requiringAssemblyContext(345,[313]).
-providingAssemblyContext(345,[308]).
-providedRole(345,[83]).
-requiredRole(345,[81]).
-/** END assemblyConnector, ID: '345', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
+/** BEGIN assemblyConnector, ID: '293', NAME: 'Connector FileManagerA -> LoadBalancer' */
+description(293,'Connector FileManagerA -> LoadBalancer').
+assemblyConnector(293).
+requiringAssemblyContext(293,[254]).
+providingAssemblyContext(293,[245]).
+providedRole(293,[86]).
+requiredRole(293,[95]).
+/** END assemblyConnector, ID: '293', NAME: 'Connector FileManagerA -> LoadBalancer' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '537', NAME: 'null' */
-parametersAndDataPair(388).
+parametersAndDataPair(319).
 
-parameterSources(388,[*]).
+parameterSources(319,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '537', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '537', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '537', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '538', NAME: 'null' */
-parametersAndDataPair(390).
+dataTargets(320,[6]).
 
-parameterSources(390,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '538', NAME: 'null' */
+parametersAndDataPair(372).
 
+parameterSources(372,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '538', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '538', NAME: 'null' */
+dataTargets(372,[371]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '539', NAME: 'null' */
-parametersAndDataPair(392).
+parametersAndDataPair(323).
 
-parameterSources(392,[*]).
+parameterSources(323,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '539', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '539', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '539', NAME: 'null' */
+parametersAndDataPair(326).
 
-dataSetMapEntry(541).
-dataIdentifier(1,541).
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '540', NAME: 'null' */
-parametersAndDataPair(542).
+dataTargets(326,[4]).
 
-parameterSources(542,[*]).
 
-dataTargets(542,[541]).
-/** END dataSetMapParameter2KeyAssignment, ID: '540', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(293,[319, 320, 372, 323, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '540', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[542]).
-/** END dataSetMapParameter2KeyAssignment, ID: '540', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '294', NAME: 'Connector CalendarA -> LoadBalancer' */
+description(294,'Connector CalendarA -> LoadBalancer').
+assemblyConnector(294).
+requiringAssemblyContext(294,[255]).
+providingAssemblyContext(294,[245]).
+providedRole(294,[87]).
+requiredRole(294,[97]).
+/** END assemblyConnector, ID: '294', NAME: 'Connector CalendarA -> LoadBalancer' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '543', NAME: 'null' */
-parametersAndDataPair(397).
+parametersAndDataPair(319).
 
-parameterSources(397,[*]).
+parameterSources(319,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '543', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '543', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '543', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '544', NAME: 'null' */
-parametersAndDataPair(399).
+dataTargets(320,[6]).
 
-parameterSources(399,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '544', NAME: 'null' */
+parametersAndDataPair(374).
 
+parameterSources(374,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '544', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '544', NAME: 'null' */
+dataTargets(374,[373]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '545', NAME: 'null' */
-parametersAndDataPair(401).
+parametersAndDataPair(323).
 
-parameterSources(401,[*]).
+parameterSources(323,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '545', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '545', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '545', NAME: 'null' */
+parametersAndDataPair(326).
 
-dataSetMapEntry(547).
-dataIdentifier(1,547).
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '546', NAME: 'null' */
-parametersAndDataPair(548).
+dataTargets(326,[4]).
 
-parameterSources(548,[*]).
 
-dataTargets(548,[547]).
-/** END dataSetMapParameter2KeyAssignment, ID: '546', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(294,[319, 320, 374, 323, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '546', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(345,[548]).
-/** END dataSetMapParameter2KeyAssignment, ID: '546', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '295', NAME: 'Connector FileManagerB -> LoadBalancer' */
+description(295,'Connector FileManagerB -> LoadBalancer').
+assemblyConnector(295).
+requiringAssemblyContext(295,[256]).
+providingAssemblyContext(295,[245]).
+providedRole(295,[86]).
+requiredRole(295,[95]).
+/** END assemblyConnector, ID: '295', NAME: 'Connector FileManagerB -> LoadBalancer' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
+dataSetMapEntry(375).
+dataIdentifier(1,375).
 
-/** BEGIN assemblyConnector, ID: '346', NAME: 'Connector DBAdminTool -> Database' */
-assemblyConnector(346).
-requiringAssemblyContext(346,[315]).
-providingAssemblyContext(346,[307]).
-providedRole(346,[74]).
-requiredRole(346,[71]).
-/** END assemblyConnector, ID: '346', NAME: 'Connector DBAdminTool -> Database' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '553', NAME: 'null' */
-parametersAndDataPair(388).
+dataTargets(320,[6]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '553', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '553', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '553', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '554', NAME: 'null' */
-parametersAndDataPair(390).
+parametersAndDataPair(323).
 
-parameterSources(390,[*]).
+parameterSources(323,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '554', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '554', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '554', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '555', NAME: 'null' */
-parametersAndDataPair(392).
+dataTargets(326,[4]).
 
-parameterSources(392,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '555', NAME: 'null' */
+parametersAndDataPair(376).
 
+parameterSources(376,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '555', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '555', NAME: 'null' */
+dataTargets(376,[375]).
 
-dataSetMapEntry(557).
-dataIdentifier(1,557).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '556', NAME: 'null' */
-parametersAndDataPair(558).
+connectorSpecificParametersAndDataPairs(295,[320, 322, 323, 326, 376]).
 
-parameterSources(558,[*]).
 
-dataTargets(558,[557]).
-/** END dataSetMapParameter2KeyAssignment, ID: '556', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '296', NAME: 'Connector CalendarB -> LoadBalancer' */
+description(296,'Connector CalendarB -> LoadBalancer').
+assemblyConnector(296).
+requiringAssemblyContext(296,[257]).
+providingAssemblyContext(296,[245]).
+providedRole(296,[87]).
+requiredRole(296,[97]).
+/** END assemblyConnector, ID: '296', NAME: 'Connector CalendarB -> LoadBalancer' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
+dataSetMapEntry(375).
+dataIdentifier(1,375).
+dataSetMapEntry(377).
+dataIdentifier(1,377).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '556', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[558]).
-/** END dataSetMapParameter2KeyAssignment, ID: '556', NAME: 'null' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '559', NAME: 'null' */
-parametersAndDataPair(397).
+dataTargets(320,[6]).
 
-parameterSources(397,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '559', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '559', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '559', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '560', NAME: 'null' */
-parametersAndDataPair(399).
+parametersAndDataPair(323).
 
-parameterSources(399,[*]).
+parameterSources(323,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '560', NAME: 'null' */
+dataTargets(323,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '560', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '560', NAME: 'null' */
+parametersAndDataPair(378).
 
+parameterSources(378,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '561', NAME: 'null' */
-parametersAndDataPair(401).
+dataTargets(378,[377]).
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '561', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '561', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '561', NAME: 'null' */
+dataTargets(326,[4]).
 
-dataSetMapEntry(563).
-dataIdentifier(1,563).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '562', NAME: 'null' */
-parametersAndDataPair(564).
+connectorSpecificParametersAndDataPairs(296,[320, 322, 323, 378, 326]).
 
-parameterSources(564,[*]).
 
-dataTargets(564,[563]).
-/** END dataSetMapParameter2KeyAssignment, ID: '562', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '297', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
+description(297,'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar').
+providedDelegationConnector(297).
+innerProvidedRole(297,[96]).
+outerProvidedRole(297,[314]).
+assemblyContext(297,[255]).
+/** END providedDelegationConnector, ID: '297', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '562', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(346,[564]).
-/** END dataSetMapParameter2KeyAssignment, ID: '562', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '298', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
+description(298,'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar').
+providedDelegationConnector(298).
+innerProvidedRole(298,[96]).
+outerProvidedRole(298,[313]).
+assemblyContext(298,[257]).
+/** END providedDelegationConnector, ID: '298', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
 
 
-/** BEGIN assemblyConnector, ID: '347', NAME: 'Connector DBAdminTool -> DBLogging' */
-assemblyConnector(347).
-requiringAssemblyContext(347,[315]).
-providingAssemblyContext(347,[306]).
-providedRole(347,[77]).
-requiredRole(347,[73]).
-/** END assemblyConnector, ID: '347', NAME: 'Connector DBAdminTool -> DBLogging' */
+/** BEGIN providedDelegationConnector, ID: '299', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
+description(299,'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager').
+providedDelegationConnector(299).
+innerProvidedRole(299,[94]).
+outerProvidedRole(299,[312]).
+assemblyContext(299,[256]).
+/** END providedDelegationConnector, ID: '299', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
 
 
-/** BEGIN assemblyConnector, ID: '348', NAME: 'Connector DBAdminTool -> DBLogging' */
-assemblyConnector(348).
-requiringAssemblyContext(348,[315]).
-providingAssemblyContext(348,[306]).
-providedRole(348,[76]).
-requiredRole(348,[72]).
-/** END assemblyConnector, ID: '348', NAME: 'Connector DBAdminTool -> DBLogging' */
+/** BEGIN assemblyConnector, ID: '300', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+description(300,'Connector LoadBalancer -> OwnCloudB').
+assemblyConnector(300).
+requiringAssemblyContext(300,[245]).
+providingAssemblyContext(300,[247]).
+providedRole(300,[80]).
+requiredRole(300,[92]).
+/** END assemblyConnector, ID: '300', NAME: 'Connector LoadBalancer -> OwnCloudB' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
+dataSetMapEntry(375).
+dataIdentifier(1,375).
+dataSetMapEntry(377).
+dataIdentifier(1,377).
+dataSetMapEntry(379).
+dataIdentifier(1,379).
+dataSetMapEntry(380).
+dataIdentifier(1,380).
 
-/** BEGIN assemblyConnector, ID: '349', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
-assemblyConnector(349).
-requiringAssemblyContext(349,[316]).
-providingAssemblyContext(349,[309]).
-providedRole(349,[76]).
-requiredRole(349,[99]).
-/** END assemblyConnector, ID: '349', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN assemblyConnector, ID: '350', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
-assemblyConnector(350).
-requiringAssemblyContext(350,[316]).
-providingAssemblyContext(350,[309]).
-providedRole(350,[77]).
-requiredRole(350,[100]).
-/** END assemblyConnector, ID: '350', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+dataTargets(319,[4]).
 
 
-/** BEGIN assemblyConnector, ID: '351', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
-assemblyConnector(351).
-requiringAssemblyContext(351,[316]).
-providingAssemblyContext(351,[308]).
-providedRole(351,[83]).
-requiredRole(351,[98]).
-/** END assemblyConnector, ID: '351', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
+parametersAndDataPair(320).
 
+parameterSources(320,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '569', NAME: 'null' */
-parametersAndDataPair(388).
+dataTargets(320,[6]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '569', NAME: 'null' */
+parametersAndDataPair(321).
 
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '569', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '569', NAME: 'null' */
+dataTargets(321,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '570', NAME: 'null' */
-parametersAndDataPair(390).
+parametersAndDataPair(322).
 
-parameterSources(390,[*]).
+parameterSources(322,[*]).
 
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '570', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '570', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '570', NAME: 'null' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '571', NAME: 'null' */
-parametersAndDataPair(392).
+dataTargets(323,[5]).
 
-parameterSources(392,[*]).
 
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '571', NAME: 'null' */
+parametersAndDataPair(381).
 
+parameterSources(381,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '571', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '571', NAME: 'null' */
+dataTargets(381,[379]).
 
-dataSetMapEntry(573).
-dataIdentifier(1,573).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '572', NAME: 'null' */
-parametersAndDataPair(574).
+parametersAndDataPair(382).
 
-parameterSources(574,[*]).
+parameterSources(382,[*]).
 
-dataTargets(574,[573]).
-/** END dataSetMapParameter2KeyAssignment, ID: '572', NAME: 'null' */
+dataTargets(382,[380]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '572', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[574]).
-/** END dataSetMapParameter2KeyAssignment, ID: '572', NAME: 'null' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '575', NAME: 'null' */
-parametersAndDataPair(397).
+dataTargets(326,[4]).
 
-parameterSources(397,[*]).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '575', NAME: 'null' */
+connectorSpecificParametersAndDataPairs(300,[319, 320, 321, 322, 323, 381, 382, 326]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '575', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '575', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '301', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
+description(301,'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager').
+providedDelegationConnector(301).
+innerProvidedRole(301,[94]).
+outerProvidedRole(301,[311]).
+assemblyContext(301,[254]).
+/** END providedDelegationConnector, ID: '301', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '576', NAME: 'null' */
-parametersAndDataPair(399).
+/** BEGIN assemblyConnector, ID: '302', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+description(302,'Connector LoadBalancer -> OwnCloudB').
+assemblyConnector(302).
+requiringAssemblyContext(302,[245]).
+providingAssemblyContext(302,[247]).
+providedRole(302,[79]).
+requiredRole(302,[93]).
+/** END assemblyConnector, ID: '302', NAME: 'Connector LoadBalancer -> OwnCloudB' */
 
-parameterSources(399,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
+dataSetMapEntry(375).
+dataIdentifier(1,375).
+dataSetMapEntry(377).
+dataIdentifier(1,377).
+dataSetMapEntry(379).
+dataIdentifier(1,379).
+dataSetMapEntry(380).
+dataIdentifier(1,380).
+dataSetMapEntry(383).
+dataIdentifier(1,383).
+dataSetMapEntry(384).
+dataIdentifier(1,384).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '576', NAME: 'null' */
+parametersAndDataPair(319).
 
+parameterSources(319,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '576', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '576', NAME: 'null' */
+dataTargets(319,[4]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '577', NAME: 'null' */
-parametersAndDataPair(401).
+parametersAndDataPair(320).
 
-parameterSources(401,[*]).
+parameterSources(320,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '577', NAME: 'null' */
+dataTargets(320,[6]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '577', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '577', NAME: 'null' */
+parametersAndDataPair(321).
 
-dataSetMapEntry(579).
-dataIdentifier(1,579).
+parameterSources(321,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '578', NAME: 'null' */
-parametersAndDataPair(580).
+dataTargets(321,[6]).
 
-parameterSources(580,[*]).
 
-dataTargets(580,[579]).
-/** END dataSetMapParameter2KeyAssignment, ID: '578', NAME: 'null' */
+parametersAndDataPair(322).
 
+parameterSources(322,[*]).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '578', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(351,[580]).
-/** END dataSetMapParameter2KeyAssignment, ID: '578', NAME: 'null' */
+dataTargets(322,[5]).
 
 
-/** BEGIN assemblyConnector, ID: '352', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
-assemblyConnector(352).
-requiringAssemblyContext(352,[308]).
-providingAssemblyContext(352,[309]).
-providedRole(352,[77]).
-requiredRole(352,[84]).
-/** END assemblyConnector, ID: '352', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
+parametersAndDataPair(323).
 
+parameterSources(323,[*]).
 
-/** BEGIN assemblyConnector, ID: '353', NAME: 'Connector Database -> DBLogging' */
-assemblyConnector(353).
-requiringAssemblyContext(353,[307]).
-providingAssemblyContext(353,[306]).
-providedRole(353,[77]).
-requiredRole(353,[75]).
-/** END assemblyConnector, ID: '353', NAME: 'Connector Database -> DBLogging' */
+dataTargets(323,[5]).
 
 
-/** BEGIN providedDelegationConnector, ID: '354', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
-providedDelegationConnector(354).
-innerProvidedRole(354,[70]).
-outerProvidedRole(354,[376]).
-assemblyContext(354,[307]).
-/** END providedDelegationConnector, ID: '354', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
+parametersAndDataPair(385).
 
+parameterSources(385,[*]).
 
-/** BEGIN providedDelegationConnector, ID: '355', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
-providedDelegationConnector(355).
-innerProvidedRole(355,[97]).
-outerProvidedRole(355,[375]).
-assemblyContext(355,[316]).
-/** END providedDelegationConnector, ID: '355', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
+dataTargets(385,[383]).
 
 
-/** BEGIN providedDelegationConnector, ID: '356', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
-providedDelegationConnector(356).
-innerProvidedRole(356,[101]).
-outerProvidedRole(356,[374]).
-assemblyContext(356,[317]).
-/** END providedDelegationConnector, ID: '356', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+parametersAndDataPair(326).
 
+parameterSources(326,[*]).
 
-/** BEGIN providedDelegationConnector, ID: '357', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
-providedDelegationConnector(357).
-innerProvidedRole(357,[106]).
-outerProvidedRole(357,[373]).
-assemblyContext(357,[319]).
-/** END providedDelegationConnector, ID: '357', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
+dataTargets(326,[4]).
 
 
-/** BEGIN providedDelegationConnector, ID: '358', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
-providedDelegationConnector(358).
-innerProvidedRole(358,[101]).
-outerProvidedRole(358,[374]).
-assemblyContext(358,[318]).
-/** END providedDelegationConnector, ID: '358', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+parametersAndDataPair(386).
 
+parameterSources(386,[*]).
 
-/** BEGIN assemblyConnector, ID: '359', NAME: 'Connector FileManagerA -> LoadBalancer' */
-assemblyConnector(359).
-requiringAssemblyContext(359,[320]).
-providingAssemblyContext(359,[311]).
-providedRole(359,[85]).
-requiredRole(359,[94]).
-/** END assemblyConnector, ID: '359', NAME: 'Connector FileManagerA -> LoadBalancer' */
+dataTargets(386,[384]).
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
-parametersAndDataPair(388).
+connectorSpecificParametersAndDataPairs(302,[319, 320, 321, 322, 323, 385, 326, 386]).
 
-parameterSources(388,[*]).
 
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '303', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
+description(303,'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar').
+providedDelegationConnector(303).
+innerProvidedRole(303,[113]).
+outerProvidedRole(303,[316]).
+assemblyContext(303,[259]).
+/** END providedDelegationConnector, ID: '303', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(359,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
+/** BEGIN providedDelegationConnector, ID: '304', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
+description(304,'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager').
+providedDelegationConnector(304).
+innerProvidedRole(304,[111]).
+outerProvidedRole(304,[315]).
+assemblyContext(304,[258]).
+/** END providedDelegationConnector, ID: '304', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '584', NAME: 'null' */
-parametersAndDataPair(397).
+/** BEGIN assemblyConnector, ID: '305', NAME: 'Connector PublicFileManager -> LoadBalancer' */
+description(305,'Connector PublicFileManager -> LoadBalancer').
+assemblyConnector(305).
+requiringAssemblyContext(305,[258]).
+providingAssemblyContext(305,[245]).
+providedRole(305,[89]).
+requiredRole(305,[112]).
+/** END assemblyConnector, ID: '305', NAME: 'Connector PublicFileManager -> LoadBalancer' */
 
-parameterSources(397,[*]).
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
+dataSetMapEntry(375).
+dataIdentifier(1,375).
+dataSetMapEntry(377).
+dataIdentifier(1,377).
+dataSetMapEntry(379).
+dataIdentifier(1,379).
+dataSetMapEntry(380).
+dataIdentifier(1,380).
+dataSetMapEntry(383).
+dataIdentifier(1,383).
+dataSetMapEntry(384).
+dataIdentifier(1,384).
 
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '584', NAME: 'null' */
+/** BEGIN assemblyConnector, ID: '306', NAME: 'Connector PublicCalendar -> LoadBalancer' */
+description(306,'Connector PublicCalendar -> LoadBalancer').
+assemblyConnector(306).
+requiringAssemblyContext(306,[259]).
+providingAssemblyContext(306,[245]).
+providedRole(306,[90]).
+requiredRole(306,[114]).
+/** END assemblyConnector, ID: '306', NAME: 'Connector PublicCalendar -> LoadBalancer' */
 
+dataSetMapEntry(317).
+dataIdentifier(1,317).
+dataSetMapEntry(318).
+dataIdentifier(1,318).
+dataSetMapEntry(327).
+dataIdentifier(1,327).
+dataSetMapEntry(328).
+dataIdentifier(1,328).
+dataSetMapEntry(331).
+dataIdentifier(1,331).
+dataSetMapEntry(332).
+dataIdentifier(1,332).
+dataSetMapEntry(335).
+dataIdentifier(1,335).
+dataSetMapEntry(336).
+dataIdentifier(1,336).
+dataSetMapEntry(339).
+dataIdentifier(1,339).
+dataSetMapEntry(340).
+dataIdentifier(1,340).
+dataSetMapEntry(343).
+dataIdentifier(1,343).
+dataSetMapEntry(344).
+dataIdentifier(1,344).
+dataSetMapEntry(347).
+dataIdentifier(1,347).
+dataSetMapEntry(348).
+dataIdentifier(1,348).
+dataSetMapEntry(351).
+dataIdentifier(1,351).
+dataSetMapEntry(352).
+dataIdentifier(1,352).
+dataSetMapEntry(355).
+dataIdentifier(1,355).
+dataSetMapEntry(356).
+dataIdentifier(1,356).
+dataSetMapEntry(359).
+dataIdentifier(1,359).
+dataSetMapEntry(360).
+dataIdentifier(1,360).
+dataSetMapEntry(363).
+dataIdentifier(1,363).
+dataSetMapEntry(364).
+dataIdentifier(1,364).
+dataSetMapEntry(367).
+dataIdentifier(1,367).
+dataSetMapEntry(368).
+dataIdentifier(1,368).
+dataSetMapEntry(371).
+dataIdentifier(1,371).
+dataSetMapEntry(373).
+dataIdentifier(1,373).
+dataSetMapEntry(375).
+dataIdentifier(1,375).
+dataSetMapEntry(377).
+dataIdentifier(1,377).
+dataSetMapEntry(379).
+dataIdentifier(1,379).
+dataSetMapEntry(380).
+dataIdentifier(1,380).
+dataSetMapEntry(383).
+dataIdentifier(1,383).
+dataSetMapEntry(384).
+dataIdentifier(1,384).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '584', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(359,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '584', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '307', NAME: 'Provided_ILBAdminTool' */
+description(307,'Provided_ILBAdminTool').
+operationProvidedRole(307).
+providedInterface(307,[68]).
+/** END operationProvidedRole, ID: '307', NAME: 'Provided_ILBAdminTool' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '585', NAME: 'null' */
-parametersAndDataPair(399).
+/** BEGIN operationProvidedRole, ID: '308', NAME: 'Provided_IOCAdminTool' */
+description(308,'Provided_IOCAdminTool').
+operationProvidedRole(308).
+providedInterface(308,[67]).
+/** END operationProvidedRole, ID: '308', NAME: 'Provided_IOCAdminTool' */
 
-parameterSources(399,[*]).
 
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '585', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '309', NAME: 'Provided_INWFSAdminTool' */
+description(309,'Provided_INWFSAdminTool').
+operationProvidedRole(309).
+providedInterface(309,[65]).
+/** END operationProvidedRole, ID: '309', NAME: 'Provided_INWFSAdminTool' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '585', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(359,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '585', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '310', NAME: 'Provided_IDBAdminTool' */
+description(310,'Provided_IDBAdminTool').
+operationProvidedRole(310).
+providedInterface(310,[55]).
+/** END operationProvidedRole, ID: '310', NAME: 'Provided_IDBAdminTool' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '586', NAME: 'null' */
-parametersAndDataPair(401).
+/** BEGIN operationProvidedRole, ID: '311', NAME: 'Provided_IWebDAVA' */
+description(311,'Provided_IWebDAVA').
+operationProvidedRole(311).
+providedInterface(311,[60]).
+/** END operationProvidedRole, ID: '311', NAME: 'Provided_IWebDAVA' */
 
-parameterSources(401,[*]).
 
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '586', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '312', NAME: 'Provided_IWebDAVB' */
+description(312,'Provided_IWebDAVB').
+operationProvidedRole(312).
+providedInterface(312,[60]).
+/** END operationProvidedRole, ID: '312', NAME: 'Provided_IWebDAVB' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '586', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(359,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '586', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '313', NAME: 'Provided_ICalDAVB' */
+description(313,'Provided_ICalDAVB').
+operationProvidedRole(313).
+providedInterface(313,[61]).
+/** END operationProvidedRole, ID: '313', NAME: 'Provided_ICalDAVB' */
 
-dataSetMapEntry(588).
-dataIdentifier(1,588).
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '587', NAME: 'null' */
-parametersAndDataPair(589).
+/** BEGIN operationProvidedRole, ID: '314', NAME: 'Provided_ICalDAVA' */
+description(314,'Provided_ICalDAVA').
+operationProvidedRole(314).
+providedInterface(314,[61]).
+/** END operationProvidedRole, ID: '314', NAME: 'Provided_ICalDAVA' */
 
-parameterSources(589,[*]).
 
-dataTargets(589,[588]).
-/** END dataSetMapParameter2KeyAssignment, ID: '587', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '315', NAME: 'Provided_IPublicFileManGUI' */
+description(315,'Provided_IPublicFileManGUI').
+operationProvidedRole(315).
+providedInterface(315,[69]).
+/** END operationProvidedRole, ID: '315', NAME: 'Provided_IPublicFileManGUI' */
 
 
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '587', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(359,[589]).
-/** END dataSetMapParameter2KeyAssignment, ID: '587', NAME: 'null' */
+/** BEGIN operationProvidedRole, ID: '316', NAME: 'Provided_IPublicCalendarGUI' */
+description(316,'Provided_IPublicCalendarGUI').
+operationProvidedRole(316).
+providedInterface(316,[70]).
+/** END operationProvidedRole, ID: '316', NAME: 'Provided_IPublicCalendarGUI' */
 
-
-/** BEGIN assemblyConnector, ID: '360', NAME: 'Connector CalendarA -> LoadBalancer' */
-assemblyConnector(360).
-requiringAssemblyContext(360,[321]).
-providingAssemblyContext(360,[311]).
-providedRole(360,[86]).
-requiredRole(360,[96]).
-/** END assemblyConnector, ID: '360', NAME: 'Connector CalendarA -> LoadBalancer' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
-parametersAndDataPair(388).
-
-parameterSources(388,[*]).
-
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(360,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '581', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '592', NAME: 'null' */
-parametersAndDataPair(397).
-
-parameterSources(397,[*]).
-
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '592', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '592', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(360,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '592', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '593', NAME: 'null' */
-parametersAndDataPair(399).
-
-parameterSources(399,[*]).
-
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '593', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '593', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(360,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '593', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '594', NAME: 'null' */
-parametersAndDataPair(401).
-
-parameterSources(401,[*]).
-
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '594', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '594', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(360,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '594', NAME: 'null' */
-
-dataSetMapEntry(596).
-dataIdentifier(1,596).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '595', NAME: 'null' */
-parametersAndDataPair(597).
-
-parameterSources(597,[*]).
-
-dataTargets(597,[596]).
-/** END dataSetMapParameter2KeyAssignment, ID: '595', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '595', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(360,[597]).
-/** END dataSetMapParameter2KeyAssignment, ID: '595', NAME: 'null' */
-
-
-/** BEGIN assemblyConnector, ID: '361', NAME: 'Connector FileManagerB -> LoadBalancer' */
-assemblyConnector(361).
-requiringAssemblyContext(361,[322]).
-providingAssemblyContext(361,[311]).
-providedRole(361,[85]).
-requiredRole(361,[94]).
-/** END assemblyConnector, ID: '361', NAME: 'Connector FileManagerB -> LoadBalancer' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-parametersAndDataPair(390).
-
-parameterSources(390,[*]).
-
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(361,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '601', NAME: 'null' */
-parametersAndDataPair(397).
-
-parameterSources(397,[*]).
-
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '601', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '601', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(361,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '601', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '602', NAME: 'null' */
-parametersAndDataPair(399).
-
-parameterSources(399,[*]).
-
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '602', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '602', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(361,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '602', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '603', NAME: 'null' */
-parametersAndDataPair(401).
-
-parameterSources(401,[*]).
-
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '603', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '603', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(361,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '603', NAME: 'null' */
-
-dataSetMapEntry(605).
-dataIdentifier(1,605).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '604', NAME: 'null' */
-parametersAndDataPair(606).
-
-parameterSources(606,[*]).
-
-dataTargets(606,[605]).
-/** END dataSetMapParameter2KeyAssignment, ID: '604', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '604', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(361,[606]).
-/** END dataSetMapParameter2KeyAssignment, ID: '604', NAME: 'null' */
-
-
-/** BEGIN assemblyConnector, ID: '362', NAME: 'Connector CalendarB -> LoadBalancer' */
-assemblyConnector(362).
-requiringAssemblyContext(362,[323]).
-providingAssemblyContext(362,[311]).
-providedRole(362,[86]).
-requiredRole(362,[96]).
-/** END assemblyConnector, ID: '362', NAME: 'Connector CalendarB -> LoadBalancer' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-parametersAndDataPair(390).
-
-parameterSources(390,[*]).
-
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(362,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '598', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '609', NAME: 'null' */
-parametersAndDataPair(397).
-
-parameterSources(397,[*]).
-
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '609', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '609', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(362,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '609', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '610', NAME: 'null' */
-parametersAndDataPair(399).
-
-parameterSources(399,[*]).
-
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '610', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '610', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(362,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '610', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '611', NAME: 'null' */
-parametersAndDataPair(401).
-
-parameterSources(401,[*]).
-
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '611', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '611', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(362,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '611', NAME: 'null' */
-
-dataSetMapEntry(613).
-dataIdentifier(1,613).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '612', NAME: 'null' */
-parametersAndDataPair(614).
-
-parameterSources(614,[*]).
-
-dataTargets(614,[613]).
-/** END dataSetMapParameter2KeyAssignment, ID: '612', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '612', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(362,[614]).
-/** END dataSetMapParameter2KeyAssignment, ID: '612', NAME: 'null' */
-
-
-/** BEGIN providedDelegationConnector, ID: '363', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
-providedDelegationConnector(363).
-innerProvidedRole(363,[95]).
-outerProvidedRole(363,[380]).
-assemblyContext(363,[321]).
-/** END providedDelegationConnector, ID: '363', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
-
-
-/** BEGIN providedDelegationConnector, ID: '364', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
-providedDelegationConnector(364).
-innerProvidedRole(364,[95]).
-outerProvidedRole(364,[379]).
-assemblyContext(364,[323]).
-/** END providedDelegationConnector, ID: '364', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
-
-
-/** BEGIN providedDelegationConnector, ID: '365', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
-providedDelegationConnector(365).
-innerProvidedRole(365,[93]).
-outerProvidedRole(365,[378]).
-assemblyContext(365,[322]).
-/** END providedDelegationConnector, ID: '365', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
-
-
-/** BEGIN assemblyConnector, ID: '366', NAME: 'Connector LoadBalancer -> OwnCloudB' */
-assemblyConnector(366).
-requiringAssemblyContext(366,[311]).
-providingAssemblyContext(366,[313]).
-providedRole(366,[79]).
-requiredRole(366,[91]).
-/** END assemblyConnector, ID: '366', NAME: 'Connector LoadBalancer -> OwnCloudB' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '619', NAME: 'null' */
-parametersAndDataPair(388).
-
-parameterSources(388,[*]).
-
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '619', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '619', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '619', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '620', NAME: 'null' */
-parametersAndDataPair(390).
-
-parameterSources(390,[*]).
-
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '620', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '620', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '620', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '621', NAME: 'null' */
-parametersAndDataPair(392).
-
-parameterSources(392,[*]).
-
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '621', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '621', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '621', NAME: 'null' */
-
-dataSetMapEntry(623).
-dataIdentifier(1,623).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '622', NAME: 'null' */
-parametersAndDataPair(624).
-
-parameterSources(624,[*]).
-
-dataTargets(624,[623]).
-/** END dataSetMapParameter2KeyAssignment, ID: '622', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '622', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[624]).
-/** END dataSetMapParameter2KeyAssignment, ID: '622', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '625', NAME: 'null' */
-parametersAndDataPair(397).
-
-parameterSources(397,[*]).
-
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '625', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '625', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '625', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '626', NAME: 'null' */
-parametersAndDataPair(399).
-
-parameterSources(399,[*]).
-
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '626', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '626', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '626', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '627', NAME: 'null' */
-parametersAndDataPair(401).
-
-parameterSources(401,[*]).
-
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '627', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '627', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '627', NAME: 'null' */
-
-dataSetMapEntry(629).
-dataIdentifier(1,629).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '628', NAME: 'null' */
-parametersAndDataPair(630).
-
-parameterSources(630,[*]).
-
-dataTargets(630,[629]).
-/** END dataSetMapParameter2KeyAssignment, ID: '628', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '628', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(366,[630]).
-/** END dataSetMapParameter2KeyAssignment, ID: '628', NAME: 'null' */
-
-
-/** BEGIN providedDelegationConnector, ID: '367', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
-providedDelegationConnector(367).
-innerProvidedRole(367,[93]).
-outerProvidedRole(367,[377]).
-assemblyContext(367,[320]).
-/** END providedDelegationConnector, ID: '367', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
-
-
-/** BEGIN assemblyConnector, ID: '368', NAME: 'Connector LoadBalancer -> OwnCloudB' */
-assemblyConnector(368).
-requiringAssemblyContext(368,[311]).
-providingAssemblyContext(368,[313]).
-providedRole(368,[78]).
-requiredRole(368,[92]).
-/** END assemblyConnector, ID: '368', NAME: 'Connector LoadBalancer -> OwnCloudB' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '635', NAME: 'null' */
-parametersAndDataPair(388).
-
-parameterSources(388,[*]).
-
-dataTargets(388,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '635', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '635', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[388]).
-/** END dataSetMapParameter2KeyAssignment, ID: '635', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '636', NAME: 'null' */
-parametersAndDataPair(390).
-
-parameterSources(390,[*]).
-
-dataTargets(390,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '636', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '636', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[390]).
-/** END dataSetMapParameter2KeyAssignment, ID: '636', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '637', NAME: 'null' */
-parametersAndDataPair(392).
-
-parameterSources(392,[*]).
-
-dataTargets(392,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '637', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '637', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[392]).
-/** END dataSetMapParameter2KeyAssignment, ID: '637', NAME: 'null' */
-
-dataSetMapEntry(639).
-dataIdentifier(1,639).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '638', NAME: 'null' */
-parametersAndDataPair(640).
-
-parameterSources(640,[*]).
-
-dataTargets(640,[639]).
-/** END dataSetMapParameter2KeyAssignment, ID: '638', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '638', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[640]).
-/** END dataSetMapParameter2KeyAssignment, ID: '638', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '641', NAME: 'null' */
-parametersAndDataPair(397).
-
-parameterSources(397,[*]).
-
-dataTargets(397,[4]).
-/** END dataSetMapParameter2KeyAssignment, ID: '641', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '641', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[397]).
-/** END dataSetMapParameter2KeyAssignment, ID: '641', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '642', NAME: 'null' */
-parametersAndDataPair(399).
-
-parameterSources(399,[*]).
-
-dataTargets(399,[5]).
-/** END dataSetMapParameter2KeyAssignment, ID: '642', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '642', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[399]).
-/** END dataSetMapParameter2KeyAssignment, ID: '642', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '643', NAME: 'null' */
-parametersAndDataPair(401).
-
-parameterSources(401,[*]).
-
-dataTargets(401,[6]).
-/** END dataSetMapParameter2KeyAssignment, ID: '643', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '643', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[401]).
-/** END dataSetMapParameter2KeyAssignment, ID: '643', NAME: 'null' */
-
-dataSetMapEntry(645).
-dataIdentifier(1,645).
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '644', NAME: 'null' */
-parametersAndDataPair(646).
-
-parameterSources(646,[*]).
-
-dataTargets(646,[645]).
-/** END dataSetMapParameter2KeyAssignment, ID: '644', NAME: 'null' */
-
-
-/** BEGIN dataSetMapParameter2KeyAssignment, ID: '644', NAME: 'null' */
-connectorSpecificParametersAndDataPairs(368,[646]).
-/** END dataSetMapParameter2KeyAssignment, ID: '644', NAME: 'null' */
-
-
-/** BEGIN providedDelegationConnector, ID: '369', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
-providedDelegationConnector(369).
-innerProvidedRole(369,[112]).
-outerProvidedRole(369,[382]).
-assemblyContext(369,[325]).
-/** END providedDelegationConnector, ID: '369', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
-
-
-/** BEGIN providedDelegationConnector, ID: '370', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
-providedDelegationConnector(370).
-innerProvidedRole(370,[110]).
-outerProvidedRole(370,[381]).
-assemblyContext(370,[324]).
-/** END providedDelegationConnector, ID: '370', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
-
-
-/** BEGIN assemblyConnector, ID: '371', NAME: 'Connector PublicFileManager -> LoadBalancer' */
-assemblyConnector(371).
-requiringAssemblyContext(371,[324]).
-providingAssemblyContext(371,[311]).
-providedRole(371,[88]).
-requiredRole(371,[111]).
-/** END assemblyConnector, ID: '371', NAME: 'Connector PublicFileManager -> LoadBalancer' */
-
-
-/** BEGIN assemblyConnector, ID: '372', NAME: 'Connector PublicCalendar -> LoadBalancer' */
-assemblyConnector(372).
-requiringAssemblyContext(372,[325]).
-providingAssemblyContext(372,[311]).
-providedRole(372,[89]).
-requiredRole(372,[113]).
-/** END assemblyConnector, ID: '372', NAME: 'Connector PublicCalendar -> LoadBalancer' */
-
-
-/** BEGIN operationProvidedRole, ID: '373', NAME: 'Provided_ILBAdminTool' */
-operationProvidedRole(373).
-providedInterface(373,[67]).
-/** END operationProvidedRole, ID: '373', NAME: 'Provided_ILBAdminTool' */
-
-
-/** BEGIN operationProvidedRole, ID: '374', NAME: 'Provided_IOCAdminTool' */
-operationProvidedRole(374).
-providedInterface(374,[66]).
-/** END operationProvidedRole, ID: '374', NAME: 'Provided_IOCAdminTool' */
-
-
-/** BEGIN operationProvidedRole, ID: '375', NAME: 'Provided_INWFSAdminTool' */
-operationProvidedRole(375).
-providedInterface(375,[64]).
-/** END operationProvidedRole, ID: '375', NAME: 'Provided_INWFSAdminTool' */
-
-
-/** BEGIN operationProvidedRole, ID: '376', NAME: 'Provided_IDBAdminTool' */
-operationProvidedRole(376).
-providedInterface(376,[54]).
-/** END operationProvidedRole, ID: '376', NAME: 'Provided_IDBAdminTool' */
-
-
-/** BEGIN operationProvidedRole, ID: '377', NAME: 'Provided_IWebDAVA' */
-operationProvidedRole(377).
-providedInterface(377,[59]).
-/** END operationProvidedRole, ID: '377', NAME: 'Provided_IWebDAVA' */
-
-
-/** BEGIN operationProvidedRole, ID: '378', NAME: 'Provided_IWebDAVB' */
-operationProvidedRole(378).
-providedInterface(378,[59]).
-/** END operationProvidedRole, ID: '378', NAME: 'Provided_IWebDAVB' */
-
-
-/** BEGIN operationProvidedRole, ID: '379', NAME: 'Provided_ICalDAVB' */
-operationProvidedRole(379).
-providedInterface(379,[60]).
-/** END operationProvidedRole, ID: '379', NAME: 'Provided_ICalDAVB' */
-
-
-/** BEGIN operationProvidedRole, ID: '380', NAME: 'Provided_ICalDAVA' */
-operationProvidedRole(380).
-providedInterface(380,[60]).
-/** END operationProvidedRole, ID: '380', NAME: 'Provided_ICalDAVA' */
-
-
-/** BEGIN operationProvidedRole, ID: '381', NAME: 'Provided_IPublicFileManGUI' */
-operationProvidedRole(381).
-providedInterface(381,[68]).
-/** END operationProvidedRole, ID: '381', NAME: 'Provided_IPublicFileManGUI' */
-
-
-/** BEGIN operationProvidedRole, ID: '382', NAME: 'Provided_IPublicCalendarGUI' */
-operationProvidedRole(382).
-providedInterface(382,[69]).
-/** END operationProvidedRole, ID: '382', NAME: 'Provided_IPublicCalendarGUI' */
-
-/** END system, ID: '304', NAME: 'defaultSystem' */
+/** END system, ID: '238', NAME: 'defaultSystem' */
 

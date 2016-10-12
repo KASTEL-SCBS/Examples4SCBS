@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" id="_4fg0MJziEeWvbrCzHVJijg">
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" id="_4fg0MJziEeWvbrCzHVJijg" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" name="paper example confidentiality specification">
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_v6fF05znEeWvbrCzHVJijg" name="consumptiondata"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_zUcrQ5znEeWvbrCzHVJijg" name="billingdata"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_1_swk5znEeWvbrCzHVJijg" name="public"/>
+ 
   <locationsAndTamperProtectionsPairs id="__NCNYJzoEeWvbrCzHVJijg" locations="_CnY0YZzpEeWvbrCzHVJijg _FLpg4ZzpEeWvbrCzHVJijg _GaFC4ZzpEeWvbrCzHVJijg"/>
   <locationsAndTamperProtectionsPairs id="_RBu-EJzpEeWvbrCzHVJijg" locations=" _FLpg4ZzpEeWvbrCzHVJijg _GaFC4ZzpEeWvbrCzHVJijg"/>
   <locationsAndTamperProtectionsPairs id="_U1yegJzpEeWvbrCzHVJijg" locations="_GaFC4ZzpEeWvbrCzHVJijg" tamperProtections="_HT3KkpzpEeWvbrCzHVJijg"/>
@@ -10,28 +14,25 @@
   <locations id="_FLpg4ZzpEeWvbrCzHVJijg" name="livingroom"/>
   <locations id="_GaFC4ZzpEeWvbrCzHVJijg" name="outdoors"/>
   <tamperProtections id="_HT3KkpzpEeWvbrCzHVJijg" name="seal"/>
-  <parametersAndDataSetsPairs id="_yY5H47q1EeWnb8dhfi-QRA" dataSetTargets="_v6fF05znEeWvbrCzHVJijg">
+  <parametersAndDataPairs id="_yY5H47q1EeWnb8dhfi-QRA" dataTargets="_v6fF05znEeWvbrCzHVJijg">
     <parameterSources>start</parameterSources>
     <parameterSources>end</parameterSources>
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_mShfE7rNEeWnb8dhfi-QRA" dataSetTargets="_v6fF05znEeWvbrCzHVJijg">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_mShfE7rNEeWnb8dhfi-QRA" dataTargets="_v6fF05znEeWvbrCzHVJijg">
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_tkkwY7rNEeWnb8dhfi-QRA" dataSetTargets="_v6fF05znEeWvbrCzHVJijg">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_tkkwY7rNEeWnb8dhfi-QRA" dataTargets="_v6fF05znEeWvbrCzHVJijg">
     <parameterSources>timestamp</parameterSources>
     <parameterSources>value</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_zS5lI7rNEeWnb8dhfi-QRA" dataSetTargets="_v6fF05znEeWvbrCzHVJijg">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_zS5lI7rNEeWnb8dhfi-QRA" dataTargets="_v6fF05znEeWvbrCzHVJijg">
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_4YMrA7rNEeWnb8dhfi-QRA" dataSetTargets="_zUcrQ5znEeWvbrCzHVJijg">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_4YMrA7rNEeWnb8dhfi-QRA" dataTargets="_zUcrQ5znEeWvbrCzHVJijg">
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_2JKOs-IsEeWuZOK2YocvJA" dataSetTargets="_v6fF05znEeWvbrCzHVJijg">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_2JKOs-IsEeWuZOK2YocvJA" dataTargets="_v6fF05znEeWvbrCzHVJijg">
     <parameterSources>value</parameterSources>
-  </parametersAndDataSetsPairs>
-  <dataSets id="_v6fF05znEeWvbrCzHVJijg" name="consumptiondata"/>
-  <dataSets id="_zUcrQ5znEeWvbrCzHVJijg" name="billingdata"/>
-  <dataSets id="_1_swk5znEeWvbrCzHVJijg" name="public"/>
+  </parametersAndDataPairs>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

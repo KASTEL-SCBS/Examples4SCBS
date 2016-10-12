@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<edu.kit.kastel.scbs.confidentiality.adversary:Adversaries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary" id="_A5jBQJzjEeWvbrCzHVJijg">
+<edu.kit.kastel.scbs.confidentiality.adversary:Adversaries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" name="paper example adversaries" id="_A5jBQJzjEeWvbrCzHVJijg">
   <adversaries id="_mXBykJznEeWvbrCzHVJijg" name="inhabitant">
-    <mayKnowDataSets href="default.confidentiality#_zUcrQ5znEeWvbrCzHVJijg"/>
-    <mayKnowDataSets href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
-    <mayKnowDataSets href="default.confidentiality#_v6fF05znEeWvbrCzHVJijg"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="default.confidentiality#_zUcrQ5znEeWvbrCzHVJijg"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="default.confidentiality#_v6fF05znEeWvbrCzHVJijg"/>
     <locationsAndTamperProtectionsPairs href="default.confidentiality#__NCNYJzoEeWvbrCzHVJijg"/>
   </adversaries>
   <adversaries id="_p0uBcJznEeWvbrCzHVJijg" name="guest">
-    <mayKnowDataSets href="default.confidentiality#_v6fF05znEeWvbrCzHVJijg"/>
-    <mayKnowDataSets href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="default.confidentiality#_v6fF05znEeWvbrCzHVJijg"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
     <locationsAndTamperProtectionsPairs href="default.confidentiality#_RBu-EJzpEeWvbrCzHVJijg"/>
   </adversaries>
   <adversaries id="_rJKE0JznEeWvbrCzHVJijg" name="passer-by-adversary">
-    <mayKnowDataSets href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
+    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="default.confidentiality#_1_swk5znEeWvbrCzHVJijg"/>
     <locationsAndTamperProtectionsPairs href="default.confidentiality#_U1yegJzpEeWvbrCzHVJijg"/>
   </adversaries>
 </edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>

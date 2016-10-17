@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1">
   <resourceenvironment:ResourceEnvironment entityName="resEnv">
     <linkingResources__ResourceEnvironment id="_ts9IcIF2EeWfuPeHmai7FA" entityName="rc1rc2link" connectedResourceContainers_LinkingResource="_se8dMIF2EeWfuPeHmai7FA _u0afwYF2EeWfuPeHmai7FA">
       <communicationLinkResourceSpecifications_LinkingResource id="_0jlCAIF2EeWfuPeHmai7FA">
@@ -15,8 +15,8 @@
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:Encryption" appliedTo="_ts9IcIF2EeWfuPeHmai7FA">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_7R9hAIOkEeW0_uLqifoM5g"/>
-      <unencryptedDataSets href="../../edu.kit.kastel.scbs.minimaladversary/model/minimal.confidentiality#_caBQw5nPEeWFvY6gasgxmA"/>
-      <unencryptedDataSets href="../../edu.kit.kastel.scbs.minimaladversary/model/minimal.confidentiality#_dImOA5nPEeWFvY6gasgxmA"/>
+      <unencryptedData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="../../edu.kit.kastel.scbs.minimaladversary/model/minimal.confidentiality#_caBQw5nPEeWFvY6gasgxmA"/>
+      <unencryptedData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="../../edu.kit.kastel.scbs.minimaladversary/model/minimal.confidentiality#_dImOA5nPEeWFvY6gasgxmA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:LocationAndTamperProtection" appliedTo="_ts9IcIF2EeWfuPeHmai7FA">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_58XAAIOkEeW0_uLqifoM5g"/>

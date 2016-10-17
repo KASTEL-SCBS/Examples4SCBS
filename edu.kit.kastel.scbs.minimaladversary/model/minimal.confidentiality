@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" id="_QbwH8JnPEeWFvY6gasgxmA">
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_QbwH8JnPEeWFvY6gasgxmA" name="minimal confidentiality specification">
   <locationsAndTamperProtectionsPairs id="_dx5CoJnPEeWFvY6gasgxmA" name="a" locations="_U-Qp0JnPEeWFvY6gasgxmA _WrBGkZnPEeWFvY6gasgxmA _XghLMZnPEeWFvY6gasgxmA" tamperProtections="_YVXIgpnPEeWFvY6gasgxmA _ZpmXkpnPEeWFvY6gasgxmA _accw0pnPEeWFvY6gasgxmA"/>
   <locationsAndTamperProtectionsPairs id="_gHbWoJnPEeWFvY6gasgxmA" locations="_U-Qp0JnPEeWFvY6gasgxmA _WrBGkZnPEeWFvY6gasgxmA" tamperProtections="_YVXIgpnPEeWFvY6gasgxmA _ZpmXkpnPEeWFvY6gasgxmA"/>
   <locationsAndTamperProtectionsPairs id="_QkqYoJzKEeWmguDFcONRWw" name="c" locations="_WrBGkZnPEeWFvY6gasgxmA" tamperProtections="_accw0pnPEeWFvY6gasgxmA"/>
@@ -9,22 +9,22 @@
   <tamperProtections id="_YVXIgpnPEeWFvY6gasgxmA" name="tp1"/>
   <tamperProtections id="_ZpmXkpnPEeWFvY6gasgxmA" name="tp2"/>
   <tamperProtections id="_accw0pnPEeWFvY6gasgxmA" name="tp3"/>
-  <parametersAndDataSetsPairs id="_ofr_s559EeWcJJELT49yPA" dataSetTargets="_bM0d05nPEeWFvY6gasgxmA _dImOA5nPEeWFvY6gasgxmA">
+  <parametersAndDataPairs id="_ofr_s559EeWcJJELT49yPA" dataTargets="_bM0d05nPEeWFvY6gasgxmA _dImOA5nPEeWFvY6gasgxmA">
     <parameterSources>p0</parameterSources>
     <parameterSources>p1</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_yA1l0559EeWcJJELT49yPA" name="pds" dataSetTargets="_dImOA5nPEeWFvY6gasgxmA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_yA1l0559EeWcJJELT49yPA" name="pds" dataTargets="_dImOA5nPEeWFvY6gasgxmA">
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_beUu4-nvEeWkLskMnHRkJg" name="wSo" dataSetTargets="_caBQw5nPEeWFvY6gasgxmA _dImOA5nPEeWFvY6gasgxmA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_beUu4-nvEeWkLskMnHRkJg" name="wSo" dataTargets="_caBQw5nPEeWFvY6gasgxmA _dImOA5nPEeWFvY6gasgxmA">
     <parameterSources>p0</parameterSources>
     <parameterSources>sizeOf(p0)</parameterSources>
     <parameterSources>p1</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="__QSxk-tcEeWQ_b1sC2U25g" name="wWildCard" dataSetTargets="_caBQw5nPEeWFvY6gasgxmA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="__QSxk-tcEeWQ_b1sC2U25g" name="wWildCard" dataTargets="_caBQw5nPEeWFvY6gasgxmA">
     <parameterSources>*</parameterSources>
-  </parametersAndDataSetsPairs>
-  <dataSets id="_bM0d05nPEeWFvY6gasgxmA" name="d1"/>
-  <dataSets id="_caBQw5nPEeWFvY6gasgxmA" name="d2"/>
-  <dataSets id="_dImOA5nPEeWFvY6gasgxmA" name="d3"/>
+  </parametersAndDataPairs>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_bM0d05nPEeWFvY6gasgxmA" name="d1"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_caBQw5nPEeWFvY6gasgxmA" name="d2"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_dImOA5nPEeWFvY6gasgxmA" name="d3"/>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

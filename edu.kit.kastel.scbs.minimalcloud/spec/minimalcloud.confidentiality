@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" id="_H3afkFQwEeam-co1cfiBiw" name="minimalcloud">
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_W6by0VQwEeam-co1cfiBiw" name="Self" definingFunctionalParameter="s"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataParameter" id="_ZdPGwVQwEeam-co1cfiBiw" name="Friends" definingFunctionalParameter="f"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_W6by0VQwEeam-co1cfiBiw" name="Self" definingServiceParameter="s"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_ZdPGwVQwEeam-co1cfiBiw" name="Friends" definingServiceParameter="f"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_Jet0kFQwEeam-co1cfiBiw" name="PublicData"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_hEfMA1QwEeam-co1cfiBiw" map="_NGCglFQwEeam-co1cfiBiw" parameter="_W6by0VQwEeam-co1cfiBiw"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:ParameterizedDataSetMapEntry" id="_UxZCs1QwEeam-co1cfiBiw" map="_NGCglFQwEeam-co1cfiBiw" parameter="_ZdPGwVQwEeam-co1cfiBiw"/>
@@ -24,9 +24,9 @@
     <parameterSources>fileName</parameterSources>
     <parameterSources>data</parameterSources>
   </parametersAndDataPairs>
-  <addedFunctionalParameters id="_cBcv9lQwEeam-co1cfiBiw" name="s"/>
-  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_5h6x-FQ1Eea2F_ez8ICPxQ" dataParametersToReplace="_W6by0VQwEeam-co1cfiBiw" replacingKey="A"/>
-  <dataParameterSubstitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" id="_8wtCKFQ1Eea2F_ez8ICPxQ" dataParametersToReplace="_W6by0VQwEeam-co1cfiBiw" replacingKey="B"/>
+  <addedServiceParameters id="_cBcv9lQwEeam-co1cfiBiw" name="s"/>
+  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_5h6x-FQ1Eea2F_ez8ICPxQ" specificationParametersToReplace="_W6by0VQwEeam-co1cfiBiw" assignedKey="A"/>
+  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_8wtCKFQ1Eea2F_ez8ICPxQ" specificationParametersToReplace="_W6by0VQwEeam-co1cfiBiw" assignedKey="B"/>
   <locations id="_bbaYyVQyEea2F_ez8ICPxQ" name="internet"/>
   <locations id="_dVHFWVQyEea2F_ez8ICPxQ" name="userAHome"/>
   <locations id="_enQpuVQyEea2F_ez8ICPxQ" name="userBHome"/>

@@ -41,7 +41,7 @@
           <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
         </parameters__OperationSignature>
         <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
-        <parameters__OperationSignature parameterName="token">
+        <parameters__OperationSignature parameterName="f">
           <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
         </parameters__OperationSignature>
       </signatures__OperationInterface>
@@ -69,7 +69,7 @@
           <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
         </parameters__OperationSignature>
         <parameters__OperationSignature dataType__Parameter="_38jYp089EeaZ-ru15blW9g" parameterName="data"/>
-        <parameters__OperationSignature parameterName="token">
+        <parameters__OperationSignature parameterName="f">
           <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
         </parameters__OperationSignature>
       </signatures__OperationInterface>
@@ -85,23 +85,23 @@
     </dataTypes__Repository>
   </repository:Repository>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/minimalcloud.confidentiality#_cBcv9lQwEeam-co1cfiBiw"/>
+      <serviceParameters href="../spec/minimalcloud.confidentiality#_cBcv9lQwEeam-co1cfiBiw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:FunctionalParameter" appliedTo="_no_DgE89EeaZ-ru15blW9g">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_no_DgE89EeaZ-ru15blW9g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
-      <functionalParameters href="../spec/minimalcloud.confidentiality#_cBcv9lQwEeam-co1cfiBiw"/>
+      <serviceParameters href="../spec/minimalcloud.confidentiality#_cBcv9lQwEeam-co1cfiBiw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/minimalcloud.confidentiality#_W6by0VQwEeam-co1cfiBiw"/>
-      <dataParameters href="../spec/minimalcloud.confidentiality#_ZdPGwVQwEeam-co1cfiBiw"/>
+      <specificationParameters href="../spec/minimalcloud.confidentiality#_W6by0VQwEeam-co1cfiBiw"/>
+      <specificationParameters href="../spec/minimalcloud.confidentiality#_ZdPGwVQwEeam-co1cfiBiw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_no_DgE89EeaZ-ru15blW9g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
-      <dataParameters href="../spec/minimalcloud.confidentiality#_W6by0VQwEeam-co1cfiBiw"/>
-      <dataParameters href="../spec/minimalcloud.confidentiality#_ZdPGwVQwEeam-co1cfiBiw"/>
+      <specificationParameters href="../spec/minimalcloud.confidentiality#_W6by0VQwEeam-co1cfiBiw"/>
+      <specificationParameters href="../spec/minimalcloud.confidentiality#_ZdPGwVQwEeam-co1cfiBiw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_jCkSAE89EeaZ-ru15blW9g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>

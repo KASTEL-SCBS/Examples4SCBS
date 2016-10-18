@@ -1,221 +1,259 @@
 
-/** BEGIN repository, ID: '23', NAME: 'minimalcloudRepository' */
-repository(23).
-components(23,[24,25]).
-interfaces(23,[26,27]).
+/** BEGIN repository, ID: '27', NAME: 'minimalcloudRepository' */
+description(27,'minimalcloudRepository').
+repository(27).
+components(27,[28,29]).
+interfaces(27,[30,31]).
 
-/** BEGIN basicComponent, ID: '24', NAME: 'FileManager' */
-basicComponent(24).
-providedRoles(24,[28]).
-requiredRoles(24,[29]).
+/** BEGIN basicComponent, ID: '28', NAME: 'FileManager' */
+description(28,'FileManager').
+basicComponent(28).
+providedRoles(28,[32]).
+requiredRoles(28,[33]).
 
-/** BEGIN operationProvidedRole, ID: '28', NAME: 'Provided_GUI_FileManager' */
-operationProvidedRole(28).
-providedInterface(28,[27]).
-/** END operationProvidedRole, ID: '28', NAME: 'Provided_GUI_FileManager' */
-
-
-/** BEGIN operationRequiredRole, ID: '29', NAME: 'Required_ObjectStorage_FileManager' */
-operationRequiredRole(29).
-requiredInterface(29,[26]).
-/** END operationRequiredRole, ID: '29', NAME: 'Required_ObjectStorage_FileManager' */
-
-/** END basicComponent, ID: '24', NAME: 'FileManager' */
+/** BEGIN operationProvidedRole, ID: '32', NAME: 'Provided_GUI_FileManager' */
+description(32,'Provided_GUI_FileManager').
+operationProvidedRole(32).
+providedInterface(32,[31]).
+/** END operationProvidedRole, ID: '32', NAME: 'Provided_GUI_FileManager' */
 
 
-/** BEGIN basicComponent, ID: '25', NAME: 'CloudStorage' */
-basicComponent(25).
-providedRoles(25,[30]).
-requiredRoles(25,[]).
+/** BEGIN operationRequiredRole, ID: '33', NAME: 'Required_ObjectStorage_FileManager' */
+description(33,'Required_ObjectStorage_FileManager').
+operationRequiredRole(33).
+requiredInterface(33,[30]).
+/** END operationRequiredRole, ID: '33', NAME: 'Required_ObjectStorage_FileManager' */
 
-/** BEGIN operationProvidedRole, ID: '30', NAME: 'Provided_ObjectStorage_CloudStorage' */
-operationProvidedRole(30).
-providedInterface(30,[26]).
-/** END operationProvidedRole, ID: '30', NAME: 'Provided_ObjectStorage_CloudStorage' */
-
-/** END basicComponent, ID: '25', NAME: 'CloudStorage' */
+/** END basicComponent, ID: '28', NAME: 'FileManager' */
 
 
-/** BEGIN operationInterface, ID: '26', NAME: 'ObjectStorage' */
-operationInterface(26).
-parentInterfaces(26,[]).
-signatures(26,[31,32,33,34]).
+/** BEGIN basicComponent, ID: '29', NAME: 'CloudStorage' */
+description(29,'CloudStorage').
+basicComponent(29).
+providedRoles(29,[34]).
+requiredRoles(29,[]).
 
-/** BEGIN operationSignature, ID: '31', NAME: 'get' */
-operationSignature(31).
-parameters(31,[fileName]).
-returnType(31,[]).
+/** BEGIN operationProvidedRole, ID: '34', NAME: 'Provided_ObjectStorage_CloudStorage' */
+description(34,'Provided_ObjectStorage_CloudStorage').
+operationProvidedRole(34).
+providedInterface(34,[30]).
+/** END operationProvidedRole, ID: '34', NAME: 'Provided_ObjectStorage_CloudStorage' */
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
-
-sizeOfParameter(35).
-sizeOf(35,fileName).
-/** END operationSignature, ID: '31', NAME: 'get' */
+/** END basicComponent, ID: '29', NAME: 'CloudStorage' */
 
 
-/** BEGIN operationSignature, ID: '32', NAME: 'putSelf' */
-operationSignature(32).
-parameters(32,[fileName,data]).
-returnType(32,[]).
+/** BEGIN operationInterface, ID: '30', NAME: 'ObjectStorage' */
+description(30,'ObjectStorage').
+operationInterface(30).
+parentInterfaces(30,[]).
+signatures(30,[35,36,37,38]).
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
+/** BEGIN operationSignature, ID: '35', NAME: 'get' */
+description(35,'get').
+operationSignature(35).
+parameters(35,[21]).
+returnType(35,[]).
 
-sizeOfParameter(35).
-sizeOf(35,fileName).
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
 
-/** BEGIN parameter, ID: 'data', NAME: 'data' */
-parameter(data).
-/** END parameter, ID: 'data', NAME: 'data' */
-
-sizeOfParameter(36).
-sizeOf(36,data).
-/** END operationSignature, ID: '32', NAME: 'putSelf' */
-
-
-/** BEGIN operationSignature, ID: '33', NAME: 'putFriends' */
-operationSignature(33).
-parameters(33,[fileName,data,token]).
-returnType(33,[]).
-
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
-
-sizeOfParameter(35).
-sizeOf(35,fileName).
-
-/** BEGIN parameter, ID: 'data', NAME: 'data' */
-parameter(data).
-/** END parameter, ID: 'data', NAME: 'data' */
-
-sizeOfParameter(36).
-sizeOf(36,data).
-
-/** BEGIN parameter, ID: 'token', NAME: 'token' */
-parameter(token).
-/** END parameter, ID: 'token', NAME: 'token' */
-
-sizeOfParameter(37).
-sizeOf(37,token).
-/** END operationSignature, ID: '33', NAME: 'putFriends' */
+sizeOfParameter(39).
+sizeOf(39,21).
+/** END operationSignature, ID: '35', NAME: 'get' */
 
 
-/** BEGIN operationSignature, ID: '34', NAME: 'putPublic' */
-operationSignature(34).
-parameters(34,[fileName,data]).
-returnType(34,[]).
+/** BEGIN operationSignature, ID: '36', NAME: 'putSelf' */
+description(36,'putSelf').
+operationSignature(36).
+parameters(36,[21,22]).
+returnType(36,[]).
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
 
-sizeOfParameter(35).
-sizeOf(35,fileName).
+sizeOfParameter(39).
+sizeOf(39,21).
 
-/** BEGIN parameter, ID: 'data', NAME: 'data' */
-parameter(data).
-/** END parameter, ID: 'data', NAME: 'data' */
+/** BEGIN parameter, ID: '22', NAME: 'data' */
+description(22,'data').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'data' */
 
-sizeOfParameter(36).
-sizeOf(36,data).
-/** END operationSignature, ID: '34', NAME: 'putPublic' */
-
-/** END operationInterface, ID: '26', NAME: 'ObjectStorage' */
+sizeOfParameter(40).
+sizeOf(40,22).
+/** END operationSignature, ID: '36', NAME: 'putSelf' */
 
 
-/** BEGIN operationInterface, ID: '27', NAME: 'GUI' */
-operationInterface(27).
-parentInterfaces(27,[]).
-signatures(27,[38,39,40,41]).
+/** BEGIN operationSignature, ID: '37', NAME: 'putFriends' */
+description(37,'putFriends').
+operationSignature(37).
+parameters(37,[21,22,23]).
+returnType(37,[]).
 
-/** BEGIN operationSignature, ID: '38', NAME: 'load' */
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
+
+sizeOfParameter(39).
+sizeOf(39,21).
+
+/** BEGIN parameter, ID: '22', NAME: 'data' */
+description(22,'data').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'data' */
+
+sizeOfParameter(40).
+sizeOf(40,22).
+
+/** BEGIN parameter, ID: '23', NAME: 'f' */
+description(23,'f').
+parameter(23).
+/** END parameter, ID: '23', NAME: 'f' */
+
+sizeOfParameter(41).
+sizeOf(41,23).
+/** END operationSignature, ID: '37', NAME: 'putFriends' */
+
+
+/** BEGIN operationSignature, ID: '38', NAME: 'putPublic' */
+description(38,'putPublic').
 operationSignature(38).
-parameters(38,[fileName]).
+parameters(38,[21,22]).
 returnType(38,[]).
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
 
-sizeOfParameter(35).
-sizeOf(35,fileName).
-/** END operationSignature, ID: '38', NAME: 'load' */
+sizeOfParameter(39).
+sizeOf(39,21).
 
+/** BEGIN parameter, ID: '22', NAME: 'data' */
+description(22,'data').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'data' */
 
-/** BEGIN operationSignature, ID: '39', NAME: 'backup' */
-operationSignature(39).
-parameters(39,[fileName,data]).
-returnType(39,[]).
+sizeOfParameter(40).
+sizeOf(40,22).
+/** END operationSignature, ID: '38', NAME: 'putPublic' */
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
-
-sizeOfParameter(35).
-sizeOf(35,fileName).
-
-/** BEGIN parameter, ID: 'data', NAME: 'data' */
-parameter(data).
-/** END parameter, ID: 'data', NAME: 'data' */
-
-sizeOfParameter(36).
-sizeOf(36,data).
-/** END operationSignature, ID: '39', NAME: 'backup' */
+/** END operationInterface, ID: '30', NAME: 'ObjectStorage' */
 
 
-/** BEGIN operationSignature, ID: '40', NAME: 'share' */
-operationSignature(40).
-parameters(40,[fileName,data,token]).
-returnType(40,[]).
+/** BEGIN operationInterface, ID: '31', NAME: 'GUI' */
+description(31,'GUI').
+operationInterface(31).
+parentInterfaces(31,[]).
+signatures(31,[42,43,44,45]).
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
+/** BEGIN operationSignature, ID: '42', NAME: 'load' */
+description(42,'load').
+operationSignature(42).
+parameters(42,[21]).
+returnType(42,[]).
 
-sizeOfParameter(35).
-sizeOf(35,fileName).
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
 
-/** BEGIN parameter, ID: 'data', NAME: 'data' */
-parameter(data).
-/** END parameter, ID: 'data', NAME: 'data' */
-
-sizeOfParameter(36).
-sizeOf(36,data).
-
-/** BEGIN parameter, ID: 'token', NAME: 'token' */
-parameter(token).
-/** END parameter, ID: 'token', NAME: 'token' */
-
-sizeOfParameter(37).
-sizeOf(37,token).
-/** END operationSignature, ID: '40', NAME: 'share' */
+sizeOfParameter(39).
+sizeOf(39,21).
+/** END operationSignature, ID: '42', NAME: 'load' */
 
 
-/** BEGIN operationSignature, ID: '41', NAME: 'publish' */
-operationSignature(41).
-parameters(41,[fileName,data]).
-returnType(41,[]).
+/** BEGIN operationSignature, ID: '43', NAME: 'backup' */
+description(43,'backup').
+operationSignature(43).
+parameters(43,[21,22]).
+returnType(43,[]).
 
-/** BEGIN parameter, ID: 'fileName', NAME: 'fileName' */
-parameter(fileName).
-/** END parameter, ID: 'fileName', NAME: 'fileName' */
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
 
-sizeOfParameter(35).
-sizeOf(35,fileName).
+sizeOfParameter(39).
+sizeOf(39,21).
 
-/** BEGIN parameter, ID: 'data', NAME: 'data' */
-parameter(data).
-/** END parameter, ID: 'data', NAME: 'data' */
+/** BEGIN parameter, ID: '22', NAME: 'data' */
+description(22,'data').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'data' */
 
-sizeOfParameter(36).
-sizeOf(36,data).
-/** END operationSignature, ID: '41', NAME: 'publish' */
+sizeOfParameter(40).
+sizeOf(40,22).
+/** END operationSignature, ID: '43', NAME: 'backup' */
 
-/** END operationInterface, ID: '27', NAME: 'GUI' */
 
-/** END repository, ID: '23', NAME: 'minimalcloudRepository' */
+/** BEGIN operationSignature, ID: '44', NAME: 'share' */
+description(44,'share').
+operationSignature(44).
+parameters(44,[21,22,23]).
+returnType(44,[]).
+
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
+
+sizeOfParameter(39).
+sizeOf(39,21).
+
+/** BEGIN parameter, ID: '22', NAME: 'data' */
+description(22,'data').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'data' */
+
+sizeOfParameter(40).
+sizeOf(40,22).
+
+/** BEGIN parameter, ID: '23', NAME: 'f' */
+description(23,'f').
+parameter(23).
+/** END parameter, ID: '23', NAME: 'f' */
+
+sizeOfParameter(41).
+sizeOf(41,23).
+/** END operationSignature, ID: '44', NAME: 'share' */
+
+
+/** BEGIN operationSignature, ID: '45', NAME: 'publish' */
+description(45,'publish').
+operationSignature(45).
+parameters(45,[21,22]).
+returnType(45,[]).
+
+/** BEGIN parameter, ID: '21', NAME: 'fileName' */
+description(21,'fileName').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'fileName' */
+
+sizeOfParameter(39).
+sizeOf(39,21).
+
+/** BEGIN parameter, ID: '22', NAME: 'data' */
+description(22,'data').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'data' */
+
+sizeOfParameter(40).
+sizeOf(40,22).
+/** END operationSignature, ID: '45', NAME: 'publish' */
+
+/** END operationInterface, ID: '31', NAME: 'GUI' */
+
+
+/** BEGIN collectionDataType, ID: '46', NAME: 'bytes' */
+description(46,'bytes').
+collectionDataType(46).
+/** END collectionDataType, ID: '46', NAME: 'bytes' */
+
+/** END repository, ID: '27', NAME: 'minimalcloudRepository' */
 

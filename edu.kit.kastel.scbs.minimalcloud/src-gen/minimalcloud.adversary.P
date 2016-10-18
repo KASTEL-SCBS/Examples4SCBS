@@ -1,20 +1,23 @@
 
-/** BEGIN adversaries, ID: '20', NAME: 'minimalcloud' */
-adversaries(20).
-adversaries(20,[21,22]).
+/** BEGIN adversaries, ID: '24', NAME: 'minimalcloud' */
+description(24,'minimalcloud').
+adversaries(24).
+adversaries(24,[25,26]).
 
-/** BEGIN adversary, ID: '21', NAME: 'End User A' */
-adversary(21).
-mayKnowData(21,[2,3]).
-locationsAndTamperProtectionsPairs(21,[15,18]).
-/** END adversary, ID: '21', NAME: 'End User A' */
+/** BEGIN adversary, ID: '25', NAME: 'End User A' */
+description(25,'End User A').
+adversary(25).
+mayKnowData(25,[2,3]).
+locationsAndTamperProtectionsPairs(25,[16,19]).
+/** END adversary, ID: '25', NAME: 'End User A' */
 
 
-/** BEGIN adversary, ID: '22', NAME: 'End User B' */
-adversary(22).
-mayKnowData(22,[2,4]).
-locationsAndTamperProtectionsPairs(22,[16,18]).
-/** END adversary, ID: '22', NAME: 'End User B' */
+/** BEGIN adversary, ID: '26', NAME: 'End User B' */
+description(26,'End User B').
+adversary(26).
+mayKnowData(26,[2,4]).
+locationsAndTamperProtectionsPairs(26,[17,19]).
+/** END adversary, ID: '26', NAME: 'End User B' */
 
-/** END adversaries, ID: '20', NAME: 'minimalcloud' */
+/** END adversaries, ID: '24', NAME: 'minimalcloud' */
 

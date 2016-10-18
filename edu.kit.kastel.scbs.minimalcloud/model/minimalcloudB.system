@@ -19,9 +19,9 @@
     </providedRoles_InterfaceProvidingEntity>
   </system:System>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowSubstitution" appliedTo="_-F8b8E9BEeaZ-ru15blW9g">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterAssignment" appliedTo="_-F8b8E9BEeaZ-ru15blW9g">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
-      <substitutions xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeySubstitution" href="../spec/minimalcloud.confidentiality#_8wtCKFQ1Eea2F_ez8ICPxQ"/>
+      <assignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" href="../spec/minimalcloud.confidentiality#_8wtCKFQ1Eea2F_ez8ICPxQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

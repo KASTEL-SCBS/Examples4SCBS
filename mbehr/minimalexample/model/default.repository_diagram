@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//repository">
+  <notation:Diagram xmi:id="_5bzEsG3EEea2RrPFEJZRcg" type="PCM Repository Model" name="default.repository_diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5bzEsW3EEea2RrPFEJZRcg"/>
+    <element xmi:type="repository:Repository" href="default.repository#_5bwBYG3EEea2RrPFEJZRcg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_YLeQsG4KEea2RrPFEJZRcg" type="CompositeModel" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_YLeQsW4KEea2RrPFEJZRcg"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_A_V48KGqEea3gua7MHS0Jw">
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_CPOzgKGqEea3gua7MHS0Jw" name="low"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_GJoMgKGqEea3gua7MHS0Jw" name="high"/>
+  <parametersAndDataPairs id="_H3CwlaGqEea3gua7MHS0Jw" dataTargets="_GJoMgKGqEea3gua7MHS0Jw">
+    <parameterSources>param1</parameterSources>
+  </parametersAndDataPairs>
+</edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

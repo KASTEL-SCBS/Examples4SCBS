@@ -1,0 +1,105 @@
+
+/** BEGIN system, ID: '62', NAME: 'defaultSystem' */
+description(62,'defaultSystem','system').
+system(62).
+assemblyContexts(62,[63,64]).
+connectors(62,[65,66]).
+providedRoles(62,[67]).
+requiredRoles(62,[]).
+
+/** BEGIN assemblyContext, ID: '63', NAME: 'LoadBalancer' */
+description(63,'LoadBalancer','assemblyContext').
+assemblyContext(63).
+encapsulatedComponent(63,[44]).
+/** END assemblyContext, ID: '63', NAME: 'LoadBalancer' */
+
+
+/** BEGIN assemblyContext, ID: '64', NAME: 'FileManagerA' */
+description(64,'FileManagerA','assemblyContext').
+assemblyContext(64).
+encapsulatedComponent(64,[43]).
+/** END assemblyContext, ID: '64', NAME: 'FileManagerA' */
+
+
+/** BEGIN assemblyConnector, ID: '65', NAME: 'Connector FileManagerA -> LoadBalancer' */
+description(65,'Connector FileManagerA -> LoadBalancer','assemblyConnector').
+assemblyConnector(65).
+requiringAssemblyContext(65,[64]).
+providingAssemblyContext(65,[63]).
+providedRole(65,[49]).
+requiredRole(65,[48]).
+/** END assemblyConnector, ID: '65', NAME: 'Connector FileManagerA -> LoadBalancer' */
+
+dataSetMapEntry(68).
+dataIdentifier(1,68).
+
+parametersAndDataPair(69).
+
+parameterSources(69,[*]).
+
+dataTargets(69,[4]).
+
+
+originalParametersAndDataPair(69,10).
+
+
+parametersAndDataPair(70).
+
+parameterSources(70,[*]).
+
+dataTargets(70,[4]).
+
+
+originalParametersAndDataPair(70,8).
+
+
+parametersAndDataPair(71).
+
+parameterSources(71,[*]).
+
+dataTargets(71,[6]).
+
+
+originalParametersAndDataPair(71,10).
+
+
+parametersAndDataPair(72).
+
+parameterSources(72,[*]).
+
+dataTargets(72,[5]).
+
+
+originalParametersAndDataPair(72,10).
+
+
+parametersAndDataPair(73).
+
+parameterSources(73,[*]).
+
+dataTargets(73,[68]).
+
+
+originalParametersAndDataPair(73,10).
+
+
+connectorSpecificParametersAndDataPairs(65,[69, 70, 71, 72, 73]).
+
+
+/** BEGIN providedDelegationConnector, ID: '66', NAME: 'aName' */
+description(66,'aName','providedDelegationConnector').
+providedDelegationConnector(66).
+innerProvidedRole(66,[47]).
+outerProvidedRole(66,[67]).
+assemblyContext(66,[64]).
+/** END providedDelegationConnector, ID: '66', NAME: 'aName' */
+
+
+/** BEGIN operationProvidedRole, ID: '67', NAME: 'SysProvRoleFileManGUI' */
+description(67,'SysProvRoleFileManGUI','operationProvidedRole').
+operationProvidedRole(67).
+providedInterface(67,[45]).
+/** END operationProvidedRole, ID: '67', NAME: 'SysProvRoleFileManGUI' */
+
+/** END system, ID: '62', NAME: 'defaultSystem' */
+

@@ -1,0 +1,136 @@
+
+/** BEGIN repository, ID: '42', NAME: 'cloudRepository' */
+description(42,'cloudRepository','repository').
+repository(42).
+components(42,[43,44]).
+interfaces(42,[45,46]).
+
+/** BEGIN basicComponent, ID: '43', NAME: 'FileManager' */
+description(43,'FileManager','basicComponent').
+basicComponent(43).
+providedRoles(43,[47]).
+requiredRoles(43,[48]).
+
+/** BEGIN operationProvidedRole, ID: '47', NAME: 'Provided_FileManGUI_FileManager' */
+description(47,'Provided_FileManGUI_FileManager','operationProvidedRole').
+operationProvidedRole(47).
+providedInterface(47,[45]).
+/** END operationProvidedRole, ID: '47', NAME: 'Provided_FileManGUI_FileManager' */
+
+
+/** BEGIN operationRequiredRole, ID: '48', NAME: 'Required_IWebDAV_FileManager' */
+description(48,'Required_IWebDAV_FileManager','operationRequiredRole').
+operationRequiredRole(48).
+requiredInterface(48,[46]).
+/** END operationRequiredRole, ID: '48', NAME: 'Required_IWebDAV_FileManager' */
+
+/** END basicComponent, ID: '43', NAME: 'FileManager' */
+
+
+/** BEGIN basicComponent, ID: '44', NAME: 'LoadBalancer' */
+description(44,'LoadBalancer','basicComponent').
+basicComponent(44).
+providedRoles(44,[49]).
+requiredRoles(44,[50]).
+
+/** BEGIN operationProvidedRole, ID: '49', NAME: 'Provided_IWebDAV_LoadBalancer' */
+description(49,'Provided_IWebDAV_LoadBalancer','operationProvidedRole').
+operationProvidedRole(49).
+providedInterface(49,[46]).
+/** END operationProvidedRole, ID: '49', NAME: 'Provided_IWebDAV_LoadBalancer' */
+
+
+/** BEGIN operationRequiredRole, ID: '50', NAME: 'Required_IWebDAV_LoadBalancer' */
+description(50,'Required_IWebDAV_LoadBalancer','operationRequiredRole').
+operationRequiredRole(50).
+requiredInterface(50,[46]).
+/** END operationRequiredRole, ID: '50', NAME: 'Required_IWebDAV_LoadBalancer' */
+
+/** END basicComponent, ID: '44', NAME: 'LoadBalancer' */
+
+
+/** BEGIN operationInterface, ID: '45', NAME: 'FileManGUI' */
+description(45,'FileManGUI','operationInterface').
+operationInterface(45).
+parentInterfaces(45,[]).
+signatures(45,[51]).
+
+/** BEGIN operationSignature, ID: '51', NAME: 'shareFriends' */
+description(51,'shareFriends','operationSignature').
+operationSignature(51).
+parameters(51,[52,53]).
+returnType(51,[]).
+
+/** BEGIN parameter, ID: '52', NAME: 'file' */
+description(52,'file','parameter').
+parameter(52).
+/** END parameter, ID: '52', NAME: 'file' */
+
+sizeOfParameter(54).
+sizeOf(54,52).
+
+/** BEGIN parameter, ID: '53', NAME: 'f' */
+description(53,'f','parameter').
+parameter(53).
+/** END parameter, ID: '53', NAME: 'f' */
+
+sizeOfParameter(55).
+sizeOf(55,53).
+/** END operationSignature, ID: '51', NAME: 'shareFriends' */
+
+/** END operationInterface, ID: '45', NAME: 'FileManGUI' */
+
+
+/** BEGIN operationInterface, ID: '46', NAME: 'IObjStore' */
+description(46,'IObjStore','operationInterface').
+operationInterface(46).
+parentInterfaces(46,[]).
+signatures(46,[56]).
+
+/** BEGIN operationSignature, ID: '56', NAME: 'putFriends' */
+description(56,'putFriends','operationSignature').
+operationSignature(56).
+parameters(56,[52,57,53]).
+returnType(56,[58]).
+
+/** BEGIN parameter, ID: '52', NAME: 'file' */
+description(52,'file','parameter').
+parameter(52).
+/** END parameter, ID: '52', NAME: 'file' */
+
+sizeOfParameter(54).
+sizeOf(54,52).
+
+/** BEGIN parameter, ID: '57', NAME: 'data' */
+description(57,'data','parameter').
+parameter(57).
+/** END parameter, ID: '57', NAME: 'data' */
+
+sizeOfParameter(59).
+sizeOf(59,57).
+
+/** BEGIN parameter, ID: '53', NAME: 'f' */
+description(53,'f','parameter').
+parameter(53).
+/** END parameter, ID: '53', NAME: 'f' */
+
+sizeOfParameter(55).
+sizeOf(55,53).
+/** END operationSignature, ID: '56', NAME: 'putFriends' */
+
+/** END operationInterface, ID: '46', NAME: 'IObjStore' */
+
+
+/** BEGIN compositeDataType, ID: '60', NAME: 'token' */
+description(60,'token','compositeDataType').
+compositeDataType(60).
+/** END compositeDataType, ID: '60', NAME: 'token' */
+
+
+/** BEGIN collectionDataType, ID: '61', NAME: 'bytes' */
+description(61,'bytes','collectionDataType').
+collectionDataType(61).
+/** END collectionDataType, ID: '61', NAME: 'bytes' */
+
+/** END repository, ID: '42', NAME: 'cloudRepository' */
+

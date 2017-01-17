@@ -1,0 +1,23 @@
+
+/** BEGIN allocation, ID: '79', NAME: 'defaultAllocation' */
+description(79,'defaultAllocation','allocation').
+allocation(79).
+allocationContexts(79,[80,81]).
+
+/** BEGIN allocationContext, ID: '80', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
+description(80,'Allocation_LoadBalancer <LoadBalancer>','allocationContext').
+allocationContext(80).
+resourceContainer(80,[77]).
+assemblyContext_AllocationContext(80,[63]).
+/** END allocationContext, ID: '80', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
+
+
+/** BEGIN allocationContext, ID: '81', NAME: 'Allocation_FileManagerA <FileManager>' */
+description(81,'Allocation_FileManagerA <FileManager>','allocationContext').
+allocationContext(81).
+resourceContainer(81,[78]).
+assemblyContext_AllocationContext(81,[64]).
+/** END allocationContext, ID: '81', NAME: 'Allocation_FileManagerA <FileManager>' */
+
+/** END allocation, ID: '79', NAME: 'defaultAllocation' */
+

@@ -1,0 +1,36 @@
+
+/** BEGIN furtherPhysicalConnections, ID: '78', NAME: 'null' */
+description(78,'null','furtherPhysicalConnections').
+connectionType(78,[existing]).
+/** END furtherPhysicalConnections, ID: '78', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '78', NAME: 'null' */
+description(78,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(78,[]).
+/** END locationAndTamperProtection, ID: '78', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '78', NAME: 'null' */
+description(78,'null','sharing').
+sharing(78,[shared]).
+/** END sharing, ID: '78', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '77', NAME: 'null' */
+description(77,'null','furtherPhysicalConnections').
+connectionType(77,[possible]).
+/** END furtherPhysicalConnections, ID: '77', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '77', NAME: 'null' */
+description(77,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(77,[30]).
+/** END locationAndTamperProtection, ID: '77', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '77', NAME: 'null' */
+description(77,'null','sharing').
+sharing(77,[exclusive]).
+/** END sharing, ID: '77', NAME: 'null' */
+

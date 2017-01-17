@@ -1,0 +1,44 @@
+
+/** BEGIN informationFlowParameter, ID: '45', NAME: 'null' */
+description(45,'null','informationFlowParameter').
+/** END informationFlowParameter, ID: '45', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '45', NAME: 'null' */
+parametersAndDataPairs(51,[8, 9]).
+/** END informationFlow, ID: '45', NAME: 'null' */
+
+
+/** BEGIN serviceParameterAddition, ID: '45', NAME: 'null' */
+description(45,'null','serviceParameterAddition').
+serviceParameters(45,[15]).
+/** END serviceParameterAddition, ID: '45', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '56', NAME: 'null' */
+description(56,'null','informationFlow').
+parametersAndDataPairs(56,[10]).
+/** END informationFlow, ID: '56', NAME: 'null' */
+
+
+/** BEGIN serviceParameterAddition, ID: '46', NAME: 'null' */
+description(46,'null','serviceParameterAddition').
+serviceParameters(46,[15]).
+/** END serviceParameterAddition, ID: '46', NAME: 'null' */
+
+
+/** BEGIN informationFlowParameter, ID: '46', NAME: 'null' */
+description(46,'null','informationFlowParameter').
+/** END informationFlowParameter, ID: '46', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '46', NAME: 'null' */
+parametersAndDataPairs(56,[8, 9]).
+/** END informationFlow, ID: '46', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '51', NAME: 'null' */
+description(51,'null','informationFlow').
+parametersAndDataPairs(51,[10]).
+/** END informationFlow, ID: '51', NAME: 'null' */
+

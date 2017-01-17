@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_S7EUUBalEeabKfvw_S-vrQ" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="cloud.resourceenvironment#/0"/>
+  <system_Allocation href="cloud.system#_NLn1wNQsEeWaFY2No-N26g"/>
+  <allocationContexts_Allocation id="_GeZtYBanEeabKfvw_S-vrQ" entityName="Allocation_LoadBalancer &lt;LoadBalancer>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_dsQ8QOuTEeWMdaaSirUv0Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Uc3zYBanEeabKfvw_S-vrQ" entityName="Allocation_FileManagerA &lt;FileManager>">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

@@ -1,0 +1,55 @@
+
+/** BEGIN adversaries, ID: '34', NAME: 'cloud adversaries' */
+description(34,'cloud adversaries','adversaries').
+adversaries(34).
+adversaries(34,[35,36,37,38,39,40]).
+
+/** BEGIN adversary, ID: '35', NAME: 'cloud end user A' */
+description(35,'cloud end user A','adversary').
+adversary(35).
+mayKnowData(35,[4,6]).
+locationsAndTamperProtectionsPairs(35,[23]).
+/** END adversary, ID: '35', NAME: 'cloud end user A' */
+
+
+/** BEGIN adversary, ID: '36', NAME: 'cloud end user B' */
+description(36,'cloud end user B','adversary').
+adversary(36).
+mayKnowData(36,[5,6]).
+locationsAndTamperProtectionsPairs(36,[24]).
+/** END adversary, ID: '36', NAME: 'cloud end user B' */
+
+
+/** BEGIN adversary, ID: '37', NAME: 'cloud end user guest' */
+description(37,'cloud end user guest','adversary').
+adversary(37).
+mayKnowData(37,[6]).
+locationsAndTamperProtectionsPairs(37,[25]).
+/** END adversary, ID: '37', NAME: 'cloud end user guest' */
+
+
+/** BEGIN adversary, ID: '38', NAME: 'cloud service administrator' */
+description(38,'cloud service administrator','adversary').
+adversary(38).
+mayKnowData(38,[2,3,6]).
+locationsAndTamperProtectionsPairs(38,[27]).
+/** END adversary, ID: '38', NAME: 'cloud service administrator' */
+
+
+/** BEGIN adversary, ID: '39', NAME: 'cloud service provider' */
+description(39,'cloud service provider','adversary').
+adversary(39).
+mayKnowData(39,[2,6]).
+locationsAndTamperProtectionsPairs(39,[28,26]).
+/** END adversary, ID: '39', NAME: 'cloud service provider' */
+
+
+/** BEGIN adversary, ID: '40', NAME: 'ChuckNorris' */
+description(40,'ChuckNorris','adversary').
+adversary(40).
+mayKnowData(40,[]).
+locationsAndTamperProtectionsPairs(40,[41]).
+/** END adversary, ID: '40', NAME: 'ChuckNorris' */
+
+/** END adversaries, ID: '34', NAME: 'cloud adversaries' */
+

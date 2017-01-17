@@ -1,0 +1,36 @@
+
+/** BEGIN resourceEnvironment, ID: '74', NAME: 'aName' */
+description(74,'aName','resourceEnvironment').
+resourceEnvironment(74).
+linkingResources(74,[75,76]).
+resourceContainer(74,[77,78]).
+
+/** BEGIN linkingResource, ID: '75', NAME: 'Internet' */
+description(75,'Internet','linkingResource').
+linkingResource(75).
+connectedResourceContainers(75,[78,77]).
+communicationLinkResourceSpecifications(75,[]).
+/** END linkingResource, ID: '75', NAME: 'Internet' */
+
+
+/** BEGIN linkingResource, ID: '76', NAME: 'Intranet outer' */
+description(76,'Intranet outer','linkingResource').
+linkingResource(76).
+connectedResourceContainers(76,[77]).
+communicationLinkResourceSpecifications(76,[]).
+/** END linkingResource, ID: '76', NAME: 'Intranet outer' */
+
+
+/** BEGIN resourceContainer, ID: '77', NAME: 'VM E' */
+description(77,'VM E','resourceContainer').
+resourceContainer(77).
+/** END resourceContainer, ID: '77', NAME: 'VM E' */
+
+
+/** BEGIN resourceContainer, ID: '78', NAME: 'End User Machine A' */
+description(78,'End User Machine A','resourceContainer').
+resourceContainer(78).
+/** END resourceContainer, ID: '78', NAME: 'End User Machine A' */
+
+/** END resourceEnvironment, ID: '74', NAME: 'aName' */
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1">
+  <repository:Repository id="_5yWxUNDFEeWt5tzvTAzZ8A" entityName="cloudRepository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_ZSDwENDfEeWt5tzvTAzZ8A" entityName="FileManager">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_d9lrENDfEeWt5tzvTAzZ8A" entityName="Provided_FileManGUI_FileManager" providedInterface__OperationProvidedRole="_7pxugNDcEeWt5tzvTAzZ8A"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_2VJTcBX5EeabKfvw_S-vrQ" entityName="Required_IWebDAV_FileManager" requiredInterface__OperationRequiredRole="_KxCswNDWEeWt5tzvTAzZ8A"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_d9p8gdDfEeWt5tzvTAzZ8A" describedService__SEFF="__Xq8kNDcEeWt5tzvTAzZ8A">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_d9p8gtDfEeWt5tzvTAzZ8A" entityName="start" successor_AbstractAction="_d9p8g9DfEeWt5tzvTAzZ8A"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_d9p8g9DfEeWt5tzvTAzZ8A" entityName="stop" predecessor_AbstractAction="_d9p8gtDfEeWt5tzvTAzZ8A"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_WaE9sNDcEeWt5tzvTAzZ8A" entityName="LoadBalancer">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_a-HwoNDcEeWt5tzvTAzZ8A" entityName="Provided_IWebDAV_LoadBalancer" providedInterface__OperationProvidedRole="_KxCswNDWEeWt5tzvTAzZ8A"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_0kqI8OuWEeWMdaaSirUv0Q" entityName="Required_IWebDAV_LoadBalancer" requiredInterface__OperationRequiredRole="_KxCswNDWEeWt5tzvTAzZ8A"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_a-I-wdDcEeWt5tzvTAzZ8A" describedService__SEFF="_Fxhz4NDYEeWt5tzvTAzZ8A">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_a-Jl0NDcEeWt5tzvTAzZ8A" entityName="start" successor_AbstractAction="_a-Jl0dDcEeWt5tzvTAzZ8A"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_a-Jl0dDcEeWt5tzvTAzZ8A" entityName="stop" predecessor_AbstractAction="_a-Jl0NDcEeWt5tzvTAzZ8A"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_7pxugNDcEeWt5tzvTAzZ8A" entityName="FileManGUI">
+      <signatures__OperationInterface id="__Xq8kNDcEeWt5tzvTAzZ8A" entityName="shareFriends">
+        <parameters__OperationSignature parameterName="file">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_n6MALTFgEeadhIGaXELbXg" parameterName="f"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_KxCswNDWEeWt5tzvTAzZ8A" entityName="IObjStore">
+      <signatures__OperationInterface id="_Fxhz4NDYEeWt5tzvTAzZ8A" entityName="putFriends">
+        <parameters__OperationSignature parameterName="file">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature dataType__Parameter="_QcXrINDGEeWt5tzvTAzZ8A" parameterName="data"/>
+        <parameters__OperationSignature dataType__Parameter="_n6MALTFgEeadhIGaXELbXg" parameterName="f"/>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_n6MALTFgEeadhIGaXELbXg" entityName="token"/>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_QcXrINDGEeWt5tzvTAzZ8A" entityName="bytes">
+      <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.5"/>
+    </dataTypes__Repository>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
+      <parametersAndDataPairs href="../spec/cloud.confidentiality#_sCZpEzSJEeaRTJfWzuCJjw"/>
+      <parametersAndDataPairs href="../spec/cloud.confidentiality#_BhwtpTSKEeaRTJfWzuCJjw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_7pxugNDcEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Fxhz4NDYEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="../spec/cloud.confidentiality#_kXA1RTSKEeaRTJfWzuCJjw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:ServiceParameterAddition" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_mbJUYDSDEea1oovLYTqiDg"/>
+      <serviceParameters href="../spec/cloud.confidentiality#_sXMKJjSFEeaNBONF_yFtJg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameter" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_WP5jIDF1EeaZ1ISuff6-rA"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_yjxBITSFEeaNBONF_yFtJg"/>
+      <specificationParameters href="../spec/cloud.confidentiality#_6HZxsTSFEeaNBONF_yFtJg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_KxCswNDWEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
+      <parametersAndDataPairs href="../spec/cloud.confidentiality#_sCZpEzSJEeaRTJfWzuCJjw"/>
+      <parametersAndDataPairs href="../spec/cloud.confidentiality#_BhwtpTSKEeaRTJfWzuCJjw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="__Xq8kNDcEeWt5tzvTAzZ8A">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="../spec/cloud.confidentiality#_kXA1RTSKEeaRTJfWzuCJjw"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

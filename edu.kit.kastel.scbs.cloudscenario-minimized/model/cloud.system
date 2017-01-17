@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1">
+  <system:System id="_NLn1wNQsEeWaFY2No-N26g" entityName="defaultSystem">
+    <assemblyContexts__ComposedStructure id="_dsQ8QOuTEeWMdaaSirUv0Q" entityName="LoadBalancer">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_WaE9sNDcEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <assemblyContexts__ComposedStructure id="_YHrRABaCEeabKfvw_S-vrQ" entityName="FileManagerA">
+      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cloud.repository#_ZSDwENDfEeWt5tzvTAzZ8A"/>
+    </assemblyContexts__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bogokBaEEeabKfvw_S-vrQ" entityName="Connector FileManagerA -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_YHrRABaCEeabKfvw_S-vrQ" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_a-HwoNDcEeWt5tzvTAzZ8A"/>
+      <requiredRole_AssemblyConnector href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
+    </connectors__ComposedStructure>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_7KXsNNyaEeapWOV7t3qhnQ" outerProvidedRole_ProvidedDelegationConnector="_1Rz9b9yaEeapWOV7t3qhnQ" assemblyContext_ProvidedDelegationConnector="_YHrRABaCEeabKfvw_S-vrQ">
+      <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_d9lrENDfEeWt5tzvTAzZ8A"/>
+    </connectors__ComposedStructure>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1Rz9b9yaEeapWOV7t3qhnQ" entityName="SysProvRoleFileManGUI">
+      <providedInterface__OperationProvidedRole href="cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    </providedRoles_InterfaceProvidingEntity>
+  </system:System>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterAssignment" appliedTo="_bogokBaEEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
+      <assignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" href="../spec/cloud.confidentiality#_9guu4DSOEea1eICDPlZMAQ"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

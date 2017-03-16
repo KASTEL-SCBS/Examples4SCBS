@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_rFaVgOMWEeaCWN4SXHLs5Q" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_FgSQAONSEeaCWN4SXHLs5Q" entityName="Account">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_d0s2IeNSEeaCWN4SXHLs5Q" entityName="AccountIF" providedInterface__OperationProvidedRole="_T1QW1-MYEeaCWN4SXHLs5Q"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZvwIEeNUEeaCWN4SXHLs5Q" entityName="BillingToAccountIF" providedInterface__OperationProvidedRole="_tXAgh-MdEeaCWN4SXHLs5Q"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dqdDEeNUEeaCWN4SXHLs5Q" entityName="DeliveryToAccountIF" providedInterface__OperationProvidedRole="_JxFW1-NSEeaCWN4SXHLs5Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_pPsn5eNUEeaCWN4SXHLs5Q" entityName="cart" requiredInterface__OperationRequiredRole="_flarB-NAEeaCWN4SXHLs5Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_0uHzBeNUEeaCWN4SXHLs5Q" entityName="bank" requiredInterface__OperationRequiredRole="_uhS0R-MbEeaCWN4SXHLs5Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__m4sVeNUEeaCWN4SXHLs5Q" entityName="orders" requiredInterface__OperationRequiredRole="_3Dcd5-NPEeaCWN4SXHLs5Q"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xs2IcONWEeaCWN4SXHLs5Q" entityName="Billing">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_zJ9mseNWEeaCWN4SXHLs5Q" entityName="BillingIF" providedInterface__OperationProvidedRole="_RBdct-McEeaCWN4SXHLs5Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_8eSRxeNWEeaCWN4SXHLs5Q" entityName="account" requiredInterface__OperationRequiredRole="_tXAgh-MdEeaCWN4SXHLs5Q"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__w1noONWEeaCWN4SXHLs5Q" entityName="Cart">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_C9UxweNXEeaCWN4SXHLs5Q" entityName="CartIF" providedInterface__OperationProvidedRole="_U-VGp-M3EeaCWN4SXHLs5Q"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IypmYeNXEeaCWN4SXHLs5Q" entityName="CartToAccountIF" providedInterface__OperationProvidedRole="_flarB-NAEeaCWN4SXHLs5Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_aj2-NeNXEeaCWN4SXHLs5Q" entityName="prodDb" requiredInterface__OperationRequiredRole="_sULCV-NQEeaCWN4SXHLs5Q"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_fLnzgONXEeaCWN4SXHLs5Q" entityName="Derlivery">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mKVSEeNXEeaCWN4SXHLs5Q" entityName="DeliveryIF" providedInterface__OperationProvidedRole="_gEyYh-NJEeaCWN4SXHLs5Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_uz6XBeNXEeaCWN4SXHLs5Q" entityName="account" requiredInterface__OperationRequiredRole="_JxFW1-NSEeaCWN4SXHLs5Q"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_JxFW1-NSEeaCWN4SXHLs5Q" entityName="DeliveryToAccountIF">
+    <signatures__OperationInterface id="_R61sMONSEeaCWN4SXHLs5Q" entityName="getOrdersForDelivery" returnType__OperationSignature="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+    <signatures__OperationInterface id="_Y5jKwONSEeaCWN4SXHLs5Q" entityName="getName" returnType__OperationSignature="//@dataTypes__Repository.14"/>
+    <signatures__OperationInterface id="_a6bdYONSEeaCWN4SXHLs5Q" entityName="getAdress" returnType__OperationSignature="//@dataTypes__Repository.14"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_sULCV-NQEeaCWN4SXHLs5Q" entityName="ProductDBIF">
+    <signatures__OperationInterface id="_vFvLAONQEeaCWN4SXHLs5Q" entityName="getProductPrice" returnType__OperationSignature="//@dataTypes__Repository.11">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="id"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3Dcd5-NPEeaCWN4SXHLs5Q" entityName="OrdersToAccountIF">
+    <signatures__OperationInterface id="_8vSmYONPEeaCWN4SXHLs5Q" entityName="makeNewOrder" returnType__OperationSignature="//@dataTypes__Repository.13">
+      <parameters__OperationSignature dataType__Parameter="_nIcDfOMzEeaCWN4SXHLs5Q" parameterName="oe"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_9fn3IONPEeaCWN4SXHLs5Q" entityName="getUnbilledOrders" returnType__OperationSignature="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+    <signatures__OperationInterface id="_9_9kEONPEeaCWN4SXHLs5Q" entityName="getUnshippedOrders" returnType__OperationSignature="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+    <signatures__OperationInterface id="_-X0qcONPEeaCWN4SXHLs5Q" entityName="getAllOrders" returnType__OperationSignature="_WlWlfeNQEeaCWN4SXHLs5Q"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_gEyYh-NJEeaCWN4SXHLs5Q" entityName="DeliveryIF">
+    <signatures__OperationInterface id="_h5wWEONJEeaCWN4SXHLs5Q" entityName="getDerliverySheets" returnType__OperationSignature="_mWPgzONPEeaCWN4SXHLs5Q"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_flarB-NAEeaCWN4SXHLs5Q" entityName="CartToAccountIF">
+    <signatures__OperationInterface id="_oLnr0ONAEeaCWN4SXHLs5Q" entityName="getCartElementsForOrder" returnType__OperationSignature="_nIcDfOMzEeaCWN4SXHLs5Q"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_U-VGp-M3EeaCWN4SXHLs5Q" entityName="CartIF">
+    <signatures__OperationInterface id="_0S4HoOM3EeaCWN4SXHLs5Q" entityName="addToCart" returnType__OperationSignature="//@dataTypes__Repository.13">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="prodId"/>
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="amount"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_THRIQONAEeaCWN4SXHLs5Q" entityName="getCartContent" returnType__OperationSignature="_nIcDfOMzEeaCWN4SXHLs5Q"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_tXAgh-MdEeaCWN4SXHLs5Q" entityName="BillingToAccountIF">
+    <signatures__OperationInterface id="_D1fdwOM0EeaCWN4SXHLs5Q" entityName="getBillingAdress" returnType__OperationSignature="//@dataTypes__Repository.14"/>
+    <signatures__OperationInterface id="_ERsRkOM0EeaCWN4SXHLs5Q" entityName="getBillingCreditCard" returnType__OperationSignature="//@dataTypes__Repository.11"/>
+    <signatures__OperationInterface id="_Eq_iYOM0EeaCWN4SXHLs5Q" entityName="getBillingName" returnType__OperationSignature="//@dataTypes__Repository.14"/>
+    <signatures__OperationInterface id="_FDzrAOM0EeaCWN4SXHLs5Q" entityName="getOrdersToBill" returnType__OperationSignature="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_RBdct-McEeaCWN4SXHLs5Q" entityName="BillingIF">
+    <signatures__OperationInterface id="_ZaDp4OMdEeaCWN4SXHLs5Q" entityName="getBillsToSend" returnType__OperationSignature="_doy7POMdEeaCWN4SXHLs5Q"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_uhS0R-MbEeaCWN4SXHLs5Q" entityName="BankIF">
+    <signatures__OperationInterface id="_6mcoMOMbEeaCWN4SXHLs5Q" entityName="makePayment">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.14" parameterName="name"/>
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="ccnr"/>
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="cvc"/>
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="amount"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_T1QW1-MYEeaCWN4SXHLs5Q" entityName="AccountIF">
+    <signatures__OperationInterface id="_YxyiQOMYEeaCWN4SXHLs5Q" entityName="orderElementsInCart" returnType__OperationSignature="//@dataTypes__Repository.13"/>
+    <signatures__OperationInterface id="_pN_kEOMaEeaCWN4SXHLs5Q" entityName="setName" returnType__OperationSignature="//@dataTypes__Repository.13">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.14" parameterName="name"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IDqQsOMbEeaCWN4SXHLs5Q" entityName="setAdress" returnType__OperationSignature="//@dataTypes__Repository.13">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.14" parameterName="address"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_PFbDQOMbEeaCWN4SXHLs5Q" entityName="setCCNr" returnType__OperationSignature="//@dataTypes__Repository.13">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="ccnr"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_bpEKAOMbEeaCWN4SXHLs5Q" entityName="setCVC" returnType__OperationSignature="//@dataTypes__Repository.13">
+      <parameters__OperationSignature dataType__Parameter="//@dataTypes__Repository.11" parameterName="cvc"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_WlWlfeNQEeaCWN4SXHLs5Q" entityName="OrderHistory">
+    <innerDeclaration_CompositeDataType entityName="unshippedOrders" datatype_InnerDeclaration="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+    <innerDeclaration_CompositeDataType entityName="unbilledOrders" datatype_InnerDeclaration="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+    <innerDeclaration_CompositeDataType entityName="finishedOrders" datatype_InnerDeclaration="_KYP4zOM3EeaCWN4SXHLs5Q"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_ETpM3ONJEeaCWN4SXHLs5Q" entityName="DeliverySheet">
+    <innerDeclaration_CompositeDataType entityName="sendToAdress" datatype_InnerDeclaration="//@dataTypes__Repository.14"/>
+    <innerDeclaration_CompositeDataType entityName="sendToName" datatype_InnerDeclaration="//@dataTypes__Repository.14"/>
+    <innerDeclaration_CompositeDataType entityName="products" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
+    <innerDeclaration_CompositeDataType entityName="amountPerProduct" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_gmzLLeMiEeaCWN4SXHLs5Q" entityName="OrderElement">
+    <innerDeclaration_CompositeDataType entityName="productId" datatype_InnerDeclaration="//@dataTypes__Repository.11"/>
+    <innerDeclaration_CompositeDataType entityName="price" datatype_InnerDeclaration="//@dataTypes__Repository.11"/>
+    <innerDeclaration_CompositeDataType entityName="amount" datatype_InnerDeclaration="//@dataTypes__Repository.11"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_WXlFdeMfEeaCWN4SXHLs5Q" entityName="Order">
+    <innerDeclaration_CompositeDataType entityName="elementsInOrder" datatype_InnerDeclaration="_nIcDfOMzEeaCWN4SXHLs5Q"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_aV6DmOMcEeaCWN4SXHLs5Q" entityName="Bill">
+    <innerDeclaration_CompositeDataType entityName="billingName" datatype_InnerDeclaration="//@dataTypes__Repository.14"/>
+    <innerDeclaration_CompositeDataType entityName="billingAdress" datatype_InnerDeclaration="//@dataTypes__Repository.14"/>
+    <innerDeclaration_CompositeDataType entityName="paymentMethod" datatype_InnerDeclaration="//@dataTypes__Repository.11"/>
+    <innerDeclaration_CompositeDataType entityName="productsPayed" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
+    <innerDeclaration_CompositeDataType entityName="amountPerProduct" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
+    <innerDeclaration_CompositeDataType entityName="pricePerProduct" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_mWPgzONPEeaCWN4SXHLs5Q" entityName="DeliverySheetColl" innerType_CollectionDataType="_ETpM3ONJEeaCWN4SXHLs5Q"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_KYP4zOM3EeaCWN4SXHLs5Q" entityName="OrderColl" innerType_CollectionDataType="_WXlFdeMfEeaCWN4SXHLs5Q"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_nIcDfOMzEeaCWN4SXHLs5Q" entityName="OrderElementColl" innerType_CollectionDataType="_gmzLLeMiEeaCWN4SXHLs5Q"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_doy7POMdEeaCWN4SXHLs5Q" entityName="BillColl" innerType_CollectionDataType="_aV6DmOMcEeaCWN4SXHLs5Q"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_hS98XOMcEeaCWN4SXHLs5Q" entityName="intColl" innerType_CollectionDataType="//@dataTypes__Repository.11"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_w7L5TOMaEeaCWN4SXHLs5Q" entityName="charColl" innerType_CollectionDataType="//@dataTypes__Repository.12"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="CHAR"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="BOOL"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="STRING"/>
+</repository:Repository>

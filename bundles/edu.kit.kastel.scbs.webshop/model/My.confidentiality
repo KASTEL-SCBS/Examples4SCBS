@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_yMcBkAyiEee73pr4dOsiVw">
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_bPkLgA52EeeBHYW6zWAHQg" name="deliveryData"/>
+  <parametersAndDataPairs id="_6ik1RQ6TEeeBHYW6zWAHQg" name="p=[\call, \result] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+  <parametersAndDataPairs id="_dLqShQ57EeeBHYW6zWAHQg" name="p=[\call, proId, amount] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+  <parametersAndDataPairs id="_fDZCdQ52EeeBHYW6zWAHQg" name="p=[\call] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+  <parametersAndDataPairs id="_1UjFdQ54EeeBHYW6zWAHQg" name="p=[\call, name.length, name[*]] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+  <parametersAndDataPairs id="_W2-TRQ55EeeBHYW6zWAHQg" name="p=[\call, address.length, address[*]] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+  <parametersAndDataPairs id="_srBOZQ55EeeBHYW6zWAHQg" name="p=[\call, \result.length, \result[*], \result.billingName.length, \result.billingName[*], \result.billingAdress.length, \result.billingAdress[*], \result.paymentMethod, \result.productsPayed.length, \result.productsPayed.[*], \result.amountPerProduct.length, \result.amountPerProduct.[*], \result.pricePerProduct.length, \result.pricePerProduct.[*]] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+  <parametersAndDataPairs id="_vklDNQ5-EeeBHYW6zWAHQg" name="p=[\call, \result.sendToAdress.length, \result.sendToAdress[*], \result.sendToName.length, \result.sendToName[*], \result.products.length, \result.products[*], \result.amountPerProduct.length, \result.amountPerProduct[*]] - d=[deliveryData]" dataTargets="_bPkLgA52EeeBHYW6zWAHQg"/>
+</edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

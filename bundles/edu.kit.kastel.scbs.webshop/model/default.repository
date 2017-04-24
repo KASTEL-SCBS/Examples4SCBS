@@ -25,7 +25,7 @@
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_JxFW1-NSEeaCWN4SXHLs5Q" entityName="DeliveryToAccountIF">
       <signatures__OperationInterface id="_R61sMONSEeaCWN4SXHLs5Q" entityName="getOrdersForDelivery" returnType__OperationSignature="_KYP4zOM3EeaCWN4SXHLs5Q"/>
       <signatures__OperationInterface id="_Y5jKwONSEeaCWN4SXHLs5Q" entityName="getName" returnType__OperationSignature="/0/@dataTypes__Repository.14"/>
-      <signatures__OperationInterface id="_a6bdYONSEeaCWN4SXHLs5Q" entityName="getAdress" returnType__OperationSignature="/0/@dataTypes__Repository.14"/>
+      <signatures__OperationInterface id="_a6bdYONSEeaCWN4SXHLs5Q" entityName="getAddress" returnType__OperationSignature="/0/@dataTypes__Repository.14"/>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_sULCV-NQEeaCWN4SXHLs5Q" entityName="ProductDBIF">
       <signatures__OperationInterface id="_vFvLAONQEeaCWN4SXHLs5Q" entityName="getProductPrice" returnType__OperationSignature="/0/@dataTypes__Repository.11">
@@ -54,7 +54,7 @@
       <signatures__OperationInterface id="_THRIQONAEeaCWN4SXHLs5Q" entityName="getCartContent" returnType__OperationSignature="_nIcDfOMzEeaCWN4SXHLs5Q"/>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_tXAgh-MdEeaCWN4SXHLs5Q" entityName="BillingToAccountIF">
-      <signatures__OperationInterface id="_D1fdwOM0EeaCWN4SXHLs5Q" entityName="getBillingAdress" returnType__OperationSignature="/0/@dataTypes__Repository.14"/>
+      <signatures__OperationInterface id="_D1fdwOM0EeaCWN4SXHLs5Q" entityName="getBillingAddress" returnType__OperationSignature="/0/@dataTypes__Repository.14"/>
       <signatures__OperationInterface id="_ERsRkOM0EeaCWN4SXHLs5Q" entityName="getBillingCreditCard" returnType__OperationSignature="/0/@dataTypes__Repository.11"/>
       <signatures__OperationInterface id="_Eq_iYOM0EeaCWN4SXHLs5Q" entityName="getBillingName" returnType__OperationSignature="/0/@dataTypes__Repository.14"/>
       <signatures__OperationInterface id="_FDzrAOM0EeaCWN4SXHLs5Q" entityName="getOrdersToBill" returnType__OperationSignature="_KYP4zOM3EeaCWN4SXHLs5Q"/>
@@ -75,7 +75,7 @@
       <signatures__OperationInterface id="_pN_kEOMaEeaCWN4SXHLs5Q" entityName="setName" returnType__OperationSignature="/0/@dataTypes__Repository.13">
         <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.14" parameterName="name"/>
       </signatures__OperationInterface>
-      <signatures__OperationInterface id="_IDqQsOMbEeaCWN4SXHLs5Q" entityName="setAdress" returnType__OperationSignature="/0/@dataTypes__Repository.13">
+      <signatures__OperationInterface id="_IDqQsOMbEeaCWN4SXHLs5Q" entityName="setAddress" returnType__OperationSignature="/0/@dataTypes__Repository.13">
         <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.14" parameterName="address"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_PFbDQOMbEeaCWN4SXHLs5Q" entityName="setCCNr" returnType__OperationSignature="/0/@dataTypes__Repository.13">
@@ -91,7 +91,7 @@
       <innerDeclaration_CompositeDataType entityName="finishedOrders" datatype_InnerDeclaration="_KYP4zOM3EeaCWN4SXHLs5Q"/>
     </dataTypes__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_ETpM3ONJEeaCWN4SXHLs5Q" entityName="DeliverySheet">
-      <innerDeclaration_CompositeDataType entityName="sendToAdress" datatype_InnerDeclaration="/0/@dataTypes__Repository.14"/>
+      <innerDeclaration_CompositeDataType entityName="sendToAddress" datatype_InnerDeclaration="/0/@dataTypes__Repository.14"/>
       <innerDeclaration_CompositeDataType entityName="sendToName" datatype_InnerDeclaration="/0/@dataTypes__Repository.14"/>
       <innerDeclaration_CompositeDataType entityName="products" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
       <innerDeclaration_CompositeDataType entityName="amountPerProduct" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
@@ -106,7 +106,7 @@
     </dataTypes__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_aV6DmOMcEeaCWN4SXHLs5Q" entityName="Bill">
       <innerDeclaration_CompositeDataType entityName="billingName" datatype_InnerDeclaration="/0/@dataTypes__Repository.14"/>
-      <innerDeclaration_CompositeDataType entityName="billingAdress" datatype_InnerDeclaration="/0/@dataTypes__Repository.14"/>
+      <innerDeclaration_CompositeDataType entityName="billingAddress" datatype_InnerDeclaration="/0/@dataTypes__Repository.14"/>
       <innerDeclaration_CompositeDataType entityName="paymentMethod" datatype_InnerDeclaration="/0/@dataTypes__Repository.11"/>
       <innerDeclaration_CompositeDataType entityName="productsPayed" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
       <innerDeclaration_CompositeDataType entityName="amountPerProduct" datatype_InnerDeclaration="_hS98XOMcEeaCWN4SXHLs5Q"/>
@@ -151,6 +151,10 @@
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_h5wWEONJEeaCWN4SXHLs5Q">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="My.confidentiality#_vklDNQ5-EeeBHYW6zWAHQg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_T1QW1-MYEeaCWN4SXHLs5Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
+      <parametersAndDataPairs href="My.confidentiality#_fDZCdQ52EeeBHYW6zWAHQg"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

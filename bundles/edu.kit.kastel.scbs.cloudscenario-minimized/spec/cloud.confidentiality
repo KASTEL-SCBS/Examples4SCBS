@@ -21,6 +21,7 @@
   <parametersAndDataPairs id="_kXA1RTSKEeaRTJfWzuCJjw" dataTargets="_NlPtozSKEeaRTJfWzuCJjw">
     <parameterSources>*</parameterSources>
   </parametersAndDataPairs>
+  <!--
   <parametersAndDataPairs id="_pGnX9TSKEeaRTJfWzuCJjw" name="p=[*] - d=[UserData[Public]]" dataTargets="_liW6Um9fEeam26epJlCOmw">
     <parameterSources>*</parameterSources>
   </parametersAndDataPairs>
@@ -33,6 +34,7 @@
   <parametersAndDataPairs id="_647S9W4lEeam26epJlCOmw" dataTargets="_oen9IDSFEeaNBONF_yFtJg">
     <parameterSources>*</parameterSources>
   </parametersAndDataPairs>
+  -->
   <addedServiceParameters id="_sXMKJjSFEeaNBONF_yFtJg" name="s"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_9guu4DSOEea1eICDPlZMAQ" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="A"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_3862KDSQEeaHiKwXLDiEtg" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="B"/>

@@ -1,23 +1,23 @@
 
-/** BEGIN allocation, ID: '79', NAME: 'defaultAllocation' */
-description(79,'defaultAllocation','allocation').
-allocation(79).
-allocationContexts(79,[80,81]).
+/** BEGIN allocation, ID: '54', NAME: 'defaultAllocation' */
+description(54,'defaultAllocation','allocation').
+allocation(54).
+allocationContexts(54,[55,56]).
 
-/** BEGIN allocationContext, ID: '80', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
-description(80,'Allocation_LoadBalancer <LoadBalancer>','allocationContext').
-allocationContext(80).
-resourceContainer(80,[77]).
-assemblyContext_AllocationContext(80,[63]).
-/** END allocationContext, ID: '80', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
+/** BEGIN allocationContext, ID: '55', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
+description(55,'Allocation_LoadBalancer <LoadBalancer>','allocationContext').
+allocationContext(55).
+resourceContainer(55,[52]).
+assemblyContext_AllocationContext(55,[43]).
+/** END allocationContext, ID: '55', NAME: 'Allocation_LoadBalancer <LoadBalancer>' */
 
 
-/** BEGIN allocationContext, ID: '81', NAME: 'Allocation_FileManagerA <FileManager>' */
-description(81,'Allocation_FileManagerA <FileManager>','allocationContext').
-allocationContext(81).
-resourceContainer(81,[78]).
-assemblyContext_AllocationContext(81,[64]).
-/** END allocationContext, ID: '81', NAME: 'Allocation_FileManagerA <FileManager>' */
+/** BEGIN allocationContext, ID: '56', NAME: 'Allocation_FileManagerA <FileManager>' */
+description(56,'Allocation_FileManagerA <FileManager>','allocationContext').
+allocationContext(56).
+resourceContainer(56,[53]).
+assemblyContext_AllocationContext(56,[44]).
+/** END allocationContext, ID: '56', NAME: 'Allocation_FileManagerA <FileManager>' */
 
-/** END allocation, ID: '79', NAME: 'defaultAllocation' */
+/** END allocation, ID: '54', NAME: 'defaultAllocation' */
 

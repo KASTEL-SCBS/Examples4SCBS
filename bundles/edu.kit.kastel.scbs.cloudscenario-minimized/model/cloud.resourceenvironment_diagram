@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_YVHcsERlEeengr1ydYHSKA" type="ResourceEnvironmentModel" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Y7YLcERlEeengr1ydYHSKA" type="2004" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7ZZkERlEeengr1ydYHSKA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7aAoERlEeengr1ydYHSKA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Y7aAoURlEeengr1ydYHSKA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Y7aAokRlEeengr1ydYHSKA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7aAo0RlEeengr1ydYHSKA" type="7007"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y7YLcURlEeengr1ydYHSKA" x="310" y="239"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Y7ansERlEeengr1ydYHSKA" type="2004" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7anskRlEeengr1ydYHSKA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7ans0RlEeengr1ydYHSKA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Y7antERlEeengr1ydYHSKA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Y7antURlEeengr1ydYHSKA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7antkRlEeengr1ydYHSKA" type="7007"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y7ansURlEeengr1ydYHSKA" y="239" width="181" height="142"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Y7ant0RlEeengr1ydYHSKA" type="2005" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7anuURlEeengr1ydYHSKA" type="5024"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7anukRlEeengr1ydYHSKA" type="7006">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Y7anu0RlEeengr1ydYHSKA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Y7anvERlEeengr1ydYHSKA"/>
+    </children>
+    <element xmi:type="resourceenvironment:LinkingResource" href="cloud.resourceenvironment#_PhSXgNQqEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y7anuERlEeengr1ydYHSKA" x="179"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Y7anvURlEeengr1ydYHSKA" type="2005" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7anv0RlEeengr1ydYHSKA" type="5024"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y7anwERlEeengr1ydYHSKA" type="7006">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Y7anwURlEeengr1ydYHSKA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Y7anwkRlEeengr1ydYHSKA"/>
+    </children>
+    <element xmi:type="resourceenvironment:LinkingResource" href="cloud.resourceenvironment#_AJGFgNQqEeWaFY2No-N26g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y7anvkRlEeengr1ydYHSKA" x="370"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0B8wIERlEeengr1ydYHSKA" type="Note" fontName="Ubuntu" description="sharing shared&#xA;location userAHome&#xA;furtherPhysicalConnections existing" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_0B9-QERlEeengr1ydYHSKA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_0B9-QURlEeengr1ydYHSKA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_0B8wIURlEeengr1ydYHSKA"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_0B8wIkRlEeengr1ydYHSKA"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0B8wI0RlEeengr1ydYHSKA" x="35" y="280"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4JZGoERlEeengr1ydYHSKA" type="Note" fontName="Ubuntu" description="sharing exclusive&#xA;location outerZone tamperProtection perimeterProtection&#xA;furtherPhysicalConnections possible" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_4JZtsERlEeengr1ydYHSKA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_4JZtsURlEeengr1ydYHSKA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_4JZGoURlEeengr1ydYHSKA"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_4JZGokRlEeengr1ydYHSKA"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JZGo0RlEeengr1ydYHSKA" x="285" y="285"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_YVHcsURlEeengr1ydYHSKA"/>
+  <element xmi:type="resourceenvironment:ResourceEnvironment" href="cloud.resourceenvironment#/0"/>
+</notation:Diagram>

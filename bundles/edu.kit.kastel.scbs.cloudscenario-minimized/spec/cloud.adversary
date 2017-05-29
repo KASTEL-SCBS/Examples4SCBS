@@ -5,26 +5,9 @@
     <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="cloud.confidentiality#_liW6Um9fEeam26epJlCOmw"/>
     <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_VNEuEBXzEeabKfvw_S-vrQ"/>
   </adversaries>
-  <adversaries id="_uYJPYBXzEeabKfvw_S-vrQ" name="cloud end user B">
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="cloud.confidentiality#_o40-IjSLEeaRTJfWzuCJjw"/>
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="cloud.confidentiality#_liW6Um9fEeam26epJlCOmw"/>
-    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_ZvTjIBXzEeabKfvw_S-vrQ"/>
-  </adversaries>
-  <adversaries id="_zdsM4BXzEeabKfvw_S-vrQ" name="cloud end user guest">
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="cloud.confidentiality#_liW6Um9fEeam26epJlCOmw"/>
-    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_fKL3cBXzEeabKfvw_S-vrQ"/>
-  </adversaries>
   <adversaries id="_6U1D0BXzEeabKfvw_S-vrQ" name="cloud service administrator">
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="cloud.confidentiality#_oen9IDSFEeaNBONF_yFtJg"/>
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="cloud.confidentiality#_qyy_MDSFEeaNBONF_yFtJg"/>
     <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="cloud.confidentiality#_liW6Um9fEeam26epJlCOmw"/>
-    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_jvTocBXzEeabKfvw_S-vrQ"/>
-  </adversaries>
-  <adversaries id="_lTfikBX0EeabKfvw_S-vrQ" name="cloud service provider">
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="cloud.confidentiality#_oen9IDSFEeaNBONF_yFtJg"/>
-    <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSetMapEntry" href="cloud.confidentiality#_liW6Um9fEeam26epJlCOmw"/>
-    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_mFh48BXzEeabKfvw_S-vrQ"/>
-    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_dTKrcBXzEeabKfvw_S-vrQ"/>
+    <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_A5UHXERqEeengr1ydYHSKA"/>
   </adversaries>
   <adversaries id="_SuRkUI7cEealUusoPax18A" name="ChuckNorris">
     <locationsAndTamperProtectionsPairs href="cloud.confidentiality#_xz90jI7dEealUusoPax18A"/>

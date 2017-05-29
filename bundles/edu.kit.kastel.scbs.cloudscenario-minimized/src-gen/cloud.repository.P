@@ -1,136 +1,136 @@
 
-/** BEGIN repository, ID: '42', NAME: 'cloudRepository' */
-description(42,'cloudRepository','repository').
-repository(42).
-components(42,[43,44]).
-interfaces(42,[45,46]).
+/** BEGIN repository, ID: '22', NAME: 'cloudRepository' */
+description(22,'cloudRepository','repository').
+repository(22).
+components(22,[23,24]).
+interfaces(22,[25,26]).
 
-/** BEGIN basicComponent, ID: '43', NAME: 'FileManager' */
-description(43,'FileManager','basicComponent').
-basicComponent(43).
-providedRoles(43,[47]).
-requiredRoles(43,[48]).
+/** BEGIN basicComponent, ID: '23', NAME: 'FileManager' */
+description(23,'FileManager','basicComponent').
+basicComponent(23).
+providedRoles(23,[27]).
+requiredRoles(23,[28]).
 
-/** BEGIN operationProvidedRole, ID: '47', NAME: 'Provided_FileManGUI_FileManager' */
-description(47,'Provided_FileManGUI_FileManager','operationProvidedRole').
-operationProvidedRole(47).
-providedInterface(47,[45]).
-/** END operationProvidedRole, ID: '47', NAME: 'Provided_FileManGUI_FileManager' */
-
-
-/** BEGIN operationRequiredRole, ID: '48', NAME: 'Required_IWebDAV_FileManager' */
-description(48,'Required_IWebDAV_FileManager','operationRequiredRole').
-operationRequiredRole(48).
-requiredInterface(48,[46]).
-/** END operationRequiredRole, ID: '48', NAME: 'Required_IWebDAV_FileManager' */
-
-/** END basicComponent, ID: '43', NAME: 'FileManager' */
+/** BEGIN operationProvidedRole, ID: '27', NAME: 'Provided_FileManGUI_FileManager' */
+description(27,'Provided_FileManGUI_FileManager','operationProvidedRole').
+operationProvidedRole(27).
+providedInterface(27,[25]).
+/** END operationProvidedRole, ID: '27', NAME: 'Provided_FileManGUI_FileManager' */
 
 
-/** BEGIN basicComponent, ID: '44', NAME: 'LoadBalancer' */
-description(44,'LoadBalancer','basicComponent').
-basicComponent(44).
-providedRoles(44,[49]).
-requiredRoles(44,[50]).
+/** BEGIN operationRequiredRole, ID: '28', NAME: 'Required_IWebDAV_FileManager' */
+description(28,'Required_IWebDAV_FileManager','operationRequiredRole').
+operationRequiredRole(28).
+requiredInterface(28,[26]).
+/** END operationRequiredRole, ID: '28', NAME: 'Required_IWebDAV_FileManager' */
 
-/** BEGIN operationProvidedRole, ID: '49', NAME: 'Provided_IWebDAV_LoadBalancer' */
-description(49,'Provided_IWebDAV_LoadBalancer','operationProvidedRole').
-operationProvidedRole(49).
-providedInterface(49,[46]).
-/** END operationProvidedRole, ID: '49', NAME: 'Provided_IWebDAV_LoadBalancer' */
+/** END basicComponent, ID: '23', NAME: 'FileManager' */
 
 
-/** BEGIN operationRequiredRole, ID: '50', NAME: 'Required_IWebDAV_LoadBalancer' */
-description(50,'Required_IWebDAV_LoadBalancer','operationRequiredRole').
-operationRequiredRole(50).
-requiredInterface(50,[46]).
-/** END operationRequiredRole, ID: '50', NAME: 'Required_IWebDAV_LoadBalancer' */
+/** BEGIN basicComponent, ID: '24', NAME: 'LoadBalancer' */
+description(24,'LoadBalancer','basicComponent').
+basicComponent(24).
+providedRoles(24,[29]).
+requiredRoles(24,[30]).
 
-/** END basicComponent, ID: '44', NAME: 'LoadBalancer' */
-
-
-/** BEGIN operationInterface, ID: '45', NAME: 'FileManGUI' */
-description(45,'FileManGUI','operationInterface').
-operationInterface(45).
-parentInterfaces(45,[]).
-signatures(45,[51]).
-
-/** BEGIN operationSignature, ID: '51', NAME: 'shareFriends' */
-description(51,'shareFriends','operationSignature').
-operationSignature(51).
-parameters(51,[52,53]).
-returnType(51,[]).
-
-/** BEGIN parameter, ID: '52', NAME: 'file' */
-description(52,'file','parameter').
-parameter(52).
-/** END parameter, ID: '52', NAME: 'file' */
-
-sizeOfParameter(54).
-sizeOf(54,52).
-
-/** BEGIN parameter, ID: '53', NAME: 'f' */
-description(53,'f','parameter').
-parameter(53).
-/** END parameter, ID: '53', NAME: 'f' */
-
-sizeOfParameter(55).
-sizeOf(55,53).
-/** END operationSignature, ID: '51', NAME: 'shareFriends' */
-
-/** END operationInterface, ID: '45', NAME: 'FileManGUI' */
+/** BEGIN operationProvidedRole, ID: '29', NAME: 'Provided_IWebDAV_LoadBalancer' */
+description(29,'Provided_IWebDAV_LoadBalancer','operationProvidedRole').
+operationProvidedRole(29).
+providedInterface(29,[26]).
+/** END operationProvidedRole, ID: '29', NAME: 'Provided_IWebDAV_LoadBalancer' */
 
 
-/** BEGIN operationInterface, ID: '46', NAME: 'IObjStore' */
-description(46,'IObjStore','operationInterface').
-operationInterface(46).
-parentInterfaces(46,[]).
-signatures(46,[56]).
+/** BEGIN operationRequiredRole, ID: '30', NAME: 'Required_IWebDAV_LoadBalancer' */
+description(30,'Required_IWebDAV_LoadBalancer','operationRequiredRole').
+operationRequiredRole(30).
+requiredInterface(30,[26]).
+/** END operationRequiredRole, ID: '30', NAME: 'Required_IWebDAV_LoadBalancer' */
 
-/** BEGIN operationSignature, ID: '56', NAME: 'putFriends' */
-description(56,'putFriends','operationSignature').
-operationSignature(56).
-parameters(56,[52,57,53]).
-returnType(56,[58]).
-
-/** BEGIN parameter, ID: '52', NAME: 'file' */
-description(52,'file','parameter').
-parameter(52).
-/** END parameter, ID: '52', NAME: 'file' */
-
-sizeOfParameter(54).
-sizeOf(54,52).
-
-/** BEGIN parameter, ID: '57', NAME: 'data' */
-description(57,'data','parameter').
-parameter(57).
-/** END parameter, ID: '57', NAME: 'data' */
-
-sizeOfParameter(59).
-sizeOf(59,57).
-
-/** BEGIN parameter, ID: '53', NAME: 'f' */
-description(53,'f','parameter').
-parameter(53).
-/** END parameter, ID: '53', NAME: 'f' */
-
-sizeOfParameter(55).
-sizeOf(55,53).
-/** END operationSignature, ID: '56', NAME: 'putFriends' */
-
-/** END operationInterface, ID: '46', NAME: 'IObjStore' */
+/** END basicComponent, ID: '24', NAME: 'LoadBalancer' */
 
 
-/** BEGIN compositeDataType, ID: '60', NAME: 'token' */
-description(60,'token','compositeDataType').
-compositeDataType(60).
-/** END compositeDataType, ID: '60', NAME: 'token' */
+/** BEGIN operationInterface, ID: '25', NAME: 'FileManGUI' */
+description(25,'FileManGUI','operationInterface').
+operationInterface(25).
+parentInterfaces(25,[]).
+signatures(25,[31]).
+
+/** BEGIN operationSignature, ID: '31', NAME: 'shareFriends' */
+description(31,'shareFriends','operationSignature').
+operationSignature(31).
+parameters(31,[32,33]).
+returnType(31,[]).
+
+/** BEGIN parameter, ID: '32', NAME: 'file' */
+description(32,'file','parameter').
+parameter(32).
+/** END parameter, ID: '32', NAME: 'file' */
+
+sizeOfParameter(34).
+sizeOf(34,32).
+
+/** BEGIN parameter, ID: '33', NAME: 'f' */
+description(33,'f','parameter').
+parameter(33).
+/** END parameter, ID: '33', NAME: 'f' */
+
+sizeOfParameter(35).
+sizeOf(35,33).
+/** END operationSignature, ID: '31', NAME: 'shareFriends' */
+
+/** END operationInterface, ID: '25', NAME: 'FileManGUI' */
 
 
-/** BEGIN collectionDataType, ID: '61', NAME: 'bytes' */
-description(61,'bytes','collectionDataType').
-collectionDataType(61).
-/** END collectionDataType, ID: '61', NAME: 'bytes' */
+/** BEGIN operationInterface, ID: '26', NAME: 'IObjStore' */
+description(26,'IObjStore','operationInterface').
+operationInterface(26).
+parentInterfaces(26,[]).
+signatures(26,[36]).
 
-/** END repository, ID: '42', NAME: 'cloudRepository' */
+/** BEGIN operationSignature, ID: '36', NAME: 'putFriends' */
+description(36,'putFriends','operationSignature').
+operationSignature(36).
+parameters(36,[32,37,33]).
+returnType(36,[38]).
+
+/** BEGIN parameter, ID: '32', NAME: 'file' */
+description(32,'file','parameter').
+parameter(32).
+/** END parameter, ID: '32', NAME: 'file' */
+
+sizeOfParameter(34).
+sizeOf(34,32).
+
+/** BEGIN parameter, ID: '37', NAME: 'data' */
+description(37,'data','parameter').
+parameter(37).
+/** END parameter, ID: '37', NAME: 'data' */
+
+sizeOfParameter(39).
+sizeOf(39,37).
+
+/** BEGIN parameter, ID: '33', NAME: 'f' */
+description(33,'f','parameter').
+parameter(33).
+/** END parameter, ID: '33', NAME: 'f' */
+
+sizeOfParameter(35).
+sizeOf(35,33).
+/** END operationSignature, ID: '36', NAME: 'putFriends' */
+
+/** END operationInterface, ID: '26', NAME: 'IObjStore' */
+
+
+/** BEGIN compositeDataType, ID: '40', NAME: 'token' */
+description(40,'token','compositeDataType').
+compositeDataType(40).
+/** END compositeDataType, ID: '40', NAME: 'token' */
+
+
+/** BEGIN collectionDataType, ID: '41', NAME: 'bytes' */
+description(41,'bytes','collectionDataType').
+collectionDataType(41).
+/** END collectionDataType, ID: '41', NAME: 'bytes' */
+
+/** END repository, ID: '22', NAME: 'cloudRepository' */
 

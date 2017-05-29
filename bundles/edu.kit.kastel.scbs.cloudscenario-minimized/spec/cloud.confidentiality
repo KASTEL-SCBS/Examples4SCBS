@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" id="_KrZmcBXwEeabKfvw_S-vrQ" name="cloud confidentiality specification">
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_oen9IDSFEeaNBONF_yFtJg" name="LoadBalancerData"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_qyy_MDSFEeaNBONF_yFtJg" name="LogData"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_yjxBITSFEeaNBONF_yFtJg" name="Self" definingServiceParameter="s"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_6HZxsTSFEeaNBONF_yFtJg" name="Friends" definingServiceParameter="f"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_mP1yIU2DEeaZ-ru15blW9g" name="*"/>
@@ -21,24 +19,8 @@
   <parametersAndDataPairs id="_kXA1RTSKEeaRTJfWzuCJjw" dataTargets="_NlPtozSKEeaRTJfWzuCJjw">
     <parameterSources>*</parameterSources>
   </parametersAndDataPairs>
-  <!--
-  <parametersAndDataPairs id="_pGnX9TSKEeaRTJfWzuCJjw" name="p=[*] - d=[UserData[Public]]" dataTargets="_liW6Um9fEeam26epJlCOmw">
-    <parameterSources>*</parameterSources>
-  </parametersAndDataPairs>
-  <parametersAndDataPairs id="_OTo3tU2DEeaZ-ru15blW9g" dataTargets="_Y26pM02DEeaZ-ru15blW9g">
-    <parameterSources>*</parameterSources>
-  </parametersAndDataPairs>
-  <parametersAndDataPairs id="_aQa9VU2EEeaZ-ru15blW9g" dataTargets="_qyy_MDSFEeaNBONF_yFtJg">
-    <parameterSources>*</parameterSources>
-  </parametersAndDataPairs>
-  <parametersAndDataPairs id="_647S9W4lEeam26epJlCOmw" dataTargets="_oen9IDSFEeaNBONF_yFtJg">
-    <parameterSources>*</parameterSources>
-  </parametersAndDataPairs>
-  -->
   <addedServiceParameters id="_sXMKJjSFEeaNBONF_yFtJg" name="s"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_9guu4DSOEea1eICDPlZMAQ" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="A"/>
-  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_3862KDSQEeaHiKwXLDiEtg" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="B"/>
-  <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_Ro7rSG9_EeaG0oMKM0Rwgw" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="Public"/>
   <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" providedSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" requiredSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
     <providedInterfaceNames>*</providedInterfaceNames>
     <requiredInterfaceNames>*</requiredInterfaceNames>
@@ -47,22 +29,10 @@
     <providedInterfaceNames>*</providedInterfaceNames>
     <requiredInterfaceNames>*</requiredInterfaceNames>
   </specificationParameterEquations>
-  <locations id="_0d2e0RXyEeabKfvw_S-vrQ" name="internet"/>
   <locations id="_31ZCYRXyEeabKfvw_S-vrQ" name="userAHome"/>
-  <locations id="_68R60RXyEeabKfvw_S-vrQ" name="userBHome"/>
-  <locations id="_-E7t0RXyEeabKfvw_S-vrQ" name="userGuestHome"/>
-  <locations id="_AIzqERXzEeabKfvw_S-vrQ" name="innerZone"/>
   <locations id="_BeJFURXzEeabKfvw_S-vrQ" name="outerZone"/>
   <tamperProtections id="_FBFnohXzEeabKfvw_S-vrQ" name="perimeterProtection"/>
-  <locationsAndTamperProtectionsPairs id="_VNEuEBXzEeabKfvw_S-vrQ" locations="_0d2e0RXyEeabKfvw_S-vrQ _31ZCYRXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_ZvTjIBXzEeabKfvw_S-vrQ" locations="_0d2e0RXyEeabKfvw_S-vrQ _68R60RXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_fKL3cBXzEeabKfvw_S-vrQ" locations="_0d2e0RXyEeabKfvw_S-vrQ _-E7t0RXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_dTKrcBXzEeabKfvw_S-vrQ" locations="_0d2e0RXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_jvTocBXzEeabKfvw_S-vrQ" locations="_AIzqERXzEeabKfvw_S-vrQ _BeJFURXzEeabKfvw_S-vrQ _0d2e0RXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_mFh48BXzEeabKfvw_S-vrQ" locations="_AIzqERXzEeabKfvw_S-vrQ _BeJFURXzEeabKfvw_S-vrQ" tamperProtections="_FBFnohXzEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_MGnh3G6FEeam26epJlCOmw" locations="_AIzqERXzEeabKfvw_S-vrQ" tamperProtections="_FBFnohXzEeabKfvw_S-vrQ"/>
+  <locationsAndTamperProtectionsPairs id="_A5UHXERqEeengr1ydYHSKA" locations="_BeJFURXzEeabKfvw_S-vrQ"/>
   <locationsAndTamperProtectionsPairs id="_NJMjvG6GEeam26epJlCOmw" locations="_BeJFURXzEeabKfvw_S-vrQ" tamperProtections="_FBFnohXzEeabKfvw_S-vrQ"/>
   <locationsAndTamperProtectionsPairs id="_H7Hf3G6HEeam26epJlCOmw" locations="_31ZCYRXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_JqcvfG6HEeam26epJlCOmw" locations="_68R60RXyEeabKfvw_S-vrQ"/>
-  <locationsAndTamperProtectionsPairs id="_Lr30rG6HEeam26epJlCOmw" locations="_-E7t0RXyEeabKfvw_S-vrQ"/>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

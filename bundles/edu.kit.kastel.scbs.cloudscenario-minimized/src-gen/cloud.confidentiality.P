@@ -1,244 +1,222 @@
+connectors(42,[45,46]).
 
-/** BEGIN confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
-description(1,'cloud confidentiality specification','confidentialitySpecification').
+sizeOfParameter(34).
+sizeOfParameter(35).
+sizeOfParameter(34).
+sizeOfParameter(39).
+sizeOfParameter(35).
+
+sizeOf(34,32).
+sizeOf(35,33).
+sizeOf(34,32).
+sizeOf(39,37).
+sizeOf(35,33).
+
+communicationLinkResourceSpecifications(50,[]).
+communicationLinkResourceSpecifications(51,[]).
+
+providedInterface(27,[25]).
+providedInterface(29,[26]).
+providedInterface(47,[25]).
+
+signatures(25,[31]).
+signatures(26,[36]).
+
+repository(22).
+
+dataSetMaps(1,[5]).
+
+connectionType(53,[existing]).
+connectionType(52,[possible]).
+
+allocationContext(55).
+allocationContext(56).
+
+adversaries(16,[17,18,19]).
+
+assemblyContext(43).
+assemblyContext(44).
+
+assemblyContext(46,[44]).
+
+adversaries(16).
+
+connectorSpecificParametersAndDataPairs(45,[48]).
+
 confidentialitySpecification(1).
-dataIdentifier(1,[2,3,4,5,6]).
-dataSetMaps(1,[7]).
-parametersAndDataPairs(1,[8,9,10,11,12,13,14]).
-addedServiceParameters(1,[15]).
-locations(1,[16,17,18,19,20,21]).
-tamperProtections(1,[22]).
-locationsAndTamperProtectionsPairs(1,[23,24,25,26,27,28,29,30,31,32,33]).
 
-/** BEGIN dataSet, ID: '2', NAME: 'LoadBalancerData' */
-description(2,'LoadBalancerData','dataSet').
-dataSet(2).
-/** END dataSet, ID: '2', NAME: 'LoadBalancerData' */
+locationsAndTamperProtectionsPairs(1,[13,14,15]).
+locationsAndTamperProtectionsPairs(17,[20]).
+locationsAndTamperProtectionsPairs(18,[13]).
+locationsAndTamperProtectionsPairs(19,[21]).
+locationsAndTamperProtectionsPairs(53,[15]).
+locationsAndTamperProtectionsPairs(52,[14]).
 
+assemblyContexts(42,[43,44]).
 
-/** BEGIN dataSet, ID: '3', NAME: 'LogData' */
-description(3,'LogData','dataSet').
-dataSet(3).
-/** END dataSet, ID: '3', NAME: 'LogData' */
+locationsAndTamperProtectionsPair(13).
+locationsAndTamperProtectionsPair(14).
+locationsAndTamperProtectionsPair(15).
 
+collectionDataType(41).
 
-/** BEGIN dataSetMapEntry, ID: '4', NAME: 'A' */
-description(4,'A','dataSetMapEntry').
-dataSetMapEntry(4).
-map(4,[7]).
-/** END dataSetMapEntry, ID: '4', NAME: 'A' */
+requiredRoles(23,[28]).
+requiredRoles(24,[30]).
+requiredRoles(42,[]).
 
+operationInterface(25).
+operationInterface(26).
 
-/** BEGIN dataSetMapEntry, ID: '5', NAME: 'B' */
-description(5,'B','dataSetMapEntry').
-dataSetMapEntry(5).
-map(5,[7]).
-/** END dataSetMapEntry, ID: '5', NAME: 'B' */
+originalParametersAndDataPair(48,6).
 
+connectedResourceContainers(50,[53,52]).
+connectedResourceContainers(51,[52]).
 
-/** BEGIN dataSetMapEntry, ID: '6', NAME: 'Public' */
-description(6,'Public','dataSetMapEntry').
-dataSetMapEntry(6).
-map(6,[7]).
-/** END dataSetMapEntry, ID: '6', NAME: 'Public' */
+sharing(53,[shared]).
+sharing(52,[exclusive]).
 
+dataSetMap(5).
 
-/** BEGIN dataSetMap, ID: '7', NAME: 'UserData' */
-description(7,'UserData','dataSetMap').
-dataSetMap(7).
-/** END dataSetMap, ID: '7', NAME: 'UserData' */
-
-
-/** BEGIN parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Self]]' */
-description(8,'p=[*] - d=[UserData[Self]]','parametersAndDataPair').
-parametersAndDataPair(8).
+parameterSources(6,[*]).
+parameterSources(7,[sizeOf(*)]).
 parameterSources(8,[*]).
+parameterSources(48,[*]).
+
+providedRoles(23,[27]).
+providedRoles(24,[29]).
+providedRoles(42,[47]).
+
+system(42).
+
+outerProvidedRole(46,[47]).
+
+resourceEnvironment(49).
+
+dataIdentifier(1,[2,3,4]).
+
+compositeDataType(40).
+
+allocationContexts(54,[55,56]).
+
+returnType(31,[]).
+returnType(36,[38]).
+
+parametersAndDataPairs(1,[6,7,8]).
+parametersAndDataPairs(31,[6, 7]).
+parametersAndDataPairs(36,[8]).
+parametersAndDataPairs(36,[6, 7]).
+parametersAndDataPairs(31,[8]).
+
+parameters(31,[32,33]).
+parameters(36,[32,37,33]).
+
+components(22,[23,24]).
+
+operationProvidedRole(27).
+operationProvidedRole(29).
+operationProvidedRole(47).
+
+providedRole(45,[29]).
+
+tamperProtections(1,[12]).
+tamperProtections(13,[]).
+tamperProtections(14,[12]).
+tamperProtections(15,[]).
+
+encapsulatedComponent(43,[24]).
+encapsulatedComponent(44,[23]).
+
+dataSetMapEntry(2).
+dataSetMapEntry(3).
+dataSetMapEntry(4).
+
+operationRequiredRole(28).
+operationRequiredRole(30).
+
+requiredInterface(28,[26]).
+requiredInterface(30,[26]).
+
+parentInterfaces(25,[]).
+parentInterfaces(26,[]).
+
+mayKnowData(17,[2,4]).
+mayKnowData(18,[4]).
+mayKnowData(19,[]).
+
+operationSignature(31).
+operationSignature(36).
+
+providingAssemblyContext(45,[43]).
+
+parameter(32).
+parameter(33).
+parameter(32).
+parameter(37).
+parameter(33).
+
+linkingResource(50).
+linkingResource(51).
+
+assemblyConnector(45).
+
+resourceContainer(49,[52,53]).
+resourceContainer(55,[52]).
+resourceContainer(56,[53]).
+
+linkingResources(49,[50,51]).
+
+resourceContainer(52).
+resourceContainer(53).
+
+requiredRole(45,[28]).
+
+serviceParameters(25,[9]).
+serviceParameters(26,[9]).
+
+map(2,[5]).
+map(3,[5]).
+map(4,[5]).
+
+requiringAssemblyContext(45,[44]).
+
+interfaces(22,[25,26]).
+
+addedServiceParameters(1,[9]).
+
+basicComponent(23).
+basicComponent(24).
+
+allocation(54).
+
+tamperProtection(12).
+
+providedDelegationConnector(46).
+
+innerProvidedRole(46,[27]).
+
+adversary(17).
+adversary(18).
+adversary(19).
+
+assemblyContext_AllocationContext(55,[43]).
+assemblyContext_AllocationContext(56,[44]).
+
+addedServiceParameter(9).
+
+locations(1,[10,11]).
+locations(13,[11]).
+locations(14,[11]).
+locations(15,[10]).
+
+location(10).
+location(11).
+
+dataTargets(6,[]).
+dataTargets(7,[4]).
 dataTargets(8,[]).
-/** END parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Self]]' */
+dataTargets(48,[2]).
 
-
-/** BEGIN parametersAndDataPair, ID: '9', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
-description(9,'p=[sizeOf(*)] - d=[UserData[Public]]','parametersAndDataPair').
-parametersAndDataPair(9).
-parameterSources(9,[sizeOf(*)]).
-dataTargets(9,[6]).
-/** END parametersAndDataPair, ID: '9', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
-
-
-/** BEGIN parametersAndDataPair, ID: '10', NAME: 'p=[*] - d=[UserData[Friends]]' */
-description(10,'p=[*] - d=[UserData[Friends]]','parametersAndDataPair').
-parametersAndDataPair(10).
-parameterSources(10,[*]).
-dataTargets(10,[]).
-/** END parametersAndDataPair, ID: '10', NAME: 'p=[*] - d=[UserData[Friends]]' */
-
-
-/** BEGIN parametersAndDataPair, ID: '11', NAME: 'p=[*] - d=[UserData[Public]]' */
-description(11,'p=[*] - d=[UserData[Public]]','parametersAndDataPair').
-parametersAndDataPair(11).
-parameterSources(11,[*]).
-dataTargets(11,[6]).
-/** END parametersAndDataPair, ID: '11', NAME: 'p=[*] - d=[UserData[Public]]' */
-
-
-/** BEGIN parametersAndDataPair, ID: '12', NAME: 'p=[*] - d=[UserData[*]]' */
-description(12,'p=[*] - d=[UserData[*]]','parametersAndDataPair').
-parametersAndDataPair(12).
-parameterSources(12,[*]).
-dataTargets(12,[]).
-/** END parametersAndDataPair, ID: '12', NAME: 'p=[*] - d=[UserData[*]]' */
-
-
-/** BEGIN parametersAndDataPair, ID: '13', NAME: 'p=[*] - d=[LogData]' */
-description(13,'p=[*] - d=[LogData]','parametersAndDataPair').
-parametersAndDataPair(13).
-parameterSources(13,[*]).
-dataTargets(13,[3]).
-/** END parametersAndDataPair, ID: '13', NAME: 'p=[*] - d=[LogData]' */
-
-
-/** BEGIN parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[LoadBalancerData]' */
-description(14,'p=[*] - d=[LoadBalancerData]','parametersAndDataPair').
-parametersAndDataPair(14).
-parameterSources(14,[*]).
-dataTargets(14,[2]).
-/** END parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[LoadBalancerData]' */
-
-
-/** BEGIN addedServiceParameter, ID: '15', NAME: 's' */
-description(15,'s','addedServiceParameter').
-addedServiceParameter(15).
-/** END addedServiceParameter, ID: '15', NAME: 's' */
-
-
-/** BEGIN location, ID: '16', NAME: 'internet' */
-description(16,'internet','location').
-location(16).
-/** END location, ID: '16', NAME: 'internet' */
-
-
-/** BEGIN location, ID: '17', NAME: 'userAHome' */
-description(17,'userAHome','location').
-location(17).
-/** END location, ID: '17', NAME: 'userAHome' */
-
-
-/** BEGIN location, ID: '18', NAME: 'userBHome' */
-description(18,'userBHome','location').
-location(18).
-/** END location, ID: '18', NAME: 'userBHome' */
-
-
-/** BEGIN location, ID: '19', NAME: 'userGuestHome' */
-description(19,'userGuestHome','location').
-location(19).
-/** END location, ID: '19', NAME: 'userGuestHome' */
-
-
-/** BEGIN location, ID: '20', NAME: 'innerZone' */
-description(20,'innerZone','location').
-location(20).
-/** END location, ID: '20', NAME: 'innerZone' */
-
-
-/** BEGIN location, ID: '21', NAME: 'outerZone' */
-description(21,'outerZone','location').
-location(21).
-/** END location, ID: '21', NAME: 'outerZone' */
-
-
-/** BEGIN tamperProtection, ID: '22', NAME: 'perimeterProtection' */
-description(22,'perimeterProtection','tamperProtection').
-tamperProtection(22).
-/** END tamperProtection, ID: '22', NAME: 'perimeterProtection' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[internet, userAHome] - t=[]' */
-description(23,'l=[internet, userAHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(23).
-locations(23,[16,17]).
-tamperProtections(23,[]).
-/** END locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[internet, userAHome] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[internet, userBHome] - t=[]' */
-description(24,'l=[internet, userBHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(24).
-locations(24,[16,18]).
-tamperProtections(24,[]).
-/** END locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[internet, userBHome] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '25', NAME: 'l=[internet, userGuestHome] - t=[]' */
-description(25,'l=[internet, userGuestHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(25).
-locations(25,[16,19]).
-tamperProtections(25,[]).
-/** END locationsAndTamperProtectionsPair, ID: '25', NAME: 'l=[internet, userGuestHome] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '26', NAME: 'l=[internet] - t=[]' */
-description(26,'l=[internet] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(26).
-locations(26,[16]).
-tamperProtections(26,[]).
-/** END locationsAndTamperProtectionsPair, ID: '26', NAME: 'l=[internet] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '27', NAME: 'l=[innerZone, outerZone, internet] - t=[]' */
-description(27,'l=[innerZone, outerZone, internet] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(27).
-locations(27,[20,21,16]).
-tamperProtections(27,[]).
-/** END locationsAndTamperProtectionsPair, ID: '27', NAME: 'l=[innerZone, outerZone, internet] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '28', NAME: 'l=[innerZone, outerZone] - t=[perimeterProtection]' */
-description(28,'l=[innerZone, outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(28).
-locations(28,[20,21]).
-tamperProtections(28,[22]).
-/** END locationsAndTamperProtectionsPair, ID: '28', NAME: 'l=[innerZone, outerZone] - t=[perimeterProtection]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '29', NAME: 'l=[innerZone] - t=[perimeterProtection]' */
-description(29,'l=[innerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(29).
-locations(29,[20]).
-tamperProtections(29,[22]).
-/** END locationsAndTamperProtectionsPair, ID: '29', NAME: 'l=[innerZone] - t=[perimeterProtection]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '30', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
-description(30,'l=[outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(30).
-locations(30,[21]).
-tamperProtections(30,[22]).
-/** END locationsAndTamperProtectionsPair, ID: '30', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '31', NAME: 'l=[userAHome] - t=[]' */
-description(31,'l=[userAHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(31).
-locations(31,[17]).
-tamperProtections(31,[]).
-/** END locationsAndTamperProtectionsPair, ID: '31', NAME: 'l=[userAHome] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '32', NAME: 'l=[userBHome] - t=[]' */
-description(32,'l=[userBHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(32).
-locations(32,[18]).
-tamperProtections(32,[]).
-/** END locationsAndTamperProtectionsPair, ID: '32', NAME: 'l=[userBHome] - t=[]' */
-
-
-/** BEGIN locationsAndTamperProtectionsPair, ID: '33', NAME: 'l=[userGuestHome] - t=[]' */
-description(33,'l=[userGuestHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(33).
-locations(33,[19]).
-tamperProtections(33,[]).
-/** END locationsAndTamperProtectionsPair, ID: '33', NAME: 'l=[userGuestHome] - t=[]' */
-
-/** END confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
-
+parametersAndDataPair(6).
+parametersAndDataPair(7).
+parametersAndDataPair(8).
+parametersAndDataPair(48).

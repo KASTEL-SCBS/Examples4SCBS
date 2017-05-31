@@ -1,0 +1,31 @@
+
+/** BEGIN adversaries, ID: '25', NAME: 'paper example adversaries' */
+description(25,'paper example adversaries','adversaries').
+adversaries(25).
+adversaries(25,[26,27,28]).
+
+/** BEGIN adversary, ID: '26', NAME: 'inhabitant' */
+description(26,'inhabitant','adversary').
+adversary(26).
+mayKnowData(26,[3,4,2]).
+locationsAndTamperProtectionsPairs(26,[15]).
+/** END adversary, ID: '26', NAME: 'inhabitant' */
+
+
+/** BEGIN adversary, ID: '27', NAME: 'guest' */
+description(27,'guest','adversary').
+adversary(27).
+mayKnowData(27,[2,4]).
+locationsAndTamperProtectionsPairs(27,[16]).
+/** END adversary, ID: '27', NAME: 'guest' */
+
+
+/** BEGIN adversary, ID: '28', NAME: 'passer-by-adversary' */
+description(28,'passer-by-adversary','adversary').
+adversary(28).
+mayKnowData(28,[4]).
+locationsAndTamperProtectionsPairs(28,[17]).
+/** END adversary, ID: '28', NAME: 'passer-by-adversary' */
+
+/** END adversaries, ID: '25', NAME: 'paper example adversaries' */
+

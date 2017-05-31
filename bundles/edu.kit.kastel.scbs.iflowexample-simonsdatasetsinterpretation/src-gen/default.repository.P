@@ -1,0 +1,446 @@
+
+/** BEGIN repository, ID: '43', NAME: 'defaultRepository' */
+description(43,'defaultRepository','repository').
+repository(43).
+components(43,[44,45,46,47]).
+interfaces(43,[48,49,50,51,52,53,54,55,56,57]).
+
+/** BEGIN basicComponent, ID: '44', NAME: 'TravelAgency' */
+description(44,'TravelAgency','basicComponent').
+basicComponent(44).
+providedRoles(44,[58,59]).
+requiredRoles(44,[60]).
+
+/** BEGIN operationProvidedRole, ID: '58', NAME: 'Provided_FlightOffers_TravelAgency' */
+description(58,'Provided_FlightOffers_TravelAgency','operationProvidedRole').
+operationProvidedRole(58).
+providedInterface(58,[51]).
+/** END operationProvidedRole, ID: '58', NAME: 'Provided_FlightOffers_TravelAgency' */
+
+
+/** BEGIN operationProvidedRole, ID: '59', NAME: 'Provided_Comission_TravelAgency' */
+description(59,'Provided_Comission_TravelAgency','operationProvidedRole').
+operationProvidedRole(59).
+providedInterface(59,[48]).
+/** END operationProvidedRole, ID: '59', NAME: 'Provided_Comission_TravelAgency' */
+
+
+/** BEGIN operationRequiredRole, ID: '60', NAME: 'Required_FlightOffers_TravelAgency' */
+description(60,'Required_FlightOffers_TravelAgency','operationRequiredRole').
+operationRequiredRole(60).
+requiredInterface(60,[51]).
+/** END operationRequiredRole, ID: '60', NAME: 'Required_FlightOffers_TravelAgency' */
+
+/** END basicComponent, ID: '44', NAME: 'TravelAgency' */
+
+
+/** BEGIN basicComponent, ID: '45', NAME: 'Airline' */
+description(45,'Airline','basicComponent').
+basicComponent(45).
+providedRoles(45,[61,62,63]).
+requiredRoles(45,[64]).
+
+/** BEGIN operationProvidedRole, ID: '61', NAME: 'Provided_FlightOffers_Airline' */
+description(61,'Provided_FlightOffers_Airline','operationProvidedRole').
+operationProvidedRole(61).
+providedInterface(61,[51]).
+/** END operationProvidedRole, ID: '61', NAME: 'Provided_FlightOffers_Airline' */
+
+
+/** BEGIN operationProvidedRole, ID: '62', NAME: 'Provided_Booking_Airline' */
+description(62,'Provided_Booking_Airline','operationProvidedRole').
+operationProvidedRole(62).
+providedInterface(62,[50]).
+/** END operationProvidedRole, ID: '62', NAME: 'Provided_Booking_Airline' */
+
+
+/** BEGIN operationProvidedRole, ID: '63', NAME: 'Provided_AirlineAdministration_Airline' */
+description(63,'Provided_AirlineAdministration_Airline','operationProvidedRole').
+operationProvidedRole(63).
+providedInterface(63,[56]).
+/** END operationProvidedRole, ID: '63', NAME: 'Provided_AirlineAdministration_Airline' */
+
+
+/** BEGIN operationRequiredRole, ID: '64', NAME: 'Required_Comission_Airline' */
+description(64,'Required_Comission_Airline','operationRequiredRole').
+operationRequiredRole(64).
+requiredInterface(64,[48]).
+/** END operationRequiredRole, ID: '64', NAME: 'Required_Comission_Airline' */
+
+/** END basicComponent, ID: '45', NAME: 'Airline' */
+
+
+/** BEGIN basicComponent, ID: '46', NAME: 'TravelPlanner' */
+description(46,'TravelPlanner','basicComponent').
+basicComponent(46).
+providedRoles(46,[65]).
+requiredRoles(46,[66,67,68,69]).
+
+/** BEGIN operationProvidedRole, ID: '65', NAME: 'Provided_BookingSelection_TravelPlanner' */
+description(65,'Provided_BookingSelection_TravelPlanner','operationProvidedRole').
+operationProvidedRole(65).
+providedInterface(65,[49]).
+/** END operationProvidedRole, ID: '65', NAME: 'Provided_BookingSelection_TravelPlanner' */
+
+
+/** BEGIN operationRequiredRole, ID: '66', NAME: 'Required_FlightOffers_TravelPlanner' */
+description(66,'Required_FlightOffers_TravelPlanner','operationRequiredRole').
+operationRequiredRole(66).
+requiredInterface(66,[51]).
+/** END operationRequiredRole, ID: '66', NAME: 'Required_FlightOffers_TravelPlanner' */
+
+
+/** BEGIN operationRequiredRole, ID: '67', NAME: 'Required_Booking_TravelPlanner' */
+description(67,'Required_Booking_TravelPlanner','operationRequiredRole').
+operationRequiredRole(67).
+requiredInterface(67,[50]).
+/** END operationRequiredRole, ID: '67', NAME: 'Required_Booking_TravelPlanner' */
+
+
+/** BEGIN operationRequiredRole, ID: '68', NAME: 'Required_Declassification_TravelPlanner' */
+description(68,'Required_Declassification_TravelPlanner','operationRequiredRole').
+operationRequiredRole(68).
+requiredInterface(68,[53]).
+/** END operationRequiredRole, ID: '68', NAME: 'Required_Declassification_TravelPlanner' */
+
+
+/** BEGIN operationRequiredRole, ID: '69', NAME: 'Required_Input_TravelPlanner' */
+description(69,'Required_Input_TravelPlanner','operationRequiredRole').
+operationRequiredRole(69).
+requiredInterface(69,[55]).
+/** END operationRequiredRole, ID: '69', NAME: 'Required_Input_TravelPlanner' */
+
+/** END basicComponent, ID: '46', NAME: 'TravelPlanner' */
+
+
+/** BEGIN basicComponent, ID: '47', NAME: 'CreditCardCenter' */
+description(47,'CreditCardCenter','basicComponent').
+basicComponent(47).
+providedRoles(47,[70,71,72]).
+requiredRoles(47,[73]).
+
+/** BEGIN operationProvidedRole, ID: '70', NAME: 'Provided_Declassification_CreditCardCenter' */
+description(70,'Provided_Declassification_CreditCardCenter','operationProvidedRole').
+operationProvidedRole(70).
+providedInterface(70,[53]).
+/** END operationProvidedRole, ID: '70', NAME: 'Provided_Declassification_CreditCardCenter' */
+
+
+/** BEGIN operationProvidedRole, ID: '71', NAME: 'Provided_Configuration_CreditCardCenter' */
+description(71,'Provided_Configuration_CreditCardCenter','operationProvidedRole').
+operationProvidedRole(71).
+providedInterface(71,[52]).
+/** END operationProvidedRole, ID: '71', NAME: 'Provided_Configuration_CreditCardCenter' */
+
+
+/** BEGIN operationProvidedRole, ID: '72', NAME: 'Provided_DeclassificationConfirmation_CreditCardCenter' */
+description(72,'Provided_DeclassificationConfirmation_CreditCardCenter','operationProvidedRole').
+operationProvidedRole(72).
+providedInterface(72,[57]).
+/** END operationProvidedRole, ID: '72', NAME: 'Provided_DeclassificationConfirmation_CreditCardCenter' */
+
+
+/** BEGIN operationRequiredRole, ID: '73', NAME: 'Required_Confirmation_CreditCardCenter' */
+description(73,'Required_Confirmation_CreditCardCenter','operationRequiredRole').
+operationRequiredRole(73).
+requiredInterface(73,[54]).
+/** END operationRequiredRole, ID: '73', NAME: 'Required_Confirmation_CreditCardCenter' */
+
+/** END basicComponent, ID: '47', NAME: 'CreditCardCenter' */
+
+
+/** BEGIN operationInterface, ID: '48', NAME: 'Comission' */
+description(48,'Comission','operationInterface').
+operationInterface(48).
+parentInterfaces(48,[]).
+signatures(48,[74]).
+
+/** BEGIN operationSignature, ID: '74', NAME: 'payCommission' */
+description(74,'payCommission','operationSignature').
+operationSignature(74).
+parameters(74,[]).
+returnType(74,[]).
+/** END operationSignature, ID: '74', NAME: 'payCommission' */
+
+/** END operationInterface, ID: '48', NAME: 'Comission' */
+
+
+/** BEGIN operationInterface, ID: '49', NAME: 'BookingSelection' */
+description(49,'BookingSelection','operationInterface').
+operationInterface(49).
+parentInterfaces(49,[]).
+signatures(49,[75,76]).
+
+/** BEGIN operationSignature, ID: '75', NAME: 'bookSelected' */
+description(75,'bookSelected','operationSignature').
+operationSignature(75).
+parameters(75,[34]).
+returnType(75,[]).
+
+/** BEGIN parameter, ID: '34', NAME: 'flightOffer' */
+description(34,'flightOffer','parameter').
+parameter(34).
+/** END parameter, ID: '34', NAME: 'flightOffer' */
+
+sizeOfParameter(77).
+sizeOf(77,34).
+/** END operationSignature, ID: '75', NAME: 'bookSelected' */
+
+
+/** BEGIN operationSignature, ID: '76', NAME: 'getFlightOffers' */
+description(76,'getFlightOffers','operationSignature').
+operationSignature(76).
+parameters(76,[31]).
+returnType(76,[]).
+
+/** BEGIN parameter, ID: '31', NAME: 'requestData' */
+description(31,'requestData','parameter').
+parameter(31).
+/** END parameter, ID: '31', NAME: 'requestData' */
+
+sizeOfParameter(78).
+sizeOf(78,31).
+/** END operationSignature, ID: '76', NAME: 'getFlightOffers' */
+
+/** END operationInterface, ID: '49', NAME: 'BookingSelection' */
+
+
+/** BEGIN operationInterface, ID: '50', NAME: 'Booking' */
+description(50,'Booking','operationInterface').
+operationInterface(50).
+parentInterfaces(50,[]).
+signatures(50,[79]).
+
+/** BEGIN operationSignature, ID: '79', NAME: 'bookFlight' */
+description(79,'bookFlight','operationSignature').
+operationSignature(79).
+parameters(79,[37,38]).
+returnType(79,[80]).
+
+/** BEGIN parameter, ID: '37', NAME: 'offerId' */
+description(37,'offerId','parameter').
+parameter(37).
+/** END parameter, ID: '37', NAME: 'offerId' */
+
+sizeOfParameter(81).
+sizeOf(81,37).
+
+/** BEGIN parameter, ID: '38', NAME: 'ccd_decl' */
+description(38,'ccd_decl','parameter').
+parameter(38).
+/** END parameter, ID: '38', NAME: 'ccd_decl' */
+
+sizeOfParameter(82).
+sizeOf(82,38).
+/** END operationSignature, ID: '79', NAME: 'bookFlight' */
+
+/** END operationInterface, ID: '50', NAME: 'Booking' */
+
+
+/** BEGIN operationInterface, ID: '51', NAME: 'FlightOffers' */
+description(51,'FlightOffers','operationInterface').
+operationInterface(51).
+parentInterfaces(51,[]).
+signatures(51,[83]).
+
+/** BEGIN operationSignature, ID: '83', NAME: 'getFlightOffers' */
+description(83,'getFlightOffers','operationSignature').
+operationSignature(83).
+parameters(83,[31]).
+returnType(83,[84]).
+
+/** BEGIN parameter, ID: '31', NAME: 'requestData' */
+description(31,'requestData','parameter').
+parameter(31).
+/** END parameter, ID: '31', NAME: 'requestData' */
+
+sizeOfParameter(78).
+sizeOf(78,31).
+/** END operationSignature, ID: '83', NAME: 'getFlightOffers' */
+
+/** END operationInterface, ID: '51', NAME: 'FlightOffers' */
+
+
+/** BEGIN operationInterface, ID: '52', NAME: 'Configuration' */
+description(52,'Configuration','operationInterface').
+operationInterface(52).
+parentInterfaces(52,[]).
+signatures(52,[85]).
+
+/** BEGIN operationSignature, ID: '85', NAME: 'setCreditCard' */
+description(85,'setCreditCard','operationSignature').
+operationSignature(85).
+parameters(85,[35]).
+returnType(85,[]).
+
+/** BEGIN parameter, ID: '35', NAME: 'ccd' */
+description(35,'ccd','parameter').
+parameter(35).
+/** END parameter, ID: '35', NAME: 'ccd' */
+
+sizeOfParameter(86).
+sizeOf(86,35).
+/** END operationSignature, ID: '85', NAME: 'setCreditCard' */
+
+/** END operationInterface, ID: '52', NAME: 'Configuration' */
+
+
+/** BEGIN operationInterface, ID: '53', NAME: 'Declassification' */
+description(53,'Declassification','operationInterface').
+operationInterface(53).
+parentInterfaces(53,[]).
+signatures(53,[87]).
+
+/** BEGIN operationSignature, ID: '87', NAME: 'releaseCCD' */
+description(87,'releaseCCD','operationSignature').
+operationSignature(87).
+parameters(87,[36]).
+returnType(87,[]).
+
+/** BEGIN parameter, ID: '36', NAME: 'airline' */
+description(36,'airline','parameter').
+parameter(36).
+/** END parameter, ID: '36', NAME: 'airline' */
+
+sizeOfParameter(88).
+sizeOf(88,36).
+/** END operationSignature, ID: '87', NAME: 'releaseCCD' */
+
+/** END operationInterface, ID: '53', NAME: 'Declassification' */
+
+
+/** BEGIN operationInterface, ID: '54', NAME: 'Confirmation' */
+description(54,'Confirmation','operationInterface').
+operationInterface(54).
+parentInterfaces(54,[]).
+signatures(54,[89]).
+
+/** BEGIN operationSignature, ID: '89', NAME: 'confirmRelease' */
+description(89,'confirmRelease','operationSignature').
+operationSignature(89).
+parameters(89,[35,36]).
+returnType(89,[]).
+
+/** BEGIN parameter, ID: '35', NAME: 'ccd' */
+description(35,'ccd','parameter').
+parameter(35).
+/** END parameter, ID: '35', NAME: 'ccd' */
+
+sizeOfParameter(86).
+sizeOf(86,35).
+
+/** BEGIN parameter, ID: '36', NAME: 'airline' */
+description(36,'airline','parameter').
+parameter(36).
+/** END parameter, ID: '36', NAME: 'airline' */
+
+sizeOfParameter(88).
+sizeOf(88,36).
+/** END operationSignature, ID: '89', NAME: 'confirmRelease' */
+
+/** END operationInterface, ID: '54', NAME: 'Confirmation' */
+
+
+/** BEGIN operationInterface, ID: '55', NAME: 'Input' */
+description(55,'Input','operationInterface').
+operationInterface(55).
+parentInterfaces(55,[]).
+signatures(55,[90,91]).
+
+/** BEGIN operationSignature, ID: '90', NAME: 'getInput' */
+description(90,'getInput','operationSignature').
+operationSignature(90).
+parameters(90,[]).
+returnType(90,[]).
+/** END operationSignature, ID: '90', NAME: 'getInput' */
+
+
+/** BEGIN operationSignature, ID: '91', NAME: 'getSingleSelection' */
+description(91,'getSingleSelection','operationSignature').
+operationSignature(91).
+parameters(91,[33]).
+returnType(91,[]).
+
+/** BEGIN parameter, ID: '33', NAME: 'flightOffers' */
+description(33,'flightOffers','parameter').
+parameter(33).
+/** END parameter, ID: '33', NAME: 'flightOffers' */
+
+sizeOfParameter(92).
+sizeOf(92,33).
+/** END operationSignature, ID: '91', NAME: 'getSingleSelection' */
+
+/** END operationInterface, ID: '55', NAME: 'Input' */
+
+
+/** BEGIN operationInterface, ID: '56', NAME: 'AirlineAdministration' */
+description(56,'AirlineAdministration','operationInterface').
+operationInterface(56).
+parentInterfaces(56,[]).
+signatures(56,[93]).
+
+/** BEGIN operationSignature, ID: '93', NAME: 'setAvailableFlights' */
+description(93,'setAvailableFlights','operationSignature').
+operationSignature(93).
+parameters(93,[32]).
+returnType(93,[]).
+
+/** BEGIN parameter, ID: '32', NAME: 'flights' */
+description(32,'flights','parameter').
+parameter(32).
+/** END parameter, ID: '32', NAME: 'flights' */
+
+sizeOfParameter(94).
+sizeOf(94,32).
+/** END operationSignature, ID: '93', NAME: 'setAvailableFlights' */
+
+/** END operationInterface, ID: '56', NAME: 'AirlineAdministration' */
+
+
+/** BEGIN operationInterface, ID: '57', NAME: 'DeclassificationConfirmation' */
+description(57,'DeclassificationConfirmation','operationInterface').
+operationInterface(57).
+parentInterfaces(57,[]).
+signatures(57,[95]).
+
+/** BEGIN operationSignature, ID: '95', NAME: 'getDeclassifiedCCD' */
+description(95,'getDeclassifiedCCD','operationSignature').
+operationSignature(95).
+parameters(95,[]).
+returnType(95,[]).
+/** END operationSignature, ID: '95', NAME: 'getDeclassifiedCCD' */
+
+/** END operationInterface, ID: '57', NAME: 'DeclassificationConfirmation' */
+
+
+/** BEGIN compositeDataType, ID: '96', NAME: 'RequestData' */
+description(96,'RequestData','compositeDataType').
+compositeDataType(96).
+/** END compositeDataType, ID: '96', NAME: 'RequestData' */
+
+
+/** BEGIN compositeDataType, ID: '97', NAME: 'Airline' */
+description(97,'Airline','compositeDataType').
+compositeDataType(97).
+/** END compositeDataType, ID: '97', NAME: 'Airline' */
+
+
+/** BEGIN compositeDataType, ID: '98', NAME: 'CreditCardDetails' */
+description(98,'CreditCardDetails','compositeDataType').
+compositeDataType(98).
+/** END compositeDataType, ID: '98', NAME: 'CreditCardDetails' */
+
+
+/** BEGIN compositeDataType, ID: '99', NAME: 'FlightOffer' */
+description(99,'FlightOffer','compositeDataType').
+compositeDataType(99).
+/** END compositeDataType, ID: '99', NAME: 'FlightOffer' */
+
+
+/** BEGIN collectionDataType, ID: '84', NAME: 'FlightOffers' */
+description(84,'FlightOffers','collectionDataType').
+collectionDataType(84).
+/** END collectionDataType, ID: '84', NAME: 'FlightOffers' */
+
+/** END repository, ID: '43', NAME: 'defaultRepository' */
+

@@ -1,0 +1,23 @@
+
+/** BEGIN allocation, ID: '53', NAME: 'defaultAllocation' */
+description(53,'defaultAllocation','allocation').
+allocation(53).
+allocationContexts(53,[54,55]).
+
+/** BEGIN allocationContext, ID: '54', NAME: 'Allocation_Assembly_bc1 <bc1> <bc1>' */
+description(54,'Allocation_Assembly_bc1 <bc1> <bc1>','allocationContext').
+allocationContext(54).
+resourceContainer(54,[50]).
+assemblyContext_AllocationContext(54,[44]).
+/** END allocationContext, ID: '54', NAME: 'Allocation_Assembly_bc1 <bc1> <bc1>' */
+
+
+/** BEGIN allocationContext, ID: '55', NAME: 'Allocation_Assembly_bc2 <bc2> <bc2>' */
+description(55,'Allocation_Assembly_bc2 <bc2> <bc2>','allocationContext').
+allocationContext(55).
+resourceContainer(55,[51]).
+assemblyContext_AllocationContext(55,[43]).
+/** END allocationContext, ID: '55', NAME: 'Allocation_Assembly_bc2 <bc2> <bc2>' */
+
+/** END allocation, ID: '53', NAME: 'defaultAllocation' */
+

@@ -1,0 +1,28 @@
+
+/** BEGIN resourceEnvironment, ID: '63', NAME: 'aName' */
+description(63,'aName','resourceEnvironment').
+resourceEnvironment(63).
+linkingResources(63,[64]).
+resourceContainer(63,[65,66]).
+
+/** BEGIN linkingResource, ID: '64', NAME: 'Wireless' */
+description(64,'Wireless','linkingResource').
+linkingResource(64).
+connectedResourceContainers(64,[66,65]).
+communicationLinkResourceSpecifications(64,[]).
+/** END linkingResource, ID: '64', NAME: 'Wireless' */
+
+
+/** BEGIN resourceContainer, ID: '65', NAME: 'Energy Visualization' */
+description(65,'Energy Visualization','resourceContainer').
+resourceContainer(65).
+/** END resourceContainer, ID: '65', NAME: 'Energy Visualization' */
+
+
+/** BEGIN resourceContainer, ID: '66', NAME: 'Energy Meter' */
+description(66,'Energy Meter','resourceContainer').
+resourceContainer(66).
+/** END resourceContainer, ID: '66', NAME: 'Energy Meter' */
+
+/** END resourceEnvironment, ID: '63', NAME: 'aName' */
+

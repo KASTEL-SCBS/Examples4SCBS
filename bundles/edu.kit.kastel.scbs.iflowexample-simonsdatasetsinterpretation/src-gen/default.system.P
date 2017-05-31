@@ -1,0 +1,193 @@
+
+/** BEGIN system, ID: '100', NAME: 'ExampleScenario' */
+description(100,'ExampleScenario','system').
+system(100).
+assemblyContexts(100,[101,102,103,104]).
+connectors(100,[105,106,107,108,109,110,111,112,113,114,115,116]).
+providedRoles(100,[117,118,119,120]).
+requiredRoles(100,[121,122]).
+
+/** BEGIN assemblyContext, ID: '101', NAME: 'TravelAgency <TravelAgency>' */
+description(101,'TravelAgency <TravelAgency>','assemblyContext').
+assemblyContext(101).
+encapsulatedComponent(101,[44]).
+/** END assemblyContext, ID: '101', NAME: 'TravelAgency <TravelAgency>' */
+
+
+/** BEGIN assemblyContext, ID: '102', NAME: 'TravelPlanner <TravelPlanner>' */
+description(102,'TravelPlanner <TravelPlanner>','assemblyContext').
+assemblyContext(102).
+encapsulatedComponent(102,[46]).
+/** END assemblyContext, ID: '102', NAME: 'TravelPlanner <TravelPlanner>' */
+
+
+/** BEGIN assemblyContext, ID: '103', NAME: 'Airline <Airline>' */
+description(103,'Airline <Airline>','assemblyContext').
+assemblyContext(103).
+encapsulatedComponent(103,[45]).
+/** END assemblyContext, ID: '103', NAME: 'Airline <Airline>' */
+
+
+/** BEGIN assemblyContext, ID: '104', NAME: 'CreditCardCenter <CreditCardCenter>' */
+description(104,'CreditCardCenter <CreditCardCenter>','assemblyContext').
+assemblyContext(104).
+encapsulatedComponent(104,[47]).
+/** END assemblyContext, ID: '104', NAME: 'CreditCardCenter <CreditCardCenter>' */
+
+
+/** BEGIN providedDelegationConnector, ID: '105', NAME: 'ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent' */
+description(105,'ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent','providedDelegationConnector').
+providedDelegationConnector(105).
+innerProvidedRole(105,[123]).
+outerProvidedRole(105,[]).
+assemblyContext(105,[]).
+/** END providedDelegationConnector, ID: '105', NAME: 'ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent' */
+
+
+/** BEGIN providedDelegationConnector, ID: '106', NAME: 'ProvDelegation Provided_AirlineAdministration -> Provided_AirlineAdministration_Airline' */
+description(106,'ProvDelegation Provided_AirlineAdministration -> Provided_AirlineAdministration_Airline','providedDelegationConnector').
+providedDelegationConnector(106).
+innerProvidedRole(106,[63]).
+outerProvidedRole(106,[119]).
+assemblyContext(106,[103]).
+/** END providedDelegationConnector, ID: '106', NAME: 'ProvDelegation Provided_AirlineAdministration -> Provided_AirlineAdministration_Airline' */
+
+
+/** BEGIN providedDelegationConnector, ID: '107', NAME: 'ProvDelegation Provided_DeclassificationConfirmation -> Provided_DeclassificationConfirmation_CreditCardCenter' */
+description(107,'ProvDelegation Provided_DeclassificationConfirmation -> Provided_DeclassificationConfirmation_CreditCardCenter','providedDelegationConnector').
+providedDelegationConnector(107).
+innerProvidedRole(107,[72]).
+outerProvidedRole(107,[120]).
+assemblyContext(107,[104]).
+/** END providedDelegationConnector, ID: '107', NAME: 'ProvDelegation Provided_DeclassificationConfirmation -> Provided_DeclassificationConfirmation_CreditCardCenter' */
+
+
+/** BEGIN requiredDelegationConnector, ID: '108', NAME: 'ReqDelegation Required_Input_TravelPlanner -> Required_Input' */
+description(108,'ReqDelegation Required_Input_TravelPlanner -> Required_Input','requiredDelegationConnector').
+requiredDelegationConnector(108).
+innerRequiredRole(108,[69]).
+outerRequiredRole(108,[121]).
+assemblyContext(108,[102]).
+/** END requiredDelegationConnector, ID: '108', NAME: 'ReqDelegation Required_Input_TravelPlanner -> Required_Input' */
+
+
+/** BEGIN assemblyConnector, ID: '109', NAME: 'Connector TravelPlanner <TravelPlanner> -> TravelAgency <TravelAgency>' */
+description(109,'Connector TravelPlanner <TravelPlanner> -> TravelAgency <TravelAgency>','assemblyConnector').
+assemblyConnector(109).
+requiringAssemblyContext(109,[102]).
+providingAssemblyContext(109,[101]).
+providedRole(109,[58]).
+requiredRole(109,[66]).
+/** END assemblyConnector, ID: '109', NAME: 'Connector TravelPlanner <TravelPlanner> -> TravelAgency <TravelAgency>' */
+
+
+/** BEGIN assemblyConnector, ID: '110', NAME: 'Connector Airline <Airline> -> TravelAgency <TravelAgency>' */
+description(110,'Connector Airline <Airline> -> TravelAgency <TravelAgency>','assemblyConnector').
+assemblyConnector(110).
+requiringAssemblyContext(110,[103]).
+providingAssemblyContext(110,[101]).
+providedRole(110,[59]).
+requiredRole(110,[64]).
+/** END assemblyConnector, ID: '110', NAME: 'Connector Airline <Airline> -> TravelAgency <TravelAgency>' */
+
+
+/** BEGIN assemblyConnector, ID: '111', NAME: 'Connector TravelAgency <TravelAgency> -> Airline <Airline>' */
+description(111,'Connector TravelAgency <TravelAgency> -> Airline <Airline>','assemblyConnector').
+assemblyConnector(111).
+requiringAssemblyContext(111,[101]).
+providingAssemblyContext(111,[103]).
+providedRole(111,[61]).
+requiredRole(111,[60]).
+/** END assemblyConnector, ID: '111', NAME: 'Connector TravelAgency <TravelAgency> -> Airline <Airline>' */
+
+
+/** BEGIN assemblyConnector, ID: '112', NAME: 'Connector TravelPlanner <TravelPlanner> -> Airline <Airline>' */
+description(112,'Connector TravelPlanner <TravelPlanner> -> Airline <Airline>','assemblyConnector').
+assemblyConnector(112).
+requiringAssemblyContext(112,[102]).
+providingAssemblyContext(112,[103]).
+providedRole(112,[62]).
+requiredRole(112,[67]).
+/** END assemblyConnector, ID: '112', NAME: 'Connector TravelPlanner <TravelPlanner> -> Airline <Airline>' */
+
+
+/** BEGIN assemblyConnector, ID: '113', NAME: 'Connector TravelPlanner <TravelPlanner> -> CreditCardCenter <CreditCardCenter>' */
+description(113,'Connector TravelPlanner <TravelPlanner> -> CreditCardCenter <CreditCardCenter>','assemblyConnector').
+assemblyConnector(113).
+requiringAssemblyContext(113,[102]).
+providingAssemblyContext(113,[104]).
+providedRole(113,[70]).
+requiredRole(113,[68]).
+/** END assemblyConnector, ID: '113', NAME: 'Connector TravelPlanner <TravelPlanner> -> CreditCardCenter <CreditCardCenter>' */
+
+
+/** BEGIN providedDelegationConnector, ID: '114', NAME: 'ProvDelegation Provided_BookingSelection -> Provided_BookingSelection_TravelPlanner' */
+description(114,'ProvDelegation Provided_BookingSelection -> Provided_BookingSelection_TravelPlanner','providedDelegationConnector').
+providedDelegationConnector(114).
+innerProvidedRole(114,[65]).
+outerProvidedRole(114,[117]).
+assemblyContext(114,[102]).
+/** END providedDelegationConnector, ID: '114', NAME: 'ProvDelegation Provided_BookingSelection -> Provided_BookingSelection_TravelPlanner' */
+
+
+/** BEGIN providedDelegationConnector, ID: '115', NAME: 'ProvDelegation Provided_Configuration -> Provided_Configuration_CreditCardCenter' */
+description(115,'ProvDelegation Provided_Configuration -> Provided_Configuration_CreditCardCenter','providedDelegationConnector').
+providedDelegationConnector(115).
+innerProvidedRole(115,[71]).
+outerProvidedRole(115,[118]).
+assemblyContext(115,[104]).
+/** END providedDelegationConnector, ID: '115', NAME: 'ProvDelegation Provided_Configuration -> Provided_Configuration_CreditCardCenter' */
+
+
+/** BEGIN requiredDelegationConnector, ID: '116', NAME: 'ReqDelegation Required_Confirmation_CreditCardCenter -> Required_Confirmation' */
+description(116,'ReqDelegation Required_Confirmation_CreditCardCenter -> Required_Confirmation','requiredDelegationConnector').
+requiredDelegationConnector(116).
+innerRequiredRole(116,[73]).
+outerRequiredRole(116,[122]).
+assemblyContext(116,[104]).
+/** END requiredDelegationConnector, ID: '116', NAME: 'ReqDelegation Required_Confirmation_CreditCardCenter -> Required_Confirmation' */
+
+
+/** BEGIN operationProvidedRole, ID: '117', NAME: 'Provided_BookingSelection' */
+description(117,'Provided_BookingSelection','operationProvidedRole').
+operationProvidedRole(117).
+providedInterface(117,[49]).
+/** END operationProvidedRole, ID: '117', NAME: 'Provided_BookingSelection' */
+
+
+/** BEGIN operationProvidedRole, ID: '118', NAME: 'Provided_Configuration' */
+description(118,'Provided_Configuration','operationProvidedRole').
+operationProvidedRole(118).
+providedInterface(118,[52]).
+/** END operationProvidedRole, ID: '118', NAME: 'Provided_Configuration' */
+
+
+/** BEGIN operationProvidedRole, ID: '119', NAME: 'Provided_AirlineAdministration' */
+description(119,'Provided_AirlineAdministration','operationProvidedRole').
+operationProvidedRole(119).
+providedInterface(119,[56]).
+/** END operationProvidedRole, ID: '119', NAME: 'Provided_AirlineAdministration' */
+
+
+/** BEGIN operationProvidedRole, ID: '120', NAME: 'Provided_DeclassificationConfirmation' */
+description(120,'Provided_DeclassificationConfirmation','operationProvidedRole').
+operationProvidedRole(120).
+providedInterface(120,[57]).
+/** END operationProvidedRole, ID: '120', NAME: 'Provided_DeclassificationConfirmation' */
+
+
+/** BEGIN operationRequiredRole, ID: '121', NAME: 'Required_Input' */
+description(121,'Required_Input','operationRequiredRole').
+operationRequiredRole(121).
+requiredInterface(121,[55]).
+/** END operationRequiredRole, ID: '121', NAME: 'Required_Input' */
+
+
+/** BEGIN operationRequiredRole, ID: '122', NAME: 'Required_Confirmation' */
+description(122,'Required_Confirmation','operationRequiredRole').
+operationRequiredRole(122).
+requiredInterface(122,[54]).
+/** END operationRequiredRole, ID: '122', NAME: 'Required_Confirmation' */
+
+/** END system, ID: '100', NAME: 'ExampleScenario' */
+

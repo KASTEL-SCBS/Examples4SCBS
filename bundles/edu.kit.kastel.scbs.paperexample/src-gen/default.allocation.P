@@ -1,0 +1,31 @@
+
+/** BEGIN allocation, ID: '67', NAME: 'defaultAllocation' */
+description(67,'defaultAllocation','allocation').
+allocation(67).
+allocationContexts(67,[68,69,70]).
+
+/** BEGIN allocationContext, ID: '68', NAME: 'Allocation_Energy Visualization' */
+description(68,'Allocation_Energy Visualization','allocationContext').
+allocationContext(68).
+resourceContainer(68,[65]).
+assemblyContext_AllocationContext(68,[56]).
+/** END allocationContext, ID: '68', NAME: 'Allocation_Energy Visualization' */
+
+
+/** BEGIN allocationContext, ID: '69', NAME: 'Allocation_Database <DBMS>' */
+description(69,'Allocation_Database <DBMS>','allocationContext').
+allocationContext(69).
+resourceContainer(69,[65]).
+assemblyContext_AllocationContext(69,[57]).
+/** END allocationContext, ID: '69', NAME: 'Allocation_Database <DBMS>' */
+
+
+/** BEGIN allocationContext, ID: '70', NAME: 'Allocation_Energy Meter' */
+description(70,'Allocation_Energy Meter','allocationContext').
+allocationContext(70).
+resourceContainer(70,[66]).
+assemblyContext_AllocationContext(70,[58]).
+/** END allocationContext, ID: '70', NAME: 'Allocation_Energy Meter' */
+
+/** END allocation, ID: '67', NAME: 'defaultAllocation' */
+

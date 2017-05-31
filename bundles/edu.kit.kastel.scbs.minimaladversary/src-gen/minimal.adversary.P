@@ -1,0 +1,23 @@
+
+/** BEGIN adversaries, ID: '20', NAME: 'as' */
+description(20,'as','adversaries').
+adversaries(20).
+adversaries(20,[21,22]).
+
+/** BEGIN adversary, ID: '21', NAME: 'a1' */
+description(21,'a1','adversary').
+adversary(21).
+mayKnowData(21,[3,4]).
+locationsAndTamperProtectionsPairs(21,[16]).
+/** END adversary, ID: '21', NAME: 'a1' */
+
+
+/** BEGIN adversary, ID: '22', NAME: 'a2' */
+description(22,'a2','adversary').
+adversary(22).
+mayKnowData(22,[3,4]).
+locationsAndTamperProtectionsPairs(22,[16,17]).
+/** END adversary, ID: '22', NAME: 'a2' */
+
+/** END adversaries, ID: '20', NAME: 'as' */
+

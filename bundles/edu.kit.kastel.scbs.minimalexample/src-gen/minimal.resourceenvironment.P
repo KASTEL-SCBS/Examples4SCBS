@@ -1,0 +1,34 @@
+
+/** BEGIN resourceEnvironment, ID: '48', NAME: 'resEnv' */
+description(48,'resEnv','resourceEnvironment').
+resourceEnvironment(48).
+linkingResources(48,[49]).
+resourceContainer(48,[50,51,52]).
+
+/** BEGIN linkingResource, ID: '49', NAME: 'rc1rc2link' */
+description(49,'rc1rc2link','linkingResource').
+linkingResource(49).
+connectedResourceContainers(49,[50,51]).
+communicationLinkResourceSpecifications(49,[]).
+/** END linkingResource, ID: '49', NAME: 'rc1rc2link' */
+
+
+/** BEGIN resourceContainer, ID: '50', NAME: 'rc1' */
+description(50,'rc1','resourceContainer').
+resourceContainer(50).
+/** END resourceContainer, ID: '50', NAME: 'rc1' */
+
+
+/** BEGIN resourceContainer, ID: '51', NAME: 'rc2' */
+description(51,'rc2','resourceContainer').
+resourceContainer(51).
+/** END resourceContainer, ID: '51', NAME: 'rc2' */
+
+
+/** BEGIN resourceContainer, ID: '52', NAME: 'rc3' */
+description(52,'rc3','resourceContainer').
+resourceContainer(52).
+/** END resourceContainer, ID: '52', NAME: 'rc3' */
+
+/** END resourceEnvironment, ID: '48', NAME: 'resEnv' */
+

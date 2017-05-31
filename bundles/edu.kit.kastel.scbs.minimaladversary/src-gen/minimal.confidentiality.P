@@ -1,0 +1,123 @@
+
+/** BEGIN confidentialitySpecification, ID: '1', NAME: 'minimal confidentiality specification' */
+description(1,'minimal confidentiality specification','confidentialitySpecification').
+confidentialitySpecification(1).
+dataIdentifier(1,[2,3,4]).
+dataSetMaps(1,[]).
+parametersAndDataPairs(1,[5,6,7,8]).
+addedServiceParameters(1,[]).
+locations(1,[9,10,11]).
+tamperProtections(1,[12,13,14]).
+locationsAndTamperProtectionsPairs(1,[15,16,17]).
+
+/** BEGIN dataSet, ID: '2', NAME: 'd1' */
+description(2,'d1','dataSet').
+dataSet(2).
+/** END dataSet, ID: '2', NAME: 'd1' */
+
+
+/** BEGIN dataSet, ID: '3', NAME: 'd2' */
+description(3,'d2','dataSet').
+dataSet(3).
+/** END dataSet, ID: '3', NAME: 'd2' */
+
+
+/** BEGIN dataSet, ID: '4', NAME: 'd3' */
+description(4,'d3','dataSet').
+dataSet(4).
+/** END dataSet, ID: '4', NAME: 'd3' */
+
+
+/** BEGIN parametersAndDataPair, ID: '5', NAME: 'p=[p0, p1] - d=[d1, d3]' */
+description(5,'p=[p0, p1] - d=[d1, d3]','parametersAndDataPair').
+parametersAndDataPair(5).
+parameterSources(5,[18,19]).
+dataTargets(5,[2,4]).
+/** END parametersAndDataPair, ID: '5', NAME: 'p=[p0, p1] - d=[d1, d3]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '6', NAME: 'pds' */
+description(6,'pds','parametersAndDataPair').
+parametersAndDataPair(6).
+parameterSources(6,[return]).
+dataTargets(6,[4]).
+/** END parametersAndDataPair, ID: '6', NAME: 'pds' */
+
+
+/** BEGIN parametersAndDataPair, ID: '7', NAME: 'wSo' */
+description(7,'wSo','parametersAndDataPair').
+parametersAndDataPair(7).
+parameterSources(7,[18,sizeOf(18),19]).
+dataTargets(7,[3,4]).
+/** END parametersAndDataPair, ID: '7', NAME: 'wSo' */
+
+
+/** BEGIN parametersAndDataPair, ID: '8', NAME: 'wWildCard' */
+description(8,'wWildCard','parametersAndDataPair').
+parametersAndDataPair(8).
+parameterSources(8,[*]).
+dataTargets(8,[3]).
+/** END parametersAndDataPair, ID: '8', NAME: 'wWildCard' */
+
+
+/** BEGIN location, ID: '9', NAME: 'l1' */
+description(9,'l1','location').
+location(9).
+/** END location, ID: '9', NAME: 'l1' */
+
+
+/** BEGIN location, ID: '10', NAME: 'l2' */
+description(10,'l2','location').
+location(10).
+/** END location, ID: '10', NAME: 'l2' */
+
+
+/** BEGIN location, ID: '11', NAME: 'l3' */
+description(11,'l3','location').
+location(11).
+/** END location, ID: '11', NAME: 'l3' */
+
+
+/** BEGIN tamperProtection, ID: '12', NAME: 'tp1' */
+description(12,'tp1','tamperProtection').
+tamperProtection(12).
+/** END tamperProtection, ID: '12', NAME: 'tp1' */
+
+
+/** BEGIN tamperProtection, ID: '13', NAME: 'tp2' */
+description(13,'tp2','tamperProtection').
+tamperProtection(13).
+/** END tamperProtection, ID: '13', NAME: 'tp2' */
+
+
+/** BEGIN tamperProtection, ID: '14', NAME: 'tp3' */
+description(14,'tp3','tamperProtection').
+tamperProtection(14).
+/** END tamperProtection, ID: '14', NAME: 'tp3' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '15', NAME: 'a' */
+description(15,'a','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(15).
+locations(15,[9,10,11]).
+tamperProtections(15,[12,13,14]).
+/** END locationsAndTamperProtectionsPair, ID: '15', NAME: 'a' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '16', NAME: 'l=[l1, l2] - t=[tp1, tp2]' */
+description(16,'l=[l1, l2] - t=[tp1, tp2]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(16).
+locations(16,[9,10]).
+tamperProtections(16,[12,13]).
+/** END locationsAndTamperProtectionsPair, ID: '16', NAME: 'l=[l1, l2] - t=[tp1, tp2]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '17', NAME: 'c' */
+description(17,'c','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(17).
+locations(17,[10]).
+tamperProtections(17,[14]).
+/** END locationsAndTamperProtectionsPair, ID: '17', NAME: 'c' */
+
+/** END confidentialitySpecification, ID: '1', NAME: 'minimal confidentiality specification' */
+

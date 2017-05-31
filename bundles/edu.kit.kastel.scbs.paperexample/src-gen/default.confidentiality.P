@@ -1,0 +1,151 @@
+
+/** BEGIN confidentialitySpecification, ID: '1', NAME: 'paper example confidentiality specification' */
+description(1,'paper example confidentiality specification','confidentialitySpecification').
+confidentialitySpecification(1).
+dataIdentifier(1,[2,3,4]).
+dataSetMaps(1,[]).
+parametersAndDataPairs(1,[5,6,7,8,9,10]).
+addedServiceParameters(1,[]).
+locations(1,[11,12,13]).
+tamperProtections(1,[14]).
+locationsAndTamperProtectionsPairs(1,[15,16,17,18,19,20]).
+
+/** BEGIN dataSet, ID: '2', NAME: 'consumptiondata' */
+description(2,'consumptiondata','dataSet').
+dataSet(2).
+/** END dataSet, ID: '2', NAME: 'consumptiondata' */
+
+
+/** BEGIN dataSet, ID: '3', NAME: 'billingdata' */
+description(3,'billingdata','dataSet').
+dataSet(3).
+/** END dataSet, ID: '3', NAME: 'billingdata' */
+
+
+/** BEGIN dataSet, ID: '4', NAME: 'public' */
+description(4,'public','dataSet').
+dataSet(4).
+/** END dataSet, ID: '4', NAME: 'public' */
+
+
+/** BEGIN parametersAndDataPair, ID: '5', NAME: 'p=[start, end, \return] - d=[consumptiondata]' */
+description(5,'p=[start, end, \return] - d=[consumptiondata]','parametersAndDataPair').
+parametersAndDataPair(5).
+parameterSources(5,[21,22,return]).
+dataTargets(5,[2]).
+/** END parametersAndDataPair, ID: '5', NAME: 'p=[start, end, \return] - d=[consumptiondata]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '6', NAME: 'p=[\return] - d=[consumptiondata]' */
+description(6,'p=[\return] - d=[consumptiondata]','parametersAndDataPair').
+parametersAndDataPair(6).
+parameterSources(6,[return]).
+dataTargets(6,[2]).
+/** END parametersAndDataPair, ID: '6', NAME: 'p=[\return] - d=[consumptiondata]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '7', NAME: 'p=[timestamp, value] - d=[consumptiondata]' */
+description(7,'p=[timestamp, value] - d=[consumptiondata]','parametersAndDataPair').
+parametersAndDataPair(7).
+parameterSources(7,[23,24]).
+dataTargets(7,[2]).
+/** END parametersAndDataPair, ID: '7', NAME: 'p=[timestamp, value] - d=[consumptiondata]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '8', NAME: 'p=[\return] - d=[consumptiondata]' */
+description(8,'p=[\return] - d=[consumptiondata]','parametersAndDataPair').
+parametersAndDataPair(8).
+parameterSources(8,[return]).
+dataTargets(8,[2]).
+/** END parametersAndDataPair, ID: '8', NAME: 'p=[\return] - d=[consumptiondata]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '9', NAME: 'p=[\return] - d=[billingdata]' */
+description(9,'p=[\return] - d=[billingdata]','parametersAndDataPair').
+parametersAndDataPair(9).
+parameterSources(9,[return]).
+dataTargets(9,[3]).
+/** END parametersAndDataPair, ID: '9', NAME: 'p=[\return] - d=[billingdata]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '10', NAME: 'p=[value] - d=[consumptiondata]' */
+description(10,'p=[value] - d=[consumptiondata]','parametersAndDataPair').
+parametersAndDataPair(10).
+parameterSources(10,[24]).
+dataTargets(10,[2]).
+/** END parametersAndDataPair, ID: '10', NAME: 'p=[value] - d=[consumptiondata]' */
+
+
+/** BEGIN location, ID: '11', NAME: 'utilityroom' */
+description(11,'utilityroom','location').
+location(11).
+/** END location, ID: '11', NAME: 'utilityroom' */
+
+
+/** BEGIN location, ID: '12', NAME: 'livingroom' */
+description(12,'livingroom','location').
+location(12).
+/** END location, ID: '12', NAME: 'livingroom' */
+
+
+/** BEGIN location, ID: '13', NAME: 'outdoors' */
+description(13,'outdoors','location').
+location(13).
+/** END location, ID: '13', NAME: 'outdoors' */
+
+
+/** BEGIN tamperProtection, ID: '14', NAME: 'seal' */
+description(14,'seal','tamperProtection').
+tamperProtection(14).
+/** END tamperProtection, ID: '14', NAME: 'seal' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[utilityroom, livingroom, outdoors] - t=[]' */
+description(15,'l=[utilityroom, livingroom, outdoors] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(15).
+locations(15,[11,12,13]).
+tamperProtections(15,[]).
+/** END locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[utilityroom, livingroom, outdoors] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '16', NAME: 'l=[livingroom, outdoors] - t=[]' */
+description(16,'l=[livingroom, outdoors] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(16).
+locations(16,[12,13]).
+tamperProtections(16,[]).
+/** END locationsAndTamperProtectionsPair, ID: '16', NAME: 'l=[livingroom, outdoors] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '17', NAME: 'l=[outdoors] - t=[seal]' */
+description(17,'l=[outdoors] - t=[seal]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(17).
+locations(17,[13]).
+tamperProtections(17,[14]).
+/** END locationsAndTamperProtectionsPair, ID: '17', NAME: 'l=[outdoors] - t=[seal]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '18', NAME: 'l=[utilityroom, livingroom, outdoors] - t=[]' */
+description(18,'l=[utilityroom, livingroom, outdoors] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(18).
+locations(18,[11,12,13]).
+tamperProtections(18,[]).
+/** END locationsAndTamperProtectionsPair, ID: '18', NAME: 'l=[utilityroom, livingroom, outdoors] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '19', NAME: 'l=[utilityroom] - t=[seal]' */
+description(19,'l=[utilityroom] - t=[seal]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(19).
+locations(19,[11]).
+tamperProtections(19,[14]).
+/** END locationsAndTamperProtectionsPair, ID: '19', NAME: 'l=[utilityroom] - t=[seal]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '20', NAME: 'l=[livingroom] - t=[]' */
+description(20,'l=[livingroom] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(20).
+locations(20,[12]).
+tamperProtections(20,[]).
+/** END locationsAndTamperProtectionsPair, ID: '20', NAME: 'l=[livingroom] - t=[]' */
+
+/** END confidentialitySpecification, ID: '1', NAME: 'paper example confidentiality specification' */
+

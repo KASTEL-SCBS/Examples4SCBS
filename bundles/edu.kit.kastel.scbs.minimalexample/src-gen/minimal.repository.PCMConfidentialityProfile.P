@@ -1,0 +1,18 @@
+
+/** BEGIN informationFlow, ID: '31', NAME: 'null' */
+description(31,'null','informationFlow').
+parametersAndDataPairs(31,[5,6]).
+/** END informationFlow, ID: '31', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '40', NAME: 'null' */
+description(40,'null','informationFlow').
+parametersAndDataPairs(40,[6,7]).
+/** END informationFlow, ID: '40', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '26', NAME: 'null' */
+parametersAndDataPairs(31,[8]).
+parametersAndDataPairs(32,[8]).
+/** END informationFlow, ID: '26', NAME: 'null' */
+

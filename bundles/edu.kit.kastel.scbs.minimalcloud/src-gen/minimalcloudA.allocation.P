@@ -1,23 +1,23 @@
 
-/** BEGIN allocation, ID: '62', NAME: 'defaultAllocation' */
-description(62,'defaultAllocation').
-allocation(62).
-allocationContexts(62,[63,64]).
+/** BEGIN allocation, ID: '58', NAME: 'defaultAllocation' */
+description(58,'defaultAllocation','allocation').
+allocation(58).
+allocationContexts(58,[59,60]).
 
-/** BEGIN allocationContext, ID: '63', NAME: 'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>' */
-description(63,'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>').
-allocationContext(63).
-resourceContainer(63,[60]).
-assemblyContext_AllocationContext(63,[48]).
-/** END allocationContext, ID: '63', NAME: 'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>' */
+/** BEGIN allocationContext, ID: '59', NAME: 'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>' */
+description(59,'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>','allocationContext').
+allocationContext(59).
+resourceContainer(59,[56]).
+assemblyContext_AllocationContext(59,[48]).
+/** END allocationContext, ID: '59', NAME: 'Allocation_Assembly_CloudStorage <CloudStorage> <CloudStorage>' */
 
 
-/** BEGIN allocationContext, ID: '64', NAME: 'Allocation_Assembly_FileManager <FileManager> <FileManager>' */
-description(64,'Allocation_Assembly_FileManager <FileManager> <FileManager>').
-allocationContext(64).
-resourceContainer(64,[61]).
-assemblyContext_AllocationContext(64,[49]).
-/** END allocationContext, ID: '64', NAME: 'Allocation_Assembly_FileManager <FileManager> <FileManager>' */
+/** BEGIN allocationContext, ID: '60', NAME: 'Allocation_Assembly_FileManager <FileManager> <FileManager>' */
+description(60,'Allocation_Assembly_FileManager <FileManager> <FileManager>','allocationContext').
+allocationContext(60).
+resourceContainer(60,[57]).
+assemblyContext_AllocationContext(60,[49]).
+/** END allocationContext, ID: '60', NAME: 'Allocation_Assembly_FileManager <FileManager> <FileManager>' */
 
-/** END allocation, ID: '62', NAME: 'defaultAllocation' */
+/** END allocation, ID: '58', NAME: 'defaultAllocation' */
 

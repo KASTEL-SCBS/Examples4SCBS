@@ -1,0 +1,50 @@
+
+/** BEGIN system, ID: '42', NAME: 'defaultSystem' */
+description(42,'defaultSystem','system').
+system(42).
+assemblyContexts(42,[43,44]).
+connectors(42,[45,46]).
+providedRoles(42,[47]).
+requiredRoles(42,[]).
+
+/** BEGIN assemblyContext, ID: '43', NAME: 'Assembly_bc2 <bc2>' */
+description(43,'Assembly_bc2 <bc2>','assemblyContext').
+assemblyContext(43).
+encapsulatedComponent(43,[24]).
+/** END assemblyContext, ID: '43', NAME: 'Assembly_bc2 <bc2>' */
+
+
+/** BEGIN assemblyContext, ID: '44', NAME: 'Assembly_bc1 <bc1>' */
+description(44,'Assembly_bc1 <bc1>','assemblyContext').
+assemblyContext(44).
+encapsulatedComponent(44,[25]).
+/** END assemblyContext, ID: '44', NAME: 'Assembly_bc1 <bc1>' */
+
+
+/** BEGIN assemblyConnector, ID: '45', NAME: 'Connector Assembly_bc1 <bc1> -> Assembly_bc2 <bc2>' */
+description(45,'Connector Assembly_bc1 <bc1> -> Assembly_bc2 <bc2>','assemblyConnector').
+assemblyConnector(45).
+requiringAssemblyContext(45,[44]).
+providingAssemblyContext(45,[43]).
+providedRole(45,[28]).
+requiredRole(45,[30]).
+/** END assemblyConnector, ID: '45', NAME: 'Connector Assembly_bc1 <bc1> -> Assembly_bc2 <bc2>' */
+
+
+/** BEGIN providedDelegationConnector, ID: '46', NAME: 'ProvDelegation Provided_sysIface -> bc1ProvidesSysIface' */
+description(46,'ProvDelegation Provided_sysIface -> bc1ProvidesSysIface','providedDelegationConnector').
+providedDelegationConnector(46).
+innerProvidedRole(46,[29]).
+outerProvidedRole(46,[47]).
+assemblyContext(46,[44]).
+/** END providedDelegationConnector, ID: '46', NAME: 'ProvDelegation Provided_sysIface -> bc1ProvidesSysIface' */
+
+
+/** BEGIN operationProvidedRole, ID: '47', NAME: 'Provided_sysIface' */
+description(47,'Provided_sysIface','operationProvidedRole').
+operationProvidedRole(47).
+providedInterface(47,[27]).
+/** END operationProvidedRole, ID: '47', NAME: 'Provided_sysIface' */
+
+/** END system, ID: '42', NAME: 'defaultSystem' */
+

@@ -1,222 +1,112 @@
-connectors(42,[45,46]).
 
-sizeOfParameter(34).
-sizeOfParameter(35).
-sizeOfParameter(34).
-sizeOfParameter(39).
-sizeOfParameter(35).
-
-sizeOf(34,32).
-sizeOf(35,33).
-sizeOf(34,32).
-sizeOf(39,37).
-sizeOf(35,33).
-
-communicationLinkResourceSpecifications(50,[]).
-communicationLinkResourceSpecifications(51,[]).
-
-providedInterface(27,[25]).
-providedInterface(29,[26]).
-providedInterface(47,[25]).
-
-signatures(25,[31]).
-signatures(26,[36]).
-
-repository(22).
-
-dataSetMaps(1,[5]).
-
-connectionType(53,[existing]).
-connectionType(52,[possible]).
-
-allocationContext(55).
-allocationContext(56).
-
-adversaries(16,[17,18,19]).
-
-assemblyContext(43).
-assemblyContext(44).
-
-assemblyContext(46,[44]).
-
-adversaries(16).
-
-connectorSpecificParametersAndDataPairs(45,[48]).
-
+/** BEGIN confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
+description(1,'cloud confidentiality specification','confidentialitySpecification').
 confidentialitySpecification(1).
-
-locationsAndTamperProtectionsPairs(1,[13,14,15]).
-locationsAndTamperProtectionsPairs(17,[20]).
-locationsAndTamperProtectionsPairs(18,[13]).
-locationsAndTamperProtectionsPairs(19,[21]).
-locationsAndTamperProtectionsPairs(53,[15]).
-locationsAndTamperProtectionsPairs(52,[14]).
-
-assemblyContexts(42,[43,44]).
-
-locationsAndTamperProtectionsPair(13).
-locationsAndTamperProtectionsPair(14).
-locationsAndTamperProtectionsPair(15).
-
-collectionDataType(41).
-
-requiredRoles(23,[28]).
-requiredRoles(24,[30]).
-requiredRoles(42,[]).
-
-operationInterface(25).
-operationInterface(26).
-
-originalParametersAndDataPair(48,6).
-
-connectedResourceContainers(50,[53,52]).
-connectedResourceContainers(51,[52]).
-
-sharing(53,[shared]).
-sharing(52,[exclusive]).
-
-dataSetMap(5).
-
-parameterSources(6,[*]).
-parameterSources(7,[sizeOf(*)]).
-parameterSources(8,[*]).
-parameterSources(48,[*]).
-
-providedRoles(23,[27]).
-providedRoles(24,[29]).
-providedRoles(42,[47]).
-
-system(42).
-
-outerProvidedRole(46,[47]).
-
-resourceEnvironment(49).
-
 dataIdentifier(1,[2,3,4]).
-
-compositeDataType(40).
-
-allocationContexts(54,[55,56]).
-
-returnType(31,[]).
-returnType(36,[38]).
-
+dataSetMaps(1,[5]).
 parametersAndDataPairs(1,[6,7,8]).
-parametersAndDataPairs(31,[6, 7]).
-parametersAndDataPairs(36,[8]).
-parametersAndDataPairs(36,[6, 7]).
-parametersAndDataPairs(31,[8]).
-
-parameters(31,[32,33]).
-parameters(36,[32,37,33]).
-
-components(22,[23,24]).
-
-operationProvidedRole(27).
-operationProvidedRole(29).
-operationProvidedRole(47).
-
-providedRole(45,[29]).
-
-tamperProtections(1,[12]).
-tamperProtections(13,[]).
-tamperProtections(14,[12]).
-tamperProtections(15,[]).
-
-encapsulatedComponent(43,[24]).
-encapsulatedComponent(44,[23]).
-
-dataSetMapEntry(2).
-dataSetMapEntry(3).
-dataSetMapEntry(4).
-
-operationRequiredRole(28).
-operationRequiredRole(30).
-
-requiredInterface(28,[26]).
-requiredInterface(30,[26]).
-
-parentInterfaces(25,[]).
-parentInterfaces(26,[]).
-
-mayKnowData(17,[2,4]).
-mayKnowData(18,[4]).
-mayKnowData(19,[]).
-
-operationSignature(31).
-operationSignature(36).
-
-providingAssemblyContext(45,[43]).
-
-parameter(32).
-parameter(33).
-parameter(32).
-parameter(37).
-parameter(33).
-
-linkingResource(50).
-linkingResource(51).
-
-assemblyConnector(45).
-
-resourceContainer(49,[52,53]).
-resourceContainer(55,[52]).
-resourceContainer(56,[53]).
-
-linkingResources(49,[50,51]).
-
-resourceContainer(52).
-resourceContainer(53).
-
-requiredRole(45,[28]).
-
-serviceParameters(25,[9]).
-serviceParameters(26,[9]).
-
-map(2,[5]).
-map(3,[5]).
-map(4,[5]).
-
-requiringAssemblyContext(45,[44]).
-
-interfaces(22,[25,26]).
-
 addedServiceParameters(1,[9]).
-
-basicComponent(23).
-basicComponent(24).
-
-allocation(54).
-
-tamperProtection(12).
-
-providedDelegationConnector(46).
-
-innerProvidedRole(46,[27]).
-
-adversary(17).
-adversary(18).
-adversary(19).
-
-assemblyContext_AllocationContext(55,[43]).
-assemblyContext_AllocationContext(56,[44]).
-
-addedServiceParameter(9).
-
 locations(1,[10,11]).
-locations(13,[11]).
-locations(14,[11]).
-locations(15,[10]).
+tamperProtections(1,[12]).
+locationsAndTamperProtectionsPairs(1,[13,14,15]).
 
-location(10).
-location(11).
+/** BEGIN dataSetMapEntry, ID: '2', NAME: 'A' */
+description(2,'A','dataSetMapEntry').
+dataSetMapEntry(2).
+map(2,[5]).
+/** END dataSetMapEntry, ID: '2', NAME: 'A' */
 
-dataTargets(6,[]).
-dataTargets(7,[4]).
-dataTargets(8,[]).
-dataTargets(48,[2]).
 
+/** BEGIN dataSetMapEntry, ID: '3', NAME: 'B' */
+description(3,'B','dataSetMapEntry').
+dataSetMapEntry(3).
+map(3,[5]).
+/** END dataSetMapEntry, ID: '3', NAME: 'B' */
+
+
+/** BEGIN dataSetMapEntry, ID: '4', NAME: 'Public' */
+description(4,'Public','dataSetMapEntry').
+dataSetMapEntry(4).
+map(4,[5]).
+/** END dataSetMapEntry, ID: '4', NAME: 'Public' */
+
+
+/** BEGIN dataSetMap, ID: '5', NAME: 'UserData' */
+description(5,'UserData','dataSetMap').
+dataSetMap(5).
+/** END dataSetMap, ID: '5', NAME: 'UserData' */
+
+
+/** BEGIN parametersAndDataPair, ID: '6', NAME: 'p=[*] - d=[UserData[Self]]' */
+description(6,'p=[*] - d=[UserData[Self]]','parametersAndDataPair').
 parametersAndDataPair(6).
+parameterSources(6,[*]).
+dataTargets(6,[]).
+/** END parametersAndDataPair, ID: '6', NAME: 'p=[*] - d=[UserData[Self]]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '7', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
+description(7,'p=[sizeOf(*)] - d=[UserData[Public]]','parametersAndDataPair').
 parametersAndDataPair(7).
+parameterSources(7,[sizeOf(*)]).
+dataTargets(7,[4]).
+/** END parametersAndDataPair, ID: '7', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
+
+
+/** BEGIN parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Friends]]' */
+description(8,'p=[*] - d=[UserData[Friends]]','parametersAndDataPair').
 parametersAndDataPair(8).
-parametersAndDataPair(48).
+parameterSources(8,[*]).
+dataTargets(8,[]).
+/** END parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Friends]]' */
+
+
+/** BEGIN addedServiceParameter, ID: '9', NAME: 's' */
+description(9,'s','addedServiceParameter').
+addedServiceParameter(9).
+/** END addedServiceParameter, ID: '9', NAME: 's' */
+
+
+/** BEGIN location, ID: '10', NAME: 'userAHome' */
+description(10,'userAHome','location').
+location(10).
+/** END location, ID: '10', NAME: 'userAHome' */
+
+
+/** BEGIN location, ID: '11', NAME: 'outerZone' */
+description(11,'outerZone','location').
+location(11).
+/** END location, ID: '11', NAME: 'outerZone' */
+
+
+/** BEGIN tamperProtection, ID: '12', NAME: 'perimeterProtection' */
+description(12,'perimeterProtection','tamperProtection').
+tamperProtection(12).
+/** END tamperProtection, ID: '12', NAME: 'perimeterProtection' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '13', NAME: 'l=[outerZone] - t=[]' */
+description(13,'l=[outerZone] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(13).
+locations(13,[11]).
+tamperProtections(13,[]).
+/** END locationsAndTamperProtectionsPair, ID: '13', NAME: 'l=[outerZone] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '14', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+description(14,'l=[outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(14).
+locations(14,[11]).
+tamperProtections(14,[12]).
+/** END locationsAndTamperProtectionsPair, ID: '14', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[userAHome] - t=[]' */
+description(15,'l=[userAHome] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(15).
+locations(15,[10]).
+tamperProtections(15,[]).
+/** END locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[userAHome] - t=[]' */
+
+/** END confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
+

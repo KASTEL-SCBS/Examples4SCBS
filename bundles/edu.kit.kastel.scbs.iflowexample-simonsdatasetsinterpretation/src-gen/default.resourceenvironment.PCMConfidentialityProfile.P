@@ -1,0 +1,90 @@
+
+/** BEGIN encryption, ID: '125', NAME: 'null' */
+description(125,'null','encryption').
+unencryptedData(125,[]).
+/** END encryption, ID: '125', NAME: 'null' */
+
+
+/** BEGIN encryption, ID: '126', NAME: 'null' */
+description(126,'null','encryption').
+unencryptedData(126,[]).
+/** END encryption, ID: '126', NAME: 'null' */
+
+
+/** BEGIN encryption, ID: '127', NAME: 'null' */
+description(127,'null','encryption').
+unencryptedData(127,[]).
+/** END encryption, ID: '127', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '128', NAME: 'null' */
+description(128,'null','furtherPhysicalConnections').
+connectionType(128,[possible]).
+/** END furtherPhysicalConnections, ID: '128', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '128', NAME: 'null' */
+description(128,'null','sharing').
+sharing(128,[shared]).
+/** END sharing, ID: '128', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '129', NAME: 'null' */
+description(129,'null','furtherPhysicalConnections').
+connectionType(129,[possible]).
+/** END furtherPhysicalConnections, ID: '129', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '129', NAME: 'null' */
+description(129,'null','sharing').
+sharing(129,[shared]).
+/** END sharing, ID: '129', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '130', NAME: 'null' */
+description(130,'null','furtherPhysicalConnections').
+connectionType(130,[possible]).
+/** END furtherPhysicalConnections, ID: '130', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '130', NAME: 'null' */
+description(130,'null','sharing').
+sharing(130,[shared]).
+/** END sharing, ID: '130', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '130', NAME: 'null' */
+description(130,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(130,[27]).
+/** END locationAndTamperProtection, ID: '130', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '129', NAME: 'null' */
+description(129,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(129,[25]).
+/** END locationAndTamperProtection, ID: '129', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '128', NAME: 'null' */
+description(128,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(128,[26]).
+/** END locationAndTamperProtection, ID: '128', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '127', NAME: 'null' */
+description(127,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(127,[28]).
+/** END locationAndTamperProtection, ID: '127', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '126', NAME: 'null' */
+description(126,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(126,[29,30]).
+/** END locationAndTamperProtection, ID: '126', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '125', NAME: 'null' */
+description(125,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(125,[30]).
+/** END locationAndTamperProtection, ID: '125', NAME: 'null' */
+

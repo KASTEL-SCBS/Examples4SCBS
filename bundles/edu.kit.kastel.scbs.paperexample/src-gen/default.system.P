@@ -1,0 +1,67 @@
+
+/** BEGIN system, ID: '55', NAME: 'ExampleScenario' */
+description(55,'ExampleScenario','system').
+system(55).
+assemblyContexts(55,[56,57,58]).
+connectors(55,[59,60,61]).
+providedRoles(55,[62]).
+requiredRoles(55,[]).
+
+/** BEGIN assemblyContext, ID: '56', NAME: 'Energy Visualization' */
+description(56,'Energy Visualization','assemblyContext').
+assemblyContext(56).
+encapsulatedComponent(56,[30]).
+/** END assemblyContext, ID: '56', NAME: 'Energy Visualization' */
+
+
+/** BEGIN assemblyContext, ID: '57', NAME: 'Database' */
+description(57,'Database','assemblyContext').
+assemblyContext(57).
+encapsulatedComponent(57,[32]).
+/** END assemblyContext, ID: '57', NAME: 'Database' */
+
+
+/** BEGIN assemblyContext, ID: '58', NAME: 'Energy Meter Assembly Context' */
+description(58,'Energy Meter Assembly Context','assemblyContext').
+assemblyContext(58).
+encapsulatedComponent(58,[31]).
+/** END assemblyContext, ID: '58', NAME: 'Energy Meter Assembly Context' */
+
+
+/** BEGIN providedDelegationConnector, ID: '59', NAME: 'ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent' */
+description(59,'ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent','providedDelegationConnector').
+providedDelegationConnector(59).
+innerProvidedRole(59,[37]).
+outerProvidedRole(59,[62]).
+assemblyContext(59,[56]).
+/** END providedDelegationConnector, ID: '59', NAME: 'ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent' */
+
+
+/** BEGIN assemblyConnector, ID: '60', NAME: 'Connector Energy Visualization -> Database' */
+description(60,'Connector Energy Visualization -> Database','assemblyConnector').
+assemblyConnector(60).
+requiringAssemblyContext(60,[56]).
+providingAssemblyContext(60,[57]).
+providedRole(60,[42]).
+requiredRole(60,[38]).
+/** END assemblyConnector, ID: '60', NAME: 'Connector Energy Visualization -> Database' */
+
+
+/** BEGIN assemblyConnector, ID: '61', NAME: 'Connector Energy Visualization -> Energy Meter Assembly Context' */
+description(61,'Connector Energy Visualization -> Energy Meter Assembly Context','assemblyConnector').
+assemblyConnector(61).
+requiringAssemblyContext(61,[56]).
+providingAssemblyContext(61,[58]).
+providedRole(61,[40]).
+requiredRole(61,[39]).
+/** END assemblyConnector, ID: '61', NAME: 'Connector Energy Visualization -> Energy Meter Assembly Context' */
+
+
+/** BEGIN operationProvidedRole, ID: '62', NAME: 'Provided_EnegeryVisualization' */
+description(62,'Provided_EnegeryVisualization','operationProvidedRole').
+operationProvidedRole(62).
+providedInterface(62,[33]).
+/** END operationProvidedRole, ID: '62', NAME: 'Provided_EnegeryVisualization' */
+
+/** END system, ID: '55', NAME: 'ExampleScenario' */
+

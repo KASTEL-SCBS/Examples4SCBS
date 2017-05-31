@@ -1,0 +1,36 @@
+
+/** BEGIN encryption, ID: '49', NAME: 'null' */
+description(49,'null','encryption').
+unencryptedData(49,[3,4]).
+/** END encryption, ID: '49', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '49', NAME: 'null' */
+description(49,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(49,[15]).
+/** END locationAndTamperProtection, ID: '49', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '50', NAME: 'null' */
+description(50,'null','furtherPhysicalConnections').
+connectionType(50,[possible]).
+/** END furtherPhysicalConnections, ID: '50', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '50', NAME: 'null' */
+description(50,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(50,[16]).
+/** END locationAndTamperProtection, ID: '50', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '50', NAME: 'null' */
+description(50,'null','sharing').
+sharing(50,[exclusive]).
+/** END sharing, ID: '50', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '52', NAME: 'null' */
+description(52,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(52,[15]).
+/** END locationAndTamperProtection, ID: '52', NAME: 'null' */
+

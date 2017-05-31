@@ -1,11 +1,11 @@
 
 /** BEGIN adversaries, ID: '24', NAME: 'minimalcloud' */
-description(24,'minimalcloud').
+description(24,'minimalcloud','adversaries').
 adversaries(24).
 adversaries(24,[25,26]).
 
 /** BEGIN adversary, ID: '25', NAME: 'End User A' */
-description(25,'End User A').
+description(25,'End User A','adversary').
 adversary(25).
 mayKnowData(25,[2,3]).
 locationsAndTamperProtectionsPairs(25,[16,19]).
@@ -13,7 +13,7 @@ locationsAndTamperProtectionsPairs(25,[16,19]).
 
 
 /** BEGIN adversary, ID: '26', NAME: 'End User B' */
-description(26,'End User B').
+description(26,'End User B','adversary').
 adversary(26).
 mayKnowData(26,[2,4]).
 locationsAndTamperProtectionsPairs(26,[17,19]).

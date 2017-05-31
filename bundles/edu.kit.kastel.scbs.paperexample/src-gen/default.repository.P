@@ -1,0 +1,194 @@
+
+/** BEGIN repository, ID: '29', NAME: 'defaultRepository' */
+description(29,'defaultRepository','repository').
+repository(29).
+components(29,[30,31,32]).
+interfaces(29,[33,34,35,36]).
+
+/** BEGIN basicComponent, ID: '30', NAME: 'Energy Visualization' */
+description(30,'Energy Visualization','basicComponent').
+basicComponent(30).
+providedRoles(30,[37]).
+requiredRoles(30,[38,39]).
+
+/** BEGIN operationProvidedRole, ID: '37', NAME: 'Provided_EnergyVisualization' */
+description(37,'Provided_EnergyVisualization','operationProvidedRole').
+operationProvidedRole(37).
+providedInterface(37,[33]).
+/** END operationProvidedRole, ID: '37', NAME: 'Provided_EnergyVisualization' */
+
+
+/** BEGIN operationRequiredRole, ID: '38', NAME: 'Required_DatabaseInterface_Energy Visualization' */
+description(38,'Required_DatabaseInterface_Energy Visualization','operationRequiredRole').
+operationRequiredRole(38).
+requiredInterface(38,[34]).
+/** END operationRequiredRole, ID: '38', NAME: 'Required_DatabaseInterface_Energy Visualization' */
+
+
+/** BEGIN operationRequiredRole, ID: '39', NAME: 'Required_EnergyMeasurement_Energy Visualization' */
+description(39,'Required_EnergyMeasurement_Energy Visualization','operationRequiredRole').
+operationRequiredRole(39).
+requiredInterface(39,[35]).
+/** END operationRequiredRole, ID: '39', NAME: 'Required_EnergyMeasurement_Energy Visualization' */
+
+/** END basicComponent, ID: '30', NAME: 'Energy Visualization' */
+
+
+/** BEGIN basicComponent, ID: '31', NAME: 'Energy Meter' */
+description(31,'Energy Meter','basicComponent').
+basicComponent(31).
+providedRoles(31,[40,41]).
+requiredRoles(31,[]).
+
+/** BEGIN operationProvidedRole, ID: '40', NAME: 'Provided_DatabaseInterface_Energy Meter' */
+description(40,'Provided_DatabaseInterface_Energy Meter','operationProvidedRole').
+operationProvidedRole(40).
+providedInterface(40,[35]).
+/** END operationProvidedRole, ID: '40', NAME: 'Provided_DatabaseInterface_Energy Meter' */
+
+
+/** BEGIN operationProvidedRole, ID: '41', NAME: 'Provided_MeasurementAcquisition_Energy Meter' */
+description(41,'Provided_MeasurementAcquisition_Energy Meter','operationProvidedRole').
+operationProvidedRole(41).
+providedInterface(41,[36]).
+/** END operationProvidedRole, ID: '41', NAME: 'Provided_MeasurementAcquisition_Energy Meter' */
+
+/** END basicComponent, ID: '31', NAME: 'Energy Meter' */
+
+
+/** BEGIN basicComponent, ID: '32', NAME: 'DBMS' */
+description(32,'DBMS','basicComponent').
+basicComponent(32).
+providedRoles(32,[42]).
+requiredRoles(32,[]).
+
+/** BEGIN operationProvidedRole, ID: '42', NAME: 'Provided_DatabaseInterface_DBMS' */
+description(42,'Provided_DatabaseInterface_DBMS','operationProvidedRole').
+operationProvidedRole(42).
+providedInterface(42,[34]).
+/** END operationProvidedRole, ID: '42', NAME: 'Provided_DatabaseInterface_DBMS' */
+
+/** END basicComponent, ID: '32', NAME: 'DBMS' */
+
+
+/** BEGIN operationInterface, ID: '33', NAME: 'EnergyVisualization' */
+description(33,'EnergyVisualization','operationInterface').
+operationInterface(33).
+parentInterfaces(33,[]).
+signatures(33,[43]).
+
+/** BEGIN operationSignature, ID: '43', NAME: 'drawEnergyConsumptionGraph' */
+description(43,'drawEnergyConsumptionGraph','operationSignature').
+operationSignature(43).
+parameters(43,[]).
+returnType(43,[44]).
+/** END operationSignature, ID: '43', NAME: 'drawEnergyConsumptionGraph' */
+
+/** END operationInterface, ID: '33', NAME: 'EnergyVisualization' */
+
+
+/** BEGIN operationInterface, ID: '34', NAME: 'DatabaseInterface' */
+description(34,'DatabaseInterface','operationInterface').
+operationInterface(34).
+parentInterfaces(34,[]).
+signatures(34,[45,46]).
+
+/** BEGIN operationSignature, ID: '45', NAME: 'getValues' */
+description(45,'getValues','operationSignature').
+operationSignature(45).
+parameters(45,[21,22]).
+returnType(45,[47]).
+
+/** BEGIN parameter, ID: '21', NAME: 'start' */
+description(21,'start','parameter').
+parameter(21).
+/** END parameter, ID: '21', NAME: 'start' */
+
+sizeOfParameter(48).
+sizeOf(48,21).
+
+/** BEGIN parameter, ID: '22', NAME: 'end' */
+description(22,'end','parameter').
+parameter(22).
+/** END parameter, ID: '22', NAME: 'end' */
+
+sizeOfParameter(49).
+sizeOf(49,22).
+/** END operationSignature, ID: '45', NAME: 'getValues' */
+
+
+/** BEGIN operationSignature, ID: '46', NAME: 'storeValue' */
+description(46,'storeValue','operationSignature').
+operationSignature(46).
+parameters(46,[23,24]).
+returnType(46,[]).
+
+/** BEGIN parameter, ID: '23', NAME: 'timestamp' */
+description(23,'timestamp','parameter').
+parameter(23).
+/** END parameter, ID: '23', NAME: 'timestamp' */
+
+sizeOfParameter(50).
+sizeOf(50,23).
+
+/** BEGIN parameter, ID: '24', NAME: 'value' */
+description(24,'value','parameter').
+parameter(24).
+/** END parameter, ID: '24', NAME: 'value' */
+
+sizeOfParameter(51).
+sizeOf(51,24).
+/** END operationSignature, ID: '46', NAME: 'storeValue' */
+
+/** END operationInterface, ID: '34', NAME: 'DatabaseInterface' */
+
+
+/** BEGIN operationInterface, ID: '35', NAME: 'EnergyMeasurement' */
+description(35,'EnergyMeasurement','operationInterface').
+operationInterface(35).
+parentInterfaces(35,[]).
+signatures(35,[52,53]).
+
+/** BEGIN operationSignature, ID: '52', NAME: 'getEnergyValue' */
+description(52,'getEnergyValue','operationSignature').
+operationSignature(52).
+parameters(52,[]).
+returnType(52,[44]).
+/** END operationSignature, ID: '52', NAME: 'getEnergyValue' */
+
+
+/** BEGIN operationSignature, ID: '53', NAME: 'getCustomerId' */
+description(53,'getCustomerId','operationSignature').
+operationSignature(53).
+parameters(53,[]).
+returnType(53,[44]).
+/** END operationSignature, ID: '53', NAME: 'getCustomerId' */
+
+/** END operationInterface, ID: '35', NAME: 'EnergyMeasurement' */
+
+
+/** BEGIN operationInterface, ID: '36', NAME: 'MeasurementAcquisition' */
+description(36,'MeasurementAcquisition','operationInterface').
+operationInterface(36).
+parentInterfaces(36,[]).
+signatures(36,[54]).
+
+/** BEGIN operationSignature, ID: '54', NAME: 'setEnergyValue' */
+description(54,'setEnergyValue','operationSignature').
+operationSignature(54).
+parameters(54,[24]).
+returnType(54,[]).
+
+/** BEGIN parameter, ID: '24', NAME: 'value' */
+description(24,'value','parameter').
+parameter(24).
+/** END parameter, ID: '24', NAME: 'value' */
+
+sizeOfParameter(51).
+sizeOf(51,24).
+/** END operationSignature, ID: '54', NAME: 'setEnergyValue' */
+
+/** END operationInterface, ID: '36', NAME: 'MeasurementAcquisition' */
+
+/** END repository, ID: '29', NAME: 'defaultRepository' */
+

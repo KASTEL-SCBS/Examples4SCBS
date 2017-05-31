@@ -1,0 +1,90 @@
+
+/** BEGIN encryption, ID: '58', NAME: 'null' */
+description(58,'null','encryption').
+unencryptedData(58,[]).
+/** END encryption, ID: '58', NAME: 'null' */
+
+
+/** BEGIN encryption, ID: '59', NAME: 'null' */
+description(59,'null','encryption').
+unencryptedData(59,[]).
+/** END encryption, ID: '59', NAME: 'null' */
+
+
+/** BEGIN encryption, ID: '60', NAME: 'null' */
+description(60,'null','encryption').
+unencryptedData(60,[]).
+/** END encryption, ID: '60', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '61', NAME: 'null' */
+description(61,'null','furtherPhysicalConnections').
+connectionType(61,[possible]).
+/** END furtherPhysicalConnections, ID: '61', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '61', NAME: 'null' */
+description(61,'null','sharing').
+sharing(61,[shared]).
+/** END sharing, ID: '61', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '62', NAME: 'null' */
+description(62,'null','furtherPhysicalConnections').
+connectionType(62,[possible]).
+/** END furtherPhysicalConnections, ID: '62', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '62', NAME: 'null' */
+description(62,'null','sharing').
+sharing(62,[shared]).
+/** END sharing, ID: '62', NAME: 'null' */
+
+
+/** BEGIN furtherPhysicalConnections, ID: '63', NAME: 'null' */
+description(63,'null','furtherPhysicalConnections').
+connectionType(63,[possible]).
+/** END furtherPhysicalConnections, ID: '63', NAME: 'null' */
+
+
+/** BEGIN sharing, ID: '63', NAME: 'null' */
+description(63,'null','sharing').
+sharing(63,[shared]).
+/** END sharing, ID: '63', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '63', NAME: 'null' */
+description(63,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(63,[64]).
+/** END locationAndTamperProtection, ID: '63', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '62', NAME: 'null' */
+description(62,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(62,[65]).
+/** END locationAndTamperProtection, ID: '62', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '61', NAME: 'null' */
+description(61,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(61,[66]).
+/** END locationAndTamperProtection, ID: '61', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '60', NAME: 'null' */
+description(60,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(60,[67]).
+/** END locationAndTamperProtection, ID: '60', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '59', NAME: 'null' */
+description(59,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(59,[68,69]).
+/** END locationAndTamperProtection, ID: '59', NAME: 'null' */
+
+
+/** BEGIN locationAndTamperProtection, ID: '58', NAME: 'null' */
+description(58,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(58,[69]).
+/** END locationAndTamperProtection, ID: '58', NAME: 'null' */
+

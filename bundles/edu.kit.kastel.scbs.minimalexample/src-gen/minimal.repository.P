@@ -1,0 +1,133 @@
+
+/** BEGIN repository, ID: '23', NAME: 'repo' */
+description(23,'repo','repository').
+repository(23).
+components(23,[24,25]).
+interfaces(23,[26,27]).
+
+/** BEGIN basicComponent, ID: '24', NAME: 'bc2' */
+description(24,'bc2','basicComponent').
+basicComponent(24).
+providedRoles(24,[28]).
+requiredRoles(24,[]).
+
+/** BEGIN operationProvidedRole, ID: '28', NAME: 'bc2ProvidesIface' */
+description(28,'bc2ProvidesIface','operationProvidedRole').
+operationProvidedRole(28).
+providedInterface(28,[26]).
+/** END operationProvidedRole, ID: '28', NAME: 'bc2ProvidesIface' */
+
+/** END basicComponent, ID: '24', NAME: 'bc2' */
+
+
+/** BEGIN basicComponent, ID: '25', NAME: 'bc1' */
+description(25,'bc1','basicComponent').
+basicComponent(25).
+providedRoles(25,[29]).
+requiredRoles(25,[30]).
+
+/** BEGIN operationProvidedRole, ID: '29', NAME: 'bc1ProvidesSysIface' */
+description(29,'bc1ProvidesSysIface','operationProvidedRole').
+operationProvidedRole(29).
+providedInterface(29,[27]).
+/** END operationProvidedRole, ID: '29', NAME: 'bc1ProvidesSysIface' */
+
+
+/** BEGIN operationRequiredRole, ID: '30', NAME: 'bc1RequiresIface' */
+description(30,'bc1RequiresIface','operationRequiredRole').
+operationRequiredRole(30).
+requiredInterface(30,[26]).
+/** END operationRequiredRole, ID: '30', NAME: 'bc1RequiresIface' */
+
+/** END basicComponent, ID: '25', NAME: 'bc1' */
+
+
+/** BEGIN operationInterface, ID: '26', NAME: 'iface' */
+description(26,'iface','operationInterface').
+operationInterface(26).
+parentInterfaces(26,[]).
+signatures(26,[31,32]).
+
+/** BEGIN operationSignature, ID: '31', NAME: 'sig' */
+description(31,'sig','operationSignature').
+operationSignature(31).
+parameters(31,[33,19]).
+returnType(31,[34]).
+
+/** BEGIN parameter, ID: '33', NAME: 'param0' */
+description(33,'param0','parameter').
+parameter(33).
+/** END parameter, ID: '33', NAME: 'param0' */
+
+sizeOfParameter(35).
+sizeOf(35,33).
+
+/** BEGIN parameter, ID: '19', NAME: 'p1' */
+description(19,'p1','parameter').
+parameter(19).
+/** END parameter, ID: '19', NAME: 'p1' */
+
+sizeOfParameter(36).
+sizeOf(36,19).
+/** END operationSignature, ID: '31', NAME: 'sig' */
+
+
+/** BEGIN operationSignature, ID: '32', NAME: 'sig2' */
+description(32,'sig2','operationSignature').
+operationSignature(32).
+parameters(32,[18,37]).
+returnType(32,[]).
+
+/** BEGIN parameter, ID: '18', NAME: 'p0' */
+description(18,'p0','parameter').
+parameter(18).
+/** END parameter, ID: '18', NAME: 'p0' */
+
+sizeOfParameter(38).
+sizeOf(38,18).
+
+/** BEGIN parameter, ID: '37', NAME: 'param1' */
+description(37,'param1','parameter').
+parameter(37).
+/** END parameter, ID: '37', NAME: 'param1' */
+
+sizeOfParameter(39).
+sizeOf(39,37).
+/** END operationSignature, ID: '32', NAME: 'sig2' */
+
+/** END operationInterface, ID: '26', NAME: 'iface' */
+
+
+/** BEGIN operationInterface, ID: '27', NAME: 'sysIface' */
+description(27,'sysIface','operationInterface').
+operationInterface(27).
+parentInterfaces(27,[]).
+signatures(27,[40]).
+
+/** BEGIN operationSignature, ID: '40', NAME: 'sysSig' */
+description(40,'sysSig','operationSignature').
+operationSignature(40).
+parameters(40,[18,19]).
+returnType(40,[41]).
+
+/** BEGIN parameter, ID: '18', NAME: 'p0' */
+description(18,'p0','parameter').
+parameter(18).
+/** END parameter, ID: '18', NAME: 'p0' */
+
+sizeOfParameter(38).
+sizeOf(38,18).
+
+/** BEGIN parameter, ID: '19', NAME: 'p1' */
+description(19,'p1','parameter').
+parameter(19).
+/** END parameter, ID: '19', NAME: 'p1' */
+
+sizeOfParameter(36).
+sizeOf(36,19).
+/** END operationSignature, ID: '40', NAME: 'sysSig' */
+
+/** END operationInterface, ID: '27', NAME: 'sysIface' */
+
+/** END repository, ID: '23', NAME: 'repo' */
+

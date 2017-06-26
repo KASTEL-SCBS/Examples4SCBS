@@ -2,111 +2,183 @@
 /** BEGIN confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
 description(1,'cloud confidentiality specification','confidentialitySpecification').
 confidentialitySpecification(1).
-dataIdentifier(1,[2,3,4]).
-dataSetMaps(1,[5]).
-parametersAndDataPairs(1,[6,7,8]).
-addedServiceParameters(1,[9]).
-locations(1,[10,11]).
-tamperProtections(1,[12]).
-locationsAndTamperProtectionsPairs(1,[13,14,15]).
+dataIdentifier(1,[2,3,4,5,6,7,8,9,10]).
+dataSetMaps(1,[11]).
+parametersAndDataPairs(1,[12,13,14]).
+addedServiceParameters(1,[15]).
+specificationParameterAssignments(1,[16]).
+specificationParameterEquations(1,[17,18]).
+locations(1,[19,20]).
+tamperProtections(1,[21]).
+locationsAndTamperProtectionsPairs(1,[22,23,24]).
 
-/** BEGIN dataSetMapEntry, ID: '2', NAME: 'A' */
-description(2,'A','dataSetMapEntry').
-dataSetMapEntry(2).
-map(2,[5]).
-/** END dataSetMapEntry, ID: '2', NAME: 'A' */
-
-
-/** BEGIN dataSetMapEntry, ID: '3', NAME: 'B' */
-description(3,'B','dataSetMapEntry').
-dataSetMapEntry(3).
-map(3,[5]).
-/** END dataSetMapEntry, ID: '3', NAME: 'B' */
+/** BEGIN specificationParameter, ID: '2', NAME: 'Self' */
+description(2,'Self','specificationParameter').
+specificationParameter(2).
+/** END specificationParameter, ID: '2', NAME: 'Self' */
 
 
-/** BEGIN dataSetMapEntry, ID: '4', NAME: 'Public' */
-description(4,'Public','dataSetMapEntry').
-dataSetMapEntry(4).
-map(4,[5]).
-/** END dataSetMapEntry, ID: '4', NAME: 'Public' */
+/** BEGIN specificationParameter, ID: '3', NAME: 'Friends' */
+description(3,'Friends','specificationParameter').
+specificationParameter(3).
+/** END specificationParameter, ID: '3', NAME: 'Friends' */
 
 
-/** BEGIN dataSetMap, ID: '5', NAME: 'UserData' */
-description(5,'UserData','dataSetMap').
-dataSetMap(5).
-/** END dataSetMap, ID: '5', NAME: 'UserData' */
+/** BEGIN specificationParameter, ID: '4', NAME: '*' */
+description(4,'*','specificationParameter').
+specificationParameter(4).
+/** END specificationParameter, ID: '4', NAME: '*' */
 
 
-/** BEGIN parametersAndDataPair, ID: '6', NAME: 'p=[*] - d=[UserData[Self]]' */
-description(6,'p=[*] - d=[UserData[Self]]','parametersAndDataPair').
-parametersAndDataPair(6).
-parameterSources(6,[*]).
-dataTargets(6,[]).
-/** END parametersAndDataPair, ID: '6', NAME: 'p=[*] - d=[UserData[Self]]' */
+/** BEGIN parameterizedDataSetMapEntry, ID: '5', NAME: 'null' */
+description(5,'null','parameterizedDataSetMapEntry').
+parameterizedDataSetMapEntry(5).
+map(5,[11]).
+parameter(5,[2]).
+/** END parameterizedDataSetMapEntry, ID: '5', NAME: 'null' */
 
 
-/** BEGIN parametersAndDataPair, ID: '7', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
-description(7,'p=[sizeOf(*)] - d=[UserData[Public]]','parametersAndDataPair').
-parametersAndDataPair(7).
-parameterSources(7,[sizeOf(*)]).
-dataTargets(7,[4]).
-/** END parametersAndDataPair, ID: '7', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
+/** BEGIN parameterizedDataSetMapEntry, ID: '6', NAME: 'null' */
+description(6,'null','parameterizedDataSetMapEntry').
+parameterizedDataSetMapEntry(6).
+map(6,[11]).
+parameter(6,[3]).
+/** END parameterizedDataSetMapEntry, ID: '6', NAME: 'null' */
 
 
-/** BEGIN parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Friends]]' */
-description(8,'p=[*] - d=[UserData[Friends]]','parametersAndDataPair').
-parametersAndDataPair(8).
-parameterSources(8,[*]).
-dataTargets(8,[]).
-/** END parametersAndDataPair, ID: '8', NAME: 'p=[*] - d=[UserData[Friends]]' */
+/** BEGIN parameterizedDataSetMapEntry, ID: '7', NAME: 'null' */
+description(7,'null','parameterizedDataSetMapEntry').
+parameterizedDataSetMapEntry(7).
+map(7,[11]).
+parameter(7,[4]).
+/** END parameterizedDataSetMapEntry, ID: '7', NAME: 'null' */
 
 
-/** BEGIN addedServiceParameter, ID: '9', NAME: 's' */
-description(9,'s','addedServiceParameter').
-addedServiceParameter(9).
-/** END addedServiceParameter, ID: '9', NAME: 's' */
+/** BEGIN dataSetMapEntry, ID: '8', NAME: 'A' */
+description(8,'A','dataSetMapEntry').
+dataSetMapEntry(8).
+map(8,[11]).
+/** END dataSetMapEntry, ID: '8', NAME: 'A' */
 
 
-/** BEGIN location, ID: '10', NAME: 'userAHome' */
-description(10,'userAHome','location').
-location(10).
-/** END location, ID: '10', NAME: 'userAHome' */
+/** BEGIN dataSetMapEntry, ID: '9', NAME: 'B' */
+description(9,'B','dataSetMapEntry').
+dataSetMapEntry(9).
+map(9,[11]).
+/** END dataSetMapEntry, ID: '9', NAME: 'B' */
 
 
-/** BEGIN location, ID: '11', NAME: 'outerZone' */
-description(11,'outerZone','location').
-location(11).
-/** END location, ID: '11', NAME: 'outerZone' */
+/** BEGIN dataSetMapEntry, ID: '10', NAME: 'Public' */
+description(10,'Public','dataSetMapEntry').
+dataSetMapEntry(10).
+map(10,[11]).
+/** END dataSetMapEntry, ID: '10', NAME: 'Public' */
 
 
-/** BEGIN tamperProtection, ID: '12', NAME: 'perimeterProtection' */
-description(12,'perimeterProtection','tamperProtection').
-tamperProtection(12).
-/** END tamperProtection, ID: '12', NAME: 'perimeterProtection' */
+/** BEGIN dataSetMap, ID: '11', NAME: 'UserData' */
+description(11,'UserData','dataSetMap').
+dataSetMap(11).
+/** END dataSetMap, ID: '11', NAME: 'UserData' */
 
 
-/** BEGIN locationsAndTamperProtectionsPair, ID: '13', NAME: 'l=[outerZone] - t=[]' */
-description(13,'l=[outerZone] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(13).
-locations(13,[11]).
-tamperProtections(13,[]).
-/** END locationsAndTamperProtectionsPair, ID: '13', NAME: 'l=[outerZone] - t=[]' */
+/** BEGIN parametersAndDataPair, ID: '12', NAME: 'p=[*] - d=[UserData[Self]]' */
+description(12,'p=[*] - d=[UserData[Self]]','parametersAndDataPair').
+parametersAndDataPair(12).
+parameterSources(12,[*]).
+dataTargets(12,[]).
+/** END parametersAndDataPair, ID: '12', NAME: 'p=[*] - d=[UserData[Self]]' */
 
 
-/** BEGIN locationsAndTamperProtectionsPair, ID: '14', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
-description(14,'l=[outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(14).
-locations(14,[11]).
-tamperProtections(14,[12]).
-/** END locationsAndTamperProtectionsPair, ID: '14', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+/** BEGIN parametersAndDataPair, ID: '13', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
+description(13,'p=[sizeOf(*)] - d=[UserData[Public]]','parametersAndDataPair').
+parametersAndDataPair(13).
+parameterSources(13,[sizeOf(*)]).
+dataTargets(13,[10]).
+/** END parametersAndDataPair, ID: '13', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
 
 
-/** BEGIN locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[userAHome] - t=[]' */
-description(15,'l=[userAHome] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(15).
-locations(15,[10]).
-tamperProtections(15,[]).
-/** END locationsAndTamperProtectionsPair, ID: '15', NAME: 'l=[userAHome] - t=[]' */
+/** BEGIN parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[UserData[Friends]]' */
+description(14,'p=[*] - d=[UserData[Friends]]','parametersAndDataPair').
+parametersAndDataPair(14).
+parameterSources(14,[*]).
+dataTargets(14,[]).
+/** END parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[UserData[Friends]]' */
+
+
+/** BEGIN addedServiceParameter, ID: '15', NAME: 's' */
+description(15,'s','addedServiceParameter').
+addedServiceParameter(15).
+/** END addedServiceParameter, ID: '15', NAME: 's' */
+
+
+/** BEGIN dataSetMapParameter2KeyAssignment, ID: '16', NAME: 'null' */
+description(16,'null','dataSetMapParameter2KeyAssignment').
+dataSetMapParameter2KeyAssignment(16).
+specificationParametersToReplace(16,[2]).
+assignedKey(16,[A]).
+/** END dataSetMapParameter2KeyAssignment, ID: '16', NAME: 'null' */
+
+
+/** BEGIN specificationParameterEquation, ID: '17', NAME: 'null' */
+description(17,'null','specificationParameterEquation').
+specificationParameterEquation(17).
+providedSpecificationParameter(17,[2]).
+providedInterfaceNames(17,[*]).
+requiredSpecificationParameter(17,[2]).
+requiredInterfaceNames(17,[*]).
+/** END specificationParameterEquation, ID: '17', NAME: 'null' */
+
+
+/** BEGIN specificationParameterEquation, ID: '18', NAME: 'null' */
+description(18,'null','specificationParameterEquation').
+specificationParameterEquation(18).
+providedSpecificationParameter(18,[3]).
+providedInterfaceNames(18,[*]).
+requiredSpecificationParameter(18,[3]).
+requiredInterfaceNames(18,[*]).
+/** END specificationParameterEquation, ID: '18', NAME: 'null' */
+
+
+/** BEGIN location, ID: '19', NAME: 'userAHome' */
+description(19,'userAHome','location').
+location(19).
+/** END location, ID: '19', NAME: 'userAHome' */
+
+
+/** BEGIN location, ID: '20', NAME: 'outerZone' */
+description(20,'outerZone','location').
+location(20).
+/** END location, ID: '20', NAME: 'outerZone' */
+
+
+/** BEGIN tamperProtection, ID: '21', NAME: 'perimeterProtection' */
+description(21,'perimeterProtection','tamperProtection').
+tamperProtection(21).
+/** END tamperProtection, ID: '21', NAME: 'perimeterProtection' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '22', NAME: 'l=[outerZone] - t=[]' */
+description(22,'l=[outerZone] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(22).
+locations(22,[20]).
+tamperProtections(22,[]).
+/** END locationsAndTamperProtectionsPair, ID: '22', NAME: 'l=[outerZone] - t=[]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+description(23,'l=[outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(23).
+locations(23,[20]).
+tamperProtections(23,[21]).
+/** END locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[userAHome] - t=[]' */
+description(24,'l=[userAHome] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(24).
+locations(24,[19]).
+tamperProtections(24,[]).
+/** END locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[userAHome] - t=[]' */
 
 /** END confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
 

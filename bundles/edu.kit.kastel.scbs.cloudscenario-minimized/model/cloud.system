@@ -11,7 +11,7 @@
       <providedRole_AssemblyConnector href="cloud.repository#_a-HwoNDcEeWt5tzvTAzZ8A"/>
       <requiredRole_AssemblyConnector href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
     </connectors__ComposedStructure>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_7KXsNNyaEeapWOV7t3qhnQ" outerProvidedRole_ProvidedDelegationConnector="_1Rz9b9yaEeapWOV7t3qhnQ" assemblyContext_ProvidedDelegationConnector="_YHrRABaCEeabKfvw_S-vrQ">
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_7KXsNNyaEeapWOV7t3qhnQ" entityName="sysProvFMG2FMA" outerProvidedRole_ProvidedDelegationConnector="_1Rz9b9yaEeapWOV7t3qhnQ" assemblyContext_ProvidedDelegationConnector="_YHrRABaCEeabKfvw_S-vrQ">
       <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_d9lrENDfEeWt5tzvTAzZ8A"/>
     </connectors__ComposedStructure>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1Rz9b9yaEeapWOV7t3qhnQ" entityName="SysProvRoleFileManGUI">

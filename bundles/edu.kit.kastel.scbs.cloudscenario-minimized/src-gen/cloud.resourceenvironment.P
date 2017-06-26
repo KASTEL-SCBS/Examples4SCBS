@@ -1,36 +1,36 @@
 
-/** BEGIN resourceEnvironment, ID: '49', NAME: 'aName' */
-description(49,'aName','resourceEnvironment').
-resourceEnvironment(49).
-linkingResources(49,[50,51]).
-resourceContainer(49,[52,53]).
+/** BEGIN resourceEnvironment, ID: '57', NAME: 'aName' */
+description(57,'aName','resourceEnvironment').
+resourceEnvironment(57).
+linkingResources(57,[58,59]).
+resourceContainer(57,[60,61]).
 
-/** BEGIN linkingResource, ID: '50', NAME: 'Internet' */
-description(50,'Internet','linkingResource').
-linkingResource(50).
-connectedResourceContainers(50,[53,52]).
-communicationLinkResourceSpecifications(50,[]).
-/** END linkingResource, ID: '50', NAME: 'Internet' */
-
-
-/** BEGIN linkingResource, ID: '51', NAME: 'Intranet outer' */
-description(51,'Intranet outer','linkingResource').
-linkingResource(51).
-connectedResourceContainers(51,[52]).
-communicationLinkResourceSpecifications(51,[]).
-/** END linkingResource, ID: '51', NAME: 'Intranet outer' */
+/** BEGIN linkingResource, ID: '58', NAME: 'Internet' */
+description(58,'Internet','linkingResource').
+linkingResource(58).
+connectedResourceContainers(58,[61,60]).
+communicationLinkResourceSpecifications(58,[]).
+/** END linkingResource, ID: '58', NAME: 'Internet' */
 
 
-/** BEGIN resourceContainer, ID: '52', NAME: 'VM E' */
-description(52,'VM E','resourceContainer').
-resourceContainer(52).
-/** END resourceContainer, ID: '52', NAME: 'VM E' */
+/** BEGIN linkingResource, ID: '59', NAME: 'Intranet outer' */
+description(59,'Intranet outer','linkingResource').
+linkingResource(59).
+connectedResourceContainers(59,[60]).
+communicationLinkResourceSpecifications(59,[]).
+/** END linkingResource, ID: '59', NAME: 'Intranet outer' */
 
 
-/** BEGIN resourceContainer, ID: '53', NAME: 'End User Machine A' */
-description(53,'End User Machine A','resourceContainer').
-resourceContainer(53).
-/** END resourceContainer, ID: '53', NAME: 'End User Machine A' */
+/** BEGIN resourceContainer, ID: '60', NAME: 'VM E' */
+description(60,'VM E','resourceContainer').
+resourceContainer(60).
+/** END resourceContainer, ID: '60', NAME: 'VM E' */
 
-/** END resourceEnvironment, ID: '49', NAME: 'aName' */
+
+/** BEGIN resourceContainer, ID: '61', NAME: 'End User Machine A' */
+description(61,'End User Machine A','resourceContainer').
+resourceContainer(61).
+/** END resourceContainer, ID: '61', NAME: 'End User Machine A' */
+
+/** END resourceEnvironment, ID: '57', NAME: 'aName' */
 

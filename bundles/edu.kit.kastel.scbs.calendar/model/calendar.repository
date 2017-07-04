@@ -14,24 +14,24 @@
     </components__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_j_4jEFzBEeekO6EMIkPFWQ" entityName="Calendar">
       <signatures__OperationInterface id="_qsng0FzBEeekO6EMIkPFWQ" entityName="getBlockedPeriods" returnType__OperationSignature="_MWSwvFzDEeekO6EMIkPFWQ">
-        <parameters__OperationSignature dataType__Parameter="_kmsZjVzDEeekO6EMIkPFWQ" parameterName="start"/>
-        <parameters__OperationSignature dataType__Parameter="_kmsZjVzDEeekO6EMIkPFWQ" parameterName="end"/>
+        <parameters__OperationSignature dataType__Parameter="_kmsZjVzDEeekO6EMIkPFWQ" parameterName="from"/>
+        <parameters__OperationSignature dataType__Parameter="_kmsZjVzDEeekO6EMIkPFWQ" parameterName="to"/>
       </signatures__OperationInterface>
-      <signatures__OperationInterface id="_EmXbIFzEEeekO6EMIkPFWQ" entityName="getFullEntry" returnType__OperationSignature="_UEImLVzDEeekO6EMIkPFWQ">
-        <parameters__OperationSignature dataType__Parameter="_cFRyHVzDEeekO6EMIkPFWQ" parameterName="entryID"/>
+      <signatures__OperationInterface id="_EmXbIFzEEeekO6EMIkPFWQ" entityName="getFullCalendarEntry" returnType__OperationSignature="_UEImLVzDEeekO6EMIkPFWQ">
+        <parameters__OperationSignature dataType__Parameter="_cFRyHVzDEeekO6EMIkPFWQ" parameterName="id"/>
       </signatures__OperationInterface>
     </interfaces__Repository>
-    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_700X7VzBEeekO6EMIkPFWQ" entityName="BlockedPeriod">
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_700X7VzBEeekO6EMIkPFWQ" entityName="BP">
       <innerDeclaration_CompositeDataType entityName="entryID" datatype_InnerDeclaration="_cFRyHVzDEeekO6EMIkPFWQ"/>
       <innerDeclaration_CompositeDataType entityName="start" datatype_InnerDeclaration="_kmsZjVzDEeekO6EMIkPFWQ"/>
       <innerDeclaration_CompositeDataType entityName="end" datatype_InnerDeclaration="_kmsZjVzDEeekO6EMIkPFWQ"/>
     </dataTypes__Repository>
     <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_MWSwvFzDEeekO6EMIkPFWQ" entityName="BlockedPeriods" innerType_CollectionDataType="_700X7VzBEeekO6EMIkPFWQ"/>
-    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_UEImLVzDEeekO6EMIkPFWQ" entityName="Entry">
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_UEImLVzDEeekO6EMIkPFWQ" entityName="CE">
       <innerDeclaration_CompositeDataType entityName="ID" datatype_InnerDeclaration="_cFRyHVzDEeekO6EMIkPFWQ"/>
     </dataTypes__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_cFRyHVzDEeekO6EMIkPFWQ" entityName="ID"/>
-    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kmsZjVzDEeekO6EMIkPFWQ" entityName="Timestamp"/>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kmsZjVzDEeekO6EMIkPFWQ" entityName="TS"/>
   </repository:Repository>
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_qsng0FzBEeekO6EMIkPFWQ">

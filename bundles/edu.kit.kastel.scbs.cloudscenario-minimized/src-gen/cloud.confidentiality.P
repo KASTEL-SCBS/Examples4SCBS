@@ -85,7 +85,7 @@ dataSetMap(11).
 description(12,'p=[*] - d=[UserData[Self]]','parametersAndDataPair').
 parametersAndDataPair(12).
 parameterSources(12,[*]).
-dataTargets(12,[]).
+dataTargets(12,[5]).
 /** END parametersAndDataPair, ID: '12', NAME: 'p=[*] - d=[UserData[Self]]' */
 
 
@@ -101,7 +101,7 @@ dataTargets(13,[10]).
 description(14,'p=[*] - d=[UserData[Friends]]','parametersAndDataPair').
 parametersAndDataPair(14).
 parameterSources(14,[*]).
-dataTargets(14,[]).
+dataTargets(14,[6]).
 /** END parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[UserData[Friends]]' */
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
   <repository:Repository id="_rFaVgOMWEeaCWN4SXHLs5Q" entityName="defaultRepository">
     <components__Repository xsi:type="repository:BasicComponent" id="_FgSQAONSEeaCWN4SXHLs5Q" entityName="Account">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_d0s2IeNSEeaCWN4SXHLs5Q" entityName="AccountIF" providedInterface__OperationProvidedRole="_T1QW1-MYEeaCWN4SXHLs5Q"/>

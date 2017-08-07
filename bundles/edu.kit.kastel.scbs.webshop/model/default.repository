@@ -18,7 +18,7 @@
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IypmYeNXEeaCWN4SXHLs5Q" entityName="CartToAccountIF" providedInterface__OperationProvidedRole="_flarB-NAEeaCWN4SXHLs5Q"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_aj2-NeNXEeaCWN4SXHLs5Q" entityName="prodDb" requiredInterface__OperationRequiredRole="_sULCV-NQEeaCWN4SXHLs5Q"/>
     </components__Repository>
-    <components__Repository xsi:type="repository:BasicComponent" id="_fLnzgONXEeaCWN4SXHLs5Q" entityName="Derlivery">
+    <components__Repository xsi:type="repository:BasicComponent" id="_fLnzgONXEeaCWN4SXHLs5Q" entityName="Delivery">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mKVSEeNXEeaCWN4SXHLs5Q" entityName="DeliveryIF" providedInterface__OperationProvidedRole="_gEyYh-NJEeaCWN4SXHLs5Q"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_uz6XBeNXEeaCWN4SXHLs5Q" entityName="account" requiredInterface__OperationRequiredRole="_JxFW1-NSEeaCWN4SXHLs5Q"/>
     </components__Repository>

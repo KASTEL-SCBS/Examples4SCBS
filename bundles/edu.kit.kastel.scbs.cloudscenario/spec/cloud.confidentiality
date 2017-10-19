@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" id="_KrZmcBXwEeabKfvw_S-vrQ" name="cloud confidentiality specification">
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_KrZmcBXwEeabKfvw_S-vrQ" name="cloud confidentiality specification">
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_oen9IDSFEeaNBONF_yFtJg" name="LoadBalancerData"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_qyy_MDSFEeaNBONF_yFtJg" name="LogData"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_yjxBITSFEeaNBONF_yFtJg" name="Self" definingServiceParameter="s"/>
@@ -37,13 +37,73 @@
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_9guu4DSOEea1eICDPlZMAQ" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="A"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_3862KDSQEeaHiKwXLDiEtg" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="B"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_Ro7rSG9_EeaG0oMKM0Rwgw" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="Public"/>
-  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" providedSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" requiredSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
-    <providedInterfaceNames>*</providedInterfaceNames>
-    <requiredInterfaceNames>*</requiredInterfaceNames>
+  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" leftSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" rightSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_Ac3qENDdEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_dJvlYOuQEeWMdaaSirUv0Q"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_MDDuQNDWEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_HmJRUNDGEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oO2cIOuREeWMdaaSirUv0Q"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_qVPUUNDLEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_aymqYNSQEeWaFY2No-N26g"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_mcREMOuREeWMdaaSirUv0Q"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_rAVj0G6MEeam26epJlCOmw"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_chXY0G6MEeam26epJlCOmw"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_g8MeINDHEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_0x5tMNDbEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oIHc0NDIEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_ws0BwNDIEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_Ac3qENDdEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_dJvlYOuQEeWMdaaSirUv0Q"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_MDDuQNDWEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_HmJRUNDGEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oO2cIOuREeWMdaaSirUv0Q"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_qVPUUNDLEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_aymqYNSQEeWaFY2No-N26g"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_mcREMOuREeWMdaaSirUv0Q"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_rAVj0G6MEeam26epJlCOmw"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_chXY0G6MEeam26epJlCOmw"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_g8MeINDHEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_0x5tMNDbEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oIHc0NDIEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_ws0BwNDIEeWt5tzvTAzZ8A"/>
   </specificationParameterEquations>
-  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" providedSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" requiredSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg">
-    <providedInterfaceNames>*</providedInterfaceNames>
-    <requiredInterfaceNames>*</requiredInterfaceNames>
+  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" leftSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" rightSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg">
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_Ac3qENDdEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_dJvlYOuQEeWMdaaSirUv0Q"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_MDDuQNDWEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_HmJRUNDGEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oO2cIOuREeWMdaaSirUv0Q"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_qVPUUNDLEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_aymqYNSQEeWaFY2No-N26g"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_mcREMOuREeWMdaaSirUv0Q"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_rAVj0G6MEeam26epJlCOmw"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_chXY0G6MEeam26epJlCOmw"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_g8MeINDHEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_0x5tMNDbEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oIHc0NDIEeWt5tzvTAzZ8A"/>
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_ws0BwNDIEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_Ac3qENDdEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_dJvlYOuQEeWMdaaSirUv0Q"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_MDDuQNDWEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_HmJRUNDGEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oO2cIOuREeWMdaaSirUv0Q"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_qVPUUNDLEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_aymqYNSQEeWaFY2No-N26g"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_mcREMOuREeWMdaaSirUv0Q"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_rAVj0G6MEeam26epJlCOmw"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_chXY0G6MEeam26epJlCOmw"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_g8MeINDHEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_0x5tMNDbEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_oIHc0NDIEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_ws0BwNDIEeWt5tzvTAzZ8A"/>
   </specificationParameterEquations>
   <locations id="_0d2e0RXyEeabKfvw_S-vrQ" name="internet"/>
   <locations id="_31ZCYRXyEeabKfvw_S-vrQ" name="userAHome"/>

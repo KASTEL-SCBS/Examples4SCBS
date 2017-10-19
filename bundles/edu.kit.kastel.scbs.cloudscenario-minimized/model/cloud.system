@@ -25,8 +25,7 @@
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_dsQ8QOuTEeWMdaaSirUv0Q">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
-      <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
-      <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+      <equations href="../spec/cloud.confidentiality#_brmqCbKHEeevdIkJq832qw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_YHrRABaCEeabKfvw_S-vrQ">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>

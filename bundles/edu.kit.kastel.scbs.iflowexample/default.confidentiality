@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" id="_4fg0MJziEeWvbrCzHVJijg">
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_4fg0MJziEeWvbrCzHVJijg">
   <locationsAndTamperProtectionsPairs id="_-YubgM6AEeWqSdNpnh9tmQ" locations="_CB0pIc6BEeWqSdNpnh9tmQ"/>
   <locationsAndTamperProtectionsPairs id="_QBclsM6BEeWqSdNpnh9tmQ" locations="__RugEc6AEeWqSdNpnh9tmQ"/>
   <locationsAndTamperProtectionsPairs id="_RmAIsM6BEeWqSdNpnh9tmQ" locations="_DCp0Ac6BEeWqSdNpnh9tmQ"/>
@@ -12,52 +12,52 @@
   <locations id="_IYDLYc6BEeWqSdNpnh9tmQ" name="Internet"/>
   <locations id="_SpLngc6CEeWqSdNpnh9tmQ" name="CoffeShop"/>
   <locations id="_nv3tYc6CEeWqSdNpnh9tmQ" name="Street"/>
-  <parametersAndDataSetsPairs id="_UuIJU-RQEeWuZOK2YocvJA" dataSetTargets="_9N5G9MOGEeWst9mTsticNA _W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
+  <parametersAndDataPairs id="_UuIJU-RQEeWuZOK2YocvJA" dataTargets="_9N5G9MOGEeWst9mTsticNA _W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_Y7ea4-RNEeWuZOK2YocvJA" dataSetTargets="_FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Y7ea4-RNEeWuZOK2YocvJA" dataTargets="_FoQgpMOGEeWst9mTsticNA">
     <parameterSources>requestData</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_Cu2sE85yEeWFJak7Wqvc0g" dataSetTargets="_W7aTtM5sEeWFJak7Wqvc0g">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Cu2sE85yEeWFJak7Wqvc0g" dataTargets="_W7aTtM5sEeWFJak7Wqvc0g">
     <parameterSources>flights</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_XhR8s85zEeW6RpZqSiINDQ" dataSetTargets="_W7aTtM5sEeWFJak7Wqvc0g">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_XhR8s85zEeW6RpZqSiINDQ" dataTargets="_W7aTtM5sEeWFJak7Wqvc0g">
     <parameterSources>flightOffers</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_DHYO4850EeW6RpZqSiINDQ" dataSetTargets="_FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_DHYO4850EeW6RpZqSiINDQ" dataTargets="_FoQgpMOGEeWst9mTsticNA">
     <parameterSources>requestData</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_SKPxI850EeW6RpZqSiINDQ" dataSetTargets="_EZMjdM5xEeWFJak7Wqvc0g _W7aTtM5sEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_SKPxI850EeW6RpZqSiINDQ" dataTargets="_EZMjdM5xEeWFJak7Wqvc0g _W7aTtM5sEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
     <parameterSources>flightOffer</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_otcRQ850EeW6RpZqSiINDQ" dataSetTargets="__WYS5MOFEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_otcRQ850EeW6RpZqSiINDQ" dataTargets="__WYS5MOFEeWst9mTsticNA">
     <parameterSources>ccd</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_3XZkQM50EeW6RpZqSiINDQ" dataSetTargets="__WYS5MOFEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_3XZkQM50EeW6RpZqSiINDQ" dataTargets="__WYS5MOFEeWst9mTsticNA">
     <parameterSources>ccd</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_Kk7JE851EeW6RpZqSiINDQ" dataSetTargets="_W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Kk7JE851EeW6RpZqSiINDQ" dataTargets="_W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
     <parameterSources>airline</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_fegnE851EeW6RpZqSiINDQ" dataSetTargets="_W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_fegnE851EeW6RpZqSiINDQ" dataTargets="_W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
     <parameterSources>offerId</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_oO43k851EeW6RpZqSiINDQ" dataSetTargets="_9N5G9MOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_oO43k851EeW6RpZqSiINDQ" dataTargets="_9N5G9MOGEeWst9mTsticNA">
     <parameterSources>ccd_decl</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_2eLAw851EeW6RpZqSiINDQ" dataSetTargets="_FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_2eLAw851EeW6RpZqSiINDQ" dataTargets="_FoQgpMOGEeWst9mTsticNA">
     <parameterSources>requestData</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_Dh6HY853EeW6RpZqSiINDQ" dataSetTargets="_W7aTtM5sEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Dh6HY853EeW6RpZqSiINDQ" dataTargets="_W7aTtM5sEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
     <parameterSources>\return</parameterSources>
-  </parametersAndDataSetsPairs>
-  <parametersAndDataSetsPairs id="_bZZg8853EeW6RpZqSiINDQ" dataSetTargets="_W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_bZZg8853EeW6RpZqSiINDQ" dataTargets="_W7aTtM5sEeWFJak7Wqvc0g _EZMjdM5xEeWFJak7Wqvc0g _FoQgpMOGEeWst9mTsticNA">
     <parameterSources>airline</parameterSources>
-  </parametersAndDataSetsPairs>
-  <dataSets id="__WYS5MOFEeWst9mTsticNA" name="CreditCardInformation"/>
-  <dataSets id="_TmShxMOGEeWst9mTsticNA" name="ComissionData"/>
-  <dataSets id="_FoQgpMOGEeWst9mTsticNA" name="TravelData"/>
-  <dataSets id="_9N5G9MOGEeWst9mTsticNA" name="CreditCardInformationDeclassified"/>
-  <dataSets id="_W7aTtM5sEeWFJak7Wqvc0g" name="FlightOffer"/>
-  <dataSets id="_EZMjdM5xEeWFJak7Wqvc0g" name="Selection"/>
+  </parametersAndDataPairs>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="__WYS5MOFEeWst9mTsticNA" name="CreditCardInformation"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_TmShxMOGEeWst9mTsticNA" name="ComissionData"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_FoQgpMOGEeWst9mTsticNA" name="TravelData"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_9N5G9MOGEeWst9mTsticNA" name="CreditCardInformationDeclassified"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_W7aTtM5sEeWFJak7Wqvc0g" name="FlightOffer"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_EZMjdM5xEeWFJak7Wqvc0g" name="Selection"/>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

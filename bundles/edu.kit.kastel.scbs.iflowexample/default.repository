@@ -122,43 +122,43 @@
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ok8ZYM5wEeWFJak7Wqvc0g">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_Cu2sE85yEeWFJak7Wqvc0g"/>
+      <parametersAndDataPairs href="default.confidentiality#_Cu2sE85yEeWFJak7Wqvc0g"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Ub62oM5lEeWFJak7Wqvc0g">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_XhR8s85zEeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_XhR8s85zEeW6RpZqSiINDQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_602gYM5lEeWFJak7Wqvc0g">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_Y7ea4-RNEeWuZOK2YocvJA"/>
+      <parametersAndDataPairs href="default.confidentiality#_Y7ea4-RNEeWuZOK2YocvJA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_GmUUEMN1EeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_SKPxI850EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_SKPxI850EeW6RpZqSiINDQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_N6idsMN3EeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_otcRQ850EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_otcRQ850EeW6RpZqSiINDQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_hAD1sMN6EeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_Kk7JE851EeW6RpZqSiINDQ"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_3XZkQM50EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_Kk7JE851EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_3XZkQM50EeW6RpZqSiINDQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_00dt8MNyEeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_fegnE851EeW6RpZqSiINDQ"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_oO43k851EeW6RpZqSiINDQ"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_UuIJU-RQEeWuZOK2YocvJA"/>
+      <parametersAndDataPairs href="default.confidentiality#_fegnE851EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_oO43k851EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_UuIJU-RQEeWuZOK2YocvJA"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_R6uH4MNyEeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_2eLAw851EeW6RpZqSiINDQ"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_Dh6HY853EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_2eLAw851EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_Dh6HY853EeW6RpZqSiINDQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_JXJqsMN6EeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataSetsPairs href="default.confidentiality#_bZZg8853EeW6RpZqSiINDQ"/>
+      <parametersAndDataPairs href="default.confidentiality#_bZZg8853EeW6RpZqSiINDQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

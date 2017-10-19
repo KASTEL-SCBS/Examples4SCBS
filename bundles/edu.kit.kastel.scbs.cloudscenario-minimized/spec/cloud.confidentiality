@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" id="_KrZmcBXwEeabKfvw_S-vrQ" name="cloud confidentiality specification">
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:edu.kit.kastel.scbs.confidentiality.system="http://edu.kit.kastel.scbs.confidentiality.system" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_KrZmcBXwEeabKfvw_S-vrQ" name="cloud confidentiality specification">
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_yjxBITSFEeaNBONF_yFtJg" name="Self" definingServiceParameter="s"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_6HZxsTSFEeaNBONF_yFtJg" name="Friends" definingServiceParameter="f"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:SpecificationParameter" id="_mP1yIU2DEeaZ-ru15blW9g" name="*"/>
@@ -21,13 +21,17 @@
   </parametersAndDataPairs>
   <addedServiceParameters id="_sXMKJjSFEeaNBONF_yFtJg" name="s"/>
   <specificationParameterAssignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" id="_9guu4DSOEea1eICDPlZMAQ" specificationParametersToReplace="_yjxBITSFEeaNBONF_yFtJg" assignedKey="A"/>
-  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" providedSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" requiredSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
-    <providedInterfaceNames>*</providedInterfaceNames>
-    <requiredInterfaceNames>*</requiredInterfaceNames>
+  <specificationParameterEquations id="_eDZ68G3qEeaTV_gNTVqKQg" leftSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" rightSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
   </specificationParameterEquations>
-  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" providedSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" requiredSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg">
-    <providedInterfaceNames>*</providedInterfaceNames>
-    <requiredInterfaceNames>*</requiredInterfaceNames>
+  <specificationParameterEquations id="_uSOcaW9-EeaG0oMKM0Rwgw" leftSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg" rightSpecificationParameter="_6HZxsTSFEeaNBONF_yFtJg">
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_7pxugNDcEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+  </specificationParameterEquations>
+  <specificationParameterEquations id="_brmqCbKHEeevdIkJq832qw" leftSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg" rightSpecificationParameter="_yjxBITSFEeaNBONF_yFtJg">
+    <leftInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
+    <rightInterfaces xsi:type="repository:OperationInterface" href="../model/cloud.repository#_KxCswNDWEeWt5tzvTAzZ8A"/>
   </specificationParameterEquations>
   <locations id="_31ZCYRXyEeabKfvw_S-vrQ" name="userAHome"/>
   <locations id="_BeJFURXzEeabKfvw_S-vrQ" name="outerZone"/>

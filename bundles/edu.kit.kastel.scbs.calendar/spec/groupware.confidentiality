@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_xaDVQFzZEeevtsfSYnjvkw" name="GroupwareSpec">
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_zY5AgFzZEeevtsfSYnjvkw" name="high"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_0cytgFzZEeevtsfSYnjvkw" name="low"/>
-  <parametersAndDataPairs id="_3ZkApVzZEeevtsfSYnjvkw" dataTargets="_0cytgFzZEeevtsfSYnjvkw">
-    <parameterSources>*</parameterSources>
-  </parametersAndDataPairs>
-  <parametersAndDataPairs id="_6NwmlVzZEeevtsfSYnjvkw" dataTargets="_0cytgFzZEeevtsfSYnjvkw">
-    <parameterSources>entryID</parameterSources>
-  </parametersAndDataPairs>
-  <parametersAndDataPairs id="_9rZyJVzZEeevtsfSYnjvkw" dataTargets="_zY5AgFzZEeevtsfSYnjvkw">
-    <parameterSources>\return</parameterSources>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_zY5AgFzZEeevtsfSYnjvkw" name="metadata"/>
+  <parametersAndDataPairs id="_9rZyJVzZEeevtsfSYnjvkw" name="id2metadata" dataTargets="_zY5AgFzZEeevtsfSYnjvkw">
+    <parameterSources>id</parameterSources>
   </parametersAndDataPairs>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

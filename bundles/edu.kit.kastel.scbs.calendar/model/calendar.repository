@@ -34,13 +34,8 @@
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kmsZjVzDEeekO6EMIkPFWQ" entityName="TS"/>
   </repository:Repository>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_qsng0FzBEeekO6EMIkPFWQ">
-      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataPairs href="../spec/groupware.confidentiality#_3ZkApVzZEeevtsfSYnjvkw"/>
-    </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_EmXbIFzEEeekO6EMIkPFWQ">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
-      <parametersAndDataPairs href="../spec/groupware.confidentiality#_6NwmlVzZEeevtsfSYnjvkw"/>
       <parametersAndDataPairs href="../spec/groupware.confidentiality#_9rZyJVzZEeevtsfSYnjvkw"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>

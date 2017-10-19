@@ -1,28 +1,28 @@
 
-/** BEGIN resourceEnvironment, ID: '54', NAME: 'aName' */
-description(54,'aName','resourceEnvironment').
-resourceEnvironment(54).
-linkingResources(54,[55]).
-resourceContainer(54,[56,57]).
+/** BEGIN resourceEnvironment, ID: '60', NAME: 'aName' */
+description(60,'aName','resourceEnvironment').
+resourceEnvironment(60).
+linkingResources(60,[61]).
+resourceContainer(60,[62,63]).
 
-/** BEGIN linkingResource, ID: '55', NAME: 'Internet' */
-description(55,'Internet','linkingResource').
-linkingResource(55).
-connectedResourceContainers(55,[57,56]).
-communicationLinkResourceSpecifications(55,[]).
-/** END linkingResource, ID: '55', NAME: 'Internet' */
-
-
-/** BEGIN resourceContainer, ID: '56', NAME: 'CloudContainer' */
-description(56,'CloudContainer','resourceContainer').
-resourceContainer(56).
-/** END resourceContainer, ID: '56', NAME: 'CloudContainer' */
+/** BEGIN linkingResource, ID: '61', NAME: 'Internet' */
+description(61,'Internet','linkingResource').
+linkingResource(61).
+connectedResourceContainers(61,[63,62]).
+communicationLinkResourceSpecifications(61,[]).
+/** END linkingResource, ID: '61', NAME: 'Internet' */
 
 
-/** BEGIN resourceContainer, ID: '57', NAME: 'UserContainer' */
-description(57,'UserContainer','resourceContainer').
-resourceContainer(57).
-/** END resourceContainer, ID: '57', NAME: 'UserContainer' */
+/** BEGIN resourceContainer, ID: '62', NAME: 'CloudContainer' */
+description(62,'CloudContainer','resourceContainer').
+resourceContainer(62).
+/** END resourceContainer, ID: '62', NAME: 'CloudContainer' */
 
-/** END resourceEnvironment, ID: '54', NAME: 'aName' */
+
+/** BEGIN resourceContainer, ID: '63', NAME: 'UserContainer' */
+description(63,'UserContainer','resourceContainer').
+resourceContainer(63).
+/** END resourceContainer, ID: '63', NAME: 'UserContainer' */
+
+/** END resourceEnvironment, ID: '60', NAME: 'aName' */
 

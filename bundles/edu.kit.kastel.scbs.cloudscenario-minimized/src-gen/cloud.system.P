@@ -1,50 +1,50 @@
 
-/** BEGIN system, ID: '51', NAME: 'defaultSystem' */
-description(51,'defaultSystem','system').
-system(51).
-assemblyContexts(51,[52,53]).
-connectors(51,[54,55]).
-providedRoles(51,[56]).
-requiredRoles(51,[]).
+/** BEGIN system, ID: '52', NAME: 'defaultSystem' */
+description(52,'defaultSystem','system').
+system(52).
+assemblyContexts(52,[53,54]).
+connectors(52,[55,56]).
+providedRoles(52,[57]).
+requiredRoles(52,[]).
 
-/** BEGIN assemblyContext, ID: '52', NAME: 'LoadBalancer' */
-description(52,'LoadBalancer','assemblyContext').
-assemblyContext(52).
-encapsulatedComponent(52,[33]).
-/** END assemblyContext, ID: '52', NAME: 'LoadBalancer' */
-
-
-/** BEGIN assemblyContext, ID: '53', NAME: 'FileManagerA' */
-description(53,'FileManagerA','assemblyContext').
+/** BEGIN assemblyContext, ID: '53', NAME: 'LoadBalancer' */
+description(53,'LoadBalancer','assemblyContext').
 assemblyContext(53).
-encapsulatedComponent(53,[32]).
-/** END assemblyContext, ID: '53', NAME: 'FileManagerA' */
+encapsulatedComponent(53,[36]).
+/** END assemblyContext, ID: '53', NAME: 'LoadBalancer' */
 
 
-/** BEGIN assemblyConnector, ID: '54', NAME: 'Connector FileManagerA -> LoadBalancer' */
-description(54,'Connector FileManagerA -> LoadBalancer','assemblyConnector').
-assemblyConnector(54).
-requiringAssemblyContext(54,[53]).
-providingAssemblyContext(54,[52]).
-providedRole(54,[38]).
-requiredRole(54,[37]).
-/** END assemblyConnector, ID: '54', NAME: 'Connector FileManagerA -> LoadBalancer' */
+/** BEGIN assemblyContext, ID: '54', NAME: 'FileManagerA' */
+description(54,'FileManagerA','assemblyContext').
+assemblyContext(54).
+encapsulatedComponent(54,[35]).
+/** END assemblyContext, ID: '54', NAME: 'FileManagerA' */
 
 
-/** BEGIN providedDelegationConnector, ID: '55', NAME: 'sysProvFMG2FMA' */
-description(55,'sysProvFMG2FMA','providedDelegationConnector').
-providedDelegationConnector(55).
-innerProvidedRole(55,[36]).
-outerProvidedRole(55,[56]).
-assemblyContext(55,[53]).
-/** END providedDelegationConnector, ID: '55', NAME: 'sysProvFMG2FMA' */
+/** BEGIN assemblyConnector, ID: '55', NAME: 'Connector FileManagerA -> LoadBalancer' */
+description(55,'Connector FileManagerA -> LoadBalancer','assemblyConnector').
+assemblyConnector(55).
+requiringAssemblyContext(55,[54]).
+providingAssemblyContext(55,[53]).
+providedRole(55,[39]).
+requiredRole(55,[38]).
+/** END assemblyConnector, ID: '55', NAME: 'Connector FileManagerA -> LoadBalancer' */
 
 
-/** BEGIN operationProvidedRole, ID: '56', NAME: 'SysProvRoleFileManGUI' */
-description(56,'SysProvRoleFileManGUI','operationProvidedRole').
-operationProvidedRole(56).
-providedInterface(56,[34]).
-/** END operationProvidedRole, ID: '56', NAME: 'SysProvRoleFileManGUI' */
+/** BEGIN providedDelegationConnector, ID: '56', NAME: 'sysProvFMG2FMA' */
+description(56,'sysProvFMG2FMA','providedDelegationConnector').
+providedDelegationConnector(56).
+innerProvidedRole(56,[37]).
+outerProvidedRole(56,[57]).
+assemblyContext(56,[54]).
+/** END providedDelegationConnector, ID: '56', NAME: 'sysProvFMG2FMA' */
 
-/** END system, ID: '51', NAME: 'defaultSystem' */
+
+/** BEGIN operationProvidedRole, ID: '57', NAME: 'SysProvRoleFileManGUI' */
+description(57,'SysProvRoleFileManGUI','operationProvidedRole').
+operationProvidedRole(57).
+providedInterface(57,[26]).
+/** END operationProvidedRole, ID: '57', NAME: 'SysProvRoleFileManGUI' */
+
+/** END system, ID: '52', NAME: 'defaultSystem' */
 

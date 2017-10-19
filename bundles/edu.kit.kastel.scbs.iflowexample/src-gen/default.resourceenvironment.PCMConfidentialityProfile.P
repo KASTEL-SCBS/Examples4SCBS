@@ -1,90 +1,90 @@
 
-/** BEGIN encryption, ID: '58', NAME: 'null' */
-description(58,'null','encryption').
-unencryptedData(58,[]).
-/** END encryption, ID: '58', NAME: 'null' */
+/** BEGIN encryption, ID: '134', NAME: 'null' */
+description(134,'null','encryption').
+unencryptedData(134,[]).
+/** END encryption, ID: '134', NAME: 'null' */
 
 
-/** BEGIN encryption, ID: '59', NAME: 'null' */
-description(59,'null','encryption').
-unencryptedData(59,[]).
-/** END encryption, ID: '59', NAME: 'null' */
+/** BEGIN encryption, ID: '135', NAME: 'null' */
+description(135,'null','encryption').
+unencryptedData(135,[]).
+/** END encryption, ID: '135', NAME: 'null' */
 
 
-/** BEGIN encryption, ID: '60', NAME: 'null' */
-description(60,'null','encryption').
-unencryptedData(60,[]).
-/** END encryption, ID: '60', NAME: 'null' */
+/** BEGIN encryption, ID: '136', NAME: 'null' */
+description(136,'null','encryption').
+unencryptedData(136,[]).
+/** END encryption, ID: '136', NAME: 'null' */
 
 
-/** BEGIN furtherPhysicalConnections, ID: '61', NAME: 'null' */
-description(61,'null','furtherPhysicalConnections').
-connectionType(61,[possible]).
-/** END furtherPhysicalConnections, ID: '61', NAME: 'null' */
+/** BEGIN furtherPhysicalConnections, ID: '137', NAME: 'null' */
+description(137,'null','furtherPhysicalConnections').
+connectionType(137,[possible]).
+/** END furtherPhysicalConnections, ID: '137', NAME: 'null' */
 
 
-/** BEGIN sharing, ID: '61', NAME: 'null' */
-description(61,'null','sharing').
-sharing(61,[shared]).
-/** END sharing, ID: '61', NAME: 'null' */
+/** BEGIN sharing, ID: '137', NAME: 'null' */
+description(137,'null','sharing').
+sharing(137,[shared]).
+/** END sharing, ID: '137', NAME: 'null' */
 
 
-/** BEGIN furtherPhysicalConnections, ID: '62', NAME: 'null' */
-description(62,'null','furtherPhysicalConnections').
-connectionType(62,[possible]).
-/** END furtherPhysicalConnections, ID: '62', NAME: 'null' */
+/** BEGIN furtherPhysicalConnections, ID: '138', NAME: 'null' */
+description(138,'null','furtherPhysicalConnections').
+connectionType(138,[possible]).
+/** END furtherPhysicalConnections, ID: '138', NAME: 'null' */
 
 
-/** BEGIN sharing, ID: '62', NAME: 'null' */
-description(62,'null','sharing').
-sharing(62,[shared]).
-/** END sharing, ID: '62', NAME: 'null' */
+/** BEGIN sharing, ID: '138', NAME: 'null' */
+description(138,'null','sharing').
+sharing(138,[shared]).
+/** END sharing, ID: '138', NAME: 'null' */
 
 
-/** BEGIN furtherPhysicalConnections, ID: '63', NAME: 'null' */
-description(63,'null','furtherPhysicalConnections').
-connectionType(63,[possible]).
-/** END furtherPhysicalConnections, ID: '63', NAME: 'null' */
+/** BEGIN furtherPhysicalConnections, ID: '139', NAME: 'null' */
+description(139,'null','furtherPhysicalConnections').
+connectionType(139,[possible]).
+/** END furtherPhysicalConnections, ID: '139', NAME: 'null' */
 
 
-/** BEGIN sharing, ID: '63', NAME: 'null' */
-description(63,'null','sharing').
-sharing(63,[shared]).
-/** END sharing, ID: '63', NAME: 'null' */
+/** BEGIN sharing, ID: '139', NAME: 'null' */
+description(139,'null','sharing').
+sharing(139,[shared]).
+/** END sharing, ID: '139', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '63', NAME: 'null' */
-description(63,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(63,[64]).
-/** END locationAndTamperProtection, ID: '63', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '139', NAME: 'null' */
+description(139,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(139,[30]).
+/** END locationAndTamperProtection, ID: '139', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '62', NAME: 'null' */
-description(62,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(62,[65]).
-/** END locationAndTamperProtection, ID: '62', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '138', NAME: 'null' */
+description(138,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(138,[28]).
+/** END locationAndTamperProtection, ID: '138', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '61', NAME: 'null' */
-description(61,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(61,[66]).
-/** END locationAndTamperProtection, ID: '61', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '137', NAME: 'null' */
+description(137,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(137,[29]).
+/** END locationAndTamperProtection, ID: '137', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '60', NAME: 'null' */
-description(60,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(60,[67]).
-/** END locationAndTamperProtection, ID: '60', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '136', NAME: 'null' */
+description(136,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(136,[31]).
+/** END locationAndTamperProtection, ID: '136', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '59', NAME: 'null' */
-description(59,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(59,[68,69]).
-/** END locationAndTamperProtection, ID: '59', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '135', NAME: 'null' */
+description(135,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(135,[32,33]).
+/** END locationAndTamperProtection, ID: '135', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '58', NAME: 'null' */
-description(58,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(58,[69]).
-/** END locationAndTamperProtection, ID: '58', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '134', NAME: 'null' */
+description(134,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(134,[33]).
+/** END locationAndTamperProtection, ID: '134', NAME: 'null' */
 

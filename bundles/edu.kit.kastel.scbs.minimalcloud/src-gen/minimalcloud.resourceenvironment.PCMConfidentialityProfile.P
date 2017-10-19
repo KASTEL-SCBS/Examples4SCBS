@@ -1,36 +1,36 @@
 
-/** BEGIN locationAndTamperProtection, ID: '55', NAME: 'null' */
-description(55,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(55,[19]).
-/** END locationAndTamperProtection, ID: '55', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '61', NAME: 'null' */
+description(61,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(61,[64]).
+/** END locationAndTamperProtection, ID: '61', NAME: 'null' */
 
 
-/** BEGIN sharing, ID: '56', NAME: 'null' */
-description(56,'null','sharing').
-sharing(56,[exclusive]).
-/** END sharing, ID: '56', NAME: 'null' */
+/** BEGIN sharing, ID: '62', NAME: 'null' */
+description(62,'null','sharing').
+sharing(62,[exclusive]).
+/** END sharing, ID: '62', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '56', NAME: 'null' */
-description(56,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(56,[18]).
-/** END locationAndTamperProtection, ID: '56', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '62', NAME: 'null' */
+description(62,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(62,[65]).
+/** END locationAndTamperProtection, ID: '62', NAME: 'null' */
 
 
-/** BEGIN furtherPhysicalConnections, ID: '56', NAME: 'null' */
-description(56,'null','furtherPhysicalConnections').
-connectionType(56,[possible]).
-/** END furtherPhysicalConnections, ID: '56', NAME: 'null' */
+/** BEGIN furtherPhysicalConnections, ID: '62', NAME: 'null' */
+description(62,'null','furtherPhysicalConnections').
+connectionType(62,[possible]).
+/** END furtherPhysicalConnections, ID: '62', NAME: 'null' */
 
 
-/** BEGIN sharing, ID: '57', NAME: 'null' */
-description(57,'null','sharing').
-sharing(57,[shared]).
-/** END sharing, ID: '57', NAME: 'null' */
+/** BEGIN sharing, ID: '63', NAME: 'null' */
+description(63,'null','sharing').
+sharing(63,[shared]).
+/** END sharing, ID: '63', NAME: 'null' */
 
 
-/** BEGIN locationAndTamperProtection, ID: '57', NAME: 'null' */
-description(57,'null','locationAndTamperProtection').
-locationsAndTamperProtectionsPairs(57,[]).
-/** END locationAndTamperProtection, ID: '57', NAME: 'null' */
+/** BEGIN locationAndTamperProtection, ID: '63', NAME: 'null' */
+description(63,'null','locationAndTamperProtection').
+locationsAndTamperProtectionsPairs(63,[]).
+/** END locationAndTamperProtection, ID: '63', NAME: 'null' */
 

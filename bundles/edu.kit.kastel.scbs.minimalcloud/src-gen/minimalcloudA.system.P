@@ -1,63 +1,50 @@
 
-/** BEGIN system, ID: '47', NAME: 'minicloudSystem' */
-description(47,'minicloudSystem','system').
-system(47).
-assemblyContexts(47,[48,49]).
-connectors(47,[50,51]).
-providedRoles(47,[52]).
-requiredRoles(47,[]).
+/** BEGIN system, ID: '53', NAME: 'minicloudSystem' */
+description(53,'minicloudSystem','system').
+system(53).
+assemblyContexts(53,[54,55]).
+connectors(53,[56,57]).
+providedRoles(53,[58]).
+requiredRoles(53,[]).
 
-/** BEGIN assemblyContext, ID: '48', NAME: 'Assembly_CloudStorage <CloudStorage>' */
-description(48,'Assembly_CloudStorage <CloudStorage>','assemblyContext').
-assemblyContext(48).
-encapsulatedComponent(48,[29]).
-/** END assemblyContext, ID: '48', NAME: 'Assembly_CloudStorage <CloudStorage>' */
-
-
-/** BEGIN assemblyContext, ID: '49', NAME: 'Assembly_FileManager <FileManager>' */
-description(49,'Assembly_FileManager <FileManager>','assemblyContext').
-assemblyContext(49).
-encapsulatedComponent(49,[28]).
-/** END assemblyContext, ID: '49', NAME: 'Assembly_FileManager <FileManager>' */
+/** BEGIN assemblyContext, ID: '54', NAME: 'Assembly_CloudStorage <CloudStorage>' */
+description(54,'Assembly_CloudStorage <CloudStorage>','assemblyContext').
+assemblyContext(54).
+encapsulatedComponent(54,[25]).
+/** END assemblyContext, ID: '54', NAME: 'Assembly_CloudStorage <CloudStorage>' */
 
 
-/** BEGIN assemblyConnector, ID: '50', NAME: 'Connector Assembly_FileManager <FileManager> -> Assembly_CloudStorage <CloudStorage>' */
-description(50,'Connector Assembly_FileManager <FileManager> -> Assembly_CloudStorage <CloudStorage>','assemblyConnector').
-assemblyConnector(50).
-requiringAssemblyContext(50,[49]).
-providingAssemblyContext(50,[48]).
-providedRole(50,[34]).
-requiredRole(50,[33]).
-/** END assemblyConnector, ID: '50', NAME: 'Connector Assembly_FileManager <FileManager> -> Assembly_CloudStorage <CloudStorage>' */
+/** BEGIN assemblyContext, ID: '55', NAME: 'Assembly_FileManager <FileManager>' */
+description(55,'Assembly_FileManager <FileManager>','assemblyContext').
+assemblyContext(55).
+encapsulatedComponent(55,[24]).
+/** END assemblyContext, ID: '55', NAME: 'Assembly_FileManager <FileManager>' */
 
 
-parametersAndDataPair(53).
-
-parameterSources(53,[*,20]).
-
-dataTargets(53,[3]).
-
-
-originalParametersAndDataPair(53,6).
-
-
-connectorSpecificParametersAndDataPairs(50,[53]).
+/** BEGIN assemblyConnector, ID: '56', NAME: 'Connector Assembly_FileManager <FileManager> -> Assembly_CloudStorage <CloudStorage>' */
+description(56,'Connector Assembly_FileManager <FileManager> -> Assembly_CloudStorage <CloudStorage>','assemblyConnector').
+assemblyConnector(56).
+requiringAssemblyContext(56,[55]).
+providingAssemblyContext(56,[54]).
+providedRole(56,[30]).
+requiredRole(56,[29]).
+/** END assemblyConnector, ID: '56', NAME: 'Connector Assembly_FileManager <FileManager> -> Assembly_CloudStorage <CloudStorage>' */
 
 
-/** BEGIN providedDelegationConnector, ID: '51', NAME: 'ProvDelegation Provided_GUI -> Provided_GUI_FileManager' */
-description(51,'ProvDelegation Provided_GUI -> Provided_GUI_FileManager','providedDelegationConnector').
-providedDelegationConnector(51).
-innerProvidedRole(51,[32]).
-outerProvidedRole(51,[52]).
-assemblyContext(51,[49]).
-/** END providedDelegationConnector, ID: '51', NAME: 'ProvDelegation Provided_GUI -> Provided_GUI_FileManager' */
+/** BEGIN providedDelegationConnector, ID: '57', NAME: 'ProvDelegation Provided_GUI -> Provided_GUI_FileManager' */
+description(57,'ProvDelegation Provided_GUI -> Provided_GUI_FileManager','providedDelegationConnector').
+providedDelegationConnector(57).
+innerProvidedRole(57,[28]).
+outerProvidedRole(57,[58]).
+assemblyContext(57,[55]).
+/** END providedDelegationConnector, ID: '57', NAME: 'ProvDelegation Provided_GUI -> Provided_GUI_FileManager' */
 
 
-/** BEGIN operationProvidedRole, ID: '52', NAME: 'Provided_GUI' */
-description(52,'Provided_GUI','operationProvidedRole').
-operationProvidedRole(52).
-providedInterface(52,[31]).
-/** END operationProvidedRole, ID: '52', NAME: 'Provided_GUI' */
+/** BEGIN operationProvidedRole, ID: '58', NAME: 'Provided_GUI' */
+description(58,'Provided_GUI','operationProvidedRole').
+operationProvidedRole(58).
+providedInterface(58,[27]).
+/** END operationProvidedRole, ID: '58', NAME: 'Provided_GUI' */
 
-/** END system, ID: '47', NAME: 'minicloudSystem' */
+/** END system, ID: '53', NAME: 'minicloudSystem' */
 

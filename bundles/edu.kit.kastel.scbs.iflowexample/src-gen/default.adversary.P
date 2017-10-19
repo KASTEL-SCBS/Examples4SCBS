@@ -1,0 +1,31 @@
+
+/** BEGIN adversaries, ID: '42', NAME: 'null' */
+description(42,'null','adversaries').
+adversaries(42).
+adversaries(42,[43,44,45]).
+
+/** BEGIN adversary, ID: '43', NAME: 'User' */
+description(43,'User','adversary').
+adversary(43).
+mayKnowData(43,[2,5,6,7,4]).
+locationsAndTamperProtectionsPairs(43,[30,31,32]).
+/** END adversary, ID: '43', NAME: 'User' */
+
+
+/** BEGIN adversary, ID: '44', NAME: 'Airline' */
+description(44,'Airline','adversary').
+adversary(44).
+mayKnowData(44,[5,6,7,4]).
+locationsAndTamperProtectionsPairs(44,[28]).
+/** END adversary, ID: '44', NAME: 'Airline' */
+
+
+/** BEGIN adversary, ID: '45', NAME: 'TravelAgency' */
+description(45,'TravelAgency','adversary').
+adversary(45).
+mayKnowData(45,[6,4]).
+locationsAndTamperProtectionsPairs(45,[29]).
+/** END adversary, ID: '45', NAME: 'TravelAgency' */
+
+/** END adversaries, ID: '42', NAME: 'null' */
+

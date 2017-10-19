@@ -1,1740 +1,1740 @@
 
-/** BEGIN repository, ID: '42', NAME: 'cloudRepository' */
-description(42,'cloudRepository','repository').
-repository(42).
-components(42,[43,44,45,46,47,48,49,50,51,52,53,54,55]).
-interfaces(42,[56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]).
+/** BEGIN repository, ID: '69', NAME: 'cloudRepository' */
+description(69,'cloudRepository','repository').
+repository(69).
+components(69,[70,71,72,73,74,75,76,77,78,79,80,81,82]).
+interfaces(69,[49,57,59,60,51,53,48,58,46,45,52,47,54,50,56,55]).
 
-/** BEGIN basicComponent, ID: '43', NAME: 'DBAdminTool' */
-description(43,'DBAdminTool','basicComponent').
-basicComponent(43).
-providedRoles(43,[72]).
-requiredRoles(43,[73,74,75]).
+/** BEGIN basicComponent, ID: '70', NAME: 'DBAdminTool' */
+description(70,'DBAdminTool','basicComponent').
+basicComponent(70).
+providedRoles(70,[83]).
+requiredRoles(70,[84,85,86]).
 
-/** BEGIN operationProvidedRole, ID: '72', NAME: 'Provided_IDBAdminTool_DBAdminTool' */
-description(72,'Provided_IDBAdminTool_DBAdminTool','operationProvidedRole').
-operationProvidedRole(72).
-providedInterface(72,[56]).
-/** END operationProvidedRole, ID: '72', NAME: 'Provided_IDBAdminTool_DBAdminTool' */
-
-
-/** BEGIN operationRequiredRole, ID: '73', NAME: 'Required_ISQL_AdminTool' */
-description(73,'Required_ISQL_AdminTool','operationRequiredRole').
-operationRequiredRole(73).
-requiredInterface(73,[57]).
-/** END operationRequiredRole, ID: '73', NAME: 'Required_ISQL_AdminTool' */
+/** BEGIN operationProvidedRole, ID: '83', NAME: 'Provided_IDBAdminTool_DBAdminTool' */
+description(83,'Provided_IDBAdminTool_DBAdminTool','operationProvidedRole').
+operationProvidedRole(83).
+providedInterface(83,[49]).
+/** END operationProvidedRole, ID: '83', NAME: 'Provided_IDBAdminTool_DBAdminTool' */
 
 
-/** BEGIN operationRequiredRole, ID: '74', NAME: 'Required_LogReader_AdminTool' */
-description(74,'Required_LogReader_AdminTool','operationRequiredRole').
-operationRequiredRole(74).
-requiredInterface(74,[58]).
-/** END operationRequiredRole, ID: '74', NAME: 'Required_LogReader_AdminTool' */
-
-
-/** BEGIN operationRequiredRole, ID: '75', NAME: 'Required_LogWriter_DBAdminTool' */
-description(75,'Required_LogWriter_DBAdminTool','operationRequiredRole').
-operationRequiredRole(75).
-requiredInterface(75,[59]).
-/** END operationRequiredRole, ID: '75', NAME: 'Required_LogWriter_DBAdminTool' */
-
-/** END basicComponent, ID: '43', NAME: 'DBAdminTool' */
-
-
-/** BEGIN basicComponent, ID: '44', NAME: 'Database' */
-description(44,'Database','basicComponent').
-basicComponent(44).
-providedRoles(44,[76]).
-requiredRoles(44,[77]).
-
-/** BEGIN operationProvidedRole, ID: '76', NAME: 'Provided_ISQL_Database' */
-description(76,'Provided_ISQL_Database','operationProvidedRole').
-operationProvidedRole(76).
-providedInterface(76,[57]).
-/** END operationProvidedRole, ID: '76', NAME: 'Provided_ISQL_Database' */
-
-
-/** BEGIN operationRequiredRole, ID: '77', NAME: 'Required_LogWriter_Database' */
-description(77,'Required_LogWriter_Database','operationRequiredRole').
-operationRequiredRole(77).
-requiredInterface(77,[59]).
-/** END operationRequiredRole, ID: '77', NAME: 'Required_LogWriter_Database' */
-
-/** END basicComponent, ID: '44', NAME: 'Database' */
-
-
-/** BEGIN basicComponent, ID: '45', NAME: 'Logging' */
-description(45,'Logging','basicComponent').
-basicComponent(45).
-providedRoles(45,[78,79]).
-requiredRoles(45,[]).
-
-/** BEGIN operationProvidedRole, ID: '78', NAME: 'Provided_LogReader_Logging' */
-description(78,'Provided_LogReader_Logging','operationProvidedRole').
-operationProvidedRole(78).
-providedInterface(78,[58]).
-/** END operationProvidedRole, ID: '78', NAME: 'Provided_LogReader_Logging' */
-
-
-/** BEGIN operationProvidedRole, ID: '79', NAME: 'Provided_LogWriter_Logging' */
-description(79,'Provided_LogWriter_Logging','operationProvidedRole').
-operationProvidedRole(79).
-providedInterface(79,[59]).
-/** END operationProvidedRole, ID: '79', NAME: 'Provided_LogWriter_Logging' */
-
-/** END basicComponent, ID: '45', NAME: 'Logging' */
-
-
-/** BEGIN basicComponent, ID: '46', NAME: 'OwnCloud' */
-description(46,'OwnCloud','basicComponent').
-basicComponent(46).
-providedRoles(46,[80,81]).
-requiredRoles(46,[82,83,84]).
-
-/** BEGIN operationProvidedRole, ID: '80', NAME: 'Provided_IWebDAV_OwnCloud' */
-description(80,'Provided_IWebDAV_OwnCloud','operationProvidedRole').
-operationProvidedRole(80).
-providedInterface(80,[61]).
-/** END operationProvidedRole, ID: '80', NAME: 'Provided_IWebDAV_OwnCloud' */
-
-
-/** BEGIN operationProvidedRole, ID: '81', NAME: 'Provided_ICalDAV_OwnCloud' */
-description(81,'Provided_ICalDAV_OwnCloud','operationProvidedRole').
-operationProvidedRole(81).
-providedInterface(81,[62]).
-/** END operationProvidedRole, ID: '81', NAME: 'Provided_ICalDAV_OwnCloud' */
-
-
-/** BEGIN operationRequiredRole, ID: '82', NAME: 'Required_ISQL_OwnCloud' */
-description(82,'Required_ISQL_OwnCloud','operationRequiredRole').
-operationRequiredRole(82).
-requiredInterface(82,[57]).
-/** END operationRequiredRole, ID: '82', NAME: 'Required_ISQL_OwnCloud' */
-
-
-/** BEGIN operationRequiredRole, ID: '83', NAME: 'Required_INetworkFilesystem_OwnCloud' */
-description(83,'Required_INetworkFilesystem_OwnCloud','operationRequiredRole').
-operationRequiredRole(83).
-requiredInterface(83,[60]).
-/** END operationRequiredRole, ID: '83', NAME: 'Required_INetworkFilesystem_OwnCloud' */
-
-
-/** BEGIN operationRequiredRole, ID: '84', NAME: 'Required_LogWriter_OwnCloud' */
-description(84,'Required_LogWriter_OwnCloud','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '84', NAME: 'Required_ISQL_AdminTool' */
+description(84,'Required_ISQL_AdminTool','operationRequiredRole').
 operationRequiredRole(84).
-requiredInterface(84,[59]).
-/** END operationRequiredRole, ID: '84', NAME: 'Required_LogWriter_OwnCloud' */
-
-/** END basicComponent, ID: '46', NAME: 'OwnCloud' */
+requiredInterface(84,[57]).
+/** END operationRequiredRole, ID: '84', NAME: 'Required_ISQL_AdminTool' */
 
 
-/** BEGIN basicComponent, ID: '47', NAME: 'NetworkFilesystem' */
-description(47,'NetworkFilesystem','basicComponent').
-basicComponent(47).
-providedRoles(47,[85]).
-requiredRoles(47,[86]).
-
-/** BEGIN operationProvidedRole, ID: '85', NAME: 'Provided_INetworkFilesystem_NetworkFilesystem' */
-description(85,'Provided_INetworkFilesystem_NetworkFilesystem','operationProvidedRole').
-operationProvidedRole(85).
-providedInterface(85,[60]).
-/** END operationProvidedRole, ID: '85', NAME: 'Provided_INetworkFilesystem_NetworkFilesystem' */
+/** BEGIN operationRequiredRole, ID: '85', NAME: 'Required_LogReader_AdminTool' */
+description(85,'Required_LogReader_AdminTool','operationRequiredRole').
+operationRequiredRole(85).
+requiredInterface(85,[59]).
+/** END operationRequiredRole, ID: '85', NAME: 'Required_LogReader_AdminTool' */
 
 
-/** BEGIN operationRequiredRole, ID: '86', NAME: 'Required_LogWriter_NetworkFilesystem' */
-description(86,'Required_LogWriter_NetworkFilesystem','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '86', NAME: 'Required_LogWriter_DBAdminTool' */
+description(86,'Required_LogWriter_DBAdminTool','operationRequiredRole').
 operationRequiredRole(86).
-requiredInterface(86,[59]).
-/** END operationRequiredRole, ID: '86', NAME: 'Required_LogWriter_NetworkFilesystem' */
+requiredInterface(86,[60]).
+/** END operationRequiredRole, ID: '86', NAME: 'Required_LogWriter_DBAdminTool' */
 
-/** END basicComponent, ID: '47', NAME: 'NetworkFilesystem' */
+/** END basicComponent, ID: '70', NAME: 'DBAdminTool' */
 
 
-/** BEGIN basicComponent, ID: '48', NAME: 'LoadBalancer' */
-description(48,'LoadBalancer','basicComponent').
-basicComponent(48).
-providedRoles(48,[87,88,89,90,91]).
-requiredRoles(48,[92,93,94]).
+/** BEGIN basicComponent, ID: '71', NAME: 'Database' */
+description(71,'Database','basicComponent').
+basicComponent(71).
+providedRoles(71,[87]).
+requiredRoles(71,[88]).
 
-/** BEGIN operationProvidedRole, ID: '87', NAME: 'Provided_IWebDAV_LoadBalancer' */
-description(87,'Provided_IWebDAV_LoadBalancer','operationProvidedRole').
+/** BEGIN operationProvidedRole, ID: '87', NAME: 'Provided_ISQL_Database' */
+description(87,'Provided_ISQL_Database','operationProvidedRole').
 operationProvidedRole(87).
-providedInterface(87,[61]).
-/** END operationProvidedRole, ID: '87', NAME: 'Provided_IWebDAV_LoadBalancer' */
+providedInterface(87,[57]).
+/** END operationProvidedRole, ID: '87', NAME: 'Provided_ISQL_Database' */
 
 
-/** BEGIN operationProvidedRole, ID: '88', NAME: 'Provided_ICalDAV_LoadBalancer' */
-description(88,'Provided_ICalDAV_LoadBalancer','operationProvidedRole').
-operationProvidedRole(88).
-providedInterface(88,[62]).
-/** END operationProvidedRole, ID: '88', NAME: 'Provided_ICalDAV_LoadBalancer' */
+/** BEGIN operationRequiredRole, ID: '88', NAME: 'Required_LogWriter_Database' */
+description(88,'Required_LogWriter_Database','operationRequiredRole').
+operationRequiredRole(88).
+requiredInterface(88,[60]).
+/** END operationRequiredRole, ID: '88', NAME: 'Required_LogWriter_Database' */
+
+/** END basicComponent, ID: '71', NAME: 'Database' */
 
 
-/** BEGIN operationProvidedRole, ID: '89', NAME: 'Provided_LoadBalancerMgmtAPI_LoadBalancer' */
-description(89,'Provided_LoadBalancerMgmtAPI_LoadBalancer','operationProvidedRole').
+/** BEGIN basicComponent, ID: '72', NAME: 'Logging' */
+description(72,'Logging','basicComponent').
+basicComponent(72).
+providedRoles(72,[89,90]).
+requiredRoles(72,[]).
+
+/** BEGIN operationProvidedRole, ID: '89', NAME: 'Provided_LogReader_Logging' */
+description(89,'Provided_LogReader_Logging','operationProvidedRole').
 operationProvidedRole(89).
-providedInterface(89,[63]).
-/** END operationProvidedRole, ID: '89', NAME: 'Provided_LoadBalancerMgmtAPI_LoadBalancer' */
+providedInterface(89,[59]).
+/** END operationProvidedRole, ID: '89', NAME: 'Provided_LogReader_Logging' */
 
 
-/** BEGIN operationProvidedRole, ID: '90', NAME: 'Provided_IPublicFileManGUI_LoadBalancer' */
-description(90,'Provided_IPublicFileManGUI_LoadBalancer','operationProvidedRole').
+/** BEGIN operationProvidedRole, ID: '90', NAME: 'Provided_LogWriter_Logging' */
+description(90,'Provided_LogWriter_Logging','operationProvidedRole').
 operationProvidedRole(90).
-providedInterface(90,[70]).
-/** END operationProvidedRole, ID: '90', NAME: 'Provided_IPublicFileManGUI_LoadBalancer' */
+providedInterface(90,[60]).
+/** END operationProvidedRole, ID: '90', NAME: 'Provided_LogWriter_Logging' */
+
+/** END basicComponent, ID: '72', NAME: 'Logging' */
 
 
-/** BEGIN operationProvidedRole, ID: '91', NAME: 'Provided_IPublicCalendarGUI_LoadBalancer' */
-description(91,'Provided_IPublicCalendarGUI_LoadBalancer','operationProvidedRole').
+/** BEGIN basicComponent, ID: '73', NAME: 'OwnCloud' */
+description(73,'OwnCloud','basicComponent').
+basicComponent(73).
+providedRoles(73,[91,92]).
+requiredRoles(73,[93,94,95]).
+
+/** BEGIN operationProvidedRole, ID: '91', NAME: 'Provided_IWebDAV_OwnCloud' */
+description(91,'Provided_IWebDAV_OwnCloud','operationProvidedRole').
 operationProvidedRole(91).
-providedInterface(91,[71]).
-/** END operationProvidedRole, ID: '91', NAME: 'Provided_IPublicCalendarGUI_LoadBalancer' */
+providedInterface(91,[53]).
+/** END operationProvidedRole, ID: '91', NAME: 'Provided_IWebDAV_OwnCloud' */
 
 
-/** BEGIN operationRequiredRole, ID: '92', NAME: 'Required_LogWriter_LoadBalancer' */
-description(92,'Required_LogWriter_LoadBalancer','operationRequiredRole').
-operationRequiredRole(92).
-requiredInterface(92,[59]).
-/** END operationRequiredRole, ID: '92', NAME: 'Required_LogWriter_LoadBalancer' */
+/** BEGIN operationProvidedRole, ID: '92', NAME: 'Provided_ICalDAV_OwnCloud' */
+description(92,'Provided_ICalDAV_OwnCloud','operationProvidedRole').
+operationProvidedRole(92).
+providedInterface(92,[48]).
+/** END operationProvidedRole, ID: '92', NAME: 'Provided_ICalDAV_OwnCloud' */
 
 
-/** BEGIN operationRequiredRole, ID: '93', NAME: 'Required_ICalDAV_LoadBalancer' */
-description(93,'Required_ICalDAV_LoadBalancer','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '93', NAME: 'Required_ISQL_OwnCloud' */
+description(93,'Required_ISQL_OwnCloud','operationRequiredRole').
 operationRequiredRole(93).
-requiredInterface(93,[62]).
-/** END operationRequiredRole, ID: '93', NAME: 'Required_ICalDAV_LoadBalancer' */
+requiredInterface(93,[57]).
+/** END operationRequiredRole, ID: '93', NAME: 'Required_ISQL_OwnCloud' */
 
 
-/** BEGIN operationRequiredRole, ID: '94', NAME: 'Required_IWebDAV_LoadBalancer' */
-description(94,'Required_IWebDAV_LoadBalancer','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '94', NAME: 'Required_INetworkFilesystem_OwnCloud' */
+description(94,'Required_INetworkFilesystem_OwnCloud','operationRequiredRole').
 operationRequiredRole(94).
-requiredInterface(94,[61]).
-/** END operationRequiredRole, ID: '94', NAME: 'Required_IWebDAV_LoadBalancer' */
-
-/** END basicComponent, ID: '48', NAME: 'LoadBalancer' */
+requiredInterface(94,[51]).
+/** END operationRequiredRole, ID: '94', NAME: 'Required_INetworkFilesystem_OwnCloud' */
 
 
-/** BEGIN basicComponent, ID: '49', NAME: 'FileManager' */
-description(49,'FileManager','basicComponent').
-basicComponent(49).
-providedRoles(49,[95]).
-requiredRoles(49,[96]).
+/** BEGIN operationRequiredRole, ID: '95', NAME: 'Required_LogWriter_OwnCloud' */
+description(95,'Required_LogWriter_OwnCloud','operationRequiredRole').
+operationRequiredRole(95).
+requiredInterface(95,[60]).
+/** END operationRequiredRole, ID: '95', NAME: 'Required_LogWriter_OwnCloud' */
 
-/** BEGIN operationProvidedRole, ID: '95', NAME: 'Provided_FileManGUI_FileManager' */
-description(95,'Provided_FileManGUI_FileManager','operationProvidedRole').
-operationProvidedRole(95).
-providedInterface(95,[64]).
-/** END operationProvidedRole, ID: '95', NAME: 'Provided_FileManGUI_FileManager' */
+/** END basicComponent, ID: '73', NAME: 'OwnCloud' */
 
 
-/** BEGIN operationRequiredRole, ID: '96', NAME: 'Required_IWebDAV_FileManager' */
-description(96,'Required_IWebDAV_FileManager','operationRequiredRole').
-operationRequiredRole(96).
-requiredInterface(96,[61]).
-/** END operationRequiredRole, ID: '96', NAME: 'Required_IWebDAV_FileManager' */
+/** BEGIN basicComponent, ID: '74', NAME: 'NetworkFilesystem' */
+description(74,'NetworkFilesystem','basicComponent').
+basicComponent(74).
+providedRoles(74,[96]).
+requiredRoles(74,[97]).
 
-/** END basicComponent, ID: '49', NAME: 'FileManager' */
-
-
-/** BEGIN basicComponent, ID: '50', NAME: 'Calendar' */
-description(50,'Calendar','basicComponent').
-basicComponent(50).
-providedRoles(50,[97]).
-requiredRoles(50,[98]).
-
-/** BEGIN operationProvidedRole, ID: '97', NAME: 'Provided_CalendarGUI_Calendar' */
-description(97,'Provided_CalendarGUI_Calendar','operationProvidedRole').
-operationProvidedRole(97).
-providedInterface(97,[65]).
-/** END operationProvidedRole, ID: '97', NAME: 'Provided_CalendarGUI_Calendar' */
+/** BEGIN operationProvidedRole, ID: '96', NAME: 'Provided_INetworkFilesystem_NetworkFilesystem' */
+description(96,'Provided_INetworkFilesystem_NetworkFilesystem','operationProvidedRole').
+operationProvidedRole(96).
+providedInterface(96,[51]).
+/** END operationProvidedRole, ID: '96', NAME: 'Provided_INetworkFilesystem_NetworkFilesystem' */
 
 
-/** BEGIN operationRequiredRole, ID: '98', NAME: 'Required_ICalDAV_Calendar' */
-description(98,'Required_ICalDAV_Calendar','operationRequiredRole').
-operationRequiredRole(98).
-requiredInterface(98,[62]).
-/** END operationRequiredRole, ID: '98', NAME: 'Required_ICalDAV_Calendar' */
+/** BEGIN operationRequiredRole, ID: '97', NAME: 'Required_LogWriter_NetworkFilesystem' */
+description(97,'Required_LogWriter_NetworkFilesystem','operationRequiredRole').
+operationRequiredRole(97).
+requiredInterface(97,[60]).
+/** END operationRequiredRole, ID: '97', NAME: 'Required_LogWriter_NetworkFilesystem' */
 
-/** END basicComponent, ID: '50', NAME: 'Calendar' */
+/** END basicComponent, ID: '74', NAME: 'NetworkFilesystem' */
 
 
-/** BEGIN basicComponent, ID: '51', NAME: 'NWFSAdminTool' */
-description(51,'NWFSAdminTool','basicComponent').
-basicComponent(51).
-providedRoles(51,[99]).
-requiredRoles(51,[100,101,102]).
+/** BEGIN basicComponent, ID: '75', NAME: 'LoadBalancer' */
+description(75,'LoadBalancer','basicComponent').
+basicComponent(75).
+providedRoles(75,[98,99,100,101,102]).
+requiredRoles(75,[103,104,105]).
 
-/** BEGIN operationProvidedRole, ID: '99', NAME: 'Provided_INWFSAdminTool_NWFSAdminTool' */
-description(99,'Provided_INWFSAdminTool_NWFSAdminTool','operationProvidedRole').
+/** BEGIN operationProvidedRole, ID: '98', NAME: 'Provided_IWebDAV_LoadBalancer' */
+description(98,'Provided_IWebDAV_LoadBalancer','operationProvidedRole').
+operationProvidedRole(98).
+providedInterface(98,[53]).
+/** END operationProvidedRole, ID: '98', NAME: 'Provided_IWebDAV_LoadBalancer' */
+
+
+/** BEGIN operationProvidedRole, ID: '99', NAME: 'Provided_ICalDAV_LoadBalancer' */
+description(99,'Provided_ICalDAV_LoadBalancer','operationProvidedRole').
 operationProvidedRole(99).
-providedInterface(99,[66]).
-/** END operationProvidedRole, ID: '99', NAME: 'Provided_INWFSAdminTool_NWFSAdminTool' */
+providedInterface(99,[48]).
+/** END operationProvidedRole, ID: '99', NAME: 'Provided_ICalDAV_LoadBalancer' */
 
 
-/** BEGIN operationRequiredRole, ID: '100', NAME: 'Required_INetworkFilesystem_NWFSAdminTool' */
-description(100,'Required_INetworkFilesystem_NWFSAdminTool','operationRequiredRole').
-operationRequiredRole(100).
-requiredInterface(100,[60]).
-/** END operationRequiredRole, ID: '100', NAME: 'Required_INetworkFilesystem_NWFSAdminTool' */
+/** BEGIN operationProvidedRole, ID: '100', NAME: 'Provided_LoadBalancerMgmtAPI_LoadBalancer' */
+description(100,'Provided_LoadBalancerMgmtAPI_LoadBalancer','operationProvidedRole').
+operationProvidedRole(100).
+providedInterface(100,[58]).
+/** END operationProvidedRole, ID: '100', NAME: 'Provided_LoadBalancerMgmtAPI_LoadBalancer' */
 
 
-/** BEGIN operationRequiredRole, ID: '101', NAME: 'Required_LogReader_NWFSAdminTool' */
-description(101,'Required_LogReader_NWFSAdminTool','operationRequiredRole').
-operationRequiredRole(101).
-requiredInterface(101,[58]).
-/** END operationRequiredRole, ID: '101', NAME: 'Required_LogReader_NWFSAdminTool' */
+/** BEGIN operationProvidedRole, ID: '101', NAME: 'Provided_IPublicFileManGUI_LoadBalancer' */
+description(101,'Provided_IPublicFileManGUI_LoadBalancer','operationProvidedRole').
+operationProvidedRole(101).
+providedInterface(101,[56]).
+/** END operationProvidedRole, ID: '101', NAME: 'Provided_IPublicFileManGUI_LoadBalancer' */
 
 
-/** BEGIN operationRequiredRole, ID: '102', NAME: 'Required_LogWriter_NWFSAdminTool' */
-description(102,'Required_LogWriter_NWFSAdminTool','operationRequiredRole').
-operationRequiredRole(102).
-requiredInterface(102,[59]).
-/** END operationRequiredRole, ID: '102', NAME: 'Required_LogWriter_NWFSAdminTool' */
-
-/** END basicComponent, ID: '51', NAME: 'NWFSAdminTool' */
+/** BEGIN operationProvidedRole, ID: '102', NAME: 'Provided_IPublicCalendarGUI_LoadBalancer' */
+description(102,'Provided_IPublicCalendarGUI_LoadBalancer','operationProvidedRole').
+operationProvidedRole(102).
+providedInterface(102,[55]).
+/** END operationProvidedRole, ID: '102', NAME: 'Provided_IPublicCalendarGUI_LoadBalancer' */
 
 
-/** BEGIN basicComponent, ID: '52', NAME: 'OCAdminTool' */
-description(52,'OCAdminTool','basicComponent').
-basicComponent(52).
-providedRoles(52,[103]).
-requiredRoles(52,[104,105,106,107]).
-
-/** BEGIN operationProvidedRole, ID: '103', NAME: 'Provided_IOCAdminTool_OwnCloudAdminTool' */
-description(103,'Provided_IOCAdminTool_OwnCloudAdminTool','operationProvidedRole').
-operationProvidedRole(103).
-providedInterface(103,[68]).
-/** END operationProvidedRole, ID: '103', NAME: 'Provided_IOCAdminTool_OwnCloudAdminTool' */
+/** BEGIN operationRequiredRole, ID: '103', NAME: 'Required_LogWriter_LoadBalancer' */
+description(103,'Required_LogWriter_LoadBalancer','operationRequiredRole').
+operationRequiredRole(103).
+requiredInterface(103,[60]).
+/** END operationRequiredRole, ID: '103', NAME: 'Required_LogWriter_LoadBalancer' */
 
 
-/** BEGIN operationRequiredRole, ID: '104', NAME: 'Required_IWebDAV_OwnCloudAdminTool' */
-description(104,'Required_IWebDAV_OwnCloudAdminTool','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '104', NAME: 'Required_ICalDAV_LoadBalancer' */
+description(104,'Required_ICalDAV_LoadBalancer','operationRequiredRole').
 operationRequiredRole(104).
-requiredInterface(104,[61]).
-/** END operationRequiredRole, ID: '104', NAME: 'Required_IWebDAV_OwnCloudAdminTool' */
+requiredInterface(104,[48]).
+/** END operationRequiredRole, ID: '104', NAME: 'Required_ICalDAV_LoadBalancer' */
 
 
-/** BEGIN operationRequiredRole, ID: '105', NAME: 'Required_ICalDAV_OwnCloudAdminTool' */
-description(105,'Required_ICalDAV_OwnCloudAdminTool','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '105', NAME: 'Required_IWebDAV_LoadBalancer' */
+description(105,'Required_IWebDAV_LoadBalancer','operationRequiredRole').
 operationRequiredRole(105).
-requiredInterface(105,[62]).
-/** END operationRequiredRole, ID: '105', NAME: 'Required_ICalDAV_OwnCloudAdminTool' */
+requiredInterface(105,[53]).
+/** END operationRequiredRole, ID: '105', NAME: 'Required_IWebDAV_LoadBalancer' */
+
+/** END basicComponent, ID: '75', NAME: 'LoadBalancer' */
 
 
-/** BEGIN operationRequiredRole, ID: '106', NAME: 'Required_LogReader_OwnCloudAdminTool' */
-description(106,'Required_LogReader_OwnCloudAdminTool','operationRequiredRole').
-operationRequiredRole(106).
-requiredInterface(106,[58]).
-/** END operationRequiredRole, ID: '106', NAME: 'Required_LogReader_OwnCloudAdminTool' */
+/** BEGIN basicComponent, ID: '76', NAME: 'FileManager' */
+description(76,'FileManager','basicComponent').
+basicComponent(76).
+providedRoles(76,[106]).
+requiredRoles(76,[107]).
+
+/** BEGIN operationProvidedRole, ID: '106', NAME: 'Provided_FileManGUI_FileManager' */
+description(106,'Provided_FileManGUI_FileManager','operationProvidedRole').
+operationProvidedRole(106).
+providedInterface(106,[46]).
+/** END operationProvidedRole, ID: '106', NAME: 'Provided_FileManGUI_FileManager' */
 
 
-/** BEGIN operationRequiredRole, ID: '107', NAME: 'Required_LogWriter_OwnCloudAdminTool' */
-description(107,'Required_LogWriter_OwnCloudAdminTool','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '107', NAME: 'Required_IWebDAV_FileManager' */
+description(107,'Required_IWebDAV_FileManager','operationRequiredRole').
 operationRequiredRole(107).
-requiredInterface(107,[59]).
-/** END operationRequiredRole, ID: '107', NAME: 'Required_LogWriter_OwnCloudAdminTool' */
+requiredInterface(107,[53]).
+/** END operationRequiredRole, ID: '107', NAME: 'Required_IWebDAV_FileManager' */
 
-/** END basicComponent, ID: '52', NAME: 'OCAdminTool' */
+/** END basicComponent, ID: '76', NAME: 'FileManager' */
 
 
-/** BEGIN basicComponent, ID: '53', NAME: 'LBAdminTool' */
-description(53,'LBAdminTool','basicComponent').
-basicComponent(53).
-providedRoles(53,[108]).
-requiredRoles(53,[109,110,111]).
+/** BEGIN basicComponent, ID: '77', NAME: 'Calendar' */
+description(77,'Calendar','basicComponent').
+basicComponent(77).
+providedRoles(77,[108]).
+requiredRoles(77,[109]).
 
-/** BEGIN operationProvidedRole, ID: '108', NAME: 'Provided_ILBAdminTool_LBAdminTool' */
-description(108,'Provided_ILBAdminTool_LBAdminTool','operationProvidedRole').
+/** BEGIN operationProvidedRole, ID: '108', NAME: 'Provided_CalendarGUI_Calendar' */
+description(108,'Provided_CalendarGUI_Calendar','operationProvidedRole').
 operationProvidedRole(108).
-providedInterface(108,[69]).
-/** END operationProvidedRole, ID: '108', NAME: 'Provided_ILBAdminTool_LBAdminTool' */
+providedInterface(108,[45]).
+/** END operationProvidedRole, ID: '108', NAME: 'Provided_CalendarGUI_Calendar' */
 
 
-/** BEGIN operationRequiredRole, ID: '109', NAME: 'Required_LoadBalancerMgmtAPI_LBAdminTool' */
-description(109,'Required_LoadBalancerMgmtAPI_LBAdminTool','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '109', NAME: 'Required_ICalDAV_Calendar' */
+description(109,'Required_ICalDAV_Calendar','operationRequiredRole').
 operationRequiredRole(109).
-requiredInterface(109,[63]).
-/** END operationRequiredRole, ID: '109', NAME: 'Required_LoadBalancerMgmtAPI_LBAdminTool' */
+requiredInterface(109,[48]).
+/** END operationRequiredRole, ID: '109', NAME: 'Required_ICalDAV_Calendar' */
+
+/** END basicComponent, ID: '77', NAME: 'Calendar' */
 
 
-/** BEGIN operationRequiredRole, ID: '110', NAME: 'Required_LogReader_LBAdminTool' */
-description(110,'Required_LogReader_LBAdminTool','operationRequiredRole').
-operationRequiredRole(110).
-requiredInterface(110,[58]).
-/** END operationRequiredRole, ID: '110', NAME: 'Required_LogReader_LBAdminTool' */
+/** BEGIN basicComponent, ID: '78', NAME: 'NWFSAdminTool' */
+description(78,'NWFSAdminTool','basicComponent').
+basicComponent(78).
+providedRoles(78,[110]).
+requiredRoles(78,[111,112,113]).
+
+/** BEGIN operationProvidedRole, ID: '110', NAME: 'Provided_INWFSAdminTool_NWFSAdminTool' */
+description(110,'Provided_INWFSAdminTool_NWFSAdminTool','operationProvidedRole').
+operationProvidedRole(110).
+providedInterface(110,[52]).
+/** END operationProvidedRole, ID: '110', NAME: 'Provided_INWFSAdminTool_NWFSAdminTool' */
 
 
-/** BEGIN operationRequiredRole, ID: '111', NAME: 'Required_LogWriter_LBAdminTool' */
-description(111,'Required_LogWriter_LBAdminTool','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '111', NAME: 'Required_INetworkFilesystem_NWFSAdminTool' */
+description(111,'Required_INetworkFilesystem_NWFSAdminTool','operationRequiredRole').
 operationRequiredRole(111).
-requiredInterface(111,[59]).
-/** END operationRequiredRole, ID: '111', NAME: 'Required_LogWriter_LBAdminTool' */
-
-/** END basicComponent, ID: '53', NAME: 'LBAdminTool' */
+requiredInterface(111,[51]).
+/** END operationRequiredRole, ID: '111', NAME: 'Required_INetworkFilesystem_NWFSAdminTool' */
 
 
-/** BEGIN basicComponent, ID: '54', NAME: 'PublicFileManager' */
-description(54,'PublicFileManager','basicComponent').
-basicComponent(54).
-providedRoles(54,[112]).
-requiredRoles(54,[113]).
-
-/** BEGIN operationProvidedRole, ID: '112', NAME: 'Provided_PublicFileManGUI_PublicFileManager' */
-description(112,'Provided_PublicFileManGUI_PublicFileManager','operationProvidedRole').
-operationProvidedRole(112).
-providedInterface(112,[70]).
-/** END operationProvidedRole, ID: '112', NAME: 'Provided_PublicFileManGUI_PublicFileManager' */
+/** BEGIN operationRequiredRole, ID: '112', NAME: 'Required_LogReader_NWFSAdminTool' */
+description(112,'Required_LogReader_NWFSAdminTool','operationRequiredRole').
+operationRequiredRole(112).
+requiredInterface(112,[59]).
+/** END operationRequiredRole, ID: '112', NAME: 'Required_LogReader_NWFSAdminTool' */
 
 
-/** BEGIN operationRequiredRole, ID: '113', NAME: 'Required_IWebDAV_PublicFileManager' */
-description(113,'Required_IWebDAV_PublicFileManager','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '113', NAME: 'Required_LogWriter_NWFSAdminTool' */
+description(113,'Required_LogWriter_NWFSAdminTool','operationRequiredRole').
 operationRequiredRole(113).
-requiredInterface(113,[61]).
-/** END operationRequiredRole, ID: '113', NAME: 'Required_IWebDAV_PublicFileManager' */
+requiredInterface(113,[60]).
+/** END operationRequiredRole, ID: '113', NAME: 'Required_LogWriter_NWFSAdminTool' */
 
-/** END basicComponent, ID: '54', NAME: 'PublicFileManager' */
+/** END basicComponent, ID: '78', NAME: 'NWFSAdminTool' */
 
 
-/** BEGIN basicComponent, ID: '55', NAME: 'PublicCalendar' */
-description(55,'PublicCalendar','basicComponent').
-basicComponent(55).
-providedRoles(55,[114]).
-requiredRoles(55,[115]).
+/** BEGIN basicComponent, ID: '79', NAME: 'OCAdminTool' */
+description(79,'OCAdminTool','basicComponent').
+basicComponent(79).
+providedRoles(79,[114]).
+requiredRoles(79,[115,116,117,118]).
 
-/** BEGIN operationProvidedRole, ID: '114', NAME: 'Provided_PublicCalendarGUI_PublicCalendar' */
-description(114,'Provided_PublicCalendarGUI_PublicCalendar','operationProvidedRole').
+/** BEGIN operationProvidedRole, ID: '114', NAME: 'Provided_IOCAdminTool_OwnCloudAdminTool' */
+description(114,'Provided_IOCAdminTool_OwnCloudAdminTool','operationProvidedRole').
 operationProvidedRole(114).
-providedInterface(114,[71]).
-/** END operationProvidedRole, ID: '114', NAME: 'Provided_PublicCalendarGUI_PublicCalendar' */
+providedInterface(114,[54]).
+/** END operationProvidedRole, ID: '114', NAME: 'Provided_IOCAdminTool_OwnCloudAdminTool' */
 
 
-/** BEGIN operationRequiredRole, ID: '115', NAME: 'Required_ICalDAV_PublicCalendar' */
-description(115,'Required_ICalDAV_PublicCalendar','operationRequiredRole').
+/** BEGIN operationRequiredRole, ID: '115', NAME: 'Required_IWebDAV_OwnCloudAdminTool' */
+description(115,'Required_IWebDAV_OwnCloudAdminTool','operationRequiredRole').
 operationRequiredRole(115).
-requiredInterface(115,[62]).
-/** END operationRequiredRole, ID: '115', NAME: 'Required_ICalDAV_PublicCalendar' */
-
-/** END basicComponent, ID: '55', NAME: 'PublicCalendar' */
+requiredInterface(115,[53]).
+/** END operationRequiredRole, ID: '115', NAME: 'Required_IWebDAV_OwnCloudAdminTool' */
 
 
-/** BEGIN operationInterface, ID: '56', NAME: 'IDBAdminTool' */
-description(56,'IDBAdminTool','operationInterface').
-operationInterface(56).
-parentInterfaces(56,[67]).
-signatures(56,[116]).
+/** BEGIN operationRequiredRole, ID: '116', NAME: 'Required_ICalDAV_OwnCloudAdminTool' */
+description(116,'Required_ICalDAV_OwnCloudAdminTool','operationRequiredRole').
+operationRequiredRole(116).
+requiredInterface(116,[48]).
+/** END operationRequiredRole, ID: '116', NAME: 'Required_ICalDAV_OwnCloudAdminTool' */
 
-/** BEGIN operationSignature, ID: '116', NAME: 'doSQLDump' */
-description(116,'doSQLDump','operationSignature').
-operationSignature(116).
-parameters(116,[]).
-returnType(116,[117]).
-/** END operationSignature, ID: '116', NAME: 'doSQLDump' */
 
-/** END operationInterface, ID: '56', NAME: 'IDBAdminTool' */
+/** BEGIN operationRequiredRole, ID: '117', NAME: 'Required_LogReader_OwnCloudAdminTool' */
+description(117,'Required_LogReader_OwnCloudAdminTool','operationRequiredRole').
+operationRequiredRole(117).
+requiredInterface(117,[59]).
+/** END operationRequiredRole, ID: '117', NAME: 'Required_LogReader_OwnCloudAdminTool' */
+
+
+/** BEGIN operationRequiredRole, ID: '118', NAME: 'Required_LogWriter_OwnCloudAdminTool' */
+description(118,'Required_LogWriter_OwnCloudAdminTool','operationRequiredRole').
+operationRequiredRole(118).
+requiredInterface(118,[60]).
+/** END operationRequiredRole, ID: '118', NAME: 'Required_LogWriter_OwnCloudAdminTool' */
+
+/** END basicComponent, ID: '79', NAME: 'OCAdminTool' */
+
+
+/** BEGIN basicComponent, ID: '80', NAME: 'LBAdminTool' */
+description(80,'LBAdminTool','basicComponent').
+basicComponent(80).
+providedRoles(80,[119]).
+requiredRoles(80,[120,121,122]).
+
+/** BEGIN operationProvidedRole, ID: '119', NAME: 'Provided_ILBAdminTool_LBAdminTool' */
+description(119,'Provided_ILBAdminTool_LBAdminTool','operationProvidedRole').
+operationProvidedRole(119).
+providedInterface(119,[50]).
+/** END operationProvidedRole, ID: '119', NAME: 'Provided_ILBAdminTool_LBAdminTool' */
+
+
+/** BEGIN operationRequiredRole, ID: '120', NAME: 'Required_LoadBalancerMgmtAPI_LBAdminTool' */
+description(120,'Required_LoadBalancerMgmtAPI_LBAdminTool','operationRequiredRole').
+operationRequiredRole(120).
+requiredInterface(120,[58]).
+/** END operationRequiredRole, ID: '120', NAME: 'Required_LoadBalancerMgmtAPI_LBAdminTool' */
+
+
+/** BEGIN operationRequiredRole, ID: '121', NAME: 'Required_LogReader_LBAdminTool' */
+description(121,'Required_LogReader_LBAdminTool','operationRequiredRole').
+operationRequiredRole(121).
+requiredInterface(121,[59]).
+/** END operationRequiredRole, ID: '121', NAME: 'Required_LogReader_LBAdminTool' */
+
+
+/** BEGIN operationRequiredRole, ID: '122', NAME: 'Required_LogWriter_LBAdminTool' */
+description(122,'Required_LogWriter_LBAdminTool','operationRequiredRole').
+operationRequiredRole(122).
+requiredInterface(122,[60]).
+/** END operationRequiredRole, ID: '122', NAME: 'Required_LogWriter_LBAdminTool' */
+
+/** END basicComponent, ID: '80', NAME: 'LBAdminTool' */
+
+
+/** BEGIN basicComponent, ID: '81', NAME: 'PublicFileManager' */
+description(81,'PublicFileManager','basicComponent').
+basicComponent(81).
+providedRoles(81,[123]).
+requiredRoles(81,[124]).
+
+/** BEGIN operationProvidedRole, ID: '123', NAME: 'Provided_PublicFileManGUI_PublicFileManager' */
+description(123,'Provided_PublicFileManGUI_PublicFileManager','operationProvidedRole').
+operationProvidedRole(123).
+providedInterface(123,[56]).
+/** END operationProvidedRole, ID: '123', NAME: 'Provided_PublicFileManGUI_PublicFileManager' */
+
+
+/** BEGIN operationRequiredRole, ID: '124', NAME: 'Required_IWebDAV_PublicFileManager' */
+description(124,'Required_IWebDAV_PublicFileManager','operationRequiredRole').
+operationRequiredRole(124).
+requiredInterface(124,[53]).
+/** END operationRequiredRole, ID: '124', NAME: 'Required_IWebDAV_PublicFileManager' */
+
+/** END basicComponent, ID: '81', NAME: 'PublicFileManager' */
+
+
+/** BEGIN basicComponent, ID: '82', NAME: 'PublicCalendar' */
+description(82,'PublicCalendar','basicComponent').
+basicComponent(82).
+providedRoles(82,[125]).
+requiredRoles(82,[126]).
+
+/** BEGIN operationProvidedRole, ID: '125', NAME: 'Provided_PublicCalendarGUI_PublicCalendar' */
+description(125,'Provided_PublicCalendarGUI_PublicCalendar','operationProvidedRole').
+operationProvidedRole(125).
+providedInterface(125,[55]).
+/** END operationProvidedRole, ID: '125', NAME: 'Provided_PublicCalendarGUI_PublicCalendar' */
+
+
+/** BEGIN operationRequiredRole, ID: '126', NAME: 'Required_ICalDAV_PublicCalendar' */
+description(126,'Required_ICalDAV_PublicCalendar','operationRequiredRole').
+operationRequiredRole(126).
+requiredInterface(126,[48]).
+/** END operationRequiredRole, ID: '126', NAME: 'Required_ICalDAV_PublicCalendar' */
+
+/** END basicComponent, ID: '82', NAME: 'PublicCalendar' */
+
+
+/** BEGIN operationInterface, ID: '49', NAME: 'IDBAdminTool' */
+description(49,'IDBAdminTool','operationInterface').
+operationInterface(49).
+parentInterfaces(49,[47]).
+signatures(49,[127]).
+
+/** BEGIN operationSignature, ID: '127', NAME: 'doSQLDump' */
+description(127,'doSQLDump','operationSignature').
+operationSignature(127).
+parameters(127,[]).
+returnType(127,[128]).
+/** END operationSignature, ID: '127', NAME: 'doSQLDump' */
+
+/** END operationInterface, ID: '49', NAME: 'IDBAdminTool' */
 
 
 /** BEGIN operationInterface, ID: '57', NAME: 'ISQL' */
 description(57,'ISQL','operationInterface').
 operationInterface(57).
 parentInterfaces(57,[]).
-signatures(57,[118,119,120,121,122]).
+signatures(57,[129,130,131,132,133]).
 
-/** BEGIN operationSignature, ID: '118', NAME: 'query' */
-description(118,'query','operationSignature').
-operationSignature(118).
-parameters(118,[123]).
-returnType(118,[124]).
+/** BEGIN operationSignature, ID: '129', NAME: 'query' */
+description(129,'query','operationSignature').
+operationSignature(129).
+parameters(129,[134]).
+returnType(129,[135]).
 
-/** BEGIN parameter, ID: '123', NAME: 'q' */
-description(123,'q','parameter').
-parameter(123).
-/** END parameter, ID: '123', NAME: 'q' */
+/** BEGIN parameter, ID: '134', NAME: 'q' */
+description(134,'q','parameter').
+parameter(134).
+/** END parameter, ID: '134', NAME: 'q' */
 
-sizeOfParameter(125).
-sizeOf(125,123).
-/** END operationSignature, ID: '118', NAME: 'query' */
-
-
-/** BEGIN operationSignature, ID: '119', NAME: 'insertSelf' */
-description(119,'insertSelf','operationSignature').
-operationSignature(119).
-parameters(119,[126,127]).
-returnType(119,[128]).
-
-/** BEGIN parameter, ID: '126', NAME: 'table' */
-description(126,'table','parameter').
-parameter(126).
-/** END parameter, ID: '126', NAME: 'table' */
-
-sizeOfParameter(129).
-sizeOf(129,126).
-
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
-
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '119', NAME: 'insertSelf' */
+sizeOfParameter(136).
+sizeOf(136,134).
+/** END operationSignature, ID: '129', NAME: 'query' */
 
 
-/** BEGIN operationSignature, ID: '120', NAME: 'insertFriends' */
-description(120,'insertFriends','operationSignature').
-operationSignature(120).
-parameters(120,[126,127,131]).
-returnType(120,[128]).
+/** BEGIN operationSignature, ID: '130', NAME: 'insertSelf' */
+description(130,'insertSelf','operationSignature').
+operationSignature(130).
+parameters(130,[137,138]).
+returnType(130,[139]).
 
-/** BEGIN parameter, ID: '126', NAME: 'table' */
-description(126,'table','parameter').
-parameter(126).
-/** END parameter, ID: '126', NAME: 'table' */
+/** BEGIN parameter, ID: '137', NAME: 'table' */
+description(137,'table','parameter').
+parameter(137).
+/** END parameter, ID: '137', NAME: 'table' */
 
-sizeOfParameter(129).
-sizeOf(129,126).
+sizeOfParameter(140).
+sizeOf(140,137).
 
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(130).
-sizeOf(130,127).
-
-/** BEGIN parameter, ID: '131', NAME: 'f' */
-description(131,'f','parameter').
-parameter(131).
-/** END parameter, ID: '131', NAME: 'f' */
-
-sizeOfParameter(132).
-sizeOf(132,131).
-/** END operationSignature, ID: '120', NAME: 'insertFriends' */
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '130', NAME: 'insertSelf' */
 
 
-/** BEGIN operationSignature, ID: '121', NAME: 'insertPublic' */
-description(121,'insertPublic','operationSignature').
-operationSignature(121).
-parameters(121,[126,127]).
-returnType(121,[128]).
+/** BEGIN operationSignature, ID: '131', NAME: 'insertFriends' */
+description(131,'insertFriends','operationSignature').
+operationSignature(131).
+parameters(131,[137,138,142]).
+returnType(131,[139]).
 
-/** BEGIN parameter, ID: '126', NAME: 'table' */
-description(126,'table','parameter').
-parameter(126).
-/** END parameter, ID: '126', NAME: 'table' */
+/** BEGIN parameter, ID: '137', NAME: 'table' */
+description(137,'table','parameter').
+parameter(137).
+/** END parameter, ID: '137', NAME: 'table' */
 
-sizeOfParameter(129).
-sizeOf(129,126).
+sizeOfParameter(140).
+sizeOf(140,137).
 
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '121', NAME: 'insertPublic' */
+sizeOfParameter(141).
+sizeOf(141,138).
+
+/** BEGIN parameter, ID: '142', NAME: 'f' */
+description(142,'f','parameter').
+parameter(142).
+/** END parameter, ID: '142', NAME: 'f' */
+
+sizeOfParameter(143).
+sizeOf(143,142).
+/** END operationSignature, ID: '131', NAME: 'insertFriends' */
 
 
-/** BEGIN operationSignature, ID: '122', NAME: 'delete' */
-description(122,'delete','operationSignature').
-operationSignature(122).
-parameters(122,[126,133]).
-returnType(122,[128]).
+/** BEGIN operationSignature, ID: '132', NAME: 'insertPublic' */
+description(132,'insertPublic','operationSignature').
+operationSignature(132).
+parameters(132,[137,138]).
+returnType(132,[139]).
 
-/** BEGIN parameter, ID: '126', NAME: 'table' */
-description(126,'table','parameter').
-parameter(126).
-/** END parameter, ID: '126', NAME: 'table' */
+/** BEGIN parameter, ID: '137', NAME: 'table' */
+description(137,'table','parameter').
+parameter(137).
+/** END parameter, ID: '137', NAME: 'table' */
 
-sizeOfParameter(129).
-sizeOf(129,126).
+sizeOfParameter(140).
+sizeOf(140,137).
 
-/** BEGIN parameter, ID: '133', NAME: 'condition' */
-description(133,'condition','parameter').
-parameter(133).
-/** END parameter, ID: '133', NAME: 'condition' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(134).
-sizeOf(134,133).
-/** END operationSignature, ID: '122', NAME: 'delete' */
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '132', NAME: 'insertPublic' */
+
+
+/** BEGIN operationSignature, ID: '133', NAME: 'delete' */
+description(133,'delete','operationSignature').
+operationSignature(133).
+parameters(133,[137,144]).
+returnType(133,[139]).
+
+/** BEGIN parameter, ID: '137', NAME: 'table' */
+description(137,'table','parameter').
+parameter(137).
+/** END parameter, ID: '137', NAME: 'table' */
+
+sizeOfParameter(140).
+sizeOf(140,137).
+
+/** BEGIN parameter, ID: '144', NAME: 'condition' */
+description(144,'condition','parameter').
+parameter(144).
+/** END parameter, ID: '144', NAME: 'condition' */
+
+sizeOfParameter(145).
+sizeOf(145,144).
+/** END operationSignature, ID: '133', NAME: 'delete' */
 
 /** END operationInterface, ID: '57', NAME: 'ISQL' */
 
 
-/** BEGIN operationInterface, ID: '58', NAME: 'LogReader' */
-description(58,'LogReader','operationInterface').
-operationInterface(58).
-parentInterfaces(58,[]).
-signatures(58,[135]).
-
-/** BEGIN operationSignature, ID: '135', NAME: 'getEntries' */
-description(135,'getEntries','operationSignature').
-operationSignature(135).
-parameters(135,[136]).
-returnType(135,[137]).
-
-/** BEGIN parameter, ID: '136', NAME: 'level' */
-description(136,'level','parameter').
-parameter(136).
-/** END parameter, ID: '136', NAME: 'level' */
-
-sizeOfParameter(138).
-sizeOf(138,136).
-/** END operationSignature, ID: '135', NAME: 'getEntries' */
-
-/** END operationInterface, ID: '58', NAME: 'LogReader' */
-
-
-/** BEGIN operationInterface, ID: '59', NAME: 'LogWriter' */
-description(59,'LogWriter','operationInterface').
+/** BEGIN operationInterface, ID: '59', NAME: 'LogReader' */
+description(59,'LogReader','operationInterface').
 operationInterface(59).
 parentInterfaces(59,[]).
-signatures(59,[139]).
+signatures(59,[146]).
 
-/** BEGIN operationSignature, ID: '139', NAME: 'log' */
-description(139,'log','operationSignature').
-operationSignature(139).
-parameters(139,[136,140]).
-returnType(139,[128]).
+/** BEGIN operationSignature, ID: '146', NAME: 'getEntries' */
+description(146,'getEntries','operationSignature').
+operationSignature(146).
+parameters(146,[147]).
+returnType(146,[148]).
 
-/** BEGIN parameter, ID: '136', NAME: 'level' */
-description(136,'level','parameter').
-parameter(136).
-/** END parameter, ID: '136', NAME: 'level' */
+/** BEGIN parameter, ID: '147', NAME: 'level' */
+description(147,'level','parameter').
+parameter(147).
+/** END parameter, ID: '147', NAME: 'level' */
 
-sizeOfParameter(138).
-sizeOf(138,136).
+sizeOfParameter(149).
+sizeOf(149,147).
+/** END operationSignature, ID: '146', NAME: 'getEntries' */
 
-/** BEGIN parameter, ID: '140', NAME: 'text' */
-description(140,'text','parameter').
-parameter(140).
-/** END parameter, ID: '140', NAME: 'text' */
-
-sizeOfParameter(141).
-sizeOf(141,140).
-/** END operationSignature, ID: '139', NAME: 'log' */
-
-/** END operationInterface, ID: '59', NAME: 'LogWriter' */
+/** END operationInterface, ID: '59', NAME: 'LogReader' */
 
 
-/** BEGIN operationInterface, ID: '60', NAME: 'INetworkFilesystem' */
-description(60,'INetworkFilesystem','operationInterface').
+/** BEGIN operationInterface, ID: '60', NAME: 'LogWriter' */
+description(60,'LogWriter','operationInterface').
 operationInterface(60).
 parentInterfaces(60,[]).
-signatures(60,[142,143,144,145,146,147,148,149]).
+signatures(60,[150]).
 
-/** BEGIN operationSignature, ID: '142', NAME: 'open' */
-description(142,'open','operationSignature').
-operationSignature(142).
-parameters(142,[150,151]).
-returnType(142,[152]).
+/** BEGIN operationSignature, ID: '150', NAME: 'log' */
+description(150,'log','operationSignature').
+operationSignature(150).
+parameters(150,[147,151]).
+returnType(150,[139]).
 
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
+/** BEGIN parameter, ID: '147', NAME: 'level' */
+description(147,'level','parameter').
+parameter(147).
+/** END parameter, ID: '147', NAME: 'level' */
 
-sizeOfParameter(153).
-sizeOf(153,150).
+sizeOfParameter(149).
+sizeOf(149,147).
 
-/** BEGIN parameter, ID: '151', NAME: 'mode' */
-description(151,'mode','parameter').
+/** BEGIN parameter, ID: '151', NAME: 'text' */
+description(151,'text','parameter').
 parameter(151).
-/** END parameter, ID: '151', NAME: 'mode' */
+/** END parameter, ID: '151', NAME: 'text' */
 
-sizeOfParameter(154).
-sizeOf(154,151).
-/** END operationSignature, ID: '142', NAME: 'open' */
+sizeOfParameter(152).
+sizeOf(152,151).
+/** END operationSignature, ID: '150', NAME: 'log' */
 
-
-/** BEGIN operationSignature, ID: '143', NAME: 'close' */
-description(143,'close','operationSignature').
-operationSignature(143).
-parameters(143,[155]).
-returnType(143,[128]).
-
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
-
-sizeOfParameter(156).
-sizeOf(156,155).
-/** END operationSignature, ID: '143', NAME: 'close' */
+/** END operationInterface, ID: '60', NAME: 'LogWriter' */
 
 
-/** BEGIN operationSignature, ID: '144', NAME: 'read' */
-description(144,'read','operationSignature').
-operationSignature(144).
-parameters(144,[155,157]).
-returnType(144,[117]).
+/** BEGIN operationInterface, ID: '51', NAME: 'INetworkFilesystem' */
+description(51,'INetworkFilesystem','operationInterface').
+operationInterface(51).
+parentInterfaces(51,[]).
+signatures(51,[153,154,155,156,157,158,159,160]).
 
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
+/** BEGIN operationSignature, ID: '153', NAME: 'open' */
+description(153,'open','operationSignature').
+operationSignature(153).
+parameters(153,[161,162]).
+returnType(153,[163]).
 
-sizeOfParameter(156).
-sizeOf(156,155).
-
-/** BEGIN parameter, ID: '157', NAME: 'size' */
-description(157,'size','parameter').
-parameter(157).
-/** END parameter, ID: '157', NAME: 'size' */
-
-sizeOfParameter(158).
-sizeOf(158,157).
-/** END operationSignature, ID: '144', NAME: 'read' */
-
-
-/** BEGIN operationSignature, ID: '145', NAME: 'writeSelf' */
-description(145,'writeSelf','operationSignature').
-operationSignature(145).
-parameters(145,[155,127]).
-returnType(145,[128]).
-
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
-
-sizeOfParameter(156).
-sizeOf(156,155).
-
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
-
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '145', NAME: 'writeSelf' */
-
-
-/** BEGIN operationSignature, ID: '146', NAME: 'writeFriends' */
-description(146,'writeFriends','operationSignature').
-operationSignature(146).
-parameters(146,[155,127,159]).
-returnType(146,[128]).
-
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
-
-sizeOfParameter(156).
-sizeOf(156,155).
-
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
-
-sizeOfParameter(130).
-sizeOf(130,127).
-
-/** BEGIN parameter, ID: '159', NAME: 'token' */
-description(159,'token','parameter').
-parameter(159).
-/** END parameter, ID: '159', NAME: 'token' */
-
-sizeOfParameter(160).
-sizeOf(160,159).
-/** END operationSignature, ID: '146', NAME: 'writeFriends' */
-
-
-/** BEGIN operationSignature, ID: '147', NAME: 'writePublic' */
-description(147,'writePublic','operationSignature').
-operationSignature(147).
-parameters(147,[155,127]).
-returnType(147,[128]).
-
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
-
-sizeOfParameter(156).
-sizeOf(156,155).
-
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
-
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '147', NAME: 'writePublic' */
-
-
-/** BEGIN operationSignature, ID: '148', NAME: 'seek' */
-description(148,'seek','operationSignature').
-operationSignature(148).
-parameters(148,[155,161]).
-returnType(148,[128]).
-
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
-
-sizeOfParameter(156).
-sizeOf(156,155).
-
-/** BEGIN parameter, ID: '161', NAME: 'pos' */
-description(161,'pos','parameter').
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
 parameter(161).
-/** END parameter, ID: '161', NAME: 'pos' */
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-sizeOfParameter(162).
-sizeOf(162,161).
-/** END operationSignature, ID: '148', NAME: 'seek' */
+sizeOfParameter(164).
+sizeOf(164,161).
 
+/** BEGIN parameter, ID: '162', NAME: 'mode' */
+description(162,'mode','parameter').
+parameter(162).
+/** END parameter, ID: '162', NAME: 'mode' */
 
-/** BEGIN operationSignature, ID: '149', NAME: 'readdir' */
-description(149,'readdir','operationSignature').
-operationSignature(149).
-parameters(149,[155]).
-returnType(149,[163]).
-
-/** BEGIN parameter, ID: '155', NAME: 'h' */
-description(155,'h','parameter').
-parameter(155).
-/** END parameter, ID: '155', NAME: 'h' */
-
-sizeOfParameter(156).
-sizeOf(156,155).
-/** END operationSignature, ID: '149', NAME: 'readdir' */
-
-/** END operationInterface, ID: '60', NAME: 'INetworkFilesystem' */
+sizeOfParameter(165).
+sizeOf(165,162).
+/** END operationSignature, ID: '153', NAME: 'open' */
 
 
-/** BEGIN operationInterface, ID: '61', NAME: 'IObjStore' */
-description(61,'IObjStore','operationInterface').
-operationInterface(61).
-parentInterfaces(61,[]).
-signatures(61,[164,165,166,167,168,169,170]).
+/** BEGIN operationSignature, ID: '154', NAME: 'close' */
+description(154,'close','operationSignature').
+operationSignature(154).
+parameters(154,[166]).
+returnType(154,[139]).
 
-/** BEGIN operationSignature, ID: '164', NAME: 'get' */
-description(164,'get','operationSignature').
-operationSignature(164).
-parameters(164,[150]).
-returnType(164,[117]).
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
 
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
-
-sizeOfParameter(153).
-sizeOf(153,150).
-/** END operationSignature, ID: '164', NAME: 'get' */
+sizeOfParameter(167).
+sizeOf(167,166).
+/** END operationSignature, ID: '154', NAME: 'close' */
 
 
-/** BEGIN operationSignature, ID: '165', NAME: 'putSelf' */
-description(165,'putSelf','operationSignature').
-operationSignature(165).
-parameters(165,[171,127]).
-returnType(165,[128]).
+/** BEGIN operationSignature, ID: '155', NAME: 'read' */
+description(155,'read','operationSignature').
+operationSignature(155).
+parameters(155,[166,168]).
+returnType(155,[128]).
 
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
 
-sizeOfParameter(172).
-sizeOf(172,171).
+sizeOfParameter(167).
+sizeOf(167,166).
 
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
+/** BEGIN parameter, ID: '168', NAME: 'size' */
+description(168,'size','parameter').
+parameter(168).
+/** END parameter, ID: '168', NAME: 'size' */
 
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '165', NAME: 'putSelf' */
-
-
-/** BEGIN operationSignature, ID: '166', NAME: 'putFriends' */
-description(166,'putFriends','operationSignature').
-operationSignature(166).
-parameters(166,[171,127,131]).
-returnType(166,[128]).
-
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
-
-sizeOfParameter(172).
-sizeOf(172,171).
-
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
-
-sizeOfParameter(130).
-sizeOf(130,127).
-
-/** BEGIN parameter, ID: '131', NAME: 'f' */
-description(131,'f','parameter').
-parameter(131).
-/** END parameter, ID: '131', NAME: 'f' */
-
-sizeOfParameter(132).
-sizeOf(132,131).
-/** END operationSignature, ID: '166', NAME: 'putFriends' */
+sizeOfParameter(169).
+sizeOf(169,168).
+/** END operationSignature, ID: '155', NAME: 'read' */
 
 
-/** BEGIN operationSignature, ID: '167', NAME: 'putPublic' */
-description(167,'putPublic','operationSignature').
-operationSignature(167).
-parameters(167,[171,127]).
-returnType(167,[128]).
+/** BEGIN operationSignature, ID: '156', NAME: 'writeSelf' */
+description(156,'writeSelf','operationSignature').
+operationSignature(156).
+parameters(156,[166,138]).
+returnType(156,[139]).
 
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
 
-sizeOfParameter(172).
-sizeOf(172,171).
+sizeOfParameter(167).
+sizeOf(167,166).
 
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '167', NAME: 'putPublic' */
-
-
-/** BEGIN operationSignature, ID: '168', NAME: 'list' */
-description(168,'list','operationSignature').
-operationSignature(168).
-parameters(168,[150]).
-returnType(168,[173]).
-
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
-
-sizeOfParameter(153).
-sizeOf(153,150).
-/** END operationSignature, ID: '168', NAME: 'list' */
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '156', NAME: 'writeSelf' */
 
 
-/** BEGIN operationSignature, ID: '169', NAME: 'mkcol' */
-description(169,'mkcol','operationSignature').
-operationSignature(169).
-parameters(169,[150,174]).
-returnType(169,[128]).
+/** BEGIN operationSignature, ID: '157', NAME: 'writeFriends' */
+description(157,'writeFriends','operationSignature').
+operationSignature(157).
+parameters(157,[166,138,170]).
+returnType(157,[139]).
 
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
 
-sizeOfParameter(153).
-sizeOf(153,150).
+sizeOfParameter(167).
+sizeOf(167,166).
 
-/** BEGIN parameter, ID: '174', NAME: 'name' */
-description(174,'name','parameter').
-parameter(174).
-/** END parameter, ID: '174', NAME: 'name' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(175).
-sizeOf(175,174).
-/** END operationSignature, ID: '169', NAME: 'mkcol' */
+sizeOfParameter(141).
+sizeOf(141,138).
 
+/** BEGIN parameter, ID: '170', NAME: 'token' */
+description(170,'token','parameter').
+parameter(170).
+/** END parameter, ID: '170', NAME: 'token' */
 
-/** BEGIN operationSignature, ID: '170', NAME: 'delete' */
-description(170,'delete','operationSignature').
-operationSignature(170).
-parameters(170,[150]).
-returnType(170,[128]).
-
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
-
-sizeOfParameter(153).
-sizeOf(153,150).
-/** END operationSignature, ID: '170', NAME: 'delete' */
-
-/** END operationInterface, ID: '61', NAME: 'IObjStore' */
+sizeOfParameter(171).
+sizeOf(171,170).
+/** END operationSignature, ID: '157', NAME: 'writeFriends' */
 
 
-/** BEGIN operationInterface, ID: '62', NAME: 'ICalendar' */
-description(62,'ICalendar','operationInterface').
-operationInterface(62).
-parentInterfaces(62,[]).
-signatures(62,[176,177,178,179,180,181,182]).
+/** BEGIN operationSignature, ID: '158', NAME: 'writePublic' */
+description(158,'writePublic','operationSignature').
+operationSignature(158).
+parameters(158,[166,138]).
+returnType(158,[139]).
 
-/** BEGIN operationSignature, ID: '176', NAME: 'get' */
-description(176,'get','operationSignature').
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
+
+sizeOfParameter(167).
+sizeOf(167,166).
+
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
+
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '158', NAME: 'writePublic' */
+
+
+/** BEGIN operationSignature, ID: '159', NAME: 'seek' */
+description(159,'seek','operationSignature').
+operationSignature(159).
+parameters(159,[166,172]).
+returnType(159,[139]).
+
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
+
+sizeOfParameter(167).
+sizeOf(167,166).
+
+/** BEGIN parameter, ID: '172', NAME: 'pos' */
+description(172,'pos','parameter').
+parameter(172).
+/** END parameter, ID: '172', NAME: 'pos' */
+
+sizeOfParameter(173).
+sizeOf(173,172).
+/** END operationSignature, ID: '159', NAME: 'seek' */
+
+
+/** BEGIN operationSignature, ID: '160', NAME: 'readdir' */
+description(160,'readdir','operationSignature').
+operationSignature(160).
+parameters(160,[166]).
+returnType(160,[174]).
+
+/** BEGIN parameter, ID: '166', NAME: 'h' */
+description(166,'h','parameter').
+parameter(166).
+/** END parameter, ID: '166', NAME: 'h' */
+
+sizeOfParameter(167).
+sizeOf(167,166).
+/** END operationSignature, ID: '160', NAME: 'readdir' */
+
+/** END operationInterface, ID: '51', NAME: 'INetworkFilesystem' */
+
+
+/** BEGIN operationInterface, ID: '53', NAME: 'IObjStore' */
+description(53,'IObjStore','operationInterface').
+operationInterface(53).
+parentInterfaces(53,[]).
+signatures(53,[175,176,177,178,179,180,181]).
+
+/** BEGIN operationSignature, ID: '175', NAME: 'get' */
+description(175,'get','operationSignature').
+operationSignature(175).
+parameters(175,[161]).
+returnType(175,[128]).
+
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
+
+sizeOfParameter(164).
+sizeOf(164,161).
+/** END operationSignature, ID: '175', NAME: 'get' */
+
+
+/** BEGIN operationSignature, ID: '176', NAME: 'putSelf' */
+description(176,'putSelf','operationSignature').
 operationSignature(176).
-parameters(176,[183]).
-returnType(176,[184]).
+parameters(176,[182,138]).
+returnType(176,[139]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
-/** END operationSignature, ID: '176', NAME: 'get' */
+sizeOfParameter(183).
+sizeOf(183,182).
+
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
+
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '176', NAME: 'putSelf' */
 
 
-/** BEGIN operationSignature, ID: '177', NAME: 'putSelf' */
-description(177,'putSelf','operationSignature').
+/** BEGIN operationSignature, ID: '177', NAME: 'putFriends' */
+description(177,'putFriends','operationSignature').
 operationSignature(177).
-parameters(177,[183,127]).
-returnType(177,[128]).
+parameters(177,[182,138,142]).
+returnType(177,[139]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
+sizeOfParameter(183).
+sizeOf(183,182).
 
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '177', NAME: 'putSelf' */
+sizeOfParameter(141).
+sizeOf(141,138).
+
+/** BEGIN parameter, ID: '142', NAME: 'f' */
+description(142,'f','parameter').
+parameter(142).
+/** END parameter, ID: '142', NAME: 'f' */
+
+sizeOfParameter(143).
+sizeOf(143,142).
+/** END operationSignature, ID: '177', NAME: 'putFriends' */
 
 
-/** BEGIN operationSignature, ID: '178', NAME: 'putFriends' */
-description(178,'putFriends','operationSignature').
+/** BEGIN operationSignature, ID: '178', NAME: 'putPublic' */
+description(178,'putPublic','operationSignature').
 operationSignature(178).
-parameters(178,[183,127,131]).
-returnType(178,[128]).
+parameters(178,[182,138]).
+returnType(178,[139]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
+sizeOfParameter(183).
+sizeOf(183,182).
 
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
 
-sizeOfParameter(130).
-sizeOf(130,127).
-
-/** BEGIN parameter, ID: '131', NAME: 'f' */
-description(131,'f','parameter').
-parameter(131).
-/** END parameter, ID: '131', NAME: 'f' */
-
-sizeOfParameter(132).
-sizeOf(132,131).
-/** END operationSignature, ID: '178', NAME: 'putFriends' */
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '178', NAME: 'putPublic' */
 
 
-/** BEGIN operationSignature, ID: '179', NAME: 'putPublic' */
-description(179,'putPublic','operationSignature').
+/** BEGIN operationSignature, ID: '179', NAME: 'list' */
+description(179,'list','operationSignature').
 operationSignature(179).
-parameters(179,[183,127]).
-returnType(179,[128]).
+parameters(179,[161]).
+returnType(179,[184]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
-
-/** BEGIN parameter, ID: '127', NAME: 'data' */
-description(127,'data','parameter').
-parameter(127).
-/** END parameter, ID: '127', NAME: 'data' */
-
-sizeOfParameter(130).
-sizeOf(130,127).
-/** END operationSignature, ID: '179', NAME: 'putPublic' */
+sizeOfParameter(164).
+sizeOf(164,161).
+/** END operationSignature, ID: '179', NAME: 'list' */
 
 
-/** BEGIN operationSignature, ID: '180', NAME: 'list' */
-description(180,'list','operationSignature').
+/** BEGIN operationSignature, ID: '180', NAME: 'mkcol' */
+description(180,'mkcol','operationSignature').
 operationSignature(180).
-parameters(180,[186,187]).
-returnType(180,[188]).
+parameters(180,[161,185]).
+returnType(180,[139]).
 
-/** BEGIN parameter, ID: '186', NAME: 'start' */
-description(186,'start','parameter').
-parameter(186).
-/** END parameter, ID: '186', NAME: 'start' */
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-sizeOfParameter(189).
-sizeOf(189,186).
+sizeOfParameter(164).
+sizeOf(164,161).
 
-/** BEGIN parameter, ID: '187', NAME: 'end' */
-description(187,'end','parameter').
-parameter(187).
-/** END parameter, ID: '187', NAME: 'end' */
+/** BEGIN parameter, ID: '185', NAME: 'name' */
+description(185,'name','parameter').
+parameter(185).
+/** END parameter, ID: '185', NAME: 'name' */
 
-sizeOfParameter(190).
-sizeOf(190,187).
-/** END operationSignature, ID: '180', NAME: 'list' */
+sizeOfParameter(186).
+sizeOf(186,185).
+/** END operationSignature, ID: '180', NAME: 'mkcol' */
 
 
 /** BEGIN operationSignature, ID: '181', NAME: 'delete' */
 description(181,'delete','operationSignature').
 operationSignature(181).
-parameters(181,[183]).
-returnType(181,[128]).
+parameters(181,[161]).
+returnType(181,[139]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
+sizeOfParameter(164).
+sizeOf(164,161).
 /** END operationSignature, ID: '181', NAME: 'delete' */
 
-
-/** BEGIN operationSignature, ID: '182', NAME: 'setacl' */
-description(182,'setacl','operationSignature').
-operationSignature(182).
-parameters(182,[150,191]).
-returnType(182,[128]).
-
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
-
-sizeOfParameter(153).
-sizeOf(153,150).
-
-/** BEGIN parameter, ID: '191', NAME: 'acl' */
-description(191,'acl','parameter').
-parameter(191).
-/** END parameter, ID: '191', NAME: 'acl' */
-
-sizeOfParameter(192).
-sizeOf(192,191).
-/** END operationSignature, ID: '182', NAME: 'setacl' */
-
-/** END operationInterface, ID: '62', NAME: 'ICalendar' */
+/** END operationInterface, ID: '53', NAME: 'IObjStore' */
 
 
-/** BEGIN operationInterface, ID: '63', NAME: 'LoadBalancerMgmtAPI' */
-description(63,'LoadBalancerMgmtAPI','operationInterface').
-operationInterface(63).
-parentInterfaces(63,[]).
-signatures(63,[193,194,195]).
+/** BEGIN operationInterface, ID: '48', NAME: 'ICalendar' */
+description(48,'ICalendar','operationInterface').
+operationInterface(48).
+parentInterfaces(48,[]).
+signatures(48,[187,188,189,190,191,192,193]).
 
-/** BEGIN operationSignature, ID: '193', NAME: 'addBackend' */
-description(193,'addBackend','operationSignature').
-operationSignature(193).
-parameters(193,[196,197]).
-returnType(193,[]).
+/** BEGIN operationSignature, ID: '187', NAME: 'get' */
+description(187,'get','operationSignature').
+operationSignature(187).
+parameters(187,[194]).
+returnType(187,[195]).
 
-/** BEGIN parameter, ID: '196', NAME: 'host' */
-description(196,'host','parameter').
-parameter(196).
-/** END parameter, ID: '196', NAME: 'host' */
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
 
-sizeOfParameter(198).
-sizeOf(198,196).
+sizeOfParameter(196).
+sizeOf(196,194).
+/** END operationSignature, ID: '187', NAME: 'get' */
 
-/** BEGIN parameter, ID: '197', NAME: 'state' */
-description(197,'state','parameter').
+
+/** BEGIN operationSignature, ID: '188', NAME: 'putSelf' */
+description(188,'putSelf','operationSignature').
+operationSignature(188).
+parameters(188,[194,138]).
+returnType(188,[139]).
+
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
+
+sizeOfParameter(196).
+sizeOf(196,194).
+
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
+
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '188', NAME: 'putSelf' */
+
+
+/** BEGIN operationSignature, ID: '189', NAME: 'putFriends' */
+description(189,'putFriends','operationSignature').
+operationSignature(189).
+parameters(189,[194,138,142]).
+returnType(189,[139]).
+
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
+
+sizeOfParameter(196).
+sizeOf(196,194).
+
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
+
+sizeOfParameter(141).
+sizeOf(141,138).
+
+/** BEGIN parameter, ID: '142', NAME: 'f' */
+description(142,'f','parameter').
+parameter(142).
+/** END parameter, ID: '142', NAME: 'f' */
+
+sizeOfParameter(143).
+sizeOf(143,142).
+/** END operationSignature, ID: '189', NAME: 'putFriends' */
+
+
+/** BEGIN operationSignature, ID: '190', NAME: 'putPublic' */
+description(190,'putPublic','operationSignature').
+operationSignature(190).
+parameters(190,[194,138]).
+returnType(190,[139]).
+
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
+
+sizeOfParameter(196).
+sizeOf(196,194).
+
+/** BEGIN parameter, ID: '138', NAME: 'data' */
+description(138,'data','parameter').
+parameter(138).
+/** END parameter, ID: '138', NAME: 'data' */
+
+sizeOfParameter(141).
+sizeOf(141,138).
+/** END operationSignature, ID: '190', NAME: 'putPublic' */
+
+
+/** BEGIN operationSignature, ID: '191', NAME: 'list' */
+description(191,'list','operationSignature').
+operationSignature(191).
+parameters(191,[197,198]).
+returnType(191,[199]).
+
+/** BEGIN parameter, ID: '197', NAME: 'start' */
+description(197,'start','parameter').
 parameter(197).
-/** END parameter, ID: '197', NAME: 'state' */
+/** END parameter, ID: '197', NAME: 'start' */
 
-sizeOfParameter(199).
-sizeOf(199,197).
-/** END operationSignature, ID: '193', NAME: 'addBackend' */
+sizeOfParameter(200).
+sizeOf(200,197).
 
+/** BEGIN parameter, ID: '198', NAME: 'end' */
+description(198,'end','parameter').
+parameter(198).
+/** END parameter, ID: '198', NAME: 'end' */
 
-/** BEGIN operationSignature, ID: '194', NAME: 'removeBackend' */
-description(194,'removeBackend','operationSignature').
-operationSignature(194).
-parameters(194,[196]).
-returnType(194,[]).
-
-/** BEGIN parameter, ID: '196', NAME: 'host' */
-description(196,'host','parameter').
-parameter(196).
-/** END parameter, ID: '196', NAME: 'host' */
-
-sizeOfParameter(198).
-sizeOf(198,196).
-/** END operationSignature, ID: '194', NAME: 'removeBackend' */
+sizeOfParameter(201).
+sizeOf(201,198).
+/** END operationSignature, ID: '191', NAME: 'list' */
 
 
-/** BEGIN operationSignature, ID: '195', NAME: 'listBackends' */
-description(195,'listBackends','operationSignature').
-operationSignature(195).
-parameters(195,[]).
-returnType(195,[200]).
-/** END operationSignature, ID: '195', NAME: 'listBackends' */
+/** BEGIN operationSignature, ID: '192', NAME: 'delete' */
+description(192,'delete','operationSignature').
+operationSignature(192).
+parameters(192,[194]).
+returnType(192,[139]).
 
-/** END operationInterface, ID: '63', NAME: 'LoadBalancerMgmtAPI' */
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
 
-
-/** BEGIN operationInterface, ID: '64', NAME: 'FileManGUI' */
-description(64,'FileManGUI','operationInterface').
-operationInterface(64).
-parentInterfaces(64,[]).
-signatures(64,[201,202,203,204,205,206,207]).
-
-/** BEGIN operationSignature, ID: '201', NAME: 'open' */
-description(201,'open','operationSignature').
-operationSignature(201).
-parameters(201,[150]).
-returnType(201,[208]).
-
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
-
-sizeOfParameter(153).
-sizeOf(153,150).
-/** END operationSignature, ID: '201', NAME: 'open' */
+sizeOfParameter(196).
+sizeOf(196,194).
+/** END operationSignature, ID: '192', NAME: 'delete' */
 
 
-/** BEGIN operationSignature, ID: '202', NAME: 'connect' */
-description(202,'connect','operationSignature').
-operationSignature(202).
-parameters(202,[196]).
-returnType(202,[209]).
+/** BEGIN operationSignature, ID: '193', NAME: 'setacl' */
+description(193,'setacl','operationSignature').
+operationSignature(193).
+parameters(193,[161,202]).
+returnType(193,[139]).
 
-/** BEGIN parameter, ID: '196', NAME: 'host' */
-description(196,'host','parameter').
-parameter(196).
-/** END parameter, ID: '196', NAME: 'host' */
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-sizeOfParameter(198).
-sizeOf(198,196).
-/** END operationSignature, ID: '202', NAME: 'connect' */
+sizeOfParameter(164).
+sizeOf(164,161).
 
+/** BEGIN parameter, ID: '202', NAME: 'acl' */
+description(202,'acl','parameter').
+parameter(202).
+/** END parameter, ID: '202', NAME: 'acl' */
 
-/** BEGIN operationSignature, ID: '203', NAME: 'list' */
-description(203,'list','operationSignature').
-operationSignature(203).
-parameters(203,[210]).
-returnType(203,[173]).
+sizeOfParameter(203).
+sizeOf(203,202).
+/** END operationSignature, ID: '193', NAME: 'setacl' */
 
-/** BEGIN parameter, ID: '210', NAME: 'dir' */
-description(210,'dir','parameter').
-parameter(210).
-/** END parameter, ID: '210', NAME: 'dir' */
-
-sizeOfParameter(211).
-sizeOf(211,210).
-/** END operationSignature, ID: '203', NAME: 'list' */
+/** END operationInterface, ID: '48', NAME: 'ICalendar' */
 
 
-/** BEGIN operationSignature, ID: '204', NAME: 'copy' */
-description(204,'copy','operationSignature').
+/** BEGIN operationInterface, ID: '58', NAME: 'LoadBalancerMgmtAPI' */
+description(58,'LoadBalancerMgmtAPI','operationInterface').
+operationInterface(58).
+parentInterfaces(58,[]).
+signatures(58,[204,205,206]).
+
+/** BEGIN operationSignature, ID: '204', NAME: 'addBackend' */
+description(204,'addBackend','operationSignature').
 operationSignature(204).
-parameters(204,[212,213]).
-returnType(204,[214]).
+parameters(204,[207,208]).
+returnType(204,[]).
 
-/** BEGIN parameter, ID: '212', NAME: 'filepath1' */
-description(212,'filepath1','parameter').
-parameter(212).
-/** END parameter, ID: '212', NAME: 'filepath1' */
+/** BEGIN parameter, ID: '207', NAME: 'host' */
+description(207,'host','parameter').
+parameter(207).
+/** END parameter, ID: '207', NAME: 'host' */
 
-sizeOfParameter(215).
-sizeOf(215,212).
+sizeOfParameter(209).
+sizeOf(209,207).
 
-/** BEGIN parameter, ID: '213', NAME: 'filepath2' */
-description(213,'filepath2','parameter').
-parameter(213).
-/** END parameter, ID: '213', NAME: 'filepath2' */
+/** BEGIN parameter, ID: '208', NAME: 'state' */
+description(208,'state','parameter').
+parameter(208).
+/** END parameter, ID: '208', NAME: 'state' */
 
-sizeOfParameter(216).
-sizeOf(216,213).
-/** END operationSignature, ID: '204', NAME: 'copy' */
+sizeOfParameter(210).
+sizeOf(210,208).
+/** END operationSignature, ID: '204', NAME: 'addBackend' */
 
 
-/** BEGIN operationSignature, ID: '205', NAME: 'delete' */
-description(205,'delete','operationSignature').
+/** BEGIN operationSignature, ID: '205', NAME: 'removeBackend' */
+description(205,'removeBackend','operationSignature').
 operationSignature(205).
-parameters(205,[150]).
-returnType(205,[214]).
+parameters(205,[207]).
+returnType(205,[]).
 
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
+/** BEGIN parameter, ID: '207', NAME: 'host' */
+description(207,'host','parameter').
+parameter(207).
+/** END parameter, ID: '207', NAME: 'host' */
 
-sizeOfParameter(153).
-sizeOf(153,150).
-/** END operationSignature, ID: '205', NAME: 'delete' */
+sizeOfParameter(209).
+sizeOf(209,207).
+/** END operationSignature, ID: '205', NAME: 'removeBackend' */
 
 
-/** BEGIN operationSignature, ID: '206', NAME: 'shareFriends' */
-description(206,'shareFriends','operationSignature').
+/** BEGIN operationSignature, ID: '206', NAME: 'listBackends' */
+description(206,'listBackends','operationSignature').
 operationSignature(206).
-parameters(206,[171,131]).
-returnType(206,[]).
+parameters(206,[]).
+returnType(206,[211]).
+/** END operationSignature, ID: '206', NAME: 'listBackends' */
 
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
-
-sizeOfParameter(172).
-sizeOf(172,171).
-
-/** BEGIN parameter, ID: '131', NAME: 'f' */
-description(131,'f','parameter').
-parameter(131).
-/** END parameter, ID: '131', NAME: 'f' */
-
-sizeOfParameter(132).
-sizeOf(132,131).
-/** END operationSignature, ID: '206', NAME: 'shareFriends' */
+/** END operationInterface, ID: '58', NAME: 'LoadBalancerMgmtAPI' */
 
 
-/** BEGIN operationSignature, ID: '207', NAME: 'sharePublic' */
-description(207,'sharePublic','operationSignature').
-operationSignature(207).
-parameters(207,[171]).
-returnType(207,[]).
+/** BEGIN operationInterface, ID: '46', NAME: 'FileManGUI' */
+description(46,'FileManGUI','operationInterface').
+operationInterface(46).
+parentInterfaces(46,[]).
+signatures(46,[212,213,214,215,216,217,218]).
 
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
+/** BEGIN operationSignature, ID: '212', NAME: 'open' */
+description(212,'open','operationSignature').
+operationSignature(212).
+parameters(212,[161]).
+returnType(212,[219]).
 
-sizeOfParameter(172).
-sizeOf(172,171).
-/** END operationSignature, ID: '207', NAME: 'sharePublic' */
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-/** END operationInterface, ID: '64', NAME: 'FileManGUI' */
-
-
-/** BEGIN operationInterface, ID: '65', NAME: 'CalendarGUI' */
-description(65,'CalendarGUI','operationInterface').
-operationInterface(65).
-parentInterfaces(65,[]).
-signatures(65,[217,218,219,220,221,222]).
-
-/** BEGIN operationSignature, ID: '217', NAME: 'view' */
-description(217,'view','operationSignature').
-operationSignature(217).
-parameters(217,[183]).
-returnType(217,[214]).
-
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
-
-sizeOfParameter(185).
-sizeOf(185,183).
-/** END operationSignature, ID: '217', NAME: 'view' */
+sizeOfParameter(164).
+sizeOf(164,161).
+/** END operationSignature, ID: '212', NAME: 'open' */
 
 
-/** BEGIN operationSignature, ID: '218', NAME: 'edit' */
-description(218,'edit','operationSignature').
-operationSignature(218).
-parameters(218,[183,223]).
-returnType(218,[214]).
+/** BEGIN operationSignature, ID: '213', NAME: 'connect' */
+description(213,'connect','operationSignature').
+operationSignature(213).
+parameters(213,[207]).
+returnType(213,[220]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '207', NAME: 'host' */
+description(207,'host','parameter').
+parameter(207).
+/** END parameter, ID: '207', NAME: 'host' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
+sizeOfParameter(209).
+sizeOf(209,207).
+/** END operationSignature, ID: '213', NAME: 'connect' */
 
-/** BEGIN parameter, ID: '223', NAME: 'entry' */
-description(223,'entry','parameter').
+
+/** BEGIN operationSignature, ID: '214', NAME: 'list' */
+description(214,'list','operationSignature').
+operationSignature(214).
+parameters(214,[221]).
+returnType(214,[184]).
+
+/** BEGIN parameter, ID: '221', NAME: 'dir' */
+description(221,'dir','parameter').
+parameter(221).
+/** END parameter, ID: '221', NAME: 'dir' */
+
+sizeOfParameter(222).
+sizeOf(222,221).
+/** END operationSignature, ID: '214', NAME: 'list' */
+
+
+/** BEGIN operationSignature, ID: '215', NAME: 'copy' */
+description(215,'copy','operationSignature').
+operationSignature(215).
+parameters(215,[223,224]).
+returnType(215,[225]).
+
+/** BEGIN parameter, ID: '223', NAME: 'filepath1' */
+description(223,'filepath1','parameter').
 parameter(223).
-/** END parameter, ID: '223', NAME: 'entry' */
+/** END parameter, ID: '223', NAME: 'filepath1' */
 
-sizeOfParameter(224).
-sizeOf(224,223).
-/** END operationSignature, ID: '218', NAME: 'edit' */
+sizeOfParameter(226).
+sizeOf(226,223).
 
+/** BEGIN parameter, ID: '224', NAME: 'filepath2' */
+description(224,'filepath2','parameter').
+parameter(224).
+/** END parameter, ID: '224', NAME: 'filepath2' */
 
-/** BEGIN operationSignature, ID: '219', NAME: 'list' */
-description(219,'list','operationSignature').
-operationSignature(219).
-parameters(219,[186,187]).
-returnType(219,[188]).
-
-/** BEGIN parameter, ID: '186', NAME: 'start' */
-description(186,'start','parameter').
-parameter(186).
-/** END parameter, ID: '186', NAME: 'start' */
-
-sizeOfParameter(189).
-sizeOf(189,186).
-
-/** BEGIN parameter, ID: '187', NAME: 'end' */
-description(187,'end','parameter').
-parameter(187).
-/** END parameter, ID: '187', NAME: 'end' */
-
-sizeOfParameter(190).
-sizeOf(190,187).
-/** END operationSignature, ID: '219', NAME: 'list' */
+sizeOfParameter(227).
+sizeOf(227,224).
+/** END operationSignature, ID: '215', NAME: 'copy' */
 
 
-/** BEGIN operationSignature, ID: '220', NAME: 'delete' */
-description(220,'delete','operationSignature').
-operationSignature(220).
-parameters(220,[183]).
-returnType(220,[128]).
+/** BEGIN operationSignature, ID: '216', NAME: 'delete' */
+description(216,'delete','operationSignature').
+operationSignature(216).
+parameters(216,[161]).
+returnType(216,[225]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
-/** END operationSignature, ID: '220', NAME: 'delete' */
-
-
-/** BEGIN operationSignature, ID: '221', NAME: 'shareFriends' */
-description(221,'shareFriends','operationSignature').
-operationSignature(221).
-parameters(221,[171,131]).
-returnType(221,[]).
-
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
-
-sizeOfParameter(172).
-sizeOf(172,171).
-
-/** BEGIN parameter, ID: '131', NAME: 'f' */
-description(131,'f','parameter').
-parameter(131).
-/** END parameter, ID: '131', NAME: 'f' */
-
-sizeOfParameter(132).
-sizeOf(132,131).
-/** END operationSignature, ID: '221', NAME: 'shareFriends' */
+sizeOfParameter(164).
+sizeOf(164,161).
+/** END operationSignature, ID: '216', NAME: 'delete' */
 
 
-/** BEGIN operationSignature, ID: '222', NAME: 'sharePublic' */
-description(222,'sharePublic','operationSignature').
-operationSignature(222).
-parameters(222,[171,131]).
-returnType(222,[]).
+/** BEGIN operationSignature, ID: '217', NAME: 'shareFriends' */
+description(217,'shareFriends','operationSignature').
+operationSignature(217).
+parameters(217,[182,142]).
+returnType(217,[]).
 
-/** BEGIN parameter, ID: '171', NAME: 'file' */
-description(171,'file','parameter').
-parameter(171).
-/** END parameter, ID: '171', NAME: 'file' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-sizeOfParameter(172).
-sizeOf(172,171).
+sizeOfParameter(183).
+sizeOf(183,182).
 
-/** BEGIN parameter, ID: '131', NAME: 'f' */
-description(131,'f','parameter').
-parameter(131).
-/** END parameter, ID: '131', NAME: 'f' */
+/** BEGIN parameter, ID: '142', NAME: 'f' */
+description(142,'f','parameter').
+parameter(142).
+/** END parameter, ID: '142', NAME: 'f' */
 
-sizeOfParameter(132).
-sizeOf(132,131).
-/** END operationSignature, ID: '222', NAME: 'sharePublic' */
-
-/** END operationInterface, ID: '65', NAME: 'CalendarGUI' */
+sizeOfParameter(143).
+sizeOf(143,142).
+/** END operationSignature, ID: '217', NAME: 'shareFriends' */
 
 
-/** BEGIN operationInterface, ID: '66', NAME: 'INWFSAdminTool' */
-description(66,'INWFSAdminTool','operationInterface').
-operationInterface(66).
-parentInterfaces(66,[67]).
-signatures(66,[225]).
+/** BEGIN operationSignature, ID: '218', NAME: 'sharePublic' */
+description(218,'sharePublic','operationSignature').
+operationSignature(218).
+parameters(218,[182]).
+returnType(218,[]).
 
-/** BEGIN operationSignature, ID: '225', NAME: 'doFSBackup' */
-description(225,'doFSBackup','operationSignature').
-operationSignature(225).
-parameters(225,[]).
-returnType(225,[117]).
-/** END operationSignature, ID: '225', NAME: 'doFSBackup' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-/** END operationInterface, ID: '66', NAME: 'INWFSAdminTool' */
+sizeOfParameter(183).
+sizeOf(183,182).
+/** END operationSignature, ID: '218', NAME: 'sharePublic' */
 
-
-/** BEGIN operationInterface, ID: '67', NAME: 'IAdminTool' */
-description(67,'IAdminTool','operationInterface').
-operationInterface(67).
-parentInterfaces(67,[]).
-signatures(67,[226]).
-
-/** BEGIN operationSignature, ID: '226', NAME: 'readLogs' */
-description(226,'readLogs','operationSignature').
-operationSignature(226).
-parameters(226,[136]).
-returnType(226,[137]).
-
-/** BEGIN parameter, ID: '136', NAME: 'level' */
-description(136,'level','parameter').
-parameter(136).
-/** END parameter, ID: '136', NAME: 'level' */
-
-sizeOfParameter(138).
-sizeOf(138,136).
-/** END operationSignature, ID: '226', NAME: 'readLogs' */
-
-/** END operationInterface, ID: '67', NAME: 'IAdminTool' */
+/** END operationInterface, ID: '46', NAME: 'FileManGUI' */
 
 
-/** BEGIN operationInterface, ID: '68', NAME: 'IOCAdminTool' */
-description(68,'IOCAdminTool','operationInterface').
-operationInterface(68).
-parentInterfaces(68,[67]).
-signatures(68,[227]).
+/** BEGIN operationInterface, ID: '45', NAME: 'CalendarGUI' */
+description(45,'CalendarGUI','operationInterface').
+operationInterface(45).
+parentInterfaces(45,[]).
+signatures(45,[228,229,230,231,232,233]).
 
-/** BEGIN operationSignature, ID: '227', NAME: 'doOCBackup' */
-description(227,'doOCBackup','operationSignature').
-operationSignature(227).
-parameters(227,[]).
-returnType(227,[117]).
-/** END operationSignature, ID: '227', NAME: 'doOCBackup' */
-
-/** END operationInterface, ID: '68', NAME: 'IOCAdminTool' */
-
-
-/** BEGIN operationInterface, ID: '69', NAME: 'ILBAdminTool' */
-description(69,'ILBAdminTool','operationInterface').
-operationInterface(69).
-parentInterfaces(69,[67]).
-signatures(69,[228]).
-
-/** BEGIN operationSignature, ID: '228', NAME: 'doLBBackup' */
-description(228,'doLBBackup','operationSignature').
+/** BEGIN operationSignature, ID: '228', NAME: 'view' */
+description(228,'view','operationSignature').
 operationSignature(228).
-parameters(228,[]).
-returnType(228,[117]).
-/** END operationSignature, ID: '228', NAME: 'doLBBackup' */
+parameters(228,[194]).
+returnType(228,[225]).
 
-/** END operationInterface, ID: '69', NAME: 'ILBAdminTool' */
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
+
+sizeOfParameter(196).
+sizeOf(196,194).
+/** END operationSignature, ID: '228', NAME: 'view' */
 
 
-/** BEGIN operationInterface, ID: '70', NAME: 'IPublicFileManGUI' */
-description(70,'IPublicFileManGUI','operationInterface').
-operationInterface(70).
-parentInterfaces(70,[]).
-signatures(70,[229,230,231]).
-
-/** BEGIN operationSignature, ID: '229', NAME: 'open' */
-description(229,'open','operationSignature').
+/** BEGIN operationSignature, ID: '229', NAME: 'edit' */
+description(229,'edit','operationSignature').
 operationSignature(229).
-parameters(229,[150]).
-returnType(229,[208]).
+parameters(229,[194,234]).
+returnType(229,[225]).
 
-/** BEGIN parameter, ID: '150', NAME: 'filepath' */
-description(150,'filepath','parameter').
-parameter(150).
-/** END parameter, ID: '150', NAME: 'filepath' */
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
 
-sizeOfParameter(153).
-sizeOf(153,150).
-/** END operationSignature, ID: '229', NAME: 'open' */
+sizeOfParameter(196).
+sizeOf(196,194).
+
+/** BEGIN parameter, ID: '234', NAME: 'entry' */
+description(234,'entry','parameter').
+parameter(234).
+/** END parameter, ID: '234', NAME: 'entry' */
+
+sizeOfParameter(235).
+sizeOf(235,234).
+/** END operationSignature, ID: '229', NAME: 'edit' */
 
 
-/** BEGIN operationSignature, ID: '230', NAME: 'connect' */
-description(230,'connect','operationSignature').
+/** BEGIN operationSignature, ID: '230', NAME: 'list' */
+description(230,'list','operationSignature').
 operationSignature(230).
-parameters(230,[196]).
-returnType(230,[209]).
+parameters(230,[197,198]).
+returnType(230,[199]).
 
-/** BEGIN parameter, ID: '196', NAME: 'host' */
-description(196,'host','parameter').
-parameter(196).
-/** END parameter, ID: '196', NAME: 'host' */
+/** BEGIN parameter, ID: '197', NAME: 'start' */
+description(197,'start','parameter').
+parameter(197).
+/** END parameter, ID: '197', NAME: 'start' */
 
-sizeOfParameter(198).
-sizeOf(198,196).
-/** END operationSignature, ID: '230', NAME: 'connect' */
+sizeOfParameter(200).
+sizeOf(200,197).
+
+/** BEGIN parameter, ID: '198', NAME: 'end' */
+description(198,'end','parameter').
+parameter(198).
+/** END parameter, ID: '198', NAME: 'end' */
+
+sizeOfParameter(201).
+sizeOf(201,198).
+/** END operationSignature, ID: '230', NAME: 'list' */
 
 
-/** BEGIN operationSignature, ID: '231', NAME: 'list' */
-description(231,'list','operationSignature').
+/** BEGIN operationSignature, ID: '231', NAME: 'delete' */
+description(231,'delete','operationSignature').
 operationSignature(231).
-parameters(231,[210]).
-returnType(231,[173]).
+parameters(231,[194]).
+returnType(231,[139]).
 
-/** BEGIN parameter, ID: '210', NAME: 'dir' */
-description(210,'dir','parameter').
-parameter(210).
-/** END parameter, ID: '210', NAME: 'dir' */
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
 
-sizeOfParameter(211).
-sizeOf(211,210).
-/** END operationSignature, ID: '231', NAME: 'list' */
-
-/** END operationInterface, ID: '70', NAME: 'IPublicFileManGUI' */
+sizeOfParameter(196).
+sizeOf(196,194).
+/** END operationSignature, ID: '231', NAME: 'delete' */
 
 
-/** BEGIN operationInterface, ID: '71', NAME: 'IPublicCalendarGUI' */
-description(71,'IPublicCalendarGUI','operationInterface').
-operationInterface(71).
-parentInterfaces(71,[]).
-signatures(71,[232,233]).
-
-/** BEGIN operationSignature, ID: '232', NAME: 'view' */
-description(232,'view','operationSignature').
+/** BEGIN operationSignature, ID: '232', NAME: 'shareFriends' */
+description(232,'shareFriends','operationSignature').
 operationSignature(232).
-parameters(232,[183]).
-returnType(232,[214]).
+parameters(232,[182,142]).
+returnType(232,[]).
 
-/** BEGIN parameter, ID: '183', NAME: 'id' */
-description(183,'id','parameter').
-parameter(183).
-/** END parameter, ID: '183', NAME: 'id' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-sizeOfParameter(185).
-sizeOf(185,183).
-/** END operationSignature, ID: '232', NAME: 'view' */
+sizeOfParameter(183).
+sizeOf(183,182).
+
+/** BEGIN parameter, ID: '142', NAME: 'f' */
+description(142,'f','parameter').
+parameter(142).
+/** END parameter, ID: '142', NAME: 'f' */
+
+sizeOfParameter(143).
+sizeOf(143,142).
+/** END operationSignature, ID: '232', NAME: 'shareFriends' */
 
 
-/** BEGIN operationSignature, ID: '233', NAME: 'list' */
-description(233,'list','operationSignature').
+/** BEGIN operationSignature, ID: '233', NAME: 'sharePublic' */
+description(233,'sharePublic','operationSignature').
 operationSignature(233).
-parameters(233,[186,187]).
-returnType(233,[188]).
+parameters(233,[182,142]).
+returnType(233,[]).
 
-/** BEGIN parameter, ID: '186', NAME: 'start' */
-description(186,'start','parameter').
-parameter(186).
-/** END parameter, ID: '186', NAME: 'start' */
+/** BEGIN parameter, ID: '182', NAME: 'file' */
+description(182,'file','parameter').
+parameter(182).
+/** END parameter, ID: '182', NAME: 'file' */
 
-sizeOfParameter(189).
-sizeOf(189,186).
+sizeOfParameter(183).
+sizeOf(183,182).
 
-/** BEGIN parameter, ID: '187', NAME: 'end' */
-description(187,'end','parameter').
-parameter(187).
-/** END parameter, ID: '187', NAME: 'end' */
+/** BEGIN parameter, ID: '142', NAME: 'f' */
+description(142,'f','parameter').
+parameter(142).
+/** END parameter, ID: '142', NAME: 'f' */
 
-sizeOfParameter(190).
-sizeOf(190,187).
-/** END operationSignature, ID: '233', NAME: 'list' */
+sizeOfParameter(143).
+sizeOf(143,142).
+/** END operationSignature, ID: '233', NAME: 'sharePublic' */
 
-/** END operationInterface, ID: '71', NAME: 'IPublicCalendarGUI' */
-
-
-/** BEGIN compositeDataType, ID: '234', NAME: 'token' */
-description(234,'token','compositeDataType').
-compositeDataType(234).
-/** END compositeDataType, ID: '234', NAME: 'token' */
+/** END operationInterface, ID: '45', NAME: 'CalendarGUI' */
 
 
-/** BEGIN compositeDataType, ID: '209', NAME: 'directory' */
-description(209,'directory','compositeDataType').
-compositeDataType(209).
-/** END compositeDataType, ID: '209', NAME: 'directory' */
+/** BEGIN operationInterface, ID: '52', NAME: 'INWFSAdminTool' */
+description(52,'INWFSAdminTool','operationInterface').
+operationInterface(52).
+parentInterfaces(52,[47]).
+signatures(52,[236]).
+
+/** BEGIN operationSignature, ID: '236', NAME: 'doFSBackup' */
+description(236,'doFSBackup','operationSignature').
+operationSignature(236).
+parameters(236,[]).
+returnType(236,[128]).
+/** END operationSignature, ID: '236', NAME: 'doFSBackup' */
+
+/** END operationInterface, ID: '52', NAME: 'INWFSAdminTool' */
 
 
-/** BEGIN collectionDataType, ID: '117', NAME: 'bytes' */
-description(117,'bytes','collectionDataType').
-collectionDataType(117).
-/** END collectionDataType, ID: '117', NAME: 'bytes' */
+/** BEGIN operationInterface, ID: '47', NAME: 'IAdminTool' */
+description(47,'IAdminTool','operationInterface').
+operationInterface(47).
+parentInterfaces(47,[]).
+signatures(47,[237]).
+
+/** BEGIN operationSignature, ID: '237', NAME: 'readLogs' */
+description(237,'readLogs','operationSignature').
+operationSignature(237).
+parameters(237,[147]).
+returnType(237,[148]).
+
+/** BEGIN parameter, ID: '147', NAME: 'level' */
+description(147,'level','parameter').
+parameter(147).
+/** END parameter, ID: '147', NAME: 'level' */
+
+sizeOfParameter(149).
+sizeOf(149,147).
+/** END operationSignature, ID: '237', NAME: 'readLogs' */
+
+/** END operationInterface, ID: '47', NAME: 'IAdminTool' */
 
 
-/** BEGIN compositeDataType, ID: '235', NAME: 'logEntry' */
-description(235,'logEntry','compositeDataType').
-compositeDataType(235).
-/** END compositeDataType, ID: '235', NAME: 'logEntry' */
+/** BEGIN operationInterface, ID: '54', NAME: 'IOCAdminTool' */
+description(54,'IOCAdminTool','operationInterface').
+operationInterface(54).
+parentInterfaces(54,[47]).
+signatures(54,[238]).
+
+/** BEGIN operationSignature, ID: '238', NAME: 'doOCBackup' */
+description(238,'doOCBackup','operationSignature').
+operationSignature(238).
+parameters(238,[]).
+returnType(238,[128]).
+/** END operationSignature, ID: '238', NAME: 'doOCBackup' */
+
+/** END operationInterface, ID: '54', NAME: 'IOCAdminTool' */
 
 
-/** BEGIN collectionDataType, ID: '137', NAME: 'log' */
-description(137,'log','collectionDataType').
-collectionDataType(137).
-/** END collectionDataType, ID: '137', NAME: 'log' */
+/** BEGIN operationInterface, ID: '50', NAME: 'ILBAdminTool' */
+description(50,'ILBAdminTool','operationInterface').
+operationInterface(50).
+parentInterfaces(50,[47]).
+signatures(50,[239]).
+
+/** BEGIN operationSignature, ID: '239', NAME: 'doLBBackup' */
+description(239,'doLBBackup','operationSignature').
+operationSignature(239).
+parameters(239,[]).
+returnType(239,[128]).
+/** END operationSignature, ID: '239', NAME: 'doLBBackup' */
+
+/** END operationInterface, ID: '50', NAME: 'ILBAdminTool' */
 
 
-/** BEGIN collectionDataType, ID: '173', NAME: 'strings' */
-description(173,'strings','collectionDataType').
-collectionDataType(173).
-/** END collectionDataType, ID: '173', NAME: 'strings' */
+/** BEGIN operationInterface, ID: '56', NAME: 'IPublicFileManGUI' */
+description(56,'IPublicFileManGUI','operationInterface').
+operationInterface(56).
+parentInterfaces(56,[]).
+signatures(56,[240,241,242]).
+
+/** BEGIN operationSignature, ID: '240', NAME: 'open' */
+description(240,'open','operationSignature').
+operationSignature(240).
+parameters(240,[161]).
+returnType(240,[219]).
+
+/** BEGIN parameter, ID: '161', NAME: 'filepath' */
+description(161,'filepath','parameter').
+parameter(161).
+/** END parameter, ID: '161', NAME: 'filepath' */
+
+sizeOfParameter(164).
+sizeOf(164,161).
+/** END operationSignature, ID: '240', NAME: 'open' */
 
 
-/** BEGIN collectionDataType, ID: '124', NAME: 'stringsList' */
-description(124,'stringsList','collectionDataType').
-collectionDataType(124).
-/** END collectionDataType, ID: '124', NAME: 'stringsList' */
+/** BEGIN operationSignature, ID: '241', NAME: 'connect' */
+description(241,'connect','operationSignature').
+operationSignature(241).
+parameters(241,[207]).
+returnType(241,[220]).
+
+/** BEGIN parameter, ID: '207', NAME: 'host' */
+description(207,'host','parameter').
+parameter(207).
+/** END parameter, ID: '207', NAME: 'host' */
+
+sizeOfParameter(209).
+sizeOf(209,207).
+/** END operationSignature, ID: '241', NAME: 'connect' */
 
 
-/** BEGIN compositeDataType, ID: '152', NAME: 'handle' */
-description(152,'handle','compositeDataType').
-compositeDataType(152).
-/** END compositeDataType, ID: '152', NAME: 'handle' */
+/** BEGIN operationSignature, ID: '242', NAME: 'list' */
+description(242,'list','operationSignature').
+operationSignature(242).
+parameters(242,[221]).
+returnType(242,[184]).
+
+/** BEGIN parameter, ID: '221', NAME: 'dir' */
+description(221,'dir','parameter').
+parameter(221).
+/** END parameter, ID: '221', NAME: 'dir' */
+
+sizeOfParameter(222).
+sizeOf(222,221).
+/** END operationSignature, ID: '242', NAME: 'list' */
+
+/** END operationInterface, ID: '56', NAME: 'IPublicFileManGUI' */
 
 
-/** BEGIN compositeDataType, ID: '163', NAME: 'dirEntry' */
-description(163,'dirEntry','compositeDataType').
+/** BEGIN operationInterface, ID: '55', NAME: 'IPublicCalendarGUI' */
+description(55,'IPublicCalendarGUI','operationInterface').
+operationInterface(55).
+parentInterfaces(55,[]).
+signatures(55,[243,244]).
+
+/** BEGIN operationSignature, ID: '243', NAME: 'view' */
+description(243,'view','operationSignature').
+operationSignature(243).
+parameters(243,[194]).
+returnType(243,[225]).
+
+/** BEGIN parameter, ID: '194', NAME: 'id' */
+description(194,'id','parameter').
+parameter(194).
+/** END parameter, ID: '194', NAME: 'id' */
+
+sizeOfParameter(196).
+sizeOf(196,194).
+/** END operationSignature, ID: '243', NAME: 'view' */
+
+
+/** BEGIN operationSignature, ID: '244', NAME: 'list' */
+description(244,'list','operationSignature').
+operationSignature(244).
+parameters(244,[197,198]).
+returnType(244,[199]).
+
+/** BEGIN parameter, ID: '197', NAME: 'start' */
+description(197,'start','parameter').
+parameter(197).
+/** END parameter, ID: '197', NAME: 'start' */
+
+sizeOfParameter(200).
+sizeOf(200,197).
+
+/** BEGIN parameter, ID: '198', NAME: 'end' */
+description(198,'end','parameter').
+parameter(198).
+/** END parameter, ID: '198', NAME: 'end' */
+
+sizeOfParameter(201).
+sizeOf(201,198).
+/** END operationSignature, ID: '244', NAME: 'list' */
+
+/** END operationInterface, ID: '55', NAME: 'IPublicCalendarGUI' */
+
+
+/** BEGIN compositeDataType, ID: '245', NAME: 'token' */
+description(245,'token','compositeDataType').
+compositeDataType(245).
+/** END compositeDataType, ID: '245', NAME: 'token' */
+
+
+/** BEGIN compositeDataType, ID: '220', NAME: 'directory' */
+description(220,'directory','compositeDataType').
+compositeDataType(220).
+/** END compositeDataType, ID: '220', NAME: 'directory' */
+
+
+/** BEGIN collectionDataType, ID: '128', NAME: 'bytes' */
+description(128,'bytes','collectionDataType').
+collectionDataType(128).
+/** END collectionDataType, ID: '128', NAME: 'bytes' */
+
+
+/** BEGIN compositeDataType, ID: '246', NAME: 'logEntry' */
+description(246,'logEntry','compositeDataType').
+compositeDataType(246).
+/** END compositeDataType, ID: '246', NAME: 'logEntry' */
+
+
+/** BEGIN collectionDataType, ID: '148', NAME: 'log' */
+description(148,'log','collectionDataType').
+collectionDataType(148).
+/** END collectionDataType, ID: '148', NAME: 'log' */
+
+
+/** BEGIN collectionDataType, ID: '184', NAME: 'strings' */
+description(184,'strings','collectionDataType').
+collectionDataType(184).
+/** END collectionDataType, ID: '184', NAME: 'strings' */
+
+
+/** BEGIN collectionDataType, ID: '135', NAME: 'stringsList' */
+description(135,'stringsList','collectionDataType').
+collectionDataType(135).
+/** END collectionDataType, ID: '135', NAME: 'stringsList' */
+
+
+/** BEGIN compositeDataType, ID: '163', NAME: 'handle' */
+description(163,'handle','compositeDataType').
 compositeDataType(163).
-/** END compositeDataType, ID: '163', NAME: 'dirEntry' */
+/** END compositeDataType, ID: '163', NAME: 'handle' */
 
 
-/** BEGIN compositeDataType, ID: '184', NAME: 'calEntry' */
-description(184,'calEntry','compositeDataType').
-compositeDataType(184).
-/** END compositeDataType, ID: '184', NAME: 'calEntry' */
+/** BEGIN compositeDataType, ID: '174', NAME: 'dirEntry' */
+description(174,'dirEntry','compositeDataType').
+compositeDataType(174).
+/** END compositeDataType, ID: '174', NAME: 'dirEntry' */
 
 
-/** BEGIN collectionDataType, ID: '188', NAME: 'ints' */
-description(188,'ints','collectionDataType').
-collectionDataType(188).
-/** END collectionDataType, ID: '188', NAME: 'ints' */
+/** BEGIN compositeDataType, ID: '195', NAME: 'calEntry' */
+description(195,'calEntry','compositeDataType').
+compositeDataType(195).
+/** END compositeDataType, ID: '195', NAME: 'calEntry' */
 
 
-/** BEGIN compositeDataType, ID: '236', NAME: 'datetime' */
-description(236,'datetime','compositeDataType').
-compositeDataType(236).
-/** END compositeDataType, ID: '236', NAME: 'datetime' */
+/** BEGIN collectionDataType, ID: '199', NAME: 'ints' */
+description(199,'ints','collectionDataType').
+collectionDataType(199).
+/** END collectionDataType, ID: '199', NAME: 'ints' */
 
 
-/** BEGIN compositeDataType, ID: '237', NAME: 'XML' */
-description(237,'XML','compositeDataType').
-compositeDataType(237).
-/** END compositeDataType, ID: '237', NAME: 'XML' */
+/** BEGIN compositeDataType, ID: '247', NAME: 'datetime' */
+description(247,'datetime','compositeDataType').
+compositeDataType(247).
+/** END compositeDataType, ID: '247', NAME: 'datetime' */
 
 
-/** BEGIN compositeDataType, ID: '238', NAME: 'backend' */
-description(238,'backend','compositeDataType').
-compositeDataType(238).
-/** END compositeDataType, ID: '238', NAME: 'backend' */
+/** BEGIN compositeDataType, ID: '248', NAME: 'XML' */
+description(248,'XML','compositeDataType').
+compositeDataType(248).
+/** END compositeDataType, ID: '248', NAME: 'XML' */
 
 
-/** BEGIN collectionDataType, ID: '200', NAME: 'backends' */
-description(200,'backends','collectionDataType').
-collectionDataType(200).
-/** END collectionDataType, ID: '200', NAME: 'backends' */
+/** BEGIN compositeDataType, ID: '249', NAME: 'backend' */
+description(249,'backend','compositeDataType').
+compositeDataType(249).
+/** END compositeDataType, ID: '249', NAME: 'backend' */
 
 
-/** BEGIN compositeDataType, ID: '208', NAME: 'application' */
-description(208,'application','compositeDataType').
-compositeDataType(208).
-/** END compositeDataType, ID: '208', NAME: 'application' */
+/** BEGIN collectionDataType, ID: '211', NAME: 'backends' */
+description(211,'backends','collectionDataType').
+collectionDataType(211).
+/** END collectionDataType, ID: '211', NAME: 'backends' */
 
-/** END repository, ID: '42', NAME: 'cloudRepository' */
+
+/** BEGIN compositeDataType, ID: '219', NAME: 'application' */
+description(219,'application','compositeDataType').
+compositeDataType(219).
+/** END compositeDataType, ID: '219', NAME: 'application' */
+
+/** END repository, ID: '69', NAME: 'cloudRepository' */
 

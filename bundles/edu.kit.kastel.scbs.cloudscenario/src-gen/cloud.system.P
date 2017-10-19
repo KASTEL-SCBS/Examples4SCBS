@@ -1,920 +1,686 @@
 
-/** BEGIN system, ID: '239', NAME: 'defaultSystem' */
-description(239,'defaultSystem','system').
-system(239).
-assemblyContexts(239,[240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260]).
-connectors(239,[261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307]).
-providedRoles(239,[308,309,310,311,312,313,314,315,316,317]).
-requiredRoles(239,[]).
+/** BEGIN system, ID: '250', NAME: 'defaultSystem' */
+description(250,'defaultSystem','system').
+system(250).
+assemblyContexts(250,[251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271]).
+connectors(250,[272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318]).
+providedRoles(250,[319,320,321,322,323,324,325,326,327,328]).
+requiredRoles(250,[]).
 
-/** BEGIN assemblyContext, ID: '240', NAME: 'OwnCloudA' */
-description(240,'OwnCloudA','assemblyContext').
-assemblyContext(240).
-encapsulatedComponent(240,[46]).
-/** END assemblyContext, ID: '240', NAME: 'OwnCloudA' */
-
-
-/** BEGIN assemblyContext, ID: '241', NAME: 'DBLogging' */
-description(241,'DBLogging','assemblyContext').
-assemblyContext(241).
-encapsulatedComponent(241,[45]).
-/** END assemblyContext, ID: '241', NAME: 'DBLogging' */
-
-
-/** BEGIN assemblyContext, ID: '242', NAME: 'Database' */
-description(242,'Database','assemblyContext').
-assemblyContext(242).
-encapsulatedComponent(242,[44]).
-/** END assemblyContext, ID: '242', NAME: 'Database' */
-
-
-/** BEGIN assemblyContext, ID: '243', NAME: 'NetworkFilesystem' */
-description(243,'NetworkFilesystem','assemblyContext').
-assemblyContext(243).
-encapsulatedComponent(243,[47]).
-/** END assemblyContext, ID: '243', NAME: 'NetworkFilesystem' */
-
-
-/** BEGIN assemblyContext, ID: '244', NAME: 'NWFSLogging' */
-description(244,'NWFSLogging','assemblyContext').
-assemblyContext(244).
-encapsulatedComponent(244,[45]).
-/** END assemblyContext, ID: '244', NAME: 'NWFSLogging' */
-
-
-/** BEGIN assemblyContext, ID: '245', NAME: 'OCALogging' */
-description(245,'OCALogging','assemblyContext').
-assemblyContext(245).
-encapsulatedComponent(245,[45]).
-/** END assemblyContext, ID: '245', NAME: 'OCALogging' */
-
-
-/** BEGIN assemblyContext, ID: '246', NAME: 'LoadBalancer' */
-description(246,'LoadBalancer','assemblyContext').
-assemblyContext(246).
-encapsulatedComponent(246,[48]).
-/** END assemblyContext, ID: '246', NAME: 'LoadBalancer' */
-
-
-/** BEGIN assemblyContext, ID: '247', NAME: 'LBLogging' */
-description(247,'LBLogging','assemblyContext').
-assemblyContext(247).
-encapsulatedComponent(247,[45]).
-/** END assemblyContext, ID: '247', NAME: 'LBLogging' */
-
-
-/** BEGIN assemblyContext, ID: '248', NAME: 'OwnCloudB' */
-description(248,'OwnCloudB','assemblyContext').
-assemblyContext(248).
-encapsulatedComponent(248,[46]).
-/** END assemblyContext, ID: '248', NAME: 'OwnCloudB' */
-
-
-/** BEGIN assemblyContext, ID: '249', NAME: 'OCBLogging' */
-description(249,'OCBLogging','assemblyContext').
-assemblyContext(249).
-encapsulatedComponent(249,[45]).
-/** END assemblyContext, ID: '249', NAME: 'OCBLogging' */
-
-
-/** BEGIN assemblyContext, ID: '250', NAME: 'DBAdminTool' */
-description(250,'DBAdminTool','assemblyContext').
-assemblyContext(250).
-encapsulatedComponent(250,[43]).
-/** END assemblyContext, ID: '250', NAME: 'DBAdminTool' */
-
-
-/** BEGIN assemblyContext, ID: '251', NAME: 'NWFSAdminTool' */
-description(251,'NWFSAdminTool','assemblyContext').
+/** BEGIN assemblyContext, ID: '251', NAME: 'OwnCloudA' */
+description(251,'OwnCloudA','assemblyContext').
 assemblyContext(251).
-encapsulatedComponent(251,[51]).
-/** END assemblyContext, ID: '251', NAME: 'NWFSAdminTool' */
+encapsulatedComponent(251,[73]).
+/** END assemblyContext, ID: '251', NAME: 'OwnCloudA' */
 
 
-/** BEGIN assemblyContext, ID: '252', NAME: 'OCAAdminTool' */
-description(252,'OCAAdminTool','assemblyContext').
+/** BEGIN assemblyContext, ID: '252', NAME: 'DBLogging' */
+description(252,'DBLogging','assemblyContext').
 assemblyContext(252).
-encapsulatedComponent(252,[52]).
-/** END assemblyContext, ID: '252', NAME: 'OCAAdminTool' */
+encapsulatedComponent(252,[72]).
+/** END assemblyContext, ID: '252', NAME: 'DBLogging' */
 
 
-/** BEGIN assemblyContext, ID: '253', NAME: 'OCBAdminTool' */
-description(253,'OCBAdminTool','assemblyContext').
+/** BEGIN assemblyContext, ID: '253', NAME: 'Database' */
+description(253,'Database','assemblyContext').
 assemblyContext(253).
-encapsulatedComponent(253,[52]).
-/** END assemblyContext, ID: '253', NAME: 'OCBAdminTool' */
+encapsulatedComponent(253,[71]).
+/** END assemblyContext, ID: '253', NAME: 'Database' */
 
 
-/** BEGIN assemblyContext, ID: '254', NAME: 'LBAdminTool' */
-description(254,'LBAdminTool','assemblyContext').
+/** BEGIN assemblyContext, ID: '254', NAME: 'NetworkFilesystem' */
+description(254,'NetworkFilesystem','assemblyContext').
 assemblyContext(254).
-encapsulatedComponent(254,[53]).
-/** END assemblyContext, ID: '254', NAME: 'LBAdminTool' */
+encapsulatedComponent(254,[74]).
+/** END assemblyContext, ID: '254', NAME: 'NetworkFilesystem' */
 
 
-/** BEGIN assemblyContext, ID: '255', NAME: 'FileManagerA' */
-description(255,'FileManagerA','assemblyContext').
+/** BEGIN assemblyContext, ID: '255', NAME: 'NWFSLogging' */
+description(255,'NWFSLogging','assemblyContext').
 assemblyContext(255).
-encapsulatedComponent(255,[49]).
-/** END assemblyContext, ID: '255', NAME: 'FileManagerA' */
+encapsulatedComponent(255,[72]).
+/** END assemblyContext, ID: '255', NAME: 'NWFSLogging' */
 
 
-/** BEGIN assemblyContext, ID: '256', NAME: 'CalendarA' */
-description(256,'CalendarA','assemblyContext').
+/** BEGIN assemblyContext, ID: '256', NAME: 'OCALogging' */
+description(256,'OCALogging','assemblyContext').
 assemblyContext(256).
-encapsulatedComponent(256,[50]).
-/** END assemblyContext, ID: '256', NAME: 'CalendarA' */
+encapsulatedComponent(256,[72]).
+/** END assemblyContext, ID: '256', NAME: 'OCALogging' */
 
 
-/** BEGIN assemblyContext, ID: '257', NAME: 'FileManagerB' */
-description(257,'FileManagerB','assemblyContext').
+/** BEGIN assemblyContext, ID: '257', NAME: 'LoadBalancer' */
+description(257,'LoadBalancer','assemblyContext').
 assemblyContext(257).
-encapsulatedComponent(257,[49]).
-/** END assemblyContext, ID: '257', NAME: 'FileManagerB' */
+encapsulatedComponent(257,[75]).
+/** END assemblyContext, ID: '257', NAME: 'LoadBalancer' */
 
 
-/** BEGIN assemblyContext, ID: '258', NAME: 'CalendarB' */
-description(258,'CalendarB','assemblyContext').
+/** BEGIN assemblyContext, ID: '258', NAME: 'LBLogging' */
+description(258,'LBLogging','assemblyContext').
 assemblyContext(258).
-encapsulatedComponent(258,[50]).
-/** END assemblyContext, ID: '258', NAME: 'CalendarB' */
+encapsulatedComponent(258,[72]).
+/** END assemblyContext, ID: '258', NAME: 'LBLogging' */
 
 
-/** BEGIN assemblyContext, ID: '259', NAME: 'PublicFileManager' */
-description(259,'PublicFileManager','assemblyContext').
+/** BEGIN assemblyContext, ID: '259', NAME: 'OwnCloudB' */
+description(259,'OwnCloudB','assemblyContext').
 assemblyContext(259).
-encapsulatedComponent(259,[54]).
-/** END assemblyContext, ID: '259', NAME: 'PublicFileManager' */
+encapsulatedComponent(259,[73]).
+/** END assemblyContext, ID: '259', NAME: 'OwnCloudB' */
 
 
-/** BEGIN assemblyContext, ID: '260', NAME: 'PublicCalendar' */
-description(260,'PublicCalendar','assemblyContext').
+/** BEGIN assemblyContext, ID: '260', NAME: 'OCBLogging' */
+description(260,'OCBLogging','assemblyContext').
 assemblyContext(260).
-encapsulatedComponent(260,[55]).
-/** END assemblyContext, ID: '260', NAME: 'PublicCalendar' */
+encapsulatedComponent(260,[72]).
+/** END assemblyContext, ID: '260', NAME: 'OCBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '261', NAME: 'Connector LoadBalancer -> LBLogging' */
-description(261,'Connector LoadBalancer -> LBLogging','assemblyConnector').
-assemblyConnector(261).
-requiringAssemblyContext(261,[246]).
-providingAssemblyContext(261,[247]).
-providedRole(261,[79]).
-requiredRole(261,[92]).
-/** END assemblyConnector, ID: '261', NAME: 'Connector LoadBalancer -> LBLogging' */
+/** BEGIN assemblyContext, ID: '261', NAME: 'DBAdminTool' */
+description(261,'DBAdminTool','assemblyContext').
+assemblyContext(261).
+encapsulatedComponent(261,[70]).
+/** END assemblyContext, ID: '261', NAME: 'DBAdminTool' */
 
 
-/** BEGIN assemblyConnector, ID: '262', NAME: 'Connector LBAdminTool -> LoadBalancer' */
-description(262,'Connector LBAdminTool -> LoadBalancer','assemblyConnector').
-assemblyConnector(262).
-requiringAssemblyContext(262,[254]).
-providingAssemblyContext(262,[246]).
-providedRole(262,[89]).
-requiredRole(262,[109]).
-/** END assemblyConnector, ID: '262', NAME: 'Connector LBAdminTool -> LoadBalancer' */
+/** BEGIN assemblyContext, ID: '262', NAME: 'NWFSAdminTool' */
+description(262,'NWFSAdminTool','assemblyContext').
+assemblyContext(262).
+encapsulatedComponent(262,[78]).
+/** END assemblyContext, ID: '262', NAME: 'NWFSAdminTool' */
 
 
-/** BEGIN assemblyConnector, ID: '263', NAME: 'Connector LBAdminTool -> LBLogging' */
-description(263,'Connector LBAdminTool -> LBLogging','assemblyConnector').
-assemblyConnector(263).
-requiringAssemblyContext(263,[254]).
-providingAssemblyContext(263,[247]).
-providedRole(263,[78]).
-requiredRole(263,[110]).
-/** END assemblyConnector, ID: '263', NAME: 'Connector LBAdminTool -> LBLogging' */
+/** BEGIN assemblyContext, ID: '263', NAME: 'OCAAdminTool' */
+description(263,'OCAAdminTool','assemblyContext').
+assemblyContext(263).
+encapsulatedComponent(263,[79]).
+/** END assemblyContext, ID: '263', NAME: 'OCAAdminTool' */
 
 
-/** BEGIN assemblyConnector, ID: '264', NAME: 'Connector LBAdminTool -> LBLogging' */
-description(264,'Connector LBAdminTool -> LBLogging','assemblyConnector').
-assemblyConnector(264).
-requiringAssemblyContext(264,[254]).
-providingAssemblyContext(264,[247]).
-providedRole(264,[79]).
-requiredRole(264,[111]).
-/** END assemblyConnector, ID: '264', NAME: 'Connector LBAdminTool -> LBLogging' */
+/** BEGIN assemblyContext, ID: '264', NAME: 'OCBAdminTool' */
+description(264,'OCBAdminTool','assemblyContext').
+assemblyContext(264).
+encapsulatedComponent(264,[79]).
+/** END assemblyContext, ID: '264', NAME: 'OCBAdminTool' */
 
 
-/** BEGIN assemblyConnector, ID: '265', NAME: 'Connector LoadBalancer -> OwnCloudA' */
-description(265,'Connector LoadBalancer -> OwnCloudA','assemblyConnector').
-assemblyConnector(265).
-requiringAssemblyContext(265,[246]).
-providingAssemblyContext(265,[240]).
-providedRole(265,[80]).
-requiredRole(265,[94]).
-/** END assemblyConnector, ID: '265', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+/** BEGIN assemblyContext, ID: '265', NAME: 'LBAdminTool' */
+description(265,'LBAdminTool','assemblyContext').
+assemblyContext(265).
+encapsulatedComponent(265,[80]).
+/** END assemblyContext, ID: '265', NAME: 'LBAdminTool' */
 
 
-parametersAndDataPair(318).
+/** BEGIN assemblyContext, ID: '266', NAME: 'FileManagerA' */
+description(266,'FileManagerA','assemblyContext').
+assemblyContext(266).
+encapsulatedComponent(266,[76]).
+/** END assemblyContext, ID: '266', NAME: 'FileManagerA' */
 
-parameterSources(318,[*]).
 
-dataTargets(318,[4]).
+/** BEGIN assemblyContext, ID: '267', NAME: 'CalendarA' */
+description(267,'CalendarA','assemblyContext').
+assemblyContext(267).
+encapsulatedComponent(267,[77]).
+/** END assemblyContext, ID: '267', NAME: 'CalendarA' */
 
 
-originalParametersAndDataPair(318,8).
+/** BEGIN assemblyContext, ID: '268', NAME: 'FileManagerB' */
+description(268,'FileManagerB','assemblyContext').
+assemblyContext(268).
+encapsulatedComponent(268,[76]).
+/** END assemblyContext, ID: '268', NAME: 'FileManagerB' */
 
 
-connectorSpecificParametersAndDataPairs(265,[318]).
+/** BEGIN assemblyContext, ID: '269', NAME: 'CalendarB' */
+description(269,'CalendarB','assemblyContext').
+assemblyContext(269).
+encapsulatedComponent(269,[77]).
+/** END assemblyContext, ID: '269', NAME: 'CalendarB' */
 
 
-/** BEGIN assemblyConnector, ID: '266', NAME: 'Connector LoadBalancer -> OwnCloudA' */
-description(266,'Connector LoadBalancer -> OwnCloudA','assemblyConnector').
-assemblyConnector(266).
-requiringAssemblyContext(266,[246]).
-providingAssemblyContext(266,[240]).
-providedRole(266,[81]).
-requiredRole(266,[93]).
-/** END assemblyConnector, ID: '266', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+/** BEGIN assemblyContext, ID: '270', NAME: 'PublicFileManager' */
+description(270,'PublicFileManager','assemblyContext').
+assemblyContext(270).
+encapsulatedComponent(270,[81]).
+/** END assemblyContext, ID: '270', NAME: 'PublicFileManager' */
 
 
-parametersAndDataPair(319).
+/** BEGIN assemblyContext, ID: '271', NAME: 'PublicCalendar' */
+description(271,'PublicCalendar','assemblyContext').
+assemblyContext(271).
+encapsulatedComponent(271,[82]).
+/** END assemblyContext, ID: '271', NAME: 'PublicCalendar' */
 
-parameterSources(319,[*]).
 
-dataTargets(319,[4]).
-
-
-originalParametersAndDataPair(319,8).
-
-
-connectorSpecificParametersAndDataPairs(266,[319]).
-
-
-/** BEGIN assemblyConnector, ID: '267', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
-description(267,'Connector OCAAdminTool -> OwnCloudA','assemblyConnector').
-assemblyConnector(267).
-requiringAssemblyContext(267,[252]).
-providingAssemblyContext(267,[240]).
-providedRole(267,[80]).
-requiredRole(267,[104]).
-/** END assemblyConnector, ID: '267', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
-
-
-parametersAndDataPair(320).
-
-parameterSources(320,[*]).
-
-dataTargets(320,[4]).
-
-
-originalParametersAndDataPair(320,8).
-
-
-connectorSpecificParametersAndDataPairs(267,[320]).
-
-
-/** BEGIN assemblyConnector, ID: '268', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
-description(268,'Connector OCAAdminTool -> OwnCloudA','assemblyConnector').
-assemblyConnector(268).
-requiringAssemblyContext(268,[252]).
-providingAssemblyContext(268,[240]).
-providedRole(268,[81]).
-requiredRole(268,[105]).
-/** END assemblyConnector, ID: '268', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
-
-
-parametersAndDataPair(321).
-
-parameterSources(321,[*]).
-
-dataTargets(321,[4]).
-
-
-originalParametersAndDataPair(321,8).
-
-
-connectorSpecificParametersAndDataPairs(268,[321]).
-
-
-/** BEGIN assemblyConnector, ID: '269', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
-description(269,'Connector OCBAdminTool -> OwnCloudB','assemblyConnector').
-assemblyConnector(269).
-requiringAssemblyContext(269,[253]).
-providingAssemblyContext(269,[248]).
-providedRole(269,[80]).
-requiredRole(269,[104]).
-/** END assemblyConnector, ID: '269', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
-
-
-parametersAndDataPair(322).
-
-parameterSources(322,[*]).
-
-dataTargets(322,[4]).
-
-
-originalParametersAndDataPair(322,8).
-
-
-connectorSpecificParametersAndDataPairs(269,[322]).
-
-
-/** BEGIN assemblyConnector, ID: '270', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
-description(270,'Connector OCBAdminTool -> OwnCloudB','assemblyConnector').
-assemblyConnector(270).
-requiringAssemblyContext(270,[253]).
-providingAssemblyContext(270,[248]).
-providedRole(270,[81]).
-requiredRole(270,[105]).
-/** END assemblyConnector, ID: '270', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
-
-
-parametersAndDataPair(323).
-
-parameterSources(323,[*]).
-
-dataTargets(323,[4]).
-
-
-originalParametersAndDataPair(323,8).
-
-
-connectorSpecificParametersAndDataPairs(270,[323]).
-
-
-/** BEGIN assemblyConnector, ID: '271', NAME: 'Connector OCBAdminTool -> OCBLogging' */
-description(271,'Connector OCBAdminTool -> OCBLogging','assemblyConnector').
-assemblyConnector(271).
-requiringAssemblyContext(271,[253]).
-providingAssemblyContext(271,[249]).
-providedRole(271,[79]).
-requiredRole(271,[107]).
-/** END assemblyConnector, ID: '271', NAME: 'Connector OCBAdminTool -> OCBLogging' */
-
-
-/** BEGIN assemblyConnector, ID: '272', NAME: 'Connector OCBAdminTool -> OCBLogging' */
-description(272,'Connector OCBAdminTool -> OCBLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '272', NAME: 'Connector LoadBalancer -> LBLogging' */
+description(272,'Connector LoadBalancer -> LBLogging','assemblyConnector').
 assemblyConnector(272).
-requiringAssemblyContext(272,[253]).
-providingAssemblyContext(272,[249]).
-providedRole(272,[78]).
-requiredRole(272,[106]).
-/** END assemblyConnector, ID: '272', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+requiringAssemblyContext(272,[257]).
+providingAssemblyContext(272,[258]).
+providedRole(272,[90]).
+requiredRole(272,[103]).
+/** END assemblyConnector, ID: '272', NAME: 'Connector LoadBalancer -> LBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '273', NAME: 'Connector OCAAdminTool -> OCALogging' */
-description(273,'Connector OCAAdminTool -> OCALogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '273', NAME: 'Connector LBAdminTool -> LoadBalancer' */
+description(273,'Connector LBAdminTool -> LoadBalancer','assemblyConnector').
 assemblyConnector(273).
-requiringAssemblyContext(273,[252]).
-providingAssemblyContext(273,[245]).
-providedRole(273,[79]).
-requiredRole(273,[107]).
-/** END assemblyConnector, ID: '273', NAME: 'Connector OCAAdminTool -> OCALogging' */
+requiringAssemblyContext(273,[265]).
+providingAssemblyContext(273,[257]).
+providedRole(273,[100]).
+requiredRole(273,[120]).
+/** END assemblyConnector, ID: '273', NAME: 'Connector LBAdminTool -> LoadBalancer' */
 
 
-/** BEGIN assemblyConnector, ID: '274', NAME: 'Connector OCAAdminTool -> OCALogging' */
-description(274,'Connector OCAAdminTool -> OCALogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '274', NAME: 'Connector LBAdminTool -> LBLogging' */
+description(274,'Connector LBAdminTool -> LBLogging','assemblyConnector').
 assemblyConnector(274).
-requiringAssemblyContext(274,[252]).
-providingAssemblyContext(274,[245]).
-providedRole(274,[78]).
-requiredRole(274,[106]).
-/** END assemblyConnector, ID: '274', NAME: 'Connector OCAAdminTool -> OCALogging' */
+requiringAssemblyContext(274,[265]).
+providingAssemblyContext(274,[258]).
+providedRole(274,[89]).
+requiredRole(274,[121]).
+/** END assemblyConnector, ID: '274', NAME: 'Connector LBAdminTool -> LBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '275', NAME: 'Connector OwnCloudB -> OCBLogging' */
-description(275,'Connector OwnCloudB -> OCBLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '275', NAME: 'Connector LBAdminTool -> LBLogging' */
+description(275,'Connector LBAdminTool -> LBLogging','assemblyConnector').
 assemblyConnector(275).
-requiringAssemblyContext(275,[248]).
-providingAssemblyContext(275,[249]).
-providedRole(275,[79]).
-requiredRole(275,[84]).
-/** END assemblyConnector, ID: '275', NAME: 'Connector OwnCloudB -> OCBLogging' */
+requiringAssemblyContext(275,[265]).
+providingAssemblyContext(275,[258]).
+providedRole(275,[90]).
+requiredRole(275,[122]).
+/** END assemblyConnector, ID: '275', NAME: 'Connector LBAdminTool -> LBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '276', NAME: 'Connector OwnCloudA -> OCALogging' */
-description(276,'Connector OwnCloudA -> OCALogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '276', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+description(276,'Connector LoadBalancer -> OwnCloudA','assemblyConnector').
 assemblyConnector(276).
-requiringAssemblyContext(276,[240]).
-providingAssemblyContext(276,[245]).
-providedRole(276,[79]).
-requiredRole(276,[84]).
-/** END assemblyConnector, ID: '276', NAME: 'Connector OwnCloudA -> OCALogging' */
+requiringAssemblyContext(276,[257]).
+providingAssemblyContext(276,[251]).
+providedRole(276,[91]).
+requiredRole(276,[105]).
+/** END assemblyConnector, ID: '276', NAME: 'Connector LoadBalancer -> OwnCloudA' */
 
 
-/** BEGIN assemblyConnector, ID: '277', NAME: 'Connector OwnCloudA -> Database' */
-description(277,'Connector OwnCloudA -> Database','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '277', NAME: 'Connector LoadBalancer -> OwnCloudA' */
+description(277,'Connector LoadBalancer -> OwnCloudA','assemblyConnector').
 assemblyConnector(277).
-requiringAssemblyContext(277,[240]).
-providingAssemblyContext(277,[242]).
-providedRole(277,[76]).
-requiredRole(277,[82]).
-/** END assemblyConnector, ID: '277', NAME: 'Connector OwnCloudA -> Database' */
+requiringAssemblyContext(277,[257]).
+providingAssemblyContext(277,[251]).
+providedRole(277,[92]).
+requiredRole(277,[104]).
+/** END assemblyConnector, ID: '277', NAME: 'Connector LoadBalancer -> OwnCloudA' */
 
 
-parametersAndDataPair(324).
-
-parameterSources(324,[*]).
-
-dataTargets(324,[4]).
-
-
-originalParametersAndDataPair(324,8).
-
-
-connectorSpecificParametersAndDataPairs(277,[324]).
-
-
-/** BEGIN assemblyConnector, ID: '278', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
-description(278,'Connector OwnCloudA -> NetworkFilesystem','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '278', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+description(278,'Connector OCAAdminTool -> OwnCloudA','assemblyConnector').
 assemblyConnector(278).
-requiringAssemblyContext(278,[240]).
-providingAssemblyContext(278,[243]).
-providedRole(278,[85]).
-requiredRole(278,[83]).
-/** END assemblyConnector, ID: '278', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
+requiringAssemblyContext(278,[263]).
+providingAssemblyContext(278,[251]).
+providedRole(278,[91]).
+requiredRole(278,[115]).
+/** END assemblyConnector, ID: '278', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
 
 
-parametersAndDataPair(325).
-
-parameterSources(325,[*]).
-
-dataTargets(325,[4]).
-
-
-originalParametersAndDataPair(325,8).
-
-
-connectorSpecificParametersAndDataPairs(278,[325]).
-
-
-/** BEGIN assemblyConnector, ID: '279', NAME: 'Connector OwnCloudB -> Database' */
-description(279,'Connector OwnCloudB -> Database','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '279', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
+description(279,'Connector OCAAdminTool -> OwnCloudA','assemblyConnector').
 assemblyConnector(279).
-requiringAssemblyContext(279,[248]).
-providingAssemblyContext(279,[242]).
-providedRole(279,[76]).
-requiredRole(279,[82]).
-/** END assemblyConnector, ID: '279', NAME: 'Connector OwnCloudB -> Database' */
+requiringAssemblyContext(279,[263]).
+providingAssemblyContext(279,[251]).
+providedRole(279,[92]).
+requiredRole(279,[116]).
+/** END assemblyConnector, ID: '279', NAME: 'Connector OCAAdminTool -> OwnCloudA' */
 
 
-parametersAndDataPair(326).
-
-parameterSources(326,[*]).
-
-dataTargets(326,[4]).
-
-
-originalParametersAndDataPair(326,8).
-
-
-connectorSpecificParametersAndDataPairs(279,[326]).
-
-
-/** BEGIN assemblyConnector, ID: '280', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
-description(280,'Connector OwnCloudB -> NetworkFilesystem','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '280', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+description(280,'Connector OCBAdminTool -> OwnCloudB','assemblyConnector').
 assemblyConnector(280).
-requiringAssemblyContext(280,[248]).
-providingAssemblyContext(280,[243]).
-providedRole(280,[85]).
-requiredRole(280,[83]).
-/** END assemblyConnector, ID: '280', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
+requiringAssemblyContext(280,[264]).
+providingAssemblyContext(280,[259]).
+providedRole(280,[91]).
+requiredRole(280,[115]).
+/** END assemblyConnector, ID: '280', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
 
 
-parametersAndDataPair(327).
-
-parameterSources(327,[*]).
-
-dataTargets(327,[4]).
-
-
-originalParametersAndDataPair(327,8).
-
-
-connectorSpecificParametersAndDataPairs(280,[327]).
-
-
-/** BEGIN assemblyConnector, ID: '281', NAME: 'Connector DBAdminTool -> Database' */
-description(281,'Connector DBAdminTool -> Database','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '281', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
+description(281,'Connector OCBAdminTool -> OwnCloudB','assemblyConnector').
 assemblyConnector(281).
-requiringAssemblyContext(281,[250]).
-providingAssemblyContext(281,[242]).
-providedRole(281,[76]).
-requiredRole(281,[73]).
-/** END assemblyConnector, ID: '281', NAME: 'Connector DBAdminTool -> Database' */
+requiringAssemblyContext(281,[264]).
+providingAssemblyContext(281,[259]).
+providedRole(281,[92]).
+requiredRole(281,[116]).
+/** END assemblyConnector, ID: '281', NAME: 'Connector OCBAdminTool -> OwnCloudB' */
 
 
-parametersAndDataPair(328).
-
-parameterSources(328,[*]).
-
-dataTargets(328,[4]).
-
-
-originalParametersAndDataPair(328,8).
-
-
-connectorSpecificParametersAndDataPairs(281,[328]).
-
-
-/** BEGIN assemblyConnector, ID: '282', NAME: 'Connector DBAdminTool -> DBLogging' */
-description(282,'Connector DBAdminTool -> DBLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '282', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+description(282,'Connector OCBAdminTool -> OCBLogging','assemblyConnector').
 assemblyConnector(282).
-requiringAssemblyContext(282,[250]).
-providingAssemblyContext(282,[241]).
-providedRole(282,[79]).
-requiredRole(282,[75]).
-/** END assemblyConnector, ID: '282', NAME: 'Connector DBAdminTool -> DBLogging' */
+requiringAssemblyContext(282,[264]).
+providingAssemblyContext(282,[260]).
+providedRole(282,[90]).
+requiredRole(282,[118]).
+/** END assemblyConnector, ID: '282', NAME: 'Connector OCBAdminTool -> OCBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '283', NAME: 'Connector DBAdminTool -> DBLogging' */
-description(283,'Connector DBAdminTool -> DBLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '283', NAME: 'Connector OCBAdminTool -> OCBLogging' */
+description(283,'Connector OCBAdminTool -> OCBLogging','assemblyConnector').
 assemblyConnector(283).
-requiringAssemblyContext(283,[250]).
-providingAssemblyContext(283,[241]).
-providedRole(283,[78]).
-requiredRole(283,[74]).
-/** END assemblyConnector, ID: '283', NAME: 'Connector DBAdminTool -> DBLogging' */
+requiringAssemblyContext(283,[264]).
+providingAssemblyContext(283,[260]).
+providedRole(283,[89]).
+requiredRole(283,[117]).
+/** END assemblyConnector, ID: '283', NAME: 'Connector OCBAdminTool -> OCBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '284', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
-description(284,'Connector NWFSAdminTool -> NWFSLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '284', NAME: 'Connector OCAAdminTool -> OCALogging' */
+description(284,'Connector OCAAdminTool -> OCALogging','assemblyConnector').
 assemblyConnector(284).
-requiringAssemblyContext(284,[251]).
-providingAssemblyContext(284,[244]).
-providedRole(284,[78]).
-requiredRole(284,[101]).
-/** END assemblyConnector, ID: '284', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+requiringAssemblyContext(284,[263]).
+providingAssemblyContext(284,[256]).
+providedRole(284,[90]).
+requiredRole(284,[118]).
+/** END assemblyConnector, ID: '284', NAME: 'Connector OCAAdminTool -> OCALogging' */
 
 
-/** BEGIN assemblyConnector, ID: '285', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
-description(285,'Connector NWFSAdminTool -> NWFSLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '285', NAME: 'Connector OCAAdminTool -> OCALogging' */
+description(285,'Connector OCAAdminTool -> OCALogging','assemblyConnector').
 assemblyConnector(285).
-requiringAssemblyContext(285,[251]).
-providingAssemblyContext(285,[244]).
-providedRole(285,[79]).
-requiredRole(285,[102]).
-/** END assemblyConnector, ID: '285', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+requiringAssemblyContext(285,[263]).
+providingAssemblyContext(285,[256]).
+providedRole(285,[89]).
+requiredRole(285,[117]).
+/** END assemblyConnector, ID: '285', NAME: 'Connector OCAAdminTool -> OCALogging' */
 
 
-/** BEGIN assemblyConnector, ID: '286', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
-description(286,'Connector NWFSAdminTool -> NetworkFilesystem','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '286', NAME: 'Connector OwnCloudB -> OCBLogging' */
+description(286,'Connector OwnCloudB -> OCBLogging','assemblyConnector').
 assemblyConnector(286).
-requiringAssemblyContext(286,[251]).
-providingAssemblyContext(286,[243]).
-providedRole(286,[85]).
-requiredRole(286,[100]).
-/** END assemblyConnector, ID: '286', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
+requiringAssemblyContext(286,[259]).
+providingAssemblyContext(286,[260]).
+providedRole(286,[90]).
+requiredRole(286,[95]).
+/** END assemblyConnector, ID: '286', NAME: 'Connector OwnCloudB -> OCBLogging' */
 
 
-parametersAndDataPair(329).
-
-parameterSources(329,[*]).
-
-dataTargets(329,[4]).
-
-
-originalParametersAndDataPair(329,8).
-
-
-connectorSpecificParametersAndDataPairs(286,[329]).
-
-
-/** BEGIN assemblyConnector, ID: '287', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
-description(287,'Connector NetworkFilesystem -> NWFSLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '287', NAME: 'Connector OwnCloudA -> OCALogging' */
+description(287,'Connector OwnCloudA -> OCALogging','assemblyConnector').
 assemblyConnector(287).
-requiringAssemblyContext(287,[243]).
-providingAssemblyContext(287,[244]).
-providedRole(287,[79]).
-requiredRole(287,[86]).
-/** END assemblyConnector, ID: '287', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
+requiringAssemblyContext(287,[251]).
+providingAssemblyContext(287,[256]).
+providedRole(287,[90]).
+requiredRole(287,[95]).
+/** END assemblyConnector, ID: '287', NAME: 'Connector OwnCloudA -> OCALogging' */
 
 
-/** BEGIN assemblyConnector, ID: '288', NAME: 'Connector Database -> DBLogging' */
-description(288,'Connector Database -> DBLogging','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '288', NAME: 'Connector OwnCloudA -> Database' */
+description(288,'Connector OwnCloudA -> Database','assemblyConnector').
 assemblyConnector(288).
-requiringAssemblyContext(288,[242]).
-providingAssemblyContext(288,[241]).
-providedRole(288,[79]).
-requiredRole(288,[77]).
-/** END assemblyConnector, ID: '288', NAME: 'Connector Database -> DBLogging' */
+requiringAssemblyContext(288,[251]).
+providingAssemblyContext(288,[253]).
+providedRole(288,[87]).
+requiredRole(288,[93]).
+/** END assemblyConnector, ID: '288', NAME: 'Connector OwnCloudA -> Database' */
 
 
-/** BEGIN providedDelegationConnector, ID: '289', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
-description(289,'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database','providedDelegationConnector').
-providedDelegationConnector(289).
-innerProvidedRole(289,[72]).
-outerProvidedRole(289,[311]).
-assemblyContext(289,[242]).
-/** END providedDelegationConnector, ID: '289', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
+/** BEGIN assemblyConnector, ID: '289', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
+description(289,'Connector OwnCloudA -> NetworkFilesystem','assemblyConnector').
+assemblyConnector(289).
+requiringAssemblyContext(289,[251]).
+providingAssemblyContext(289,[254]).
+providedRole(289,[96]).
+requiredRole(289,[94]).
+/** END assemblyConnector, ID: '289', NAME: 'Connector OwnCloudA -> NetworkFilesystem' */
 
 
-/** BEGIN providedDelegationConnector, ID: '290', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
-description(290,'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool','providedDelegationConnector').
-providedDelegationConnector(290).
-innerProvidedRole(290,[99]).
-outerProvidedRole(290,[310]).
-assemblyContext(290,[251]).
-/** END providedDelegationConnector, ID: '290', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
+/** BEGIN assemblyConnector, ID: '290', NAME: 'Connector OwnCloudB -> Database' */
+description(290,'Connector OwnCloudB -> Database','assemblyConnector').
+assemblyConnector(290).
+requiringAssemblyContext(290,[259]).
+providingAssemblyContext(290,[253]).
+providedRole(290,[87]).
+requiredRole(290,[93]).
+/** END assemblyConnector, ID: '290', NAME: 'Connector OwnCloudB -> Database' */
 
 
-/** BEGIN providedDelegationConnector, ID: '291', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
-description(291,'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool','providedDelegationConnector').
-providedDelegationConnector(291).
-innerProvidedRole(291,[103]).
-outerProvidedRole(291,[309]).
-assemblyContext(291,[252]).
-/** END providedDelegationConnector, ID: '291', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+/** BEGIN assemblyConnector, ID: '291', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
+description(291,'Connector OwnCloudB -> NetworkFilesystem','assemblyConnector').
+assemblyConnector(291).
+requiringAssemblyContext(291,[259]).
+providingAssemblyContext(291,[254]).
+providedRole(291,[96]).
+requiredRole(291,[94]).
+/** END assemblyConnector, ID: '291', NAME: 'Connector OwnCloudB -> NetworkFilesystem' */
 
 
-/** BEGIN providedDelegationConnector, ID: '292', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
-description(292,'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool','providedDelegationConnector').
-providedDelegationConnector(292).
-innerProvidedRole(292,[108]).
-outerProvidedRole(292,[308]).
-assemblyContext(292,[254]).
-/** END providedDelegationConnector, ID: '292', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
+/** BEGIN assemblyConnector, ID: '292', NAME: 'Connector DBAdminTool -> Database' */
+description(292,'Connector DBAdminTool -> Database','assemblyConnector').
+assemblyConnector(292).
+requiringAssemblyContext(292,[261]).
+providingAssemblyContext(292,[253]).
+providedRole(292,[87]).
+requiredRole(292,[84]).
+/** END assemblyConnector, ID: '292', NAME: 'Connector DBAdminTool -> Database' */
 
 
-/** BEGIN providedDelegationConnector, ID: '293', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
-description(293,'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool','providedDelegationConnector').
-providedDelegationConnector(293).
-innerProvidedRole(293,[103]).
-outerProvidedRole(293,[309]).
-assemblyContext(293,[253]).
-/** END providedDelegationConnector, ID: '293', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+/** BEGIN assemblyConnector, ID: '293', NAME: 'Connector DBAdminTool -> DBLogging' */
+description(293,'Connector DBAdminTool -> DBLogging','assemblyConnector').
+assemblyConnector(293).
+requiringAssemblyContext(293,[261]).
+providingAssemblyContext(293,[252]).
+providedRole(293,[90]).
+requiredRole(293,[86]).
+/** END assemblyConnector, ID: '293', NAME: 'Connector DBAdminTool -> DBLogging' */
 
 
-/** BEGIN assemblyConnector, ID: '294', NAME: 'Connector FileManagerA -> LoadBalancer' */
-description(294,'Connector FileManagerA -> LoadBalancer','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '294', NAME: 'Connector DBAdminTool -> DBLogging' */
+description(294,'Connector DBAdminTool -> DBLogging','assemblyConnector').
 assemblyConnector(294).
-requiringAssemblyContext(294,[255]).
-providingAssemblyContext(294,[246]).
-providedRole(294,[87]).
-requiredRole(294,[96]).
-/** END assemblyConnector, ID: '294', NAME: 'Connector FileManagerA -> LoadBalancer' */
+requiringAssemblyContext(294,[261]).
+providingAssemblyContext(294,[252]).
+providedRole(294,[89]).
+requiredRole(294,[85]).
+/** END assemblyConnector, ID: '294', NAME: 'Connector DBAdminTool -> DBLogging' */
 
 
-parametersAndDataPair(330).
-
-parameterSources(330,[*]).
-
-dataTargets(330,[4]).
-
-
-originalParametersAndDataPair(330,8).
-
-
-connectorSpecificParametersAndDataPairs(294,[330]).
-
-
-/** BEGIN assemblyConnector, ID: '295', NAME: 'Connector CalendarA -> LoadBalancer' */
-description(295,'Connector CalendarA -> LoadBalancer','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '295', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+description(295,'Connector NWFSAdminTool -> NWFSLogging','assemblyConnector').
 assemblyConnector(295).
-requiringAssemblyContext(295,[256]).
-providingAssemblyContext(295,[246]).
-providedRole(295,[88]).
-requiredRole(295,[98]).
-/** END assemblyConnector, ID: '295', NAME: 'Connector CalendarA -> LoadBalancer' */
+requiringAssemblyContext(295,[262]).
+providingAssemblyContext(295,[255]).
+providedRole(295,[89]).
+requiredRole(295,[112]).
+/** END assemblyConnector, ID: '295', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
 
 
-parametersAndDataPair(331).
-
-parameterSources(331,[*]).
-
-dataTargets(331,[4]).
-
-
-originalParametersAndDataPair(331,8).
-
-
-connectorSpecificParametersAndDataPairs(295,[331]).
-
-
-/** BEGIN assemblyConnector, ID: '296', NAME: 'Connector FileManagerB -> LoadBalancer' */
-description(296,'Connector FileManagerB -> LoadBalancer','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '296', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
+description(296,'Connector NWFSAdminTool -> NWFSLogging','assemblyConnector').
 assemblyConnector(296).
-requiringAssemblyContext(296,[257]).
-providingAssemblyContext(296,[246]).
-providedRole(296,[87]).
-requiredRole(296,[96]).
-/** END assemblyConnector, ID: '296', NAME: 'Connector FileManagerB -> LoadBalancer' */
+requiringAssemblyContext(296,[262]).
+providingAssemblyContext(296,[255]).
+providedRole(296,[90]).
+requiredRole(296,[113]).
+/** END assemblyConnector, ID: '296', NAME: 'Connector NWFSAdminTool -> NWFSLogging' */
 
 
-parametersAndDataPair(332).
-
-parameterSources(332,[*]).
-
-dataTargets(332,[5]).
-
-
-originalParametersAndDataPair(332,8).
-
-
-connectorSpecificParametersAndDataPairs(296,[332]).
-
-
-/** BEGIN assemblyConnector, ID: '297', NAME: 'Connector CalendarB -> LoadBalancer' */
-description(297,'Connector CalendarB -> LoadBalancer','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '297', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
+description(297,'Connector NWFSAdminTool -> NetworkFilesystem','assemblyConnector').
 assemblyConnector(297).
-requiringAssemblyContext(297,[258]).
-providingAssemblyContext(297,[246]).
-providedRole(297,[88]).
-requiredRole(297,[98]).
-/** END assemblyConnector, ID: '297', NAME: 'Connector CalendarB -> LoadBalancer' */
+requiringAssemblyContext(297,[262]).
+providingAssemblyContext(297,[254]).
+providedRole(297,[96]).
+requiredRole(297,[111]).
+/** END assemblyConnector, ID: '297', NAME: 'Connector NWFSAdminTool -> NetworkFilesystem' */
 
 
-parametersAndDataPair(333).
-
-parameterSources(333,[*]).
-
-dataTargets(333,[5]).
-
-
-originalParametersAndDataPair(333,8).
-
-
-connectorSpecificParametersAndDataPairs(297,[333]).
+/** BEGIN assemblyConnector, ID: '298', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
+description(298,'Connector NetworkFilesystem -> NWFSLogging','assemblyConnector').
+assemblyConnector(298).
+requiringAssemblyContext(298,[254]).
+providingAssemblyContext(298,[255]).
+providedRole(298,[90]).
+requiredRole(298,[97]).
+/** END assemblyConnector, ID: '298', NAME: 'Connector NetworkFilesystem -> NWFSLogging' */
 
 
-/** BEGIN providedDelegationConnector, ID: '298', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
-description(298,'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar','providedDelegationConnector').
-providedDelegationConnector(298).
-innerProvidedRole(298,[97]).
-outerProvidedRole(298,[315]).
-assemblyContext(298,[256]).
-/** END providedDelegationConnector, ID: '298', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
+/** BEGIN assemblyConnector, ID: '299', NAME: 'Connector Database -> DBLogging' */
+description(299,'Connector Database -> DBLogging','assemblyConnector').
+assemblyConnector(299).
+requiringAssemblyContext(299,[253]).
+providingAssemblyContext(299,[252]).
+providedRole(299,[90]).
+requiredRole(299,[88]).
+/** END assemblyConnector, ID: '299', NAME: 'Connector Database -> DBLogging' */
 
 
-/** BEGIN providedDelegationConnector, ID: '299', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
-description(299,'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar','providedDelegationConnector').
-providedDelegationConnector(299).
-innerProvidedRole(299,[97]).
-outerProvidedRole(299,[314]).
-assemblyContext(299,[258]).
-/** END providedDelegationConnector, ID: '299', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
-
-
-/** BEGIN providedDelegationConnector, ID: '300', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
-description(300,'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager','providedDelegationConnector').
+/** BEGIN providedDelegationConnector, ID: '300', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
+description(300,'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database','providedDelegationConnector').
 providedDelegationConnector(300).
-innerProvidedRole(300,[95]).
-outerProvidedRole(300,[313]).
-assemblyContext(300,[257]).
-/** END providedDelegationConnector, ID: '300', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
+innerProvidedRole(300,[83]).
+outerProvidedRole(300,[322]).
+assemblyContext(300,[253]).
+/** END providedDelegationConnector, ID: '300', NAME: 'ProvDelegation Provided_IDBAdminTool -> Provided_ISQL_Database' */
 
 
-/** BEGIN assemblyConnector, ID: '301', NAME: 'Connector LoadBalancer -> OwnCloudB' */
-description(301,'Connector LoadBalancer -> OwnCloudB','assemblyConnector').
-assemblyConnector(301).
-requiringAssemblyContext(301,[246]).
-providingAssemblyContext(301,[248]).
-providedRole(301,[81]).
-requiredRole(301,[93]).
-/** END assemblyConnector, ID: '301', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+/** BEGIN providedDelegationConnector, ID: '301', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
+description(301,'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool','providedDelegationConnector').
+providedDelegationConnector(301).
+innerProvidedRole(301,[110]).
+outerProvidedRole(301,[321]).
+assemblyContext(301,[262]).
+/** END providedDelegationConnector, ID: '301', NAME: 'ProvDelegation Provided_INWFSAdminTool -> Provided_INWFSAdminTool_NWFSAdminTool' */
 
 
-parametersAndDataPair(334).
-
-parameterSources(334,[*]).
-
-dataTargets(334,[4]).
-
-
-originalParametersAndDataPair(334,8).
-
-
-connectorSpecificParametersAndDataPairs(301,[334]).
-
-
-/** BEGIN providedDelegationConnector, ID: '302', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
-description(302,'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager','providedDelegationConnector').
+/** BEGIN providedDelegationConnector, ID: '302', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+description(302,'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool','providedDelegationConnector').
 providedDelegationConnector(302).
-innerProvidedRole(302,[95]).
-outerProvidedRole(302,[312]).
-assemblyContext(302,[255]).
-/** END providedDelegationConnector, ID: '302', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
+innerProvidedRole(302,[114]).
+outerProvidedRole(302,[320]).
+assemblyContext(302,[263]).
+/** END providedDelegationConnector, ID: '302', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
 
 
-/** BEGIN assemblyConnector, ID: '303', NAME: 'Connector LoadBalancer -> OwnCloudB' */
-description(303,'Connector LoadBalancer -> OwnCloudB','assemblyConnector').
-assemblyConnector(303).
-requiringAssemblyContext(303,[246]).
-providingAssemblyContext(303,[248]).
-providedRole(303,[80]).
-requiredRole(303,[94]).
-/** END assemblyConnector, ID: '303', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+/** BEGIN providedDelegationConnector, ID: '303', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
+description(303,'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool','providedDelegationConnector').
+providedDelegationConnector(303).
+innerProvidedRole(303,[119]).
+outerProvidedRole(303,[319]).
+assemblyContext(303,[265]).
+/** END providedDelegationConnector, ID: '303', NAME: 'ProvDelegation Provided_ILBAdminTool -> Provided_ILBAdminTool_LBAdminTool' */
 
 
-parametersAndDataPair(335).
-
-parameterSources(335,[*]).
-
-dataTargets(335,[4]).
-
-
-originalParametersAndDataPair(335,8).
-
-
-connectorSpecificParametersAndDataPairs(303,[335]).
-
-
-/** BEGIN providedDelegationConnector, ID: '304', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
-description(304,'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar','providedDelegationConnector').
+/** BEGIN providedDelegationConnector, ID: '304', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
+description(304,'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool','providedDelegationConnector').
 providedDelegationConnector(304).
 innerProvidedRole(304,[114]).
-outerProvidedRole(304,[317]).
-assemblyContext(304,[260]).
-/** END providedDelegationConnector, ID: '304', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
+outerProvidedRole(304,[320]).
+assemblyContext(304,[264]).
+/** END providedDelegationConnector, ID: '304', NAME: 'ProvDelegation Provided_IOCAdminTool -> Provided_IOCAdminTool_OwnCloudAdminTool' */
 
 
-/** BEGIN providedDelegationConnector, ID: '305', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
-description(305,'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager','providedDelegationConnector').
-providedDelegationConnector(305).
-innerProvidedRole(305,[112]).
-outerProvidedRole(305,[316]).
-assemblyContext(305,[259]).
-/** END providedDelegationConnector, ID: '305', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
+/** BEGIN assemblyConnector, ID: '305', NAME: 'Connector FileManagerA -> LoadBalancer' */
+description(305,'Connector FileManagerA -> LoadBalancer','assemblyConnector').
+assemblyConnector(305).
+requiringAssemblyContext(305,[266]).
+providingAssemblyContext(305,[257]).
+providedRole(305,[98]).
+requiredRole(305,[107]).
+/** END assemblyConnector, ID: '305', NAME: 'Connector FileManagerA -> LoadBalancer' */
 
 
-/** BEGIN assemblyConnector, ID: '306', NAME: 'Connector PublicFileManager -> LoadBalancer' */
-description(306,'Connector PublicFileManager -> LoadBalancer','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '306', NAME: 'Connector CalendarA -> LoadBalancer' */
+description(306,'Connector CalendarA -> LoadBalancer','assemblyConnector').
 assemblyConnector(306).
-requiringAssemblyContext(306,[259]).
-providingAssemblyContext(306,[246]).
-providedRole(306,[90]).
-requiredRole(306,[113]).
-/** END assemblyConnector, ID: '306', NAME: 'Connector PublicFileManager -> LoadBalancer' */
+requiringAssemblyContext(306,[267]).
+providingAssemblyContext(306,[257]).
+providedRole(306,[99]).
+requiredRole(306,[109]).
+/** END assemblyConnector, ID: '306', NAME: 'Connector CalendarA -> LoadBalancer' */
 
 
-/** BEGIN assemblyConnector, ID: '307', NAME: 'Connector PublicCalendar -> LoadBalancer' */
-description(307,'Connector PublicCalendar -> LoadBalancer','assemblyConnector').
+/** BEGIN assemblyConnector, ID: '307', NAME: 'Connector FileManagerB -> LoadBalancer' */
+description(307,'Connector FileManagerB -> LoadBalancer','assemblyConnector').
 assemblyConnector(307).
-requiringAssemblyContext(307,[260]).
-providingAssemblyContext(307,[246]).
-providedRole(307,[91]).
-requiredRole(307,[115]).
-/** END assemblyConnector, ID: '307', NAME: 'Connector PublicCalendar -> LoadBalancer' */
+requiringAssemblyContext(307,[268]).
+providingAssemblyContext(307,[257]).
+providedRole(307,[98]).
+requiredRole(307,[107]).
+/** END assemblyConnector, ID: '307', NAME: 'Connector FileManagerB -> LoadBalancer' */
 
 
-/** BEGIN operationProvidedRole, ID: '308', NAME: 'Provided_ILBAdminTool' */
-description(308,'Provided_ILBAdminTool','operationProvidedRole').
-operationProvidedRole(308).
-providedInterface(308,[69]).
-/** END operationProvidedRole, ID: '308', NAME: 'Provided_ILBAdminTool' */
+/** BEGIN assemblyConnector, ID: '308', NAME: 'Connector CalendarB -> LoadBalancer' */
+description(308,'Connector CalendarB -> LoadBalancer','assemblyConnector').
+assemblyConnector(308).
+requiringAssemblyContext(308,[269]).
+providingAssemblyContext(308,[257]).
+providedRole(308,[99]).
+requiredRole(308,[109]).
+/** END assemblyConnector, ID: '308', NAME: 'Connector CalendarB -> LoadBalancer' */
 
 
-/** BEGIN operationProvidedRole, ID: '309', NAME: 'Provided_IOCAdminTool' */
-description(309,'Provided_IOCAdminTool','operationProvidedRole').
-operationProvidedRole(309).
-providedInterface(309,[68]).
-/** END operationProvidedRole, ID: '309', NAME: 'Provided_IOCAdminTool' */
+/** BEGIN providedDelegationConnector, ID: '309', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
+description(309,'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar','providedDelegationConnector').
+providedDelegationConnector(309).
+innerProvidedRole(309,[108]).
+outerProvidedRole(309,[326]).
+assemblyContext(309,[267]).
+/** END providedDelegationConnector, ID: '309', NAME: 'ProvDelegation Provided_ICalDAVA -> Provided_CalendarGUI_Calendar' */
 
 
-/** BEGIN operationProvidedRole, ID: '310', NAME: 'Provided_INWFSAdminTool' */
-description(310,'Provided_INWFSAdminTool','operationProvidedRole').
-operationProvidedRole(310).
-providedInterface(310,[66]).
-/** END operationProvidedRole, ID: '310', NAME: 'Provided_INWFSAdminTool' */
+/** BEGIN providedDelegationConnector, ID: '310', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
+description(310,'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar','providedDelegationConnector').
+providedDelegationConnector(310).
+innerProvidedRole(310,[108]).
+outerProvidedRole(310,[325]).
+assemblyContext(310,[269]).
+/** END providedDelegationConnector, ID: '310', NAME: 'ProvDelegation Provided_ICalDAVB -> Provided_CalendarGUI_Calendar' */
 
 
-/** BEGIN operationProvidedRole, ID: '311', NAME: 'Provided_IDBAdminTool' */
-description(311,'Provided_IDBAdminTool','operationProvidedRole').
-operationProvidedRole(311).
-providedInterface(311,[56]).
-/** END operationProvidedRole, ID: '311', NAME: 'Provided_IDBAdminTool' */
+/** BEGIN providedDelegationConnector, ID: '311', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
+description(311,'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager','providedDelegationConnector').
+providedDelegationConnector(311).
+innerProvidedRole(311,[106]).
+outerProvidedRole(311,[324]).
+assemblyContext(311,[268]).
+/** END providedDelegationConnector, ID: '311', NAME: 'ProvDelegation Provided_IWebDAVB -> Provided_FileManGUI_FileManager' */
 
 
-/** BEGIN operationProvidedRole, ID: '312', NAME: 'Provided_IWebDAVA' */
-description(312,'Provided_IWebDAVA','operationProvidedRole').
-operationProvidedRole(312).
-providedInterface(312,[61]).
-/** END operationProvidedRole, ID: '312', NAME: 'Provided_IWebDAVA' */
+/** BEGIN assemblyConnector, ID: '312', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+description(312,'Connector LoadBalancer -> OwnCloudB','assemblyConnector').
+assemblyConnector(312).
+requiringAssemblyContext(312,[257]).
+providingAssemblyContext(312,[259]).
+providedRole(312,[92]).
+requiredRole(312,[104]).
+/** END assemblyConnector, ID: '312', NAME: 'Connector LoadBalancer -> OwnCloudB' */
 
 
-/** BEGIN operationProvidedRole, ID: '313', NAME: 'Provided_IWebDAVB' */
-description(313,'Provided_IWebDAVB','operationProvidedRole').
-operationProvidedRole(313).
-providedInterface(313,[61]).
-/** END operationProvidedRole, ID: '313', NAME: 'Provided_IWebDAVB' */
+/** BEGIN providedDelegationConnector, ID: '313', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
+description(313,'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager','providedDelegationConnector').
+providedDelegationConnector(313).
+innerProvidedRole(313,[106]).
+outerProvidedRole(313,[323]).
+assemblyContext(313,[266]).
+/** END providedDelegationConnector, ID: '313', NAME: 'ProvDelegation Provided_IWebDAVA -> Provided_FileManGUI_FileManager' */
 
 
-/** BEGIN operationProvidedRole, ID: '314', NAME: 'Provided_ICalDAVB' */
-description(314,'Provided_ICalDAVB','operationProvidedRole').
-operationProvidedRole(314).
-providedInterface(314,[62]).
-/** END operationProvidedRole, ID: '314', NAME: 'Provided_ICalDAVB' */
+/** BEGIN assemblyConnector, ID: '314', NAME: 'Connector LoadBalancer -> OwnCloudB' */
+description(314,'Connector LoadBalancer -> OwnCloudB','assemblyConnector').
+assemblyConnector(314).
+requiringAssemblyContext(314,[257]).
+providingAssemblyContext(314,[259]).
+providedRole(314,[91]).
+requiredRole(314,[105]).
+/** END assemblyConnector, ID: '314', NAME: 'Connector LoadBalancer -> OwnCloudB' */
 
 
-/** BEGIN operationProvidedRole, ID: '315', NAME: 'Provided_ICalDAVA' */
-description(315,'Provided_ICalDAVA','operationProvidedRole').
-operationProvidedRole(315).
-providedInterface(315,[62]).
-/** END operationProvidedRole, ID: '315', NAME: 'Provided_ICalDAVA' */
+/** BEGIN providedDelegationConnector, ID: '315', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
+description(315,'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar','providedDelegationConnector').
+providedDelegationConnector(315).
+innerProvidedRole(315,[125]).
+outerProvidedRole(315,[328]).
+assemblyContext(315,[271]).
+/** END providedDelegationConnector, ID: '315', NAME: 'ProvDelegation Provided_IPublicCalendarGUI -> Provided_PublicCalendarGUI_PublicCalendar' */
 
 
-/** BEGIN operationProvidedRole, ID: '316', NAME: 'Provided_IPublicFileManGUI' */
-description(316,'Provided_IPublicFileManGUI','operationProvidedRole').
-operationProvidedRole(316).
-providedInterface(316,[70]).
-/** END operationProvidedRole, ID: '316', NAME: 'Provided_IPublicFileManGUI' */
+/** BEGIN providedDelegationConnector, ID: '316', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
+description(316,'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager','providedDelegationConnector').
+providedDelegationConnector(316).
+innerProvidedRole(316,[123]).
+outerProvidedRole(316,[327]).
+assemblyContext(316,[270]).
+/** END providedDelegationConnector, ID: '316', NAME: 'ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager' */
 
 
-/** BEGIN operationProvidedRole, ID: '317', NAME: 'Provided_IPublicCalendarGUI' */
-description(317,'Provided_IPublicCalendarGUI','operationProvidedRole').
-operationProvidedRole(317).
-providedInterface(317,[71]).
-/** END operationProvidedRole, ID: '317', NAME: 'Provided_IPublicCalendarGUI' */
+/** BEGIN assemblyConnector, ID: '317', NAME: 'Connector PublicFileManager -> LoadBalancer' */
+description(317,'Connector PublicFileManager -> LoadBalancer','assemblyConnector').
+assemblyConnector(317).
+requiringAssemblyContext(317,[270]).
+providingAssemblyContext(317,[257]).
+providedRole(317,[101]).
+requiredRole(317,[124]).
+/** END assemblyConnector, ID: '317', NAME: 'Connector PublicFileManager -> LoadBalancer' */
 
-/** END system, ID: '239', NAME: 'defaultSystem' */
+
+/** BEGIN assemblyConnector, ID: '318', NAME: 'Connector PublicCalendar -> LoadBalancer' */
+description(318,'Connector PublicCalendar -> LoadBalancer','assemblyConnector').
+assemblyConnector(318).
+requiringAssemblyContext(318,[271]).
+providingAssemblyContext(318,[257]).
+providedRole(318,[102]).
+requiredRole(318,[126]).
+/** END assemblyConnector, ID: '318', NAME: 'Connector PublicCalendar -> LoadBalancer' */
+
+
+/** BEGIN operationProvidedRole, ID: '319', NAME: 'Provided_ILBAdminTool' */
+description(319,'Provided_ILBAdminTool','operationProvidedRole').
+operationProvidedRole(319).
+providedInterface(319,[50]).
+/** END operationProvidedRole, ID: '319', NAME: 'Provided_ILBAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '320', NAME: 'Provided_IOCAdminTool' */
+description(320,'Provided_IOCAdminTool','operationProvidedRole').
+operationProvidedRole(320).
+providedInterface(320,[54]).
+/** END operationProvidedRole, ID: '320', NAME: 'Provided_IOCAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '321', NAME: 'Provided_INWFSAdminTool' */
+description(321,'Provided_INWFSAdminTool','operationProvidedRole').
+operationProvidedRole(321).
+providedInterface(321,[52]).
+/** END operationProvidedRole, ID: '321', NAME: 'Provided_INWFSAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '322', NAME: 'Provided_IDBAdminTool' */
+description(322,'Provided_IDBAdminTool','operationProvidedRole').
+operationProvidedRole(322).
+providedInterface(322,[49]).
+/** END operationProvidedRole, ID: '322', NAME: 'Provided_IDBAdminTool' */
+
+
+/** BEGIN operationProvidedRole, ID: '323', NAME: 'Provided_IWebDAVA' */
+description(323,'Provided_IWebDAVA','operationProvidedRole').
+operationProvidedRole(323).
+providedInterface(323,[53]).
+/** END operationProvidedRole, ID: '323', NAME: 'Provided_IWebDAVA' */
+
+
+/** BEGIN operationProvidedRole, ID: '324', NAME: 'Provided_IWebDAVB' */
+description(324,'Provided_IWebDAVB','operationProvidedRole').
+operationProvidedRole(324).
+providedInterface(324,[53]).
+/** END operationProvidedRole, ID: '324', NAME: 'Provided_IWebDAVB' */
+
+
+/** BEGIN operationProvidedRole, ID: '325', NAME: 'Provided_ICalDAVB' */
+description(325,'Provided_ICalDAVB','operationProvidedRole').
+operationProvidedRole(325).
+providedInterface(325,[48]).
+/** END operationProvidedRole, ID: '325', NAME: 'Provided_ICalDAVB' */
+
+
+/** BEGIN operationProvidedRole, ID: '326', NAME: 'Provided_ICalDAVA' */
+description(326,'Provided_ICalDAVA','operationProvidedRole').
+operationProvidedRole(326).
+providedInterface(326,[48]).
+/** END operationProvidedRole, ID: '326', NAME: 'Provided_ICalDAVA' */
+
+
+/** BEGIN operationProvidedRole, ID: '327', NAME: 'Provided_IPublicFileManGUI' */
+description(327,'Provided_IPublicFileManGUI','operationProvidedRole').
+operationProvidedRole(327).
+providedInterface(327,[56]).
+/** END operationProvidedRole, ID: '327', NAME: 'Provided_IPublicFileManGUI' */
+
+
+/** BEGIN operationProvidedRole, ID: '328', NAME: 'Provided_IPublicCalendarGUI' */
+description(328,'Provided_IPublicCalendarGUI','operationProvidedRole').
+operationProvidedRole(328).
+providedInterface(328,[55]).
+/** END operationProvidedRole, ID: '328', NAME: 'Provided_IPublicCalendarGUI' */
+
+/** END system, ID: '250', NAME: 'defaultSystem' */
 

@@ -7,10 +7,10 @@ dataSetMaps(1,[11]).
 parametersAndDataPairs(1,[12,13,14]).
 addedServiceParameters(1,[15]).
 specificationParameterAssignments(1,[16]).
-specificationParameterEquations(1,[17,18]).
-locations(1,[19,20]).
-tamperProtections(1,[21]).
-locationsAndTamperProtectionsPairs(1,[22,23,24]).
+specificationParameterEquations(1,[17,18,19]).
+locations(1,[20,21]).
+tamperProtections(1,[22]).
+locationsAndTamperProtectionsPairs(1,[23,24,25]).
 
 /** BEGIN specificationParameter, ID: '2', NAME: 'Self' */
 description(2,'Self','specificationParameter').
@@ -58,6 +58,7 @@ parameter(7,[4]).
 description(8,'A','dataSetMapEntry').
 dataSetMapEntry(8).
 map(8,[11]).
+nameFor(8,["A"]).
 /** END dataSetMapEntry, ID: '8', NAME: 'A' */
 
 
@@ -65,6 +66,7 @@ map(8,[11]).
 description(9,'B','dataSetMapEntry').
 dataSetMapEntry(9).
 map(9,[11]).
+nameFor(9,["B"]).
 /** END dataSetMapEntry, ID: '9', NAME: 'B' */
 
 
@@ -72,6 +74,7 @@ map(9,[11]).
 description(10,'Public','dataSetMapEntry').
 dataSetMapEntry(10).
 map(10,[11]).
+nameFor(10,["Public"]).
 /** END dataSetMapEntry, ID: '10', NAME: 'Public' */
 
 
@@ -115,70 +118,80 @@ addedServiceParameter(15).
 description(16,'null','dataSetMapParameter2KeyAssignment').
 dataSetMapParameter2KeyAssignment(16).
 specificationParametersToReplace(16,[2]).
-assignedKey(16,[A]).
+assignedKey(16,["A"]).
 /** END dataSetMapParameter2KeyAssignment, ID: '16', NAME: 'null' */
 
 
 /** BEGIN specificationParameterEquation, ID: '17', NAME: 'null' */
 description(17,'null','specificationParameterEquation').
 specificationParameterEquation(17).
-providedSpecificationParameter(17,[2]).
-providedInterfaceNames(17,[*]).
-requiredSpecificationParameter(17,[2]).
-requiredInterfaceNames(17,[*]).
+leftSpecificationParameter(17,[2]).
+rightSpecificationParameter(17,[2]).
+leftInterfaces(17,[26]).
+rightInterfaces(17,[27]).
 /** END specificationParameterEquation, ID: '17', NAME: 'null' */
 
 
 /** BEGIN specificationParameterEquation, ID: '18', NAME: 'null' */
 description(18,'null','specificationParameterEquation').
 specificationParameterEquation(18).
-providedSpecificationParameter(18,[3]).
-providedInterfaceNames(18,[*]).
-requiredSpecificationParameter(18,[3]).
-requiredInterfaceNames(18,[*]).
+leftSpecificationParameter(18,[3]).
+rightSpecificationParameter(18,[3]).
+leftInterfaces(18,[26]).
+rightInterfaces(18,[27]).
 /** END specificationParameterEquation, ID: '18', NAME: 'null' */
 
 
-/** BEGIN location, ID: '19', NAME: 'userAHome' */
-description(19,'userAHome','location').
-location(19).
-/** END location, ID: '19', NAME: 'userAHome' */
+/** BEGIN specificationParameterEquation, ID: '19', NAME: 'null' */
+description(19,'null','specificationParameterEquation').
+specificationParameterEquation(19).
+leftSpecificationParameter(19,[2]).
+rightSpecificationParameter(19,[2]).
+leftInterfaces(19,[27]).
+rightInterfaces(19,[27]).
+/** END specificationParameterEquation, ID: '19', NAME: 'null' */
 
 
-/** BEGIN location, ID: '20', NAME: 'outerZone' */
-description(20,'outerZone','location').
+/** BEGIN location, ID: '20', NAME: 'userAHome' */
+description(20,'userAHome','location').
 location(20).
-/** END location, ID: '20', NAME: 'outerZone' */
+/** END location, ID: '20', NAME: 'userAHome' */
 
 
-/** BEGIN tamperProtection, ID: '21', NAME: 'perimeterProtection' */
-description(21,'perimeterProtection','tamperProtection').
-tamperProtection(21).
-/** END tamperProtection, ID: '21', NAME: 'perimeterProtection' */
+/** BEGIN location, ID: '21', NAME: 'outerZone' */
+description(21,'outerZone','location').
+location(21).
+/** END location, ID: '21', NAME: 'outerZone' */
 
 
-/** BEGIN locationsAndTamperProtectionsPair, ID: '22', NAME: 'l=[outerZone] - t=[]' */
-description(22,'l=[outerZone] - t=[]','locationsAndTamperProtectionsPair').
-locationsAndTamperProtectionsPair(22).
-locations(22,[20]).
-tamperProtections(22,[]).
-/** END locationsAndTamperProtectionsPair, ID: '22', NAME: 'l=[outerZone] - t=[]' */
+/** BEGIN tamperProtection, ID: '22', NAME: 'perimeterProtection' */
+description(22,'perimeterProtection','tamperProtection').
+tamperProtection(22).
+/** END tamperProtection, ID: '22', NAME: 'perimeterProtection' */
 
 
-/** BEGIN locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
-description(23,'l=[outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
+/** BEGIN locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[outerZone] - t=[]' */
+description(23,'l=[outerZone] - t=[]','locationsAndTamperProtectionsPair').
 locationsAndTamperProtectionsPair(23).
-locations(23,[20]).
-tamperProtections(23,[21]).
-/** END locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+locations(23,[21]).
+tamperProtections(23,[]).
+/** END locationsAndTamperProtectionsPair, ID: '23', NAME: 'l=[outerZone] - t=[]' */
 
 
-/** BEGIN locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[userAHome] - t=[]' */
-description(24,'l=[userAHome] - t=[]','locationsAndTamperProtectionsPair').
+/** BEGIN locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+description(24,'l=[outerZone] - t=[perimeterProtection]','locationsAndTamperProtectionsPair').
 locationsAndTamperProtectionsPair(24).
-locations(24,[19]).
-tamperProtections(24,[]).
-/** END locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[userAHome] - t=[]' */
+locations(24,[21]).
+tamperProtections(24,[22]).
+/** END locationsAndTamperProtectionsPair, ID: '24', NAME: 'l=[outerZone] - t=[perimeterProtection]' */
+
+
+/** BEGIN locationsAndTamperProtectionsPair, ID: '25', NAME: 'l=[userAHome] - t=[]' */
+description(25,'l=[userAHome] - t=[]','locationsAndTamperProtectionsPair').
+locationsAndTamperProtectionsPair(25).
+locations(25,[20]).
+tamperProtections(25,[]).
+/** END locationsAndTamperProtectionsPair, ID: '25', NAME: 'l=[userAHome] - t=[]' */
 
 /** END confidentialitySpecification, ID: '1', NAME: 'cloud confidentiality specification' */
 

@@ -1,62 +1,64 @@
 
-/** BEGIN serviceParameterAddition, ID: '30', NAME: 'null' */
-description(30,'null','serviceParameterAddition').
-serviceParameters(30,[10]).
-/** END serviceParameterAddition, ID: '30', NAME: 'null' */
+/** BEGIN serviceParameterAddition, ID: '26', NAME: 'null' */
+description(26,'null','serviceParameterAddition').
+serviceParameters(26,[46]).
+/** END serviceParameterAddition, ID: '26', NAME: 'null' */
 
 
-/** BEGIN serviceParameterAddition, ID: '31', NAME: 'null' */
-description(31,'null','serviceParameterAddition').
-serviceParameters(31,[10]).
-/** END serviceParameterAddition, ID: '31', NAME: 'null' */
+/** BEGIN serviceParameterAddition, ID: '27', NAME: 'null' */
+description(27,'null','serviceParameterAddition').
+serviceParameters(27,[46]).
+/** END serviceParameterAddition, ID: '27', NAME: 'null' */
 
 
-/** BEGIN informationFlowParameter, ID: '30', NAME: 'null' */
-description(30,'null','informationFlowParameter').
-/** END informationFlowParameter, ID: '30', NAME: 'null' */
+/** BEGIN informationFlowParameter, ID: '26', NAME: 'null' */
+description(26,'null','informationFlowParameter').
+specificationParameters(26,[47,48]).
+/** END informationFlowParameter, ID: '26', NAME: 'null' */
 
 
-/** BEGIN informationFlowParameter, ID: '31', NAME: 'null' */
-description(31,'null','informationFlowParameter').
-/** END informationFlowParameter, ID: '31', NAME: 'null' */
+/** BEGIN informationFlowParameter, ID: '27', NAME: 'null' */
+description(27,'null','informationFlowParameter').
+specificationParameters(27,[47,48]).
+/** END informationFlowParameter, ID: '27', NAME: 'null' */
 
 
-/** BEGIN informationFlow, ID: '30', NAME: 'null' */
-parametersAndDataPairs(35,[6, 7]).
-parametersAndDataPairs(36,[6, 7]).
-parametersAndDataPairs(37,[6, 7]).
-parametersAndDataPairs(38,[6, 7]).
-/** END informationFlow, ID: '30', NAME: 'null' */
+/** BEGIN informationFlow, ID: '26', NAME: 'null' */
+parametersAndDataPairs(31,[49, 50]).
+parametersAndDataPairs(32,[49, 50]).
+parametersAndDataPairs(33,[49, 50]).
+parametersAndDataPairs(34,[49, 50]).
+/** END informationFlow, ID: '26', NAME: 'null' */
 
 
-/** BEGIN informationFlow, ID: '31', NAME: 'null' */
-parametersAndDataPairs(42,[6, 7]).
-parametersAndDataPairs(43,[6, 7]).
-parametersAndDataPairs(44,[6, 7]).
-parametersAndDataPairs(45,[6, 7]).
-/** END informationFlow, ID: '31', NAME: 'null' */
+/** BEGIN informationFlow, ID: '27', NAME: 'null' */
+parametersAndDataPairs(41,[49, 50]).
+parametersAndDataPairs(42,[49, 50]).
+parametersAndDataPairs(43,[49, 50]).
+parametersAndDataPairs(44,[49, 50]).
+/** END informationFlow, ID: '27', NAME: 'null' */
 
 
-/** BEGIN informationFlow, ID: '37', NAME: 'null' */
-description(37,'null','informationFlow').
-parametersAndDataPairs(37,[8]).
-/** END informationFlow, ID: '37', NAME: 'null' */
+/** BEGIN informationFlow, ID: '33', NAME: 'null' */
+description(33,'null','informationFlow').
+parametersAndDataPairs(33,[51]).
+/** END informationFlow, ID: '33', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '43', NAME: 'null' */
+description(43,'null','informationFlow').
+parametersAndDataPairs(43,[51]).
+/** END informationFlow, ID: '43', NAME: 'null' */
+
+
+/** BEGIN informationFlow, ID: '34', NAME: 'null' */
+description(34,'null','informationFlow').
+parametersAndDataPairs(34,[52]).
+/** END informationFlow, ID: '34', NAME: 'null' */
 
 
 /** BEGIN informationFlow, ID: '44', NAME: 'null' */
 description(44,'null','informationFlow').
-parametersAndDataPairs(44,[8]).
+parametersAndDataPairs(44,[52]).
 /** END informationFlow, ID: '44', NAME: 'null' */
-
-
-/** BEGIN informationFlow, ID: '38', NAME: 'null' */
-description(38,'null','informationFlow').
-parametersAndDataPairs(38,[9]).
-/** END informationFlow, ID: '38', NAME: 'null' */
-
-
-/** BEGIN informationFlow, ID: '45', NAME: 'null' */
-description(45,'null','informationFlow').
-parametersAndDataPairs(45,[9]).
-/** END informationFlow, ID: '45', NAME: 'null' */
 

@@ -1,5 +1,6 @@
 
-/** BEGIN informationFlowParameterAssignment, ID: '50', NAME: 'null' */
-description(50,'null','informationFlowParameterAssignment').
-/** END informationFlowParameterAssignment, ID: '50', NAME: 'null' */
+/** BEGIN informationFlowParameterAssignment, ID: '56', NAME: 'null' */
+description(56,'null','informationFlowParameterAssignment').
+assignments(56,[59]).
+/** END informationFlowParameterAssignment, ID: '56', NAME: 'null' */
 

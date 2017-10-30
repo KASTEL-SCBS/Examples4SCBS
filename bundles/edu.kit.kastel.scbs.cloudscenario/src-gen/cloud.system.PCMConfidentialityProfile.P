@@ -64,3 +64,27 @@ description(318,'null','informationFlowParameterAssignment').
 assignments(318,[24]).
 /** END informationFlowParameterAssignment, ID: '318', NAME: 'null' */
 
+
+/** BEGIN informationFlowParameterEquation, ID: '267', NAME: 'null' */
+description(267,'null','informationFlowParameterEquation').
+equations(267,[25,26]).
+/** END informationFlowParameterEquation, ID: '267', NAME: 'null' */
+
+
+/** BEGIN informationFlowParameterEquation, ID: '266', NAME: 'null' */
+description(266,'null','informationFlowParameterEquation').
+equations(266,[25,26]).
+/** END informationFlowParameterEquation, ID: '266', NAME: 'null' */
+
+
+/** BEGIN informationFlowParameterEquation, ID: '269', NAME: 'null' */
+description(269,'null','informationFlowParameterEquation').
+equations(269,[25,26]).
+/** END informationFlowParameterEquation, ID: '269', NAME: 'null' */
+
+
+/** BEGIN informationFlowParameterEquation, ID: '268', NAME: 'null' */
+description(268,'null','informationFlowParameterEquation').
+equations(268,[25,26]).
+/** END informationFlowParameterEquation, ID: '268', NAME: 'null' */
+

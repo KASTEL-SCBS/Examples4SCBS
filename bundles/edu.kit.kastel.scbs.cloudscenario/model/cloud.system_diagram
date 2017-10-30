@@ -472,6 +472,18 @@
           <element href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
           <layoutConstraint xsi:type="notation:Bounds" x="56" y="-29"/>
         </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self= *.Self&#xA;*.Friends= *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
         <element href="cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
         <layoutConstraint xsi:type="notation:Bounds" x="-74" y="920"/>
       </children>
@@ -490,6 +502,18 @@
           </children>
           <element href="cloud.repository#_6YX4UBX5EeabKfvw_S-vrQ"/>
           <layoutConstraint xsi:type="notation:Bounds" x="46" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self= *.Self&#xA;*.Friends= *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
         </children>
         <element href="cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
         <layoutConstraint xsi:type="notation:Bounds" x="106" y="918"/>
@@ -510,6 +534,18 @@
           <element href="cloud.repository#_2VJTcBX5EeabKfvw_S-vrQ"/>
           <layoutConstraint xsi:type="notation:Bounds" x="56" y="-29"/>
         </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self= *.Self&#xA;*.Friends= *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
         <element href="cloud.system#_bu1k8BaCEeabKfvw_S-vrQ"/>
         <layoutConstraint xsi:type="notation:Bounds" x="491" y="925"/>
       </children>
@@ -528,6 +564,18 @@
           </children>
           <element href="cloud.repository#_6YX4UBX5EeabKfvw_S-vrQ"/>
           <layoutConstraint xsi:type="notation:Bounds" x="66" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="Note" fontName="Ubuntu" description="*.Self= *.Self&#xA;*.Friends= *.Friends" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xsi:type="notation:BasicDecorationNode" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xsi:type="notation:TextStyle"/>
+          <styles xsi:type="notation:LineTypeStyle"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
         </children>
         <element href="cloud.system#_dzgycBaCEeabKfvw_S-vrQ"/>
         <layoutConstraint xsi:type="notation:Bounds" x="656" y="925"/>
@@ -1058,29 +1106,30 @@
     <element href="cloud.system#_CON3QG9fEeam26epJlCOmw"/>
     <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -30, -71, 57]$[69, -87, -2, 0]"/>
   </edges>
-  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.23/@children.2" target="//@children.0/@children.1/@children.6/@children.7">
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.23/@children.2" target="//@children.0/@children.1/@children.6/@children.1">
     <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
-    <element href="cloud.system#_bOzm4G9fEeam26epJlCOmw"/>
-    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 662, 51]$[-663, -52, -1, 7]"/>
-    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.4666666666666667,0.7666666666666667)"/>
+    <element href="cloud.system#_74rLMLW4EeehzMnnuJSjrg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -12, 1109, 89]$[-1112, -101, -3, 0]"/>
   </edges>
-  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.24/@children.2" target="//@children.0/@children.1/@children.6/@children.8">
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.24/@children.2" target="//@children.0/@children.1/@children.6/@children.2">
     <styles xsi:type="notation:FontStyle" fontName="Ubuntu"/>
-    <element href="cloud.system#_b3hMsG9fEeam26epJlCOmw"/>
-    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -8, 850, 54]$[-850, -63, 0, -1]"/>
-  </edges>
-  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.25" target="//@edges.50" lineWidth="1">
-    <styles xsi:type="notation:ArrowStyle"/>
-    <styles xsi:type="notation:LineTypeStyle"/>
-    <element xsi:nil="true"/>
-    <bendpoints xsi:type="notation:RelativeBendpoints" points="[33, 24, -129, -88]$[-1275, 30, -1437, -82]"/>
-    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.8459770114942529,0.7142857142857143)"/>
+    <element href="cloud.system#_ErXv4LW5EeehzMnnuJSjrg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, -12, 1372, 81]$[-1377, -92, -5, 1]"/>
   </edges>
   <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.26" target="//@edges.49" lineWidth="1">
     <styles xsi:type="notation:ArrowStyle"/>
     <styles xsi:type="notation:LineTypeStyle"/>
     <element xsi:nil="true"/>
-    <bendpoints xsi:type="notation:RelativeBendpoints" points="[74, -26, -158, 38]$[232, -80, 0, -16]"/>
-    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.8883994126284875,0.7901234567901234)"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[-17, -26, -109, 26]$[-105, -67, -197, -15]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.75,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(1.0,1.0)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="NoteAttachment" source="//@children.0/@children.1/@children.25" target="//@edges.50" lineWidth="1">
+    <styles xsi:type="notation:ArrowStyle"/>
+    <styles xsi:type="notation:LineTypeStyle"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[12, -1, -17, -44]$[-313, 19, -342, -24]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.0,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.8887700534759359,1.0)"/>
   </edges>
 </notation:Diagram>

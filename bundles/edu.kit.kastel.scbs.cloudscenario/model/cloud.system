@@ -233,12 +233,12 @@
     <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CON3QG9fEeam26epJlCOmw" entityName="ProvDelegation Provided_IPublicFileManGUI -> Provided_PublicFileManGUI_PublicFileManager" outerProvidedRole_ProvidedDelegationConnector="_9Ou68G9dEeam26epJlCOmw" assemblyContext_ProvidedDelegationConnector="_2IfbkG9eEeam26epJlCOmw">
       <innerProvidedRole_ProvidedDelegationConnector href="cloud.repository#_J5w8wG9WEeam26epJlCOmw"/>
     </connectors__ComposedStructure>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bOzm4G9fEeam26epJlCOmw" entityName="Connector PublicFileManager -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_2IfbkG9eEeam26epJlCOmw" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
-      <providedRole_AssemblyConnector href="cloud.repository#_GeLQkG9fEeam26epJlCOmw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_74rLMLW4EeehzMnnuJSjrg" entityName="Connector PublicFileManager -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_2IfbkG9eEeam26epJlCOmw" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_a-HwoNDcEeWt5tzvTAzZ8A"/>
       <requiredRole_AssemblyConnector href="cloud.repository#_Wf3-IG9VEeam26epJlCOmw"/>
     </connectors__ComposedStructure>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_b3hMsG9fEeam26epJlCOmw" entityName="Connector PublicCalendar -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_3UQEEG9eEeam26epJlCOmw" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
-      <providedRole_AssemblyConnector href="cloud.repository#_IBWTgG9fEeam26epJlCOmw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ErXv4LW5EeehzMnnuJSjrg" entityName="Connector PublicCalendar -> LoadBalancer" requiringAssemblyContext_AssemblyConnector="_3UQEEG9eEeam26epJlCOmw" providingAssemblyContext_AssemblyConnector="_dsQ8QOuTEeWMdaaSirUv0Q">
+      <providedRole_AssemblyConnector href="cloud.repository#_bZNxMNDcEeWt5tzvTAzZ8A"/>
       <requiredRole_AssemblyConnector href="cloud.repository#_RZUUAG9VEeam26epJlCOmw"/>
     </connectors__ComposedStructure>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Ch6LQBX6EeabKfvw_S-vrQ" entityName="Provided_ILBAdminTool">
@@ -314,13 +314,33 @@
       <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
       <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterAssignment" appliedTo="_bOzm4G9fEeam26epJlCOmw">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterAssignment" appliedTo="_74rLMLW4EeehzMnnuJSjrg">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
       <assignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" href="../spec/cloud.confidentiality#_Ro7rSG9_EeaG0oMKM0Rwgw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterAssignment" appliedTo="_b3hMsG9fEeam26epJlCOmw">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterAssignment" appliedTo="_ErXv4LW5EeehzMnnuJSjrg">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_qdCogBazEeaeOoAHsokBDw"/>
       <assignments xsi:type="edu.kit.kastel.scbs.confidentiality.system:DataSetMapParameter2KeyAssignment" href="../spec/cloud.confidentiality#_Ro7rSG9_EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_aP3FgBaCEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_YHrRABaCEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_dzgycBaCEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlowParameterEquation" appliedTo="_bu1k8BaCEeabKfvw_S-vrQ">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#__9YYAG3oEeaJktYWeUvT7A"/>
+      <equations href="../spec/cloud.confidentiality#_eDZ68G3qEeaTV_gNTVqKQg"/>
+      <equations href="../spec/cloud.confidentiality#_uSOcaW9-EeaG0oMKM0Rwgw"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

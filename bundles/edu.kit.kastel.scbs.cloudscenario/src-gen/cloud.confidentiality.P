@@ -96,12 +96,12 @@ dataSetMap(13).
 /** END dataSetMap, ID: '13', NAME: 'UserData' */
 
 
-/** BEGIN parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[UserData[Self]]' */
-description(14,'p=[*] - d=[UserData[Self]]','parametersAndDataPair').
+/** BEGIN parametersAndDataPair, ID: '14', NAME: 'STAR2Userdataself' */
+description(14,'STAR2Userdataself','parametersAndDataPair').
 parametersAndDataPair(14).
 parameterSources(14,[*]).
 dataTargets(14,[7]).
-/** END parametersAndDataPair, ID: '14', NAME: 'p=[*] - d=[UserData[Self]]' */
+/** END parametersAndDataPair, ID: '14', NAME: 'STAR2Userdataself' */
 
 
 /** BEGIN parametersAndDataPair, ID: '15', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
@@ -112,12 +112,12 @@ dataTargets(15,[12]).
 /** END parametersAndDataPair, ID: '15', NAME: 'p=[sizeOf(*)] - d=[UserData[Public]]' */
 
 
-/** BEGIN parametersAndDataPair, ID: '16', NAME: 'p=[*] - d=[UserData[Friends]]' */
-description(16,'p=[*] - d=[UserData[Friends]]','parametersAndDataPair').
+/** BEGIN parametersAndDataPair, ID: '16', NAME: 'STAR2Userdatafriends' */
+description(16,'STAR2Userdatafriends','parametersAndDataPair').
 parametersAndDataPair(16).
 parameterSources(16,[*]).
 dataTargets(16,[8]).
-/** END parametersAndDataPair, ID: '16', NAME: 'p=[*] - d=[UserData[Friends]]' */
+/** END parametersAndDataPair, ID: '16', NAME: 'STAR2Userdatafriends' */
 
 
 /** BEGIN parametersAndDataPair, ID: '17', NAME: 'p=[*] - d=[UserData[Public]]' */
@@ -128,28 +128,28 @@ dataTargets(17,[12]).
 /** END parametersAndDataPair, ID: '17', NAME: 'p=[*] - d=[UserData[Public]]' */
 
 
-/** BEGIN parametersAndDataPair, ID: '18', NAME: 'p=[*] - d=[UserData[*]]' */
-description(18,'p=[*] - d=[UserData[*]]','parametersAndDataPair').
+/** BEGIN parametersAndDataPair, ID: '18', NAME: 'STAR2Userdata*' */
+description(18,'STAR2Userdata*','parametersAndDataPair').
 parametersAndDataPair(18).
 parameterSources(18,[*]).
 dataTargets(18,[9]).
-/** END parametersAndDataPair, ID: '18', NAME: 'p=[*] - d=[UserData[*]]' */
+/** END parametersAndDataPair, ID: '18', NAME: 'STAR2Userdata*' */
 
 
-/** BEGIN parametersAndDataPair, ID: '19', NAME: 'p=[*] - d=[LogData]' */
-description(19,'p=[*] - d=[LogData]','parametersAndDataPair').
+/** BEGIN parametersAndDataPair, ID: '19', NAME: 'STAR2Logdata' */
+description(19,'STAR2Logdata','parametersAndDataPair').
 parametersAndDataPair(19).
 parameterSources(19,[*]).
 dataTargets(19,[3]).
-/** END parametersAndDataPair, ID: '19', NAME: 'p=[*] - d=[LogData]' */
+/** END parametersAndDataPair, ID: '19', NAME: 'STAR2Logdata' */
 
 
-/** BEGIN parametersAndDataPair, ID: '20', NAME: 'p=[*] - d=[LoadBalancerData]' */
-description(20,'p=[*] - d=[LoadBalancerData]','parametersAndDataPair').
+/** BEGIN parametersAndDataPair, ID: '20', NAME: 'STAR2Loadbalancerdata' */
+description(20,'STAR2Loadbalancerdata','parametersAndDataPair').
 parametersAndDataPair(20).
 parameterSources(20,[*]).
 dataTargets(20,[2]).
-/** END parametersAndDataPair, ID: '20', NAME: 'p=[*] - d=[LoadBalancerData]' */
+/** END parametersAndDataPair, ID: '20', NAME: 'STAR2Loadbalancerdata' */
 
 
 /** BEGIN addedServiceParameter, ID: '21', NAME: 's' */

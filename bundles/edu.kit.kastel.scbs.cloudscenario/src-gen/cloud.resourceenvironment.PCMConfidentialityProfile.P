@@ -91,7 +91,7 @@ sharing(337,[exclusive]).
 
 /** BEGIN furtherPhysicalConnections, ID: '338', NAME: 'null' */
 description(338,'null','furtherPhysicalConnections').
-connectionType(338,[existing]).
+connectionType(338,[possible]).
 /** END furtherPhysicalConnections, ID: '338', NAME: 'null' */
 
 
@@ -109,7 +109,7 @@ sharing(338,[shared]).
 
 /** BEGIN furtherPhysicalConnections, ID: '339', NAME: 'null' */
 description(339,'null','furtherPhysicalConnections').
-connectionType(339,[existing]).
+connectionType(339,[possible]).
 /** END furtherPhysicalConnections, ID: '339', NAME: 'null' */
 
 

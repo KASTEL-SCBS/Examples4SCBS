@@ -598,7 +598,7 @@ description(317,'Connector PublicFileManager -> LoadBalancer','assemblyConnector
 assemblyConnector(317).
 requiringAssemblyContext(317,[270]).
 providingAssemblyContext(317,[257]).
-providedRole(317,[101]).
+providedRole(317,[98]).
 requiredRole(317,[124]).
 /** END assemblyConnector, ID: '317', NAME: 'Connector PublicFileManager -> LoadBalancer' */
 
@@ -608,7 +608,7 @@ description(318,'Connector PublicCalendar -> LoadBalancer','assemblyConnector').
 assemblyConnector(318).
 requiringAssemblyContext(318,[271]).
 providingAssemblyContext(318,[257]).
-providedRole(318,[102]).
+providedRole(318,[99]).
 requiredRole(318,[126]).
 /** END assemblyConnector, ID: '318', NAME: 'Connector PublicCalendar -> LoadBalancer' */
 

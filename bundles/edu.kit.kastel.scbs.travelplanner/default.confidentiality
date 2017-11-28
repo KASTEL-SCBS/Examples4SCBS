@@ -3,55 +3,55 @@
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="MobilePhone" name="MobilePhone"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="AgencyServer" name="AgencyServer"/>
   <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="AirlineServer" name="AirlineServer"/>
-  <parametersAndDataPairs id="retFlightOffersTA" name="b=[retFlightOffersTA] - p=[\return] - d=[MobilePhone,AgencyServer,AirlineServer]" dataTargets="MobilePhone AgencyServer AirlineServer">
+  <parametersAndDataPairs id="retFlightOffersTA" name="retFlightOffersTA" dataTargets="MobilePhone AgencyServer AirlineServer">
     <parameterSources>\return</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="retFlightOffersTP" name="b=[retFlightOffersTP] - p=[\return] - d=[MobilePhone,AgencyServer,AirlineServer]" dataTargets="MobilePhone AgencyServer AirlineServer">
+  <parametersAndDataPairs id="retFlightOffersTP" name="retFlightOffersTP" dataTargets="MobilePhone AgencyServer AirlineServer">
     <parameterSources>\return</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_xX8pQ14958apl-X2sXGeDw" name="b=[getFlightOfferBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]" dataTargets="MobilePhone AgencyServer AirlineServer">
+  <parametersAndDataPairs id="_xX8pQ14958apl-X2sXGeDw" name="getFlightOfferBindingParam" dataTargets="MobilePhone AgencyServer AirlineServer">
     <parameterSources>requestData</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="TAgetFlightOffersBindingParam" name="b=[TAgetFlightOffersBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]" dataTargets="MobilePhone AgencyServer AirlineServer">
+  <parametersAndDataPairs id="TAgetFlightOffersBindingParam" name="TAgetFlightOffersBindingParam" dataTargets="MobilePhone AgencyServer AirlineServer">
     <parameterSources>requestData</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="AgetFlightOffersBindingParam" name="b=[AgetFlightOffersBindingParam] - p=[requestData] - d=[MobilePhone,AgencyServer,AirlineServer]" dataTargets="MobilePhone AgencyServer AirlineServer">
+  <parametersAndDataPairs id="AgetFlightOffersBindingParam" name="getFlightOffersBindingParam" dataTargets="MobilePhone AgencyServer AirlineServer">
     <parameterSources>requestData</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_K_z1aHUVEeahddHrzGUY0w" name="b=[createCCDecl] - p=[\return] - d=[MobilePhone]" dataTargets="MobilePhone">
+  <parametersAndDataPairs id="_K_z1aHUVEeahddHrzGUY0w" name="createCCDecl" dataTargets="MobilePhone">
     <parameterSources>\return</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="createRelease" name="b=[createRelease] - p=[\return] - d=[MobilePhone]" dataTargets="MobilePhone">
+  <parametersAndDataPairs id="createRelease" name="createRelease" dataTargets="MobilePhone">
     <parameterSources>\return</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_lBZvAHUVEeahddHrzGUY0w" name="b=[releaseCCDParam] - p=[airline] - d=[MobilePhone]" dataTargets="MobilePhone">
+  <parametersAndDataPairs id="_lBZvAHUVEeahddHrzGUY0w" name="releaseCCDParam" dataTargets="MobilePhone">
     <parameterSources>airline</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_CXAT8lf3Eea8z-QlIaCuyw" name="b=[CCreleaseCCDParam] - p=[airline] - d=[MobilePhone]" dataTargets="MobilePhone">
+  <parametersAndDataPairs id="_CXAT8lf3Eea8z-QlIaCuyw" name="CCreleaseCCDParam" dataTargets="MobilePhone">
     <parameterSources>airline</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_0sjZ8HZtEeaE4tGRMtTb7A" name="b=[declassifyCCDParam] - p=[ccd] - d=[MobilePhone]" dataTargets="MobilePhone">
+  <parametersAndDataPairs id="_0sjZ8HZtEeaE4tGRMtTb7A" name="declassifyCCDParam" dataTargets="MobilePhone">
     <parameterSources>ccd</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_yFgwJmLuEeaH05QIQxp7GA" name="b=[AconfirmFlightBooking] - p=[\return] - d=[MobilePhone,AirlineServer,AgencyServer]" dataTargets="MobilePhone AirlineServer AgencyServer">
+  <parametersAndDataPairs id="_yFgwJmLuEeaH05QIQxp7GA" name="confirmFlightBooking" dataTargets="MobilePhone AirlineServer AgencyServer">
     <parameterSources>\return</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_rAH3mHUSEeahddHrzGUY0w" name="b=[TPconfirmFlightBooking] - p=[\return] - d=[MobilePhone,AirlineServer,AgencyServer]" dataTargets="MobilePhone AirlineServer AgencyServer">
+  <parametersAndDataPairs id="_rAH3mHUSEeahddHrzGUY0w" name="TPconfirmFlightBooking" dataTargets="MobilePhone AirlineServer AgencyServer">
     <parameterSources>\return</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_xXdGx14958apl-X2sXGeDw" name="b=[bookSelectedParam0] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]" dataTargets="MobilePhone AirlineServer AgencyServer">
+  <parametersAndDataPairs id="_xXdGx14958apl-X2sXGeDw" name="bookSelectedParam0" dataTargets="MobilePhone AirlineServer AgencyServer">
     <parameterSources>flightOffer</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_xXdG123458apl-X2sXGeDw" name="b=[bookSelectedParam1] - p=[ccd_decl] - d=[MobilePhone,AirlineServer]" dataTargets="MobilePhone AirlineServer">
+  <parametersAndDataPairs id="_xXdG123458apl-X2sXGeDw" name="bookSelectedParam1" dataTargets="MobilePhone AirlineServer">
     <parameterSources>ccd_decl</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_xX8pQ149Eeapl-X2sXGeDw" name="b=[bookFlightOfferParam0] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]" dataTargets="MobilePhone AirlineServer AgencyServer">
+  <parametersAndDataPairs id="_xX8pQ149Eeapl-X2sXGeDw" name="bookFlightOfferParam0" dataTargets="MobilePhone AirlineServer AgencyServer">
     <parameterSources>flightOffer</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_xX8pQ149Eeapl-XCFGJDw" name="b=[bookFlightOfferParam1] - p=[ccd_decl] - d=[MobilePhone,AirlineServer]" dataTargets="MobilePhone AirlineServer">
+  <parametersAndDataPairs id="_xX8pQ149Eeapl-XCFGJDw" name="bookFlightOfferParam1" dataTargets="MobilePhone AirlineServer">
     <parameterSources>ccd_decl</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="payCommisionBindingParam" name="b=[payCommisionBindingParam] - p=[flightOffer] - d=[MobilePhone,AirlineServer,AgencyServer]" dataTargets="MobilePhone AirlineServer AgencyServer">
+  <parametersAndDataPairs id="payCommisionBindingParam" name="payCommisionBindingParam" dataTargets="MobilePhone AirlineServer AgencyServer">
     <parameterSources>flightOffer</parameterSources>
   </parametersAndDataPairs>
   <locations id="_RDKiA143Eeapl-X2sXGeDw" name="UserControlled"/>

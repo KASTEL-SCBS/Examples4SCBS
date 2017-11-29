@@ -11,6 +11,7 @@
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1NES0MOAEeWst9mTsticNA" entityName="Provided_Booking_Airline" providedInterface__OperationProvidedRole="_y_H88MNyEeWPE-QAhbUzuQ"/>
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_y4ZmMM5wEeWFJak7Wqvc0g" entityName="Provided_AirlineAdministration_Airline" providedInterface__OperationProvidedRole="_lKDm4M5wEeWFJak7Wqvc0g"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_OgyswMN0EeWPE-QAhbUzuQ" entityName="Required_Comission_Airline" requiredInterface__OperationRequiredRole="_IR9L8MN0EeWPE-QAhbUzuQ"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_o38CcNT3Eee-_bZGhm8PwA" entityName="Required_BookingConfirmation_Airline" requiredInterface__OperationRequiredRole="_F6kdd9TzEee-_bZGhm8PwA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_1NGIAMOAEeWst9mTsticNA" describedService__SEFF="_00dt8MNyEeWPE-QAhbUzuQ">
         <steps_Behaviour xsi:type="seff:StartAction" id="_1NGvEMOAEeWst9mTsticNA" entityName="start" successor_AbstractAction="_1NGvEcOAEeWst9mTsticNA"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_1NGvEcOAEeWst9mTsticNA" entityName="stop" predecessor_AbstractAction="_1NGvEMOAEeWst9mTsticNA"/>
@@ -22,15 +23,20 @@
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_5EaVoMNxEeWPE-QAhbUzuQ" entityName="TravelPlanner">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_kEhCAMN2EeWPE-QAhbUzuQ" entityName="Provided_BookingSelection_TravelPlanner" providedInterface__OperationProvidedRole="_uUkncMN0EeWPE-QAhbUzuQ"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_nUJUcNT3Eee-_bZGhm8PwA" entityName="Provided_BookingConfirmation_TravelPlanner" providedInterface__OperationProvidedRole="_F6kdd9TzEee-_bZGhm8PwA"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_v8ocUMNyEeWPE-QAhbUzuQ" entityName="Required_FlightOffers_TravelPlanner" requiredInterface__OperationRequiredRole="_OWfzMMNyEeWPE-QAhbUzuQ"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Cq8VkMNzEeWPE-QAhbUzuQ" entityName="Required_Booking_TravelPlanner" requiredInterface__OperationRequiredRole="_y_H88MNyEeWPE-QAhbUzuQ"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ce3icMN6EeWPE-QAhbUzuQ" entityName="Required_Declassification_TravelPlanner" requiredInterface__OperationRequiredRole="_CayVgMN6EeWPE-QAhbUzuQ"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_nUbBQNT3Eee-_bZGhm8PwA" describedService__SEFF="_JstSUNTzEee-_bZGhm8PwA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_nUcPYNT3Eee-_bZGhm8PwA" entityName="start" successor_AbstractAction="_nUcPYdT3Eee-_bZGhm8PwA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_nUcPYdT3Eee-_bZGhm8PwA" entityName="stop" predecessor_AbstractAction="_nUcPYNT3Eee-_bZGhm8PwA"/>
+      </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="__s82QMN5EeWPE-QAhbUzuQ" entityName="CreditCardCenter">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WXhJsMN6EeWPE-QAhbUzuQ" entityName="Provided_Declassification_CreditCardCenter" providedInterface__OperationProvidedRole="_CayVgMN6EeWPE-QAhbUzuQ"/>
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vjje4MN7EeWPE-QAhbUzuQ" entityName="Provided_Configuration_CreditCardCenter" providedInterface__OperationProvidedRole="_MACf4MN3EeWPE-QAhbUzuQ"/>
-      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_8wDuMM54EeW6RpZqSiINDQ" entityName="Provided_DeclassificationConfirmation_CreditCardCenter" providedInterface__OperationProvidedRole="_ggoEAM54EeW6RpZqSiINDQ"/>
-      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_WXhwwMN6EeWPE-QAhbUzuQ" describedService__SEFF="_JXJqsMN6EeWPE-QAhbUzuQ">
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_8wDuMM54EeW6RpZqSiINDQ" entityName="Required_DeclassificationConfirmation_CreditCardCenter" requiredInterface__OperationRequiredRole="_ggoEAM54EeW6RpZqSiINDQ"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_WXhwwMN6EeWPE-QAhbUzuQ">
         <steps_Behaviour xsi:type="seff:StartAction" id="_WXhwwcN6EeWPE-QAhbUzuQ" entityName="start" successor_AbstractAction="_WXhwwsN6EeWPE-QAhbUzuQ"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_WXhwwsN6EeWPE-QAhbUzuQ" entityName="stop" predecessor_AbstractAction="_WXhwwcN6EeWPE-QAhbUzuQ"/>
       </serviceEffectSpecifications__BasicComponent>
@@ -54,14 +60,10 @@
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_uUkncMN0EeWPE-QAhbUzuQ" entityName="BookingSelection">
       <signatures__OperationInterface id="_GmUUEMN1EeWPE-QAhbUzuQ" entityName="bookSelected">
         <parameters__OperationSignature dataType__Parameter="_QuDIrc5jEeWFJak7Wqvc0g" parameterName="flightOffer"/>
-        <parameters__OperationSignature dataType__Parameter="_WVGGLc5iEeWFJak7Wqvc0g" parameterName="ccd_decl"/>
         <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_602gYM5lEeWFJak7Wqvc0g" entityName="getFlightOffers" returnType__OperationSignature="_XfY5nM5jEeWFJak7Wqvc0g">
         <parameters__OperationSignature dataType__Parameter="_0D_NYM5hEeWFJak7Wqvc0g" parameterName="requestData"/>
-      </signatures__OperationInterface>
-      <signatures__OperationInterface id="_ZhYsoHUOEeahddHrzGUY0w" entityName="releaseCCD" returnType__OperationSignature="_WVGGLc5iEeWFJak7Wqvc0g">
-        <parameters__OperationSignature dataType__Parameter="_m8A_rc5jEeWFJak7Wqvc0g" parameterName="airline"/>
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_y_H88MNyEeWPE-QAhbUzuQ" entityName="Booking">
@@ -81,14 +83,14 @@
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_MACf4MN3EeWPE-QAhbUzuQ" entityName="Configuration">
       <signatures__OperationInterface id="_N6idsMN3EeWPE-QAhbUzuQ" entityName="setCreditCard">
         <parameters__OperationSignature dataType__Parameter="_WVGGLc5iEeWFJak7Wqvc0g" parameterName="ccd"/>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_CayVgMN6EeWPE-QAhbUzuQ" entityName="Declassification">
-      <signatures__OperationInterface id="_JXJqsMN6EeWPE-QAhbUzuQ" entityName="releaseCCD">
-        <parameters__OperationSignature dataType__Parameter="_m8A_rc5jEeWFJak7Wqvc0g" parameterName="airline"/>
-      </signatures__OperationInterface>
       <signatures__OperationInterface id="_Mbgp8HZrEeaE4tGRMtTb7A" entityName="declassifyCCD" returnType__OperationSignature="_WVGGLc5iEeWFJak7Wqvc0g">
-        <parameters__OperationSignature dataType__Parameter="_WVGGLc5iEeWFJak7Wqvc0g" parameterName="ccd"/>
+        <parameters__OperationSignature parameterName="airline">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_lKDm4M5wEeWFJak7Wqvc0g" entityName="AirlineAdministration">
@@ -97,7 +99,23 @@
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_ggoEAM54EeW6RpZqSiINDQ" entityName="DeclassificationConfirmation">
-      <signatures__OperationInterface id="_p3shEM54EeW6RpZqSiINDQ" entityName="getDeclassifiedCCD"/>
+      <signatures__OperationInterface id="_p3shEM54EeW6RpZqSiINDQ" entityName="confirmRelease">
+        <parameters__OperationSignature parameterName="airline">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_F6kdd9TzEee-_bZGhm8PwA" entityName="BookingConfirmation">
+      <signatures__OperationInterface id="_JstSUNTzEee-_bZGhm8PwA" entityName="confirmBooking">
+        <parameters__OperationSignature parameterName="offerId">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="airline">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
     </interfaces__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_0D_NYM5hEeWFJak7Wqvc0g" entityName="RequestData">
       <innerDeclaration_CompositeDataType entityName="destination">
@@ -122,22 +140,19 @@
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_R6uH4MNyEeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#retFlightOffersTA"/>
-      <parametersAndDataPairs href="default.confidentiality#TAgetFlightOffersBindingParam"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_602gYM5lEeWFJak7Wqvc0g">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#retFlightOffersTP"/>
-      <parametersAndDataPairs href="default.confidentiality#_xX8pQ14958apl-X2sXGeDw"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ZhYsoHUOEeahddHrzGUY0w">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#_lBZvAHUVEeahddHrzGUY0w"/>
       <parametersAndDataPairs href="default.confidentiality#createRelease"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_JXJqsMN6EeWPE-QAhbUzuQ">
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#createRelease"/>
-      <parametersAndDataPairs href="default.confidentiality#_CXAT8lf3Eea8z-QlIaCuyw"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Mbgp8HZrEeaE4tGRMtTb7A">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
@@ -147,7 +162,6 @@
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_GmUUEMN1EeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#_xXdGx14958apl-X2sXGeDw"/>
-      <parametersAndDataPairs href="default.confidentiality#_xXdG123458apl-X2sXGeDw"/>
       <parametersAndDataPairs href="default.confidentiality#_rAH3mHUSEeahddHrzGUY0w"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_00dt8MNyEeWPE-QAhbUzuQ">
@@ -159,6 +173,22 @@
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_nXaBAMN0EeWPE-QAhbUzuQ">
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#payCommisionBindingParam"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ok8ZYM5wEeWFJak7Wqvc0g">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_mxE15dTyEee-_bZGhm8PwA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_JstSUNTzEee-_bZGhm8PwA">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_TKA6RdTzEee-_bZGhm8PwA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_N6idsMN3EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_lBZvAHUVEeahddHrzGUY0w"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_p3shEM54EeW6RpZqSiINDQ">
+      <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#createRelease"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

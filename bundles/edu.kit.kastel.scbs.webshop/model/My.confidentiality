@@ -23,31 +23,52 @@
     <parameterSources>address.length</parameterSources>
     <parameterSources>address[*]</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_srBOZQ55EeeBHYW6zWAHQg" name="CALLRESULTlengthRESULTALLRESULTbillingnamelengthRESULTbillingnameALLRESULTbillingaddresslengthRESULTbillingaddressALLRESULTpaymentmethodRESULTproductspayedlengthRESULTproductspayedALLRESULTamountperproductlengthRESULTamountperproductALLRESULTpriceperproductlengthRESULTpriceperproductALL2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
+  <parametersAndDataPairs id="_srBOZQ55EeeBHYW6zWAHQg" name="getBillsToSend2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
     <parameterSources>\call</parameterSources>
     <parameterSources>\result.length</parameterSources>
     <parameterSources>\result[*]</parameterSources>
     <parameterSources>\result.billingName.length</parameterSources>
-    <parameterSources>\result.billingName[*]</parameterSources>
     <parameterSources>\result.billingAddress.length</parameterSources>
-    <parameterSources>\result.billingAddress[*]</parameterSources>
-    <parameterSources>\result.paymentMethod</parameterSources>
     <parameterSources>\result.productsPayed.length</parameterSources>
-    <parameterSources>\result.productsPayed[*]</parameterSources>
     <parameterSources>\result.amountPerProduct.length</parameterSources>
-    <parameterSources>\result.amountPerProduct[*]</parameterSources>
     <parameterSources>\result.pricePerProduct.length</parameterSources>
-    <parameterSources>\result.pricePerProduct[*]</parameterSources>
+    <parameterSources>\result[*].billingName[*]</parameterSources>
+    <parameterSources>\result[*].billingAddress[*]</parameterSources>
+    <parameterSources>\result[*].paymentMethod</parameterSources>
+    <parameterSources>\result[*].productsPayed[*]</parameterSources>
+    <parameterSources>\result[*].amountPerProduct[*]</parameterSources>
+    <parameterSources>\result[*].pricePerProduct[*]</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_vklDNQ5-EeeBHYW6zWAHQg" name="CALLRESULTsendtoaddresslengthRESULTsendtoaddressALLRESULTsendtonamelengthRESULTsendtonameALLRESULTproductslengthRESULTproductsALLRESULTamountperproductlengthRESULTamountperproductALL2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
+  <parametersAndDataPairs id="_vklDNQ5-EeeBHYW6zWAHQg" name="getDeliverySheets2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
     <parameterSources>\call</parameterSources>
     <parameterSources>\result.sendToAddress.length</parameterSources>
-    <parameterSources>\result.sendToAddress[*]</parameterSources>
     <parameterSources>\result.sendToName.length</parameterSources>
-    <parameterSources>\result.sendToName[*]</parameterSources>
     <parameterSources>\result.products.length</parameterSources>
-    <parameterSources>\result.products[*]</parameterSources>
     <parameterSources>\result.amountPerProduct.length</parameterSources>
-    <parameterSources>\result.amountPerProduct[*]</parameterSources>
+    <parameterSources>\result[*].sendToAddress[*]</parameterSources>
+    <parameterSources>\result[*].sendToName[*]</parameterSources>
+    <parameterSources>\result[*].products[*]</parameterSources>
+    <parameterSources>\result[*].amountPerProduct[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_W1otpdpoEeezLLWyrCRRXw" name="getBillingAddress2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result.length</parameterSources>
+    <parameterSources>\result[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_kOSJxdpoEeezLLWyrCRRXw" name="getBillingCreditCard2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_qIO_tdpoEeezLLWyrCRRXw" name="getBillingName2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result.length</parameterSources>
+    <parameterSources>\result[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_vQrgNdpoEeezLLWyrCRRXw" name="getOrdersToBill2Deliverydata" dataTargets="_bPkLgA52EeeBHYW6zWAHQg">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result.length</parameterSources>
+    <parameterSources>\result[*]</parameterSources>
+    <parameterSources>\result.elementsInOrder.length</parameterSources>
+    <parameterSources>\result[*].elementsInOrder[*]</parameterSources>
   </parametersAndDataPairs>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

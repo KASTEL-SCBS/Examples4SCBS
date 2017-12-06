@@ -156,6 +156,22 @@
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_awKrQOtWEeW_qrl1HgOu8w"/>
       <parametersAndDataPairs href="My.confidentiality#_fDZCdQ52EeeBHYW6zWAHQg"/>
     </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_D1fdwOM0EeaCWN4SXHLs5Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="My.confidentiality#_W1otpdpoEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ERsRkOM0EeaCWN4SXHLs5Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="My.confidentiality#_kOSJxdpoEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Eq_iYOM0EeaCWN4SXHLs5Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="My.confidentiality#_qIO_tdpoEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_FDzrAOM0EeaCWN4SXHLs5Q">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="My.confidentiality#_vQrgNdpoEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
 </xmi:XMI>

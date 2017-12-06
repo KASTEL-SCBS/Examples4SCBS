@@ -69,6 +69,6 @@
     <parameterSources>\result.length</parameterSources>
     <parameterSources>\result[*]</parameterSources>
     <parameterSources>\result.elementsInOrder.length</parameterSources>
-    <parameterSources>\result[*].elementsInOrder[*]</parameterSources>
+    <parameterSources>\result.elementsInOrder[*]</parameterSources>
   </parametersAndDataPairs>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

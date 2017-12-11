@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_Ib5_ENzFEeezLLWyrCRRXw">
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_LWXlENzFEeezLLWyrCRRXw" name="Billing"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_Phe6oNzFEeezLLWyrCRRXw" name="Delivery"/>
+  <parametersAndDataPairs id="_Rcy04N2CEeezLLWyrCRRXw" name="setName" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>name[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Vf1MgN2CEeezLLWyrCRRXw" name="setAddress" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>address[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Xc6kQN2CEeezLLWyrCRRXw" name="setCreditCard2Billing" dataTargets="_LWXlENzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>ccnr%10000</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_ZDF37t2CEeezLLWyrCRRXw" name="setCreditCard2Delivery" dataTargets="_Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_awAFrt2CEeezLLWyrCRRXw" name="makeBill2Billing" dataTargets="_LWXlENzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>name[*]</parameterSources>
+    <parameterSources>address[*]</parameterSources>
+    <parameterSources>product</parameterSources>
+    <parameterSources>amount</parameterSources>
+    <parameterSources>payment</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_cYbcDt2CEeezLLWyrCRRXw" name="getName" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_d5vdzt2CEeezLLWyrCRRXw" name="getAddress" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_fdK_YN2CEeezLLWyrCRRXw" name="getCreditCard" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_hMXFEN2CEeezLLWyrCRRXw" name="getCreditCardAnon" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_j2DEIN2CEeezLLWyrCRRXw" name="getCVC" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\result</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_lbfX_t2CEeezLLWyrCRRXw" name="addToSales" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>prod</parameterSources>
+    <parameterSources>amount</parameterSources>
+    <parameterSources>name[*]</parameterSources>
+    <parameterSources>address[*]</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_9lJTRdz4EeezLLWyrCRRXw" name="addToSales2Billing" dataTargets="_LWXlENzFEeezLLWyrCRRXw">
+    <parameterSources>ccnrAnon</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_OhtiFdz5EeezLLWyrCRRXw" name="addProduct" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>productID</parameterSources>
+    <parameterSources>amount</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_VH2Ildz5EeezLLWyrCRRXw" name="clearCart" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_YlLLFdz5EeezLLWyrCRRXw" name="order" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_i_RLZdz5EeezLLWyrCRRXw" name="deliverProduct2Delivery" dataTargets="_Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>name[*]</parameterSources>
+    <parameterSources>address[*]</parameterSources>
+    <parameterSources>product</parameterSources>
+    <parameterSources>amount</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_ut7K5dz5EeezLLWyrCRRXw" name="dispatchNext" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+  </parametersAndDataPairs>
+</edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

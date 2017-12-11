@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <repository:Repository id="_gwo1oNzCEeezLLWyrCRRXw" entityName="defaultRepository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_L46nANxNEeezLLWyrCRRXw" entityName="Account">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_6T1xQdxNEeezLLWyrCRRXw" entityName="account" providedInterface__OperationProvidedRole="_TRJ_59xNEeezLLWyrCRRXw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_8TYnIdxNEeezLLWyrCRRXw" entityName="cart2account" providedInterface__OperationProvidedRole="_Wtye19xNEeezLLWyrCRRXw"/>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_Nol04NxNEeezLLWyrCRRXw" entityName="Cart">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__Qf4gdxNEeezLLWyrCRRXw" entityName="cart" providedInterface__OperationProvidedRole="_aXNcl9xNEeezLLWyrCRRXw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AgHtVdxOEeezLLWyrCRRXw" entityName="account" requiredInterface__OperationRequiredRole="_Wtye19xNEeezLLWyrCRRXw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_CtmRhdxOEeezLLWyrCRRXw" entityName="sales" requiredInterface__OperationRequiredRole="_Yj5r59xNEeezLLWyrCRRXw"/>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_RxAbwNxNEeezLLWyrCRRXw" entityName="Sales">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_fHOZgdxOEeezLLWyrCRRXw" entityName="dispatch" providedInterface__OperationProvidedRole="_cojNEtxNEeezLLWyrCRRXw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hwapUdxOEeezLLWyrCRRXw" entityName="cart2sales" providedInterface__OperationProvidedRole="_Yj5r59xNEeezLLWyrCRRXw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_jnMkxdxOEeezLLWyrCRRXw" entityName="delivery" requiredInterface__OperationRequiredRole="_bZ1XN9xNEeezLLWyrCRRXw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kBJV1dxOEeezLLWyrCRRXw" entityName="billing" requiredInterface__OperationRequiredRole="_VMz0R9xNEeezLLWyrCRRXw"/>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_TRJ_59xNEeezLLWyrCRRXw" entityName="AccountIF">
+      <signatures__OperationInterface id="_ENAvD9zAEeezLLWyrCRRXw" entityName="setName">
+        <parameters__OperationSignature parameterName="name">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_J4tGgNzAEeezLLWyrCRRXw" entityName="setAddress">
+        <parameters__OperationSignature parameterName="address">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_ONSWgN2DEeezLLWyrCRRXw" entityName="setCreditCard">
+        <parameters__OperationSignature parameterName="ccnr">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_QO1XgN2DEeezLLWyrCRRXw" entityName="setCVC">
+        <parameters__OperationSignature parameterName="cvc">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_VMz0R9xNEeezLLWyrCRRXw" entityName="BillingIF">
+      <signatures__OperationInterface id="_TRt5sN2DEeezLLWyrCRRXw" entityName="makeBill">
+        <parameters__OperationSignature parameterName="name">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="address">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="product">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="amount">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="payment">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_Wtye19xNEeezLLWyrCRRXw" entityName="Cart2AccountIF">
+      <signatures__OperationInterface id="_jK7YsNzAEeezLLWyrCRRXw" entityName="getName">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_Wts4YN2DEeezLLWyrCRRXw" entityName="getAddress">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_ZTzX_t2DEeezLLWyrCRRXw" entityName="getCreditCard">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_a-GWkN2DEeezLLWyrCRRXw" entityName="getCreditCardAnon">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_cmTqgN2DEeezLLWyrCRRXw" entityName="getCVC">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_Yj5r59xNEeezLLWyrCRRXw" entityName="Cart2SalesIF">
+      <signatures__OperationInterface id="_e8FPEN2DEeezLLWyrCRRXw" entityName="addToSales">
+        <parameters__OperationSignature parameterName="prod">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="amount">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="name">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="adress">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="ccnr">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="ccnrAnon">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="cvc">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_aXNcl9xNEeezLLWyrCRRXw" entityName="CartIF">
+      <signatures__OperationInterface id="_HD8Db9zBEeezLLWyrCRRXw" entityName="addProduct">
+        <parameters__OperationSignature parameterName="productID">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="amount">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_kBC9wN2DEeezLLWyrCRRXw" entityName="clearCart"/>
+      <signatures__OperationInterface id="_mXfQsN2DEeezLLWyrCRRXw" entityName="order"/>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_bZ1XN9xNEeezLLWyrCRRXw" entityName="DeliveryIF">
+      <signatures__OperationInterface id="_oi9pwN2DEeezLLWyrCRRXw" entityName="deliverProduct">
+        <parameters__OperationSignature parameterName="name">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="adress">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="product">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+        <parameters__OperationSignature parameterName="amount">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_cojNEtxNEeezLLWyrCRRXw" entityName="DispatchIF">
+      <signatures__OperationInterface id="_qEIhkN2DEeezLLWyrCRRXw" entityName="dispatchNext"/>
+    </interfaces__Repository>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ENAvD9zAEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_Rcy04N2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_J4tGgNzAEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_Vf1MgN2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ONSWgN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_Xc6kQN2CEeezLLWyrCRRXw"/>
+      <parametersAndDataPairs href="default.confidentiality#_ZDF37t2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_TRt5sN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_awAFrt2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_jK7YsNzAEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_cYbcDt2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_Wts4YN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_d5vdzt2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_ZTzX_t2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_fdK_YN2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_a-GWkN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_hMXFEN2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_cmTqgN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_j2DEIN2CEeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_e8FPEN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_lbfX_t2CEeezLLWyrCRRXw"/>
+      <parametersAndDataPairs href="default.confidentiality#_9lJTRdz4EeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_HD8Db9zBEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_OhtiFdz5EeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_kBC9wN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_VH2Ildz5EeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_mXfQsN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_YlLLFdz5EeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_oi9pwN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_i_RLZdz5EeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_qEIhkN2DEeezLLWyrCRRXw">
+      <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
+      <parametersAndDataPairs href="default.confidentiality#_ut7K5dz5EeezLLWyrCRRXw"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

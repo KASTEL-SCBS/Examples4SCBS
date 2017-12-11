@@ -218,7 +218,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-LPtdqpEeekAfdAdO2zAA" y="285"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_EnnYANqqEeekAfdAdO2zAA" type="Note" fontName="Segoe UI" description="deliveryData includes \call, \result.length, \result[*], \result.billingName.length, \result.billingName[*], \result.billingAdress.length, \result.billingAdress[*], \result.paymentMethod, \result.productsPayed.length, \result.productsPayed[*], \result.amountPerProduct.length, \result.amountPerProduct[*], \result.pricePerProduct.length, \result.pricePerProduct[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_EnnYANqqEeekAfdAdO2zAA" type="Note" fontName="Segoe UI" description="deliveryData includes \call, \result.length, \result[*], \result.billingName.length, \result[*].billingName[*], \result.billingAdress.length, \result[*].billingAdress[*], \result[*].paymentMethod, \result.productsPayed.length, \result[*].productsPayed[*], \result.amountPerProduct.length, \result[*].amountPerProduct[*], \result.pricePerProduct.length, \result[*].pricePerProduct[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EnnYAdqqEeekAfdAdO2zAA" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EnnYAtqqEeekAfdAdO2zAA" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -248,7 +248,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pkxARdqqEeekAfdAdO2zAA" x="2610" y="285"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_7GSWQNqqEeekAfdAdO2zAA" type="Note" fontName="Segoe UI" description="deliveryData includes \call, \result.sendToAdress.length, \result.sendToAdress[*], \result.sendToName.length, \result.sendToName[*], \result.products.length, \result.products[*], \result.amountPerProduct.length, \result.amountPerProduct[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_7GSWQNqqEeekAfdAdO2zAA" type="Note" fontName="Segoe UI" description="deliveryData includes \call, \result.sendToAdress.length, \result[*].sendToAdress[*], \result.sendToName.length, \result[*].sendToName[*], \result.products.length, \result[*].products[*], \result.amountPerProduct.length, \result[*].amountPerProduct[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7GSWQdqqEeekAfdAdO2zAA" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7GSWQtqqEeekAfdAdO2zAA" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -308,7 +308,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kblDddqrEeekAfdAdO2zAA" x="735" y="420"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_xWurQNqrEeekAfdAdO2zAA" type="Note" fontName="Segoe UI" description="deliveryData includes \call, \result.length, result.elementsInOrder.length, result.elementsInOrder[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_xWurQNqrEeekAfdAdO2zAA" type="Note" fontName="Segoe UI" description="deliveryData includes \call, \result.length, result.elementsInOrder.length, result[*].elementsInOrder[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xWurQdqrEeekAfdAdO2zAA" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xWurQtqrEeekAfdAdO2zAA" key="verticalAlignment" value="8"/>
     </eAnnotations>

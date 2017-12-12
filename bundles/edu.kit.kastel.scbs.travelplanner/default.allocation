@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_v9qGYHUDEeahddHrzGUY0w" entityName="defaultAllocation">
-  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_nXT40NwsEeeel_96Qa_d5A" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/0"/>
   <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
   <allocationContexts_Allocation id="_z_YPYHUDEeahddHrzGUY0w" entityName="Allocation_TravelAgency &lt;TravelAgency> &lt;TravelAgency>">
     <resourceContainer_AllocationContext href="default.resourceenvironment#_HM_VsMN5EeWPE-QAhbUzuQ"/>

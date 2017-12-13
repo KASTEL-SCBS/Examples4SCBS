@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_Ib5_ENzFEeezLLWyrCRRXw">
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_LWXlENzFEeezLLWyrCRRXw" name="Billing"/>
-  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_Phe6oNzFEeezLLWyrCRRXw" name="Delivery"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_LWXlENzFEeezLLWyrCRRXw" name="BillingData"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_Phe6oNzFEeezLLWyrCRRXw" name="DeliveryData"/>
   <parametersAndDataPairs id="_Rcy04N2CEeezLLWyrCRRXw" name="setName" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>
     <parameterSources>name</parameterSources>

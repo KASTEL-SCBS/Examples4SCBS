@@ -114,7 +114,7 @@
     <element xmi:type="repository:BasicComponent" href="default.repository#_RxAbwNxNEeezLLWyrCRRXw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_94CpodzCEeezLLWyrCRRXw" x="1100" y="-20"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_aTTbMN2FEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, name[*]&#xD;&#xA;Delivery includes \call, name[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_aTTbMN2FEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, name&#xD;&#xA;Delivery includes \call, name" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aTTbMd2FEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aTTbMt2FEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -129,7 +129,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aTTbNd2FEeezLLWyrCRRXw" x="-135" y="240"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_mtYWQN2FEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, address[*]&#xD;&#xA;Delivery includes \call, address[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_mtYWQN2FEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, address&#xD;&#xA;Delivery includes \call, address" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mtYWQd2FEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mtYWQt2FEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -159,7 +159,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vWrHVd2FEeezLLWyrCRRXw" x="-135" y="380"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_faH5IN2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, \result[*]&#xD;&#xA;Delivery includes \call, \result[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_faH5IN2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, \result&#xD;&#xA;Delivery includes \call, \result" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_faH5Id2HEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_faH5It2HEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -174,7 +174,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_faH5Jd2HEeezLLWyrCRRXw" x="120" y="240"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_pngTIN2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, \result[*]&#xD;&#xA;Delivery includes \call, \result[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_pngTIN2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, \result&#xD;&#xA;Delivery includes \call, \result" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pngTId2HEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pngTIt2HEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -279,7 +279,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LOROZd2IEeezLLWyrCRRXw" x="370" y="380"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_U05KYN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, prod, amount, name[*], address[*], ccnrAnon&#xD;&#xA;Delivery includes \call, prod, amount, name[*], address[*]" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_U05KYN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, prod, amount, name, address, ccnrAnon&#xD;&#xA;Delivery includes \call, prod, amount, name, address" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U05KYd2IEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U05KYt2IEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -294,7 +294,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U05KZd2IEeezLLWyrCRRXw" x="655" y="240"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_lGo6kN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Delivery includes \call, name[*], address[*], product, amount" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_lGo6kN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Delivery includes \call, name, address, product, amount" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lGo6kd2IEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lGo6kt2IEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -324,7 +324,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKaoNd2IEeezLLWyrCRRXw" x="1425" y="240"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_3CqbQN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, name[*], address[*], product, amount, payment" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_3CqbQN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="Billing includes \call, name, address, product, amount, payment" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3CqbQd2IEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3CqbQt2IEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>

@@ -279,7 +279,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LOROZd2IEeezLLWyrCRRXw" x="370" y="380"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_U05KYN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="BillingData includes \call, prod, amount, name, address, ccnrAnon&#xD;&#xA;DeliveryData includes \call, prod, amount, name, address" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_U05KYN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="BillingData includes \call, prod, amount, name, adress, ccnrAnon&#xD;&#xA;DeliveryData includes \call, prod, amount, name, adress" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U05KYd2IEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U05KYt2IEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -294,7 +294,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U05KZd2IEeezLLWyrCRRXw" x="655" y="240"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_lGo6kN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="DeliveryData includes \call, name, address, product, amount" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_lGo6kN2IEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="DeliveryData includes \call, name, adress, product, amount" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lGo6kd2IEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lGo6kt2IEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>

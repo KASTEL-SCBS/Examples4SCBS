@@ -49,7 +49,7 @@
     <parameterSources>prod</parameterSources>
     <parameterSources>amount</parameterSources>
     <parameterSources>name</parameterSources>
-    <parameterSources>address</parameterSources>
+    <parameterSources>adress</parameterSources>
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_9lJTRdz4EeezLLWyrCRRXw" name="addToSales2Billing" dataTargets="_LWXlENzFEeezLLWyrCRRXw">
     <parameterSources>ccnrAnon</parameterSources>
@@ -68,7 +68,7 @@
   <parametersAndDataPairs id="_i_RLZdz5EeezLLWyrCRRXw" name="deliverProduct2Delivery" dataTargets="_Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>
     <parameterSources>name</parameterSources>
-    <parameterSources>address</parameterSources>
+    <parameterSources>adress</parameterSources>
     <parameterSources>product</parameterSources>
     <parameterSources>amount</parameterSources>
   </parametersAndDataPairs>

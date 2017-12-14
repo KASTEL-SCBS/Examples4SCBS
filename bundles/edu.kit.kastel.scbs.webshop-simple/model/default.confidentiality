@@ -43,7 +43,6 @@
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_j2DEIN2CEeezLLWyrCRRXw" name="getCVC" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>
-    <parameterSources>\result</parameterSources>
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_lbfX_t2CEeezLLWyrCRRXw" name="addToSales" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>

@@ -189,7 +189,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pngTJd2HEeezLLWyrCRRXw" x="120" y="310"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_r2It4N2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="BillingData includes \call, \result&#xD;&#xA;DeliveryData includes \call, \result" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_r2It4N2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="BillingData includes \call&#xD;&#xA;DeliveryData includes \call" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r2It4d2HEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r2It4t2HEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>
@@ -204,7 +204,7 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r2It5d2HEeezLLWyrCRRXw" x="120" y="380"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_t9rpMN2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="BillingData includes \call, \result&#xD;&#xA;DeliveryData includes \call, \result" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+  <children xmi:type="notation:Shape" xmi:id="_t9rpMN2HEeezLLWyrCRRXw" type="Note" fontName="Segoe UI" description="BillingData includes \call, \result&#xD;&#xA;DeliveryData includes \call" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t9rpMd2HEeezLLWyrCRRXw" source="specificStyles">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t9rpMt2HEeezLLWyrCRRXw" key="verticalAlignment" value="8"/>
     </eAnnotations>

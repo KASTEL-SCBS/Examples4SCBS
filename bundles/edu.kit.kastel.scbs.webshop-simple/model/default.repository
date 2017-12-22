@@ -164,6 +164,7 @@
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_a-GWkN2DEeezLLWyrCRRXw">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#_hMXFEN2CEeezLLWyrCRRXw"/>
+      <parametersAndDataPairs href="default.confidentiality#_Q1iq9eDgEeeeqaY5eq5wqg"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="edu.kit.kastel.scbs.pcmconfidentialityprofile:InformationFlow" appliedTo="_cmTqgN2DEeezLLWyrCRRXw">
       <extension href="../../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>

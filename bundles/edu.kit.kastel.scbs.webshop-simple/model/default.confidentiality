@@ -35,11 +35,10 @@
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_fdK_YN2CEeezLLWyrCRRXw" name="getCreditCard" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>
-    <parameterSources>\result</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_hMXFEN2CEeezLLWyrCRRXw" name="getCreditCardAnon" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
-    <parameterSources>\call</parameterSources>
+  <parametersAndDataPairs id="_hMXFEN2CEeezLLWyrCRRXw" name="getCreditCardAnon2Billing" dataTargets="_LWXlENzFEeezLLWyrCRRXw">
     <parameterSources>\result</parameterSources>
+    <parameterSources>\call</parameterSources>
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_j2DEIN2CEeezLLWyrCRRXw" name="getCVC" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>
@@ -73,6 +72,9 @@
     <parameterSources>amount</parameterSources>
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_ut7K5dz5EeezLLWyrCRRXw" name="dispatchNext" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
+    <parameterSources>\call</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Q1iq9eDgEeeeqaY5eq5wqg" name="getCreditCardAnonForAll" dataTargets="_LWXlENzFEeezLLWyrCRRXw _Phe6oNzFEeezLLWyrCRRXw">
     <parameterSources>\call</parameterSources>
   </parametersAndDataPairs>
 </edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

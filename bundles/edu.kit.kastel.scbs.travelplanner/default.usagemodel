@@ -4,11 +4,11 @@
     <scenarioBehaviour_UsageScenario id="_rdqzEGB1Eea8PL_gXolfGA" entityName="defaultUsageScenarioBehaviour">
       <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_rdvrkGB1Eea8PL_gXolfGA" entityName="start" successor="_zqfVcHZsEeaE4tGRMtTb7A"/>
       <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_rdw5sGB1Eea8PL_gXolfGA" entityName="stop" predecessor="_ClGTkHZtEeaE4tGRMtTb7A"/>
-      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_9DH4wHZsEeaE4tGRMtTb7A" entityName="UsageReleaseCCD" successor="_uA4ooHZsEeaE4tGRMtTb7A" predecessor="_zqfVcHZsEeaE4tGRMtTb7A">
-        <providedRole_EntryLevelSystemCall href="default.system#_gRHn4MOBEeWst9mTsticNA"/>
-        <operationSignature__EntryLevelSystemCall href="default.repository#_ZhYsoHUOEeahddHrzGUY0w"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_WtNmwN5gEeeel_96Qa_d5A" entityName="UsageReleaseCCD" successor="_uA4ooHZsEeaE4tGRMtTb7A" predecessor="_zqfVcHZsEeaE4tGRMtTb7A">
+        <providedRole_EntryLevelSystemCall href="default.system#_bNQxIM5xEeWFJak7Wqvc0g"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#_jergYN5bEeeel_96Qa_d5A"/>
       </actions_ScenarioBehaviour>
-      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_zqfVcHZsEeaE4tGRMtTb7A" entityName="UsageGetFlightOffers" successor="_9DH4wHZsEeaE4tGRMtTb7A" predecessor="_rdvrkGB1Eea8PL_gXolfGA">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_zqfVcHZsEeaE4tGRMtTb7A" entityName="UsageGetFlightOffers" successor="_WtNmwN5gEeeel_96Qa_d5A" predecessor="_rdvrkGB1Eea8PL_gXolfGA">
         <providedRole_EntryLevelSystemCall href="default.system#_gRHn4MOBEeWst9mTsticNA"/>
         <operationSignature__EntryLevelSystemCall href="default.repository#_602gYM5lEeWFJak7Wqvc0g"/>
       </actions_ScenarioBehaviour>
@@ -16,10 +16,13 @@
         <providedRole_EntryLevelSystemCall href="default.system#_gRHn4MOBEeWst9mTsticNA"/>
         <operationSignature__EntryLevelSystemCall href="default.repository#_GmUUEMN1EeWPE-QAhbUzuQ"/>
       </actions_ScenarioBehaviour>
-      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_uA4ooHZsEeaE4tGRMtTb7A" entityName="UsageDeclassifyCCD" successor="_ClGTkHZtEeaE4tGRMtTb7A" predecessor="_9DH4wHZsEeaE4tGRMtTb7A">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_uA4ooHZsEeaE4tGRMtTb7A" entityName="UsageDeclassifyCCD" successor="_ClGTkHZtEeaE4tGRMtTb7A" predecessor="_WtNmwN5gEeeel_96Qa_d5A">
         <providedRole_EntryLevelSystemCall href="default.system#_bNQxIM5xEeWFJak7Wqvc0g"/>
         <operationSignature__EntryLevelSystemCall href="default.repository#_Mbgp8HZrEeaE4tGRMtTb7A"/>
       </actions_ScenarioBehaviour>
     </scenarioBehaviour_UsageScenario>
+    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="1">
+      <thinkTime_ClosedWorkload specification="10"/>
+    </workload_UsageScenario>
   </usageScenario_UsageModel>
 </usagemodel:UsageModel>

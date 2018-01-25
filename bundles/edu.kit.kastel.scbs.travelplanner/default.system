@@ -12,19 +12,8 @@
   <assemblyContexts__ComposedStructure id="_XOyEsMOBEeWst9mTsticNA" entityName="CreditCardCenter &lt;CreditCardCenter>">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#__s82QMN5EeWPE-QAhbUzuQ"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_uLjtgM55EeW6RpZqSiINDQ" entityName="ProvDelegation Provided_DeclassificationConfirmation -> Provided_DeclassificationConfirmation_CreditCardCenter" outerProvidedRole_ProvidedDelegationConnector="_ojvwcM55EeW6RpZqSiINDQ" assemblyContext_ProvidedDelegationConnector="_XOyEsMOBEeWst9mTsticNA">
-    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_8wDuMM54EeW6RpZqSiINDQ"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_H4IWQJzeEeWPbeRUuP85Tg" entityName="Connector Energy Visualization -> Database">
-    <providedRole_AssemblyConnector href="default.repository#_gzn2wJqqEeWvQ_r7FgUerw"/>
-    <requiredRole_AssemblyConnector href="default.repository#_QecioJqrEeWvQ_r7FgUerw"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_OlEIUJzeEeWPbeRUuP85Tg" entityName="Connector Energy Visualization -> Energy Meter Assembly Context">
-    <providedRole_AssemblyConnector href="default.repository#_lOcRsJqpEeWvQ_r7FgUerw"/>
-    <requiredRole_AssemblyConnector href="default.repository#_T8CD0JqrEeWvQ_r7FgUerw"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_U-K-4MN_EeWst9mTsticNA" entityName="ReqDelegation Required_Input_TravelPlanner -> Required_Input" assemblyContext_RequiredDelegationConnector="_2pBlYMN-EeWst9mTsticNA">
-    <innerRequiredRole_RequiredDelegationConnector href="default.repository#_xnF5YMN6EeWPE-QAhbUzuQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_fEC1cM5xEeWFJak7Wqvc0g" entityName="ProvDelegation Provided_Declassification -> Provided_Declassification_CreditCardCenter" outerProvidedRole_ProvidedDelegationConnector="_bNQxIM5xEeWFJak7Wqvc0g" assemblyContext_ProvidedDelegationConnector="_XOyEsMOBEeWst9mTsticNA">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_WXhJsMN6EeWPE-QAhbUzuQ"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_nCPoUMN_EeWst9mTsticNA" entityName="Connector TravelPlanner &lt;TravelPlanner> -> TravelAgency &lt;TravelAgency>" requiringAssemblyContext_AssemblyConnector="_2pBlYMN-EeWst9mTsticNA" providingAssemblyContext_AssemblyConnector="_0WeT8MN-EeWst9mTsticNA">
     <providedRole_AssemblyConnector href="default.repository#_dgy9sMNzEeWPE-QAhbUzuQ"/>
@@ -42,9 +31,8 @@
     <providedRole_AssemblyConnector href="default.repository#_1NES0MOAEeWst9mTsticNA"/>
     <requiredRole_AssemblyConnector href="default.repository#_Cq8VkMNzEeWPE-QAhbUzuQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_cnJ3kMOBEeWst9mTsticNA" entityName="Connector TravelPlanner &lt;TravelPlanner> -> CreditCardCenter &lt;CreditCardCenter>" requiringAssemblyContext_AssemblyConnector="_2pBlYMN-EeWst9mTsticNA" providingAssemblyContext_AssemblyConnector="_XOyEsMOBEeWst9mTsticNA">
-    <providedRole_AssemblyConnector href="default.repository#_WXhJsMN6EeWPE-QAhbUzuQ"/>
-    <requiredRole_AssemblyConnector href="default.repository#_ce3icMN6EeWPE-QAhbUzuQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_yHXWIN5dEeeel_96Qa_d5A" entityName="ProvDelegation Provided_AirlineAdministration -> Provided_ArilineAdministration_Airline" outerProvidedRole_ProvidedDelegationConnector="_uNL_kN5dEeeel_96Qa_d5A" assemblyContext_ProvidedDelegationConnector="_HRAO0MOAEeWst9mTsticNA">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_y4ZmMM5wEeWFJak7Wqvc0g"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_kEQiUMOBEeWst9mTsticNA" entityName="ProvDelegation Provided_BookingSelection -> Provided_BookingSelection_TravelPlanner" outerProvidedRole_ProvidedDelegationConnector="_gRHn4MOBEeWst9mTsticNA" assemblyContext_ProvidedDelegationConnector="_2pBlYMN-EeWst9mTsticNA">
     <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_kEhCAMN2EeWPE-QAhbUzuQ"/>
@@ -52,11 +40,9 @@
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_y3iJYMOBEeWst9mTsticNA" entityName="ProvDelegation Provided_Configuration -> Provided_Configuration_CreditCardCenter" outerProvidedRole_ProvidedDelegationConnector="_vAFWsMOBEeWst9mTsticNA" assemblyContext_ProvidedDelegationConnector="_XOyEsMOBEeWst9mTsticNA">
     <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_vjje4MN7EeWPE-QAhbUzuQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_A2cUQMOCEeWst9mTsticNA" entityName="ReqDelegation Required_Confirmation_CreditCardCenter -> Required_Confirmation" assemblyContext_RequiredDelegationConnector="_XOyEsMOBEeWst9mTsticNA">
-    <innerRequiredRole_RequiredDelegationConnector href="default.repository#_YYuzgMN6EeWPE-QAhbUzuQ"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_fEC1cM5xEeWFJak7Wqvc0g" entityName="ProvDelegation Provided_Declassification -> Provided_Declassification_CreditCardCenter" outerProvidedRole_ProvidedDelegationConnector="_bNQxIM5xEeWFJak7Wqvc0g" assemblyContext_ProvidedDelegationConnector="_XOyEsMOBEeWst9mTsticNA">
-    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_WXhJsMN6EeWPE-QAhbUzuQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ozglIN5dEeeel_96Qa_d5A" entityName="Connector Airline &lt;Airline> -> TravelPlanner &lt;TravelPlanner>" requiringAssemblyContext_AssemblyConnector="_HRAO0MOAEeWst9mTsticNA" providingAssemblyContext_AssemblyConnector="_2pBlYMN-EeWst9mTsticNA">
+    <providedRole_AssemblyConnector href="default.repository#_nUJUcNT3Eee-_bZGhm8PwA"/>
+    <requiredRole_AssemblyConnector href="default.repository#_o38CcNT3Eee-_bZGhm8PwA"/>
   </connectors__ComposedStructure>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gRHn4MOBEeWst9mTsticNA" entityName="Provided_BookingSelection">
     <providedInterface__OperationProvidedRole href="default.repository#_uUkncMN0EeWPE-QAhbUzuQ"/>
@@ -67,7 +53,7 @@
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_bNQxIM5xEeWFJak7Wqvc0g" entityName="Provided_Declassification">
     <providedInterface__OperationProvidedRole href="default.repository#_CayVgMN6EeWPE-QAhbUzuQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ojvwcM55EeW6RpZqSiINDQ" entityName="Provided_DeclassificationConfirmation">
-    <providedInterface__OperationProvidedRole href="default.repository#_ggoEAM54EeW6RpZqSiINDQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uNL_kN5dEeeel_96Qa_d5A" entityName="Provided_AirlineAdministration">
+    <providedInterface__OperationProvidedRole href="default.repository#_lKDm4M5wEeWFJak7Wqvc0g"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

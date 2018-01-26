@@ -107,11 +107,8 @@
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_CayVgMN6EeWPE-QAhbUzuQ" entityName="Declassification">
-      <signatures__OperationInterface id="_Mbgp8HZrEeaE4tGRMtTb7A" entityName="declassifyCCD" returnType__OperationSignature="_WVGGLc5iEeWFJak7Wqvc0g">
+      <signatures__OperationInterface id="_Mbgp8HZrEeaE4tGRMtTb7A" entityName="declassifyCCDForAirline" returnType__OperationSignature="_WVGGLc5iEeWFJak7Wqvc0g">
         <parameters__OperationSignature dataType__Parameter="_WVGGLc5iEeWFJak7Wqvc0g" parameterName="ccDetails"/>
-        <parameters__OperationSignature parameterName="airline">
-          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-        </parameters__OperationSignature>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_jergYN5bEeeel_96Qa_d5A" entityName="releaseCCD" returnType__OperationSignature="_WVGGLc5iEeWFJak7Wqvc0g"/>
     </interfaces__Repository>

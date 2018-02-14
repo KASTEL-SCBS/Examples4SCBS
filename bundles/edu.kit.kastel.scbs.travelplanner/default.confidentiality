@@ -11,8 +11,8 @@
     <parameterSources>requestData</parameterSources>
     <parameterSources>\result</parameterSources>
   </parametersAndDataPairs>
-  <parametersAndDataPairs id="_0sjZ8HZtEeaE4tGRMtTb7A" name="releaseCCDParam" dataTargets="MobilePhone">
-    <parameterSources>airline</parameterSources>
+  <parametersAndDataPairs id="_0sjZ8HZtEeaE4tGRMtTb7A" name="declassifyCCDParam" dataTargets="MobilePhone">
+    <parameterSources>ccDetails</parameterSources>
   </parametersAndDataPairs>
   <parametersAndDataPairs id="_K_z1aHUVEeahddHrzGUY0w" name="declassifiedCCD" dataTargets="MobilePhone AirlineServer">
     <parameterSources>\result</parameterSources>

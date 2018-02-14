@@ -2,7 +2,7 @@ package confidentialityRepository;
 public enum ParametersAndDataPairs {
     getFlightOffersTA(new String[] {"\\result", "requestData"}, new DataSets[] {DataSets.MOBILEPHONE, DataSets.AGENCYSERVER, DataSets.AIRLINESERVER}, null, null),
     getFlightOffersTP(new String[] {"\\result", "requestData"}, new DataSets[] {DataSets.MOBILEPHONE, DataSets.AGENCYSERVER, DataSets.AIRLINESERVER}, null, null),
-    releaseCCDParam(new String[] {"airline"}, new DataSets[] {DataSets.MOBILEPHONE}, null, null),
+    declassifyCCDParam(new String[] {"ccDetails"}, new DataSets[] {DataSets.MOBILEPHONE}, null, null),
     declassifiedCCD(new String[] {"\\result"}, new DataSets[] {DataSets.MOBILEPHONE, DataSets.AIRLINESERVER}, null, null),
     confirmRelease(new String[] {"airline", "\\result"}, new DataSets[] {DataSets.MOBILEPHONE}, null, null),
     setCCD(new String[] {"ccd"}, new DataSets[] {DataSets.MOBILEPHONE}, null, null),

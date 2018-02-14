@@ -3,8 +3,6 @@ package defaultRepository.components.CreditCardCenter;
 import defaultRepository.contracts.datatypes.CreditCardDetails;
 import defaultRepository.contracts.interfaces.Configuration;
 import defaultRepository.contracts.interfaces.Declassification;
-import defaultRepository.contracts.interfaces.DeclassificationConfirmation;
-import defaultRepository.main.User;
 
 /**
  * Credit card center for storing the credit card details of users.
@@ -19,7 +17,7 @@ public class CreditCardCenter implements Declassification, Configuration {
     // automatically generated:
     // @ cluster AirlineServerCluster;
     // @ \lowIn \nothing
-    // @ \lowOut this.releaseCCD.\term(\result)
+    // @ \lowOut this.declassifyCCDForAirline.\term(\result)
     // @ \visible \nothing
     // @ \lowState AirlineServer;
     // @
@@ -27,11 +25,9 @@ public class CreditCardCenter implements Declassification, Configuration {
 
     // automatically generated:
     // @ cluster MobilePhoneCluster;
-    // @ \lowIn declassificationConfirmation.confirmRelease.\term(\result),
-    // @     this.releaseCCD.\call(airline),
+    // @ \lowIn this.declassifyCCDForAirline.\call(ccDetails),
     // @     this.setCreditCard.\call(ccd)
-    // @ \lowOut declassificationConfirmation.confirmRelease.\call(airline),
-    // @     this.releaseCCD.\term(\result)
+    // @ \lowOut this.declassifyCCDForAirline.\term(\result)
     // @ \visible \nothing
     // @ \lowState MobilePhone;
     // @
@@ -43,23 +39,14 @@ public class CreditCardCenter implements Declassification, Configuration {
     private static CreditCardCenter instance;
 
     /**
-     * To get confirmation for declassifying the credit card details.
-     */
-    private DeclassificationConfirmation declassificationConfirmation;
-
-    /**
      * Credit card details of the user.
      */
     private CreditCardDetails ccd;
 
     /**
      * Creates a new credit card center for managing the credit card details of the users.
-     * 
-     * @param declassificationConfirmation
-     *            To get declassification confirmation.
      */
-    private CreditCardCenter(DeclassificationConfirmation declassificationConfirmation) {
-        this.declassificationConfirmation = declassificationConfirmation;
+    private CreditCardCenter() {
     }
 
     /**
@@ -69,17 +56,14 @@ public class CreditCardCenter implements Declassification, Configuration {
      */
     public static CreditCardCenter getInstance() {
         if (instance == null) {
-            instance = new CreditCardCenter(User.getInstance());
+            instance = new CreditCardCenter();
         }
         return instance;
     }
-
+    
     @Override
-    public CreditCardDetails releaseCCD(String airline) {
-        if (declassificationConfirmation.confirmRelease(airline)) {
-            return declassify(ccd);
-        }
-        return null;
+    public CreditCardDetails releaseCCD() {
+        return declassifyCCDForAirline(ccd);
     }
 
     /**
@@ -91,7 +75,7 @@ public class CreditCardCenter implements Declassification, Configuration {
      *            The credit card details to declassify.
      * @return The declassified credit card details of the user.
      */
-    private CreditCardDetails declassify(CreditCardDetails ccd) {
+    public CreditCardDetails declassifyCCDForAirline(CreditCardDetails ccd) {
         // MobilePhone ==> MobilePhone, Airline
         CreditCardDetails ccd_decl = ccd;
         return ccd_decl;

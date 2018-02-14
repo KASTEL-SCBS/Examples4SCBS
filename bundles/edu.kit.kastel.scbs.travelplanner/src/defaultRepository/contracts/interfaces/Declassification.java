@@ -12,13 +12,18 @@ import defaultRepository.contracts.datatypes.CreditCardDetails;
 public interface Declassification {
 			
     /**
-     * Releases and declassifies the credit card details of the user for the given airline.
+     * Releases and declassifies the credit card details of the user.
      * 
-     * @param airline
-     *            The airline to release the credit card details for.
      * @return The released and declassified credit card details.
      */
-	@InformationFlow(parametersAndDataPairs = {ParametersAndDataPairs.releaseCCDParam, ParametersAndDataPairs.declassifiedCCD})
-    CreditCardDetails releaseCCD(String airline); 
+    CreditCardDetails releaseCCD(); 
 	
+    /**
+     * Declassifies given credit card deatils for the airline.
+     * 
+     * @param ccDetails The credit card details to declassify.
+     * @return The released and declassified credit card details.
+     */
+    @InformationFlow(parametersAndDataPairs = {ParametersAndDataPairs.declassifyCCDParam, ParametersAndDataPairs.declassifiedCCD})
+    CreditCardDetails declassifyCCDForAirline(CreditCardDetails ccDetails);
 }

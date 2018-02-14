@@ -127,7 +127,7 @@ public class TravelPlanner implements BookingSelection, BookingConfirmation {
 
     @Override
     public boolean bookSelected(FlightOffer flightOffer) {
-        CreditCardDetails ccd_decl = declassification.releaseCCD(flightOffer.getAirline());
+        CreditCardDetails ccd_decl = declassification.releaseCCD();
         if (ccd_decl == null) {
             return false;
         } else {

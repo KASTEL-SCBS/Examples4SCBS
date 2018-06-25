@@ -15,16 +15,17 @@
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_OyC2kJ-3Eeaq3dT1AvYNWA" entityName="BasicComponentMultReqRole">
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_RQYhRZ-3Eeaq3dT1AvYNWA" entityName="opInterfacePrimitiveTypes" requiredInterface__OperationRequiredRole="_4FlHt5-gEeaq3dT1AvYNWA"/>
-      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cM215Z-3Eeaq3dT1AvYNWA" entityName="opInterfaceInheritance" requiredInterface__OperationRequiredRole="_dmPoh5-oEeaq3dT1AvYNWA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cM215Z-3Eeaq3dT1AvYNWA" entityName="opInterfaceInheritanceOne" requiredInterface__OperationRequiredRole="_dmPoh5-oEeaq3dT1AvYNWA"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_j12AhZ-3Eeaq3dT1AvYNWA" entityName="opInterfaceFull" requiredInterface__OperationRequiredRole="_CaGx55-pEeaq3dT1AvYNWA"/>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_mkQHgJ-3Eeaq3dT1AvYNWA" entityName="BasicComponentFull">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__ntoIZ-7Eeaq3dT1AvYNWA" entityName="opInterfaceInheritanceMult" providedInterface__OperationProvidedRole="_4b9tx5-oEeaq3dT1AvYNWA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Zlf_1Z-8Eeaq3dT1AvYNWA" entityName="opInterfaceInheritanceOne" requiredInterface__OperationRequiredRole="_dmPoh5-oEeaq3dT1AvYNWA"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YIE_lZ-8Eeaq3dT1AvYNWA" entityName="opInterfaceEmpty" requiredInterface__OperationRequiredRole="_2nqNp5-fEeaq3dT1AvYNWA"/>
-      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Zlf_1Z-8Eeaq3dT1AvYNWA" entityName="opInterfaceInheritance" requiredInterface__OperationRequiredRole="_dmPoh5-oEeaq3dT1AvYNWA"/>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_tX5rUKxJEea-rtRwK8xufA" entityName="BasicComponentDiamond">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_v3M_UaxJEea-rtRwK8xufA" entityName="opInterfaceDiamond" providedInterface__OperationProvidedRole="_Tv-O5qxJEea-rtRwK8xufA"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WTi-0QydEeiRqpsIfuBxlQ" entityName="opInterfaceEmpty" providedInterface__OperationProvidedRole="_2nqNp5-fEeaq3dT1AvYNWA"/>
     </components__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_2nqNp5-fEeaq3dT1AvYNWA" entityName="OpInterfaceEmpty"/>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_4FlHt5-gEeaq3dT1AvYNWA" entityName="OpInterfacePrimitiveTypes">
@@ -32,14 +33,14 @@
       <signatures__OperationInterface id="_cOa2wJ-kEeaq3dT1AvYNWA" entityName="methodBoolean" returnType__OperationSignature="/0/@dataTypes__Repository.21">
         <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.21" parameterName="paraBoolean"/>
       </signatures__OperationInterface>
-      <signatures__OperationInterface id="_lnHEcJ-kEeaq3dT1AvYNWA" entityName="methodChar" returnType__OperationSignature="/0/@dataTypes__Repository.23">
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.23" parameterName="paraChar"/>
+      <signatures__OperationInterface id="_lnHEcJ-kEeaq3dT1AvYNWA" entityName="methodCharacter" returnType__OperationSignature="/0/@dataTypes__Repository.23">
+        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.23" parameterName="paraCharacter"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_uY7fYJ-kEeaq3dT1AvYNWA" entityName="methodByte" returnType__OperationSignature="/0/@dataTypes__Repository.24">
         <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.24" parameterName="paraByte"/>
       </signatures__OperationInterface>
-      <signatures__OperationInterface id="_20m9IJ-iEeaq3dT1AvYNWA" entityName="methodInt" returnType__OperationSignature="/0/@dataTypes__Repository.19">
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.19" parameterName="paraInt"/>
+      <signatures__OperationInterface id="_20m9IJ-iEeaq3dT1AvYNWA" entityName="methodInteger" returnType__OperationSignature="/0/@dataTypes__Repository.19">
+        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.19" parameterName="paraInteger"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_1O21YJ-kEeaq3dT1AvYNWA" entityName="methodLong" returnType__OperationSignature="/0/@dataTypes__Repository.25">
         <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.25" parameterName="paraLong"/>
@@ -50,24 +51,16 @@
       <signatures__OperationInterface id="_Ayc0YJ-lEeaq3dT1AvYNWA" entityName="methodString" returnType__OperationSignature="/0/@dataTypes__Repository.20">
         <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.20" parameterName="paraString"/>
       </signatures__OperationInterface>
-      <signatures__OperationInterface id="_GWkkQJ-lEeaq3dT1AvYNWA" entityName="methodMultipleParameters" returnType__OperationSignature="/0/@dataTypes__Repository.23">
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.21" parameterName="paraBooleanOne"/>
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.21" parameterName="paraBooleanTwo"/>
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.19" parameterName="paraInt"/>
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.20" parameterName="paraString"/>
-      </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_kRRdd5-lEeaq3dT1AvYNWA" entityName="OpInterfaceComplexTypes">
       <signatures__OperationInterface id="_Uy7DoJ-mEeaq3dT1AvYNWA" entityName="methodVoid">
         <parameters__OperationSignature dataType__Parameter="_B2cEPZ7lEeajiNXG86QdYA" parameterName="paraCompType"/>
-        <parameters__OperationSignature dataType__Parameter="_rRIwvJ4zEea5mMJh5Ie9EQ" parameterName="paraCollType"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_W2gE8J-mEeaq3dT1AvYNWA" entityName="methodCompType" returnType__OperationSignature="_jYYJvZ38Eea5mMJh5Ie9EQ">
         <parameters__OperationSignature dataType__Parameter="_Eb6cPJ7mEeajiNXG86QdYA" parameterName="paraCollType"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_mhJ_8J-mEeaq3dT1AvYNWA" entityName="methodCollType" returnType__OperationSignature="_6OHybJ38Eea5mMJh5Ie9EQ">
-        <parameters__OperationSignature dataType__Parameter="_75FDBJ7mEeajiNXG86QdYA" parameterName="paraCompType"/>
-        <parameters__OperationSignature dataType__Parameter="_V-eJfJ7lEeajiNXG86QdYA" parameterName="paraCollType"/>
+        <parameters__OperationSignature dataType__Parameter="_rRIwvJ4zEea5mMJh5Ie9EQ" parameterName="paraCollType"/>
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_dmPoh5-oEeaq3dT1AvYNWA" entityName="OpInterfaceInheritanceOne" parentInterfaces__Interface="_4FlHt5-gEeaq3dT1AvYNWA">
@@ -78,7 +71,7 @@
       <signatures__OperationInterface id="_JzZRAKxJEea-rtRwK8xufA" entityName="methodInheritanceTwoA" returnType__OperationSignature="_RQvQ7Z3mEeaiQYEHSUQvNQ"/>
       <signatures__OperationInterface id="_Q8A5gKxJEea-rtRwK8xufA" entityName="methodInheritanceTwoB" returnType__OperationSignature="_WJs17Z-REeaq3dT1AvYNWA"/>
     </interfaces__Repository>
-    <interfaces__Repository xsi:type="repository:OperationInterface" id="_Tv-O5qxJEea-rtRwK8xufA" entityName="OpInterfaceDiamond" parentInterfaces__Interface="_E5C256xJEea-rtRwK8xufA _dmPoh5-oEeaq3dT1AvYNWA">
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_Tv-O5qxJEea-rtRwK8xufA" entityName="OpInterfaceDiamond" parentInterfaces__Interface="_dmPoh5-oEeaq3dT1AvYNWA _E5C256xJEea-rtRwK8xufA">
       <signatures__OperationInterface id="_bJs1gKxJEea-rtRwK8xufA" entityName="methodDiamond" returnType__OperationSignature="_4DTgrJ38Eea5mMJh5Ie9EQ"/>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_4b9tx5-oEeaq3dT1AvYNWA" entityName="OpInterfaceInheritanceMult" parentInterfaces__Interface="_dmPoh5-oEeaq3dT1AvYNWA _kRRdd5-lEeaq3dT1AvYNWA">
@@ -89,13 +82,13 @@
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_CaGx55-pEeaq3dT1AvYNWA" entityName="OpInterfaceFull" parentInterfaces__Interface="_dmPoh5-oEeaq3dT1AvYNWA _2nqNp5-fEeaq3dT1AvYNWA">
       <signatures__OperationInterface id="_TKBr0J-pEeaq3dT1AvYNWA" entityName="methodEmpty"/>
       <signatures__OperationInterface id="_TkxHEJ-pEeaq3dT1AvYNWA" entityName="methodPrimitiveReturn" returnType__OperationSignature="/0/@dataTypes__Repository.19">
-        <parameters__OperationSignature dataType__Parameter="_Eb6cPJ7mEeajiNXG86QdYA" parameterName="paramCollType"/>
-        <parameters__OperationSignature dataType__Parameter="_ZzHxvZ7jEeajiNXG86QdYA" parameterName="paramCompType"/>
+        <parameters__OperationSignature dataType__Parameter="_TNc97J7mEeajiNXG86QdYA" parameterName="paraCollType"/>
+        <parameters__OperationSignature dataType__Parameter="_WJs17Z-REeaq3dT1AvYNWA" parameterName="paraCompType"/>
       </signatures__OperationInterface>
       <signatures__OperationInterface id="_sbGugJ-pEeaq3dT1AvYNWA" entityName="methodCollTypeReturn" returnType__OperationSignature="_TNc97J7mEeajiNXG86QdYA">
-        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.24" parameterName="paraByte"/>
+        <parameters__OperationSignature dataType__Parameter="/0/@dataTypes__Repository.19" parameterName="paraInt"/>
       </signatures__OperationInterface>
-      <signatures__OperationInterface id="_2eEBMJ-pEeaq3dT1AvYNWA" entityName="methodCompTypeReturn" returnType__OperationSignature="_75FDBJ7mEeajiNXG86QdYA"/>
+      <signatures__OperationInterface id="_2eEBMJ-pEeaq3dT1AvYNWA" entityName="methodCompTypeReturn" returnType__OperationSignature="_WJs17Z-REeaq3dT1AvYNWA"/>
     </interfaces__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_gCek5538Eea5mMJh5Ie9EQ" entityName="CompTypeEmpty"/>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_RQvQ7Z3mEeaiQYEHSUQvNQ" entityName="CompTypeAllPrimitives">
@@ -114,13 +107,13 @@
     </dataTypes__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_jYYJvZ38Eea5mMJh5Ie9EQ" entityName="CompTypeCollTypesPrimitive">
       <innerDeclaration_CompositeDataType entityName="collTypeEmpty" datatype_InnerDeclaration="_4DTgrJ38Eea5mMJh5Ie9EQ"/>
-      <innerDeclaration_CompositeDataType entityName="collTypeInt" datatype_InnerDeclaration="_6OHybJ38Eea5mMJh5Ie9EQ"/>
-      <innerDeclaration_CompositeDataType entityName="collTypteString" datatype_InnerDeclaration="_9cS-nJ38Eea5mMJh5Ie9EQ"/>
-      <innerDeclaration_CompositeDataType entityName="collTypeDouble" datatype_InnerDeclaration="_GGnqbJ39Eea5mMJh5Ie9EQ"/>
-      <innerDeclaration_CompositeDataType entityName="collTypeLong" datatype_InnerDeclaration="_Li0NXJ39Eea5mMJh5Ie9EQ"/>
-      <innerDeclaration_CompositeDataType entityName="collTypeChar" datatype_InnerDeclaration="_ldq9TJ4zEea5mMJh5Ie9EQ"/>
       <innerDeclaration_CompositeDataType entityName="collTypeBoolean" datatype_InnerDeclaration="_rRIwvJ4zEea5mMJh5Ie9EQ"/>
       <innerDeclaration_CompositeDataType entityName="collTypeByte" datatype_InnerDeclaration="_ue67XJ4zEea5mMJh5Ie9EQ"/>
+      <innerDeclaration_CompositeDataType entityName="collTypeChar" datatype_InnerDeclaration="_ldq9TJ4zEea5mMJh5Ie9EQ"/>
+      <innerDeclaration_CompositeDataType entityName="collTypeInt" datatype_InnerDeclaration="_6OHybJ38Eea5mMJh5Ie9EQ"/>
+      <innerDeclaration_CompositeDataType entityName="collTypeLong" datatype_InnerDeclaration="_Li0NXJ39Eea5mMJh5Ie9EQ"/>
+      <innerDeclaration_CompositeDataType entityName="collTypeDouble" datatype_InnerDeclaration="_GGnqbJ39Eea5mMJh5Ie9EQ"/>
+      <innerDeclaration_CompositeDataType entityName="collTypeString" datatype_InnerDeclaration="_9cS-nJ38Eea5mMJh5Ie9EQ"/>
     </dataTypes__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_B2cEPZ7lEeajiNXG86QdYA" entityName="CompTypeCollTypesComplex">
       <innerDeclaration_CompositeDataType entityName="collTypeCollTypeEmpty" datatype_InnerDeclaration="_hZEkjJ7lEeajiNXG86QdYA"/>
@@ -144,10 +137,10 @@
     <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_ldq9TJ4zEea5mMJh5Ie9EQ" entityName="CollTypeChar" innerType_CollectionDataType="/0/@dataTypes__Repository.23"/>
     <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_rRIwvJ4zEea5mMJh5Ie9EQ" entityName="CollTypeBoolean" innerType_CollectionDataType="/0/@dataTypes__Repository.21"/>
     <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_ue67XJ4zEea5mMJh5Ie9EQ" entityName="CollTypeByte" innerType_CollectionDataType="/0/@dataTypes__Repository.24"/>
-    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_V-eJfJ7lEeajiNXG86QdYA" entityName="CollTypeCompType" innerType_CollectionDataType="_gCek5538Eea5mMJh5Ie9EQ"/>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_V-eJfJ7lEeajiNXG86QdYA" entityName="CollTypeCompTypeEmpty" innerType_CollectionDataType="_gCek5538Eea5mMJh5Ie9EQ"/>
     <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_hZEkjJ7lEeajiNXG86QdYA" entityName="CollTypeCollTypeEmpty" innerType_CollectionDataType="_4DTgrJ38Eea5mMJh5Ie9EQ"/>
-    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_Eb6cPJ7mEeajiNXG86QdYA" entityName="CollTypeCollTypeCompType" innerType_CollectionDataType="_V-eJfJ7lEeajiNXG86QdYA"/>
-    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_TNc97J7mEeajiNXG86QdYA" entityName="CollTypeCollTypeCollTypeCompType" innerType_CollectionDataType="_Eb6cPJ7mEeajiNXG86QdYA"/>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_Eb6cPJ7mEeajiNXG86QdYA" entityName="CollTypeCollTypeCompTypeEmpty" innerType_CollectionDataType="_V-eJfJ7lEeajiNXG86QdYA"/>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_TNc97J7mEeajiNXG86QdYA" entityName="CollTypeCollTypeCollTypeCompTypeEmpty" innerType_CollectionDataType="_Eb6cPJ7mEeajiNXG86QdYA"/>
     <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
     <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="STRING"/>
     <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="BOOL"/>

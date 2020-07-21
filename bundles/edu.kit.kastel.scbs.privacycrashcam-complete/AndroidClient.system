@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_D1QdMIurEemfksrLlsx5_w" entityName="AndroidClient">
+  <assemblyContexts__ComposedStructure id="_42w3MIzaEemffLcsUip71A" entityName="Assembly_VideoNetworkAdapter">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_fl-u8IunEemfksrLlsx5_w"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_9_aMAIzaEemffLcsUip71A" entityName="Assembly_JavaRSA+AESFileEncryptor">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="PCC.repository#_sJjkEIuCEemfksrLlsx5_w"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_3_ClAIzaEemffLcsUip71A" entityName="Assembly_UserNetworkAdapter">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_QSc6gIunEemfksrLlsx5_w"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_WM-4YKopEemZD4TzTudR9g" entityName="Assembly_FileSystemManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_d8eNkKFrEemsnYu_0k9cuQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_yQGaUKooEemZD4TzTudR9g" entityName="Assembly_SessionManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_V34dAKonEemZD4TzTudR9g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_zDLdEKooEemZD4TzTudR9g" entityName="Assembly_PreferencesStorage">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_j3BRYKonEemZD4TzTudR9g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_0y3SAKooEemZD4TzTudR9g" entityName="Assembly_SettingsManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_g-6b0KonEemZD4TzTudR9g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_IOSI4KopEemZD4TzTudR9g" entityName="Assembly_LocalVideoManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_KtOF8KooEemZD4TzTudR9g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Ypkz0KpvEemIzIuHgLGL0g" entityName="Assembly_TemporaryFileManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_d8eNkKFrEemsnYu_0k9cuQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_xWs_cKpwEemIzIuHgLGL0g" entityName="Assembly_VideoUploadWrapper">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_RDaJIKpuEemIzIuHgLGL0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_hQ820NLTEemj7YE_mr27Gg" entityName="Assembly_Webinterface">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_TWeJYMpWEemVkJoNuJTOzQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_VX3gMIzbEemffLcsUip71A" entityName="newRequiredDelegationConnector" outerRequiredRole_RequiredDelegationConnector="_OlxZcIurEemfksrLlsx5_w" assemblyContext_RequiredDelegationConnector="_42w3MIzaEemffLcsUip71A">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_GKFG4IuoEemfksrLlsx5_w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_OJUO0IzbEemffLcsUip71A" entityName="newRequiredDelegationConnector" outerRequiredRole_RequiredDelegationConnector="_IMaDoIurEemfksrLlsx5_w" assemblyContext_RequiredDelegationConnector="_3_ClAIzaEemffLcsUip71A">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_TIUUYIunEemfksrLlsx5_w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_Gim7MJEEEemDtOq1IeD_zw" entityName="newRequiredDelegationConnector" outerRequiredRole_RequiredDelegationConnector="_LwKeQIurEemfksrLlsx5_w" assemblyContext_RequiredDelegationConnector="_9_aMAIzaEemffLcsUip71A">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_AvV8EJEEEemDtOq1IeD_zw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_9GGTgKooEemZD4TzTudR9g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_0y3SAKooEemZD4TzTudR9g" providingAssemblyContext_AssemblyConnector="_zDLdEKooEemZD4TzTudR9g">
+    <providedRole_AssemblyConnector href="PCC.repository#_l5KvUKonEemZD4TzTudR9g"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_i2YTwKonEemZD4TzTudR9g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_70Bk0KpuEemIzIuHgLGL0g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yQGaUKooEemZD4TzTudR9g" providingAssemblyContext_AssemblyConnector="_3_ClAIzaEemffLcsUip71A">
+    <providedRole_AssemblyConnector href="PCC.repository#_UF9oYIunEemfksrLlsx5_w"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_IFgaAKpuEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_o7jYEKpwEemIzIuHgLGL0g" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_a61RoIurEemfksrLlsx5_w" assemblyContext_ProvidedDelegationConnector="_IOSI4KopEemZD4TzTudR9g">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_Mab1sKooEemZD4TzTudR9g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_oQsdMKpwEemIzIuHgLGL0g" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_BAwLMKopEemZD4TzTudR9g" assemblyContext_ProvidedDelegationConnector="_yQGaUKooEemZD4TzTudR9g">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_dnel8KonEemZD4TzTudR9g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_VzpLUKopEemZD4TzTudR9g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_IOSI4KopEemZD4TzTudR9g" providingAssemblyContext_AssemblyConnector="_9_aMAIzaEemffLcsUip71A">
+    <providedRole_AssemblyConnector href="PCC.repository#_08inMIuDEemfksrLlsx5_w"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_VzX7AKooEemZD4TzTudR9g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YjQzQKopEemZD4TzTudR9g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_IOSI4KopEemZD4TzTudR9g" providingAssemblyContext_AssemblyConnector="_WM-4YKopEemZD4TzTudR9g">
+    <providedRole_AssemblyConnector href="PCC.repository#_fvtFwKFrEemsnYu_0k9cuQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_SD-REKooEemZD4TzTudR9g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_5gW5EKpuEemIzIuHgLGL0g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yQGaUKooEemZD4TzTudR9g" providingAssemblyContext_AssemblyConnector="_IOSI4KopEemZD4TzTudR9g">
+    <providedRole_AssemblyConnector href="PCC.repository#_Mab1sKooEemZD4TzTudR9g"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_FbXH8KpuEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_64bfQKpuEemIzIuHgLGL0g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yQGaUKooEemZD4TzTudR9g" providingAssemblyContext_AssemblyConnector="_zDLdEKooEemZD4TzTudR9g">
+    <providedRole_AssemblyConnector href="PCC.repository#_l5KvUKonEemZD4TzTudR9g"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_DStZYKpuEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_zrXJsKpwEemIzIuHgLGL0g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_xWs_cKpwEemIzIuHgLGL0g" providingAssemblyContext_AssemblyConnector="_IOSI4KopEemZD4TzTudR9g">
+    <providedRole_AssemblyConnector href="PCC.repository#_Oa1AIKooEemZD4TzTudR9g"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_v14s8KpwEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_1AJyYKpwEemIzIuHgLGL0g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_xWs_cKpwEemIzIuHgLGL0g" providingAssemblyContext_AssemblyConnector="_yQGaUKooEemZD4TzTudR9g">
+    <providedRole_AssemblyConnector href="PCC.repository#_dnel8KonEemZD4TzTudR9g"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_XBhGUKpuEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_3eKF4KpwEemIzIuHgLGL0g" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_xWs_cKpwEemIzIuHgLGL0g" providingAssemblyContext_AssemblyConnector="_42w3MIzaEemffLcsUip71A">
+    <providedRole_AssemblyConnector href="PCC.repository#_hXr9IIunEemfksrLlsx5_w"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_WNJqIKpuEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_5RK7oKpwEemIzIuHgLGL0g" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_IPuQgKpvEemIzIuHgLGL0g" assemblyContext_ProvidedDelegationConnector="_xWs_cKpwEemIzIuHgLGL0g">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_VqK44KpuEemIzIuHgLGL0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_5vIqAKpwEemIzIuHgLGL0g" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="__U0N0KooEemZD4TzTudR9g" assemblyContext_ProvidedDelegationConnector="_0y3SAKooEemZD4TzTudR9g">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_iZwpMKonEemZD4TzTudR9g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_6esesKpwEemIzIuHgLGL0g" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_VY67YKpvEemIzIuHgLGL0g" assemblyContext_ProvidedDelegationConnector="_Ypkz0KpvEemIzIuHgLGL0g">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_gMNbkKFrEemsnYu_0k9cuQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_a61RoIurEemfksrLlsx5_w" entityName="LocalVideoManager">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_uI4-wIunEemfksrLlsx5_w"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_BAwLMKopEemZD4TzTudR9g" entityName="SessionManager">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_4GkJUKomEemZD4TzTudR9g"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__U0N0KooEemZD4TzTudR9g" entityName="SettingsManager">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_91hQMKomEemZD4TzTudR9g"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IPuQgKpvEemIzIuHgLGL0g" entityName="VideoUploadWrapper">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_K3muMKpuEemIzIuHgLGL0g"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VY67YKpvEemIzIuHgLGL0g" entityName="TemporaryFileManager">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_mhqXMKFqEemsnYu_0k9cuQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IMaDoIurEemfksrLlsx5_w" entityName="UserManagement">
+    <requiredInterface__OperationRequiredRole href="PCC.repository#_JGrmsIiOEemd3YbtesF-Rw"/>
+  </requiredRoles_InterfaceRequiringEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_LwKeQIurEemfksrLlsx5_w" entityName="PublicKeyProvider">
+    <requiredInterface__OperationRequiredRole href="PCC.repository#__3mqwIt8EemfksrLlsx5_w"/>
+  </requiredRoles_InterfaceRequiringEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_OlxZcIurEemfksrLlsx5_w" entityName="WebVideoService">
+    <requiredInterface__OperationRequiredRole href="PCC.repository#_ABzs4IiOEemd3YbtesF-Rw"/>
+  </requiredRoles_InterfaceRequiringEntity>
+</system:System>

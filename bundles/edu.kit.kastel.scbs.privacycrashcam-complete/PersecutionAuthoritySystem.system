@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_ugSvAMpZEemVkJoNuJTOzQ" entityName="PersecutionAuthoritySystem">
+  <assemblyContexts__ComposedStructure id="_zW1AIMpZEemVkJoNuJTOzQ" entityName="Assembly_PersecutionWebinterface">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_Xc7BYMpWEemVkJoNuJTOzQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_QpawcMpaEemVkJoNuJTOzQ" entityName="ReqDelegation Required_IWebVideoServiceInformation_PersecutionWebinterface -> Required_IWebVideoServiceInformation" assemblyContext_RequiredDelegationConnector="_zW1AIMpZEemVkJoNuJTOzQ">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_nPMVYMpYEemVkJoNuJTOzQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_SAw94MpaEemVkJoNuJTOzQ" entityName="ReqDelegation Required_IWebVideoServiceInformationForPersecution_PersecutionWebinterface -> Required_IWebVideoServiceInformationForPersecution" outerRequiredRole_RequiredDelegationConnector="_JurL4MpaEemVkJoNuJTOzQ" assemblyContext_RequiredDelegationConnector="_zW1AIMpZEemVkJoNuJTOzQ">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_Ou9rYMpZEemVkJoNuJTOzQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_YszgUNC2EemzZtxQ8qw-hw" entityName="ReqDelegation Required_PersecutionInterface_PersecutionWebinterface -> Required_IWebVideoServiceInformationForPersecution" outerRequiredRole_RequiredDelegationConnector="_JurL4MpaEemVkJoNuJTOzQ" assemblyContext_RequiredDelegationConnector="_zW1AIMpZEemVkJoNuJTOzQ">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_vt3ysM8KEemLXKRETzetgA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_7e2U0NLYEemj7YE_mr27Gg" entityName="ReqDelegation Required_JudgeInterface_PersecutionWebinterface -> Required_JudgeInterface" outerRequiredRole_RequiredDelegationConnector="_5ogeQNLYEemj7YE_mr27Gg" assemblyContext_RequiredDelegationConnector="_zW1AIMpZEemVkJoNuJTOzQ">
+    <innerRequiredRole_RequiredDelegationConnector href="PCC.repository#_Ibq0wNLSEemj7YE_mr27Gg"/>
+  </connectors__ComposedStructure>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JurL4MpaEemVkJoNuJTOzQ" entityName="Required_IWebVideoServiceInformationForPersecution">
+    <requiredInterface__OperationRequiredRole href="PCC.repository#_q_hMYMpYEemVkJoNuJTOzQ"/>
+  </requiredRoles_InterfaceRequiringEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_5ogeQNLYEemj7YE_mr27Gg" entityName="Required_JudgeInterface">
+    <requiredInterface__OperationRequiredRole href="PCC.repository#_DEf7wNLSEemj7YE_mr27Gg"/>
+  </requiredRoles_InterfaceRequiringEntity>
+</system:System>

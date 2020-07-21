@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1">
+  <allocation:Allocation id="_lwsywIicEemmgJbOCYBzSQ" entityName="Default">
+    <targetResourceEnvironment_Allocation href="Default.resourceenvironment#/0"/>
+    <system_Allocation href="WebService.system#_-J3kwIiWEemd3YbtesF-Rw"/>
+    <allocationContexts_Allocation id="_RDmkUMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_WebService &lt;WebService>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_2HFIYIzbEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_SHId4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_UserService &lt;UserService>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_ZlsWEIzcEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_TRv24MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_UserSqlDB &lt;UserSQLDB>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_a3Tu8IzcEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_T8n_4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_OpenCVVideoChain &lt;OpenCVVideoChain>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_fcyFQIzcEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_qxVt0MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_UserNetworkAdapter &lt;UserNetworkAdapter>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_3_ClAIzaEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_p2mj4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_JavaRSA+AESFileEncryptor &lt;JavaRSA_AESFileEncryptor>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_9_aMAIzaEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_sruW4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_SessionManager &lt;SessionManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_yQGaUKooEemZD4TzTudR9g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_UozJYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_VideoFilesManager &lt;FileSystemManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_a6MLgKFvEemsnYu_0k9cuQ"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_WlnbYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_VideoService &lt;VideoService>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_eGRlUIzcEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_YMYk4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_KeyManager &lt;FileSystemManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_WMaNwKFvEemsnYu_0k9cuQ"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_ZziI4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_TemporaryFileManager &lt;FileSystemManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_YPaAQKFvEemsnYu_0k9cuQ"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_cnqdYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_VideoProcessingManager &lt;VideoProcessingManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_yp3F0KFvEemsnYu_0k9cuQ"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_pAbw4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_VideoNetworkAdapter &lt;VideoNetworkAdapter>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_42w3MIzaEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_roDTYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_FileSystemManager &lt;FileSystemManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_WM-4YKopEemZD4TzTudR9g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_vW7Y4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_SettingsManager &lt;SettingsManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_0y3SAKooEemZD4TzTudR9g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_ucaRYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_PreferencesStorage &lt;PreferencesStorage>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_zDLdEKooEemZD4TzTudR9g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_yxIO4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_TemporaryFileManager &lt;FileSystemManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_Ypkz0KpvEemIzIuHgLGL0g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_w9PPYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_LocalVideoManager &lt;LocalVideoManager>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_IOSI4KopEemZD4TzTudR9g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_0WhfYMpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_VideoUploadWrapper &lt;VideoUploadWrapper>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="AndroidClient.system#_xWs_cKpwEemIzIuHgLGL0g"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_OZZn4MpVEemVkJoNuJTOzQ" entityName="Allocation_Assembly_JavaRSA+AESFileDecryptor &lt;JavaRSA_AESFileDecryptor>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_P42d4MpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_jA3QAIzcEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_TCm1YMpaEemVkJoNuJTOzQ" entityName="Allocation_Assembly_PersecutionWebinterface &lt;PersecutionWebinterface>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_MhhqAYibEemd3YbtesF-Rw"/>
+      <assemblyContext_AllocationContext href="PersecutionAuthoritySystem.system#_zW1AIMpZEemVkJoNuJTOzQ"/>
+    </allocationContexts_Allocation>
+    <allocationContexts_Allocation id="_OC2nsMsnEem-wKcS6YCLdw" entityName="Allocation_Assembly_Webinterface &lt;Webinterface>">
+      <resourceContainer_AllocationContext href="Default.resourceenvironment#_DpjPcMpUEemVkJoNuJTOzQ"/>
+      <assemblyContext_AllocationContext href="WebService.system#_2HFIYIzbEemffLcsUip71A"/>
+    </allocationContexts_Allocation>
+  </allocation:Allocation>
+  <emfprofileapplication:ProfileApplication>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality="http://edu.kit.kastel.scbs.confidentiality" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" id="_eCtwAMpeEemgl9nKPVXm3g">
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_kkk6gMpeEemgl9nKPVXm3g" name="Userdata"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_mvvxkMpeEemgl9nKPVXm3g" name="PersecutionData"/>
+  <dataIdentifier xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" id="_3EkTcM8KEemLXKRETzetgA" name="JudgeData"/>
+  <parametersAndDataPairs id="_YnLchcrvEemBbL-dXLCZ7g" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>\return</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_dZQ_JdLJEemj7YE_mr27Gg" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\return</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_QLpTBdLkEemQx79pZ11t9A" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>videoId</parameterSources>
+    <parameterSources>targetUserId</parameterSources>
+    <parameterSources>authenticationToken</parameterSources>
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\return</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_XKKphdLSEemj7YE_mr27Gg" dataTargets="_3EkTcM8KEemLXKRETzetgA">
+    <parameterSources>videoId</parameterSources>
+    <parameterSources>authenticationToken</parameterSources>
+    <parameterSources>userId</parameterSources>
+    <parameterSources>\call</parameterSources>
+    <parameterSources>sizeOf(*)</parameterSources>
+    <parameterSources>\return</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_KPxVBdLlEemQx79pZ11t9A" dataTargets="_3EkTcM8KEemLXKRETzetgA">
+    <parameterSources>\return</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_06EoJdL3EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>sizeOf(*)</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="__IN3JdL3EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>email</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_Ebsi9dL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>authenticationToken</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_I6-KpdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>password</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_q9JPhdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>inputVideo</parameterSources>
+    <parameterSources>outputVideo</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_QYDnRdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>videoId</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_vKEi9dL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>keyData</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_ygkINdL5EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>inputMetadata</parameterSources>
+    <parameterSources>outputMetadata</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_1ZHfJdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>id</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_78RqJdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>value</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="__vyYBdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>key</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_DqZzddL5EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>privateKey</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_HgpFNdL5EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>inputFile</parameterSources>
+    <parameterSources>outputFile</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_MgPyxdL5EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>publicKey</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_aDQhRdL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>encryptedVideo</parameterSources>
+    <parameterSources>encryptedMetadata</parameterSources>
+    <parameterSources>encryptedKeyData</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_SjWktdL5EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>keyAlgorithm</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_UONZddL4EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>userId</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_-JWwRdL5EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>metadata</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_BT9EBdL6EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>video</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_JOUShdL6EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>settings</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_YHpo1dL7EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>name</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_c7o8RdL7EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>file</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_hKp6ZdL7EemQx79pZ11t9A" dataTargets="_kkk6gMpeEemgl9nKPVXm3g">
+    <parameterSources>directoryPath</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_v-iDodSWEemO-qyae-3N9Q" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>authenticationToken</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_1WgN5dSWEemO-qyae-3N9Q" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>videoId</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_twAF4YYnEeqwMvpD1m6yYA" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>sizeOf(*)</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_rQ2GZYYoEeqwMvpD1m6yYA" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>\call</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_IeQbxYYpEeqwMvpD1m6yYA" dataTargets="_3EkTcM8KEemLXKRETzetgA">
+    <parameterSources>\call</parameterSources>
+    <parameterSources>\sizeOf(*)</parameterSources>
+    <parameterSources>\return</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_1dnm9YYpEeqwMvpD1m6yYA" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>email</parameterSources>
+    <parameterSources>password</parameterSources>
+  </parametersAndDataPairs>
+  <parametersAndDataPairs id="_5i0TBYYvEeqwMvpD1m6yYA" dataTargets="_mvvxkMpeEemgl9nKPVXm3g">
+    <parameterSources>userId</parameterSources>
+  </parametersAndDataPairs>
+  <locations id="_pLFyoMpeEemgl9nKPVXm3g" name="Prosecution Office"/>
+  <locations id="_zFmT-speEemgl9nKPVXm3g" name="Transport Authortity Office"/>
+  <locations id="_Ml4hitLJEemj7YE_mr27Gg" name="User Space"/>
+  <tamperProtections id="_10EFW8peEemgl9nKPVXm3g" name="Lock"/>
+  <tamperProtections id="_Kx8Ne8pfEemgl9nKPVXm3g" name="Sealed"/>
+  <tamperProtections id="_1saci9CxEemzZtxQ8qw-hw" name="Burrowed"/>
+  <tamperProtections id="_KI-gm9LREemj7YE_mr27Gg" name="Wireless Security"/>
+  <tamperProtections id="_szgt-8smEem-wKcS6YCLdw" name="Peek-Guard"/>
+  <tamperProtections id="_WFBeW88MEemLXKRETzetgA" name="Key-Card"/>
+  <locationsAndTamperProtectionsPairs id="_N363jNLREemj7YE_mr27Gg" locations="_Ml4hitLJEemj7YE_mr27Gg" tamperProtections="_KI-gm9LREemj7YE_mr27Gg"/>
+  <locationsAndTamperProtectionsPairs id="_ltF2jNLJEemj7YE_mr27Gg" locations="_Ml4hitLJEemj7YE_mr27Gg"/>
+  <locationsAndTamperProtectionsPairs id="_oxcYXNLJEemj7YE_mr27Gg" locations="_Ml4hitLJEemj7YE_mr27Gg" tamperProtections="_szgt-8smEem-wKcS6YCLdw"/>
+  <locationsAndTamperProtectionsPairs id="_4tPwTNCxEemzZtxQ8qw-hw" locations="_pLFyoMpeEemgl9nKPVXm3g _zFmT-speEemgl9nKPVXm3g" tamperProtections="_1saci9CxEemzZtxQ8qw-hw"/>
+  <locationsAndTamperProtectionsPairs id="_L98GjMpfEemgl9nKPVXm3g" locations="_pLFyoMpeEemgl9nKPVXm3g" tamperProtections="_10EFW8peEemgl9nKPVXm3g"/>
+  <locationsAndTamperProtectionsPairs id="_2ZHGPM8LEemLXKRETzetgA" locations="_pLFyoMpeEemgl9nKPVXm3g"/>
+  <locationsAndTamperProtectionsPairs id="_SrvOXM8MEemLXKRETzetgA" locations="_zFmT-speEemgl9nKPVXm3g" tamperProtections="_Kx8Ne8pfEemgl9nKPVXm3g _WFBeW88MEemLXKRETzetgA"/>
+</edu.kit.kastel.scbs.confidentiality:ConfidentialitySpecification>

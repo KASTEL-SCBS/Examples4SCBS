@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.confidentiality.adversary="http://edu.kit.kastel.scbs.confidentiality/adversary" xmlns:edu.kit.kastel.scbs.confidentiality.data="http://edu.kit.kastel.scbs.confidentiality/data" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1">
+  <edu.kit.kastel.scbs.confidentiality.adversary:Adversaries id="_dFha0MsVEemrhoDAp3YLbQ">
+    <adversaries id="_dFha0csVEemrhoDAp3YLbQ" name="Officer">
+      <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="PCC.confidentiality#_mvvxkMpeEemgl9nKPVXm3g"/>
+      <locationsAndTamperProtectionsPairs href="PCC.confidentiality#_L98GjMpfEemgl9nKPVXm3g"/>
+    </adversaries>
+    <adversaries id="_dFha0ssVEemrhoDAp3YLbQ" name="Judge">
+      <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="PCC.confidentiality#_3EkTcM8KEemLXKRETzetgA"/>
+      <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="PCC.confidentiality#_mvvxkMpeEemgl9nKPVXm3g"/>
+      <locationsAndTamperProtectionsPairs href="PCC.confidentiality#_L98GjMpfEemgl9nKPVXm3g"/>
+    </adversaries>
+    <adversaries id="_dFha08sVEemrhoDAp3YLbQ" name="User">
+      <mayKnowData xsi:type="edu.kit.kastel.scbs.confidentiality.data:DataSet" href="PCC.confidentiality#_kkk6gMpeEemgl9nKPVXm3g"/>
+      <locationsAndTamperProtectionsPairs href="PCC.confidentiality#_ltF2jNLJEemj7YE_mr27Gg"/>
+    </adversaries>
+  </edu.kit.kastel.scbs.confidentiality.adversary:Adversaries>
+  <emfprofileapplication:ProfileApplication>
+    <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

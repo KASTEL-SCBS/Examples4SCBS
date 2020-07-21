@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_CsEZkG9SEeqa34g-QYI2IQ" entityName="AnonymizationService">
+  <assemblyContexts__ComposedStructure id="_CsEZkm9SEeqa34g-QYI2IQ" entityName="AnonymizationService">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWGZW9SEeqa34g-QYI2IQ" entityName="PasswordAuthentication">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZk29SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWGaG9SEeqa34g-QYI2IQ" entityName="AccessControl">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsFApW9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWGa29SEeqa34g-QYI2IQ" entityName="DigitalSignature">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOxm9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWGbm9SEeqa34g-QYI2IQ" entityName="AsymmetricCryptoAuthenticationScheme">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOwm9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWGcW9SEeqa34g-QYI2IQ" entityName="HybridEncryption">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsFAoW9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWtcW9SEeqa34g-QYI2IQ" entityName="CryptographicHashFunction">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsFnwW9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsURMm9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsURMG9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsURMW9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsUROG9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsURNm9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsURN29SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsURPm9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsURPG9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsURPW9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsURRG9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsURQm9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsURQ29SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsU4RW9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsU4Q29SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsU4RG9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsU4S29SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsU4SW9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsU4Sm9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsU4UW9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsU4T29SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsU4UG9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsU4V29SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsU4VW9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsEZkm9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsU4Vm9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGZm9SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsEZkm9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWGZW9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsFAoG9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWGZG9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGaW9SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsEZkm9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWGaG9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsFAqG9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWGZ29SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGbG9SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsEZkm9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWGa29SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsGOyW9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWGam9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGb29SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsEZkm9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWGbm9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsGOxW9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWGbW9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGcm9SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsEZkm9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWGcW9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsFApG9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWGcG9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWtcm9SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsEZkm9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWtcW9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsGOwW9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWtcG9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsURMG9SEeqa34g-QYI2IQ" entityName="iExplicitlyGrantingAccessToRawVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAIIG9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsURNm9SEeqa34g-QYI2IQ" entityName="iStoringVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAvNm9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsURPG9SEeqa34g-QYI2IQ" entityName="iReceivingVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAvNG9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsURQm9SEeqa34g-QYI2IQ" entityName="iStoringAnonymizedVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAvOm9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsU4Q29SEeqa34g-QYI2IQ" entityName="iDownloadingAnonymizedVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAvMm9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsU4SW9SEeqa34g-QYI2IQ" entityName="iAnonymizingVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAvOG9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsU4T29SEeqa34g-QYI2IQ" entityName="iAuthenticatingCrashCamOperator">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsBWQG9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsU4VW9SEeqa34g-QYI2IQ" entityName="iAuthenticatingProsecutionAuthority">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAIIm9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

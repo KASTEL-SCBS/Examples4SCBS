@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ASCII"?>
+<JOANAFlow4Palladio:JOANARoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JOANAFlow4Palladio="edu.kit.kastel.scbs.JOANAFlow4Palladio" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <flowspecification id="0">
+    <source>
+      <signature href="PCC.repository#_Cr9r4G9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsDLcG9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_Cr8dwG9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsFAo29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFAoW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFAom9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_Cr9r4G9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsDLcG9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_Cr8dwG9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="2">
+    <source>
+      <signature href="PCC.repository#_CsBWQ29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsDLcG9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsBWQm9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsFAo29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFAoW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFAom9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOwG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFnwW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFnwm9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsBWQ29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsDLcG9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsBWQm9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="3">
+    <source>
+      <signature href="PCC.repository#_CsAII29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAIIm9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOxG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOwm9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsGOw29SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAII29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAIIm9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="4">
+    <source>
+      <signature href="PCC.repository#_CsAIIW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAIIG9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsFAp29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFApW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFApm9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOyG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOxm9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsGOx29SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAIIW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAIIG9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="5">
+    <source>
+      <signature href="PCC.repository#_CsAvM29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvMm9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOwG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFnwW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFnwm9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOyG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOxm9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsGOx29SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAvM29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvMm9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="6">
+    <source>
+      <signature href="PCC.repository#_CsAvNW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvNG9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsFAo29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFAoW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFAom9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOwG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFnwW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFnwm9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAvNW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvNG9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="7">
+    <source>
+      <signature href="PCC.repository#_CsAvN29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvNm9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsFAo29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsFAoW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsFAom9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOyG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOxm9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsGOx29SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAvN29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvNm9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="8">
+    <source>
+      <signature href="PCC.repository#_CsAvOW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvOG9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOyG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOxm9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsGOx29SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAvOW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvOG9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="9">
+    <source>
+      <signature href="PCC.repository#_CsAvO29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvOm9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsGOyG9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsGOxm9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsGOx29SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsAvO29SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsAvOm9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+  <flowspecification id="10">
+    <source>
+      <signature href="PCC.repository#_CsBWQW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsBWQG9SEeqa34g-QYI2IQ"/>
+    </source>
+    <sink xsi:type="JOANAFlow4Palladio:ParameterSink">
+      <signature href="PCC.repository#_CsEZlW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZk29SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsEZlG9SEeqa34g-QYI2IQ"/>
+    </sink>
+    <entrypoint>
+      <signature href="PCC.repository#_CsBWQW9SEeqa34g-QYI2IQ"/>
+      <component xsi:type="repository:BasicComponent" href="PCC.repository#_CsEZkW9SEeqa34g-QYI2IQ"/>
+      <Interface href="PCC.repository#_CsBWQG9SEeqa34g-QYI2IQ"/>
+    </entrypoint>
+  </flowspecification>
+</JOANAFlow4Palladio:JOANARoot>

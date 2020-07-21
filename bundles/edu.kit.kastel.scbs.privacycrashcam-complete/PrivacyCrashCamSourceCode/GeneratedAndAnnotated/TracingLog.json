@@ -1,0 +1,241 @@
+{
+    "RequiredTracings" : [
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Merge",
+            "id": "00",
+            "from": {
+                "name": "IDownloadingAnonymizedVideo",
+                "id": "_CsAvMm9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "VideoHandling",
+                "id": "_ABzs4IiOEemd3YbtesF-Rw"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Readability",
+                    "id": "01",
+                    "from":{
+                        "name": "downloadingAnonymizedVideo",
+                        "id": "_CsAvM29SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "downloadVideo",
+                        "id": "_CsAvM29SEeqa34g-QYI2IQ"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Signature",
+            "ChangeReason" : "Readability",
+            "id": "10",
+            "from": {
+                "name": "accessControl",
+                "id": "_CsFAp29SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "hasPermission",
+                "id": "_CsFAp29SEeqa34g-QYI2IQ"
+            }
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Readability",
+            "id": "20",
+            "from": {
+                "name": "IExplicitlyGrantingAccessToRawVideo",
+                "id": "_CsAIIG9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "JudgeAccess",
+                "id": "_CsAIIG9SEeqa34g-QYI2IQ"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Readability",
+                    "id": "21",
+                    "from":{
+                        "name": "explicitlyGrantingAccessToRawVideo",
+                        "id": "_CsAIIW9SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "downloadConfidentialVideo",
+                        "id": "_CsAIIW9SEeqa34g-QYI2IQ"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Readability",
+            "id": "30",
+            "from": {
+                "name": "IReceivingVideo",
+                "id": "_CsAvNG9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "VideoReceiving",
+                "id": "_CsAvNG9SEeqa34g-QYI2IQ"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Readability",
+                    "id": "31",
+                    "from":{
+                        "name": "receivingVideo",
+                        "id": "_CsAvNW9SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "receiveVideo",
+                        "id": "_CsAvNW9SEeqa34g-QYI2IQ"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Readability",
+            "id": "40",
+            "from": {
+                "name": "ICryptographicHashFunction",
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "CryptographicHashing",
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Readability",
+                    "id": "41",
+                    "from":{
+                        "name": "cryptographicHashFunction",
+                        "id": "_CsGOwG9SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "hash",
+                        "id": "_CsGOwG9SEeqa34g-QYI2IQ"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Readability",
+            "id": "50",
+            "from": {
+                "name": "IPasswordAuthentication",
+                "id": "_CsEZlG9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "PasswordAuthentication",
+                "id": "_CsEZlG9SEeqa34g-QYI2IQ"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Readability",
+                    "id": "51",
+                    "from":{
+                        "name": "passwordAuthentication",
+                        "id": "_CsEZlW9SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "authenticatePassword",
+                        "id": "_CsEZlW9SEeqa34g-QYI2IQ"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Readability",
+            "id": "60",
+            "from": {
+                "name": "IHybridCryptography",
+                "id": "_CsFAom9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "Decryptor",
+                "id": "_CsFAom9SEeqa34g-QYI2IQ"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Readability",
+                    "id": "61",
+                    "from":{
+                        "name": "hybridCryptography",
+                        "id": "_CsFAo29SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "decrypt",
+                        "id": "_CsFAo29SEeqa34g-QYI2IQ"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Merge",
+            "id": "70",
+            "from": {
+                "name": "IAuthenticatingCrashCamOperator",
+                "id": "_CsBWQG9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "IUserManagement",
+                "id": "_JGrmsIiOEemd3YbtesF-Rw"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Merge",
+                    "id": "71",
+                    "from":{
+                        "name": "authenticatingCrashCamOperator",
+                        "id": "_CsBWQW9SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "login",
+                        "id": "_z2jQ8IiNEemd3YbtesF-Rw"
+                    }
+                }
+            ]
+        },
+        {
+            "ElementType" : "Interface",
+            "ChangeReason" : "Merge",
+            "id": "80",
+            "from": {
+                "name": "IAuthenticatingProsecutionAuthority",
+                "id": "_CsAIIm9SEeqa34g-QYI2IQ"
+            },
+            "to": {
+                "name": "IUserManagement",
+                "id": "_JGrmsIiOEemd3YbtesF-Rw"
+            },
+            "BelongingTracings": [
+                {
+                    "ElementType" : "Signature",
+                    "ChangeReason" : "Merge",
+                    "id": "81",
+                    "from":{
+                        "name": "authenticatingProsecutionAuthority",
+                        "id": "_CsAII29SEeqa34g-QYI2IQ"
+                    },
+                    "to":{
+                        "name": "login",
+                        "id": "_z2jQ8IiNEemd3YbtesF-Rw"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1389 @@
+{
+  "project": "PCCTracking",
+  "services": [
+    {
+      "systemId": "_CsB9UG9SEeqa34g-QYI2IQ",
+      "hardGoals": [
+        {
+          "name": "Crash cam app ensures the Authenticity of Video during the process of Uploading video",
+          "serviceName": "Crash cam app",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsBWQ29SEeqa34g-QYI2IQ": "uploadingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsBWQ29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsBWQm9SEeqa34g-QYI2IQ",
+            "name": "Uploading video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+                "name": "ICryptographicHashFunction"
+              }
+            ],
+            "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+            "name": "Cryptographic Hash Function"
+          },
+          "uID": "HGP1F2C1SG3T300919171444623001",
+          "SoftGoal": {
+            "name": "Authenticity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Crash cam app ensures the Confidentiality of Video during the process of Recording video",
+          "serviceName": "Crash cam app",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_Cr9r4G9SEeqa34g-QYI2IQ": "recordingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_Cr9r4G9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_Cr8dwG9SEeqa34g-QYI2IQ",
+            "name": "Recording video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": "hybridCryptography"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFAom9SEeqa34g-QYI2IQ",
+                "name": "IHybridCryptography"
+              }
+            ],
+            "id": "_CsFAoW9SEeqa34g-QYI2IQ",
+            "name": "Hybrid Cryptography"
+          },
+          "uID": "HGP1F1C1SG4T300919171444703299",
+          "SoftGoal": {
+            "name": "Confidentiality of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Crash cam app ensures the Confidentiality of Video during the process of Uploading video",
+          "serviceName": "Crash cam app",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsBWQ29SEeqa34g-QYI2IQ": "uploadingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsBWQ29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsBWQm9SEeqa34g-QYI2IQ",
+            "name": "Uploading video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": "hybridCryptography"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFAom9SEeqa34g-QYI2IQ",
+                "name": "IHybridCryptography"
+              }
+            ],
+            "id": "_CsFAoW9SEeqa34g-QYI2IQ",
+            "name": "Hybrid Cryptography"
+          },
+          "uID": "HGP1F2C1SG4T300919171444730740",
+          "SoftGoal": {
+            "name": "Confidentiality of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Crash cam app ensures the Integrity of Video during the process of Uploading video",
+          "serviceName": "Crash cam app",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsBWQ29SEeqa34g-QYI2IQ": "uploadingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsBWQ29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsBWQm9SEeqa34g-QYI2IQ",
+            "name": "Uploading video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+                "name": "ICryptographicHashFunction"
+              }
+            ],
+            "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+            "name": "Cryptographic Hash Function"
+          },
+          "uID": "HGP1F2C1SG6T300919171444953720",
+          "SoftGoal": {
+            "name": "Integrity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        }
+      ],
+      "blackBoxMechanisms": [
+        {
+          "primaryInterfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsFAo29SEeqa34g-QYI2IQ": "hybridCryptography"
+              },
+              "assetsInOperationSignatures": {
+                "_CsFAo29SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsFAom9SEeqa34g-QYI2IQ",
+              "name": "IHybridCryptography"
+            }
+          ],
+          "id": "_CsFAoW9SEeqa34g-QYI2IQ",
+          "name": "Hybrid Cryptography"
+        },
+        {
+          "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+              },
+              "assetsInOperationSignatures": {
+                "_CsGOwG9SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+              "name": "ICryptographicHashFunction"
+            }
+          ],
+          "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+          "name": "Cryptographic Hash Function"
+        }
+      ],
+      "providedFunctionalRequirements": [
+        {
+          "assets": [
+            {
+              "name": "Video"
+            }
+          ],
+          "operationSignatures": {
+            "_Cr9r4G9SEeqa34g-QYI2IQ": "recordingVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_Cr9r4G9SEeqa34g-QYI2IQ": []
+          },
+          "id": "_Cr8dwG9SEeqa34g-QYI2IQ",
+          "name": "Recording video"
+        },
+        {
+          "assets": [],
+          "operationSignatures": {
+            "_CsAvMW9SEeqa34g-QYI2IQ": "authenticatingCrashCamOperator_CrashCamApp"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAvMW9SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAvMG9SEeqa34g-QYI2IQ",
+          "name": "Authenticating crash cam operator_Crash cam app"
+        },
+        {
+          "assets": [
+            {
+              "name": "Video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsBWQ29SEeqa34g-QYI2IQ": "uploadingVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsBWQ29SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsBWQm9SEeqa34g-QYI2IQ",
+          "name": "Uploading video"
+        }
+      ],
+      "id": "_CsDLcG9SEeqa34g-QYI2IQ",
+      "name": "Crash cam app"
+    },
+    {
+      "systemId": "_CsEZkG9SEeqa34g-QYI2IQ",
+      "hardGoals": [
+        {
+          "name": "Anonymization service ensures the Authenticity of Anonymized video during the process of Downloading anonymized video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Anonymized video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvM29SEeqa34g-QYI2IQ": "downloadingAnonymizedVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvM29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvMm9SEeqa34g-QYI2IQ",
+            "name": "Downloading anonymized video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F6C2SG1T300919171444514752",
+          "SoftGoal": {
+            "name": "Authenticity of Anonymized video",
+            "asset": {
+              "name": "Anonymized video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Authenticity of Anonymized video during the process of Storing anonymized video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Anonymized video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvO29SEeqa34g-QYI2IQ": "storingAnonymizedVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvO29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvOm9SEeqa34g-QYI2IQ",
+            "name": "Storing anonymized video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F5C2SG1T300919171444485856",
+          "SoftGoal": {
+            "name": "Authenticity of Anonymized video",
+            "asset": {
+              "name": "Anonymized video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Authenticity of Crash cam operators\u0027 user accounts during the process of Authenticating crash cam operator",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Crash cam operators user accounts"
+              }
+            ],
+            "operationSignatures": {
+              "_CsBWQW9SEeqa34g-QYI2IQ": "authenticatingCrashCamOperator"
+            },
+            "assetsInOperationSignatures": {
+              "_CsBWQW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsBWQG9SEeqa34g-QYI2IQ",
+            "name": "Authenticating crash cam operator"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsEZlG9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsEZlW9SEeqa34g-QYI2IQ": "passwordAuthentication"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsEZlW9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsEZlG9SEeqa34g-QYI2IQ",
+                "name": "IPasswordAuthentication"
+              }
+            ],
+            "id": "_CsEZk29SEeqa34g-QYI2IQ",
+            "name": "Password Authentication"
+          },
+          "uID": "HGP1F3C2SG2T300919171444570702",
+          "SoftGoal": {
+            "name": "Authenticity of Crash cam operators\u0027 user accounts",
+            "asset": {
+              "name": "Crash cam operators user accounts"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Authenticity of Video during the process of Explicitly granting access to raw video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAIIW9SEeqa34g-QYI2IQ": "explicitlyGrantingAccessToRawVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAIIW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAIIG9SEeqa34g-QYI2IQ",
+            "name": "Explicitly granting access to raw video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F7C2SG3T300919171444653532",
+          "SoftGoal": {
+            "name": "Authenticity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Authenticity of Video during the process of Receiving video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvNW9SEeqa34g-QYI2IQ": "receivingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvNW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvNG9SEeqa34g-QYI2IQ",
+            "name": "Receiving video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+                "name": "ICryptographicHashFunction"
+              }
+            ],
+            "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+            "name": "Cryptographic Hash Function"
+          },
+          "uID": "HGP2F19C4SG9T250320144053542054",
+          "SoftGoal": {
+            "name": "Authenticity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Authenticity of Video during the process of Storing video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvN29SEeqa34g-QYI2IQ": "storingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvN29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvNm9SEeqa34g-QYI2IQ",
+            "name": "Storing video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F9C2SG3T300919171444677939",
+          "SoftGoal": {
+            "name": "Authenticity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Authenticity of Prosecution authority\u0027s identity during the process of Authenticating prosecution authority",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Prosecution authoritys identity"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAII29SEeqa34g-QYI2IQ": "authenticatingProsecutionAuthority"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAII29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAIIm9SEeqa34g-QYI2IQ",
+            "name": "Authenticating prosecution authority"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsEZlG9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsEZlW9SEeqa34g-QYI2IQ": "passwordAuthentication"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsEZlW9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsEZlG9SEeqa34g-QYI2IQ",
+                "name": "IPasswordAuthentication"
+              }
+            ],
+            "id": "_CsEZk29SEeqa34g-QYI2IQ",
+            "name": "Password Authentication"
+          },
+          "uID": "HGP2F17C4SG13T250320152343766841",
+          "SoftGoal": {
+            "name": "Authenticity of Prosecution authority\u0027s identity",
+            "asset": {
+              "name": "Prosecution authoritys identity"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Confidentiality of Video during the process of Explicitly granting access to raw video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAIIW9SEeqa34g-QYI2IQ": "explicitlyGrantingAccessToRawVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAIIW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAIIG9SEeqa34g-QYI2IQ",
+            "name": "Explicitly granting access to raw video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFApm9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsFAp29SEeqa34g-QYI2IQ": "accessControl"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsFAp29SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFApm9SEeqa34g-QYI2IQ",
+                "name": "IAccessControl"
+              }
+            ],
+            "id": "_CsFApW9SEeqa34g-QYI2IQ",
+            "name": "Access Control"
+          },
+          "uID": "HGP1F7C2SG4T300919171444755535",
+          "SoftGoal": {
+            "name": "Confidentiality of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Confidentiality of Video during the process of Receiving video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvNW9SEeqa34g-QYI2IQ": "receivingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvNW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvNG9SEeqa34g-QYI2IQ",
+            "name": "Receiving video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": "hybridCryptography"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFAom9SEeqa34g-QYI2IQ",
+                "name": "IHybridCryptography"
+              }
+            ],
+            "id": "_CsFAoW9SEeqa34g-QYI2IQ",
+            "name": "Hybrid Cryptography"
+          },
+          "uID": "HGP2F19C4SG10T250320144053614717",
+          "SoftGoal": {
+            "name": "Confidentiality of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Confidentiality of Video during the process of Storing video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvN29SEeqa34g-QYI2IQ": "storingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvN29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvNm9SEeqa34g-QYI2IQ",
+            "name": "Storing video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": "hybridCryptography"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsFAo29SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFAom9SEeqa34g-QYI2IQ",
+                "name": "IHybridCryptography"
+              }
+            ],
+            "id": "_CsFAoW9SEeqa34g-QYI2IQ",
+            "name": "Hybrid Cryptography"
+          },
+          "uID": "HGP1F9C2SG4T300919171444807150",
+          "SoftGoal": {
+            "name": "Confidentiality of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Integrity of Anonymized video during the process of Anonymizing video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Anonymized video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvOW9SEeqa34g-QYI2IQ": "anonymizingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvOW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvOG9SEeqa34g-QYI2IQ",
+            "name": "Anonymizing video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F4C2SG5T300919171444830877",
+          "SoftGoal": {
+            "name": "Integrity of Anonymized video",
+            "asset": {
+              "name": "Anonymized video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Integrity of Anonymized video during the process of Downloading anonymized video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Anonymized video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvM29SEeqa34g-QYI2IQ": "downloadingAnonymizedVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvM29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvMm9SEeqa34g-QYI2IQ",
+            "name": "Downloading anonymized video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+                "name": "ICryptographicHashFunction"
+              }
+            ],
+            "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+            "name": "Cryptographic Hash Function"
+          },
+          "uID": "HGP1F6C2SG5T300919171444880070",
+          "SoftGoal": {
+            "name": "Integrity of Anonymized video",
+            "asset": {
+              "name": "Anonymized video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Integrity of Anonymized video during the process of Storing anonymized video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Anonymized video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvO29SEeqa34g-QYI2IQ": "storingAnonymizedVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvO29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvOm9SEeqa34g-QYI2IQ",
+            "name": "Storing anonymized video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F5C2SG5T300919171444855800",
+          "SoftGoal": {
+            "name": "Integrity of Anonymized video",
+            "asset": {
+              "name": "Anonymized video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Integrity of Video during the process of Explicitly granting access to raw video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAIIW9SEeqa34g-QYI2IQ": "explicitlyGrantingAccessToRawVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAIIW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAIIG9SEeqa34g-QYI2IQ",
+            "name": "Explicitly granting access to raw video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F7C2SG6T300919171444978013",
+          "SoftGoal": {
+            "name": "Integrity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Integrity of Video during the process of Receiving video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvNW9SEeqa34g-QYI2IQ": "receivingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvNW9SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvNG9SEeqa34g-QYI2IQ",
+            "name": "Receiving video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOwG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+                "name": "ICryptographicHashFunction"
+              }
+            ],
+            "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+            "name": "Cryptographic Hash Function"
+          },
+          "uID": "HGP2F19C4SG12T250320144053683486",
+          "SoftGoal": {
+            "name": "Integrity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        },
+        {
+          "name": "Anonymization service ensures the Integrity of Video during the process of Storing video",
+          "serviceName": "Anonymization service",
+          "functionalRequirement": {
+            "assets": [
+              {
+                "name": "Video"
+              }
+            ],
+            "operationSignatures": {
+              "_CsAvN29SEeqa34g-QYI2IQ": "storingVideo"
+            },
+            "assetsInOperationSignatures": {
+              "_CsAvN29SEeqa34g-QYI2IQ": []
+            },
+            "id": "_CsAvNm9SEeqa34g-QYI2IQ",
+            "name": "Storing video"
+          },
+          "bbm": {
+            "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+            "providedBBMInterfaces": [
+              {
+                "assets": [],
+                "operationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+                },
+                "assetsInOperationSignatures": {
+                  "_CsGOyG9SEeqa34g-QYI2IQ": []
+                },
+                "id": "_CsGOx29SEeqa34g-QYI2IQ",
+                "name": "IDigitalSignature"
+              }
+            ],
+            "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+            "name": "Digital Signature"
+          },
+          "uID": "HGP1F9C2SG6T300919171445003927",
+          "SoftGoal": {
+            "name": "Integrity of Video",
+            "asset": {
+              "name": "Video"
+            }
+          }
+        }
+      ],
+      "blackBoxMechanisms": [
+        {
+          "primaryInterfaceId": "_CsEZlG9SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsEZlW9SEeqa34g-QYI2IQ": "passwordAuthentication"
+              },
+              "assetsInOperationSignatures": {
+                "_CsEZlW9SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsEZlG9SEeqa34g-QYI2IQ",
+              "name": "IPasswordAuthentication"
+            }
+          ],
+          "id": "_CsEZk29SEeqa34g-QYI2IQ",
+          "name": "Password Authentication"
+        },
+        {
+          "primaryInterfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsFAo29SEeqa34g-QYI2IQ": "hybridCryptography"
+              },
+              "assetsInOperationSignatures": {
+                "_CsFAo29SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsFAom9SEeqa34g-QYI2IQ",
+              "name": "IHybridCryptography"
+            }
+          ],
+          "id": "_CsFAoW9SEeqa34g-QYI2IQ",
+          "name": "Hybrid Cryptography"
+        },
+        {
+          "primaryInterfaceId": "_CsFApm9SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsFAp29SEeqa34g-QYI2IQ": "accessControl"
+              },
+              "assetsInOperationSignatures": {
+                "_CsFAp29SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsFApm9SEeqa34g-QYI2IQ",
+              "name": "IAccessControl"
+            }
+          ],
+          "id": "_CsFApW9SEeqa34g-QYI2IQ",
+          "name": "Access Control"
+        },
+        {
+          "primaryInterfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsGOwG9SEeqa34g-QYI2IQ": "cryptographicHashFunction"
+              },
+              "assetsInOperationSignatures": {
+                "_CsGOwG9SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsFnwm9SEeqa34g-QYI2IQ",
+              "name": "ICryptographicHashFunction"
+            }
+          ],
+          "id": "_CsFnwW9SEeqa34g-QYI2IQ",
+          "name": "Cryptographic Hash Function"
+        },
+        {
+          "primaryInterfaceId": "_CsGOw29SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsGOxG9SEeqa34g-QYI2IQ": "asymmetricCryptoAuthenticationScheme"
+              },
+              "assetsInOperationSignatures": {
+                "_CsGOxG9SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsGOw29SEeqa34g-QYI2IQ",
+              "name": "IAsymmetricCryptoAuthenticationScheme"
+            }
+          ],
+          "id": "_CsGOwm9SEeqa34g-QYI2IQ",
+          "name": "Asymmetric Crypto Authentication Scheme"
+        },
+        {
+          "primaryInterfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+          "providedBBMInterfaces": [
+            {
+              "assets": [],
+              "operationSignatures": {
+                "_CsGOyG9SEeqa34g-QYI2IQ": "digitalSignature"
+              },
+              "assetsInOperationSignatures": {
+                "_CsGOyG9SEeqa34g-QYI2IQ": []
+              },
+              "id": "_CsGOx29SEeqa34g-QYI2IQ",
+              "name": "IDigitalSignature"
+            }
+          ],
+          "id": "_CsGOxm9SEeqa34g-QYI2IQ",
+          "name": "Digital Signature"
+        }
+      ],
+      "providedFunctionalRequirements": [
+        {
+          "assets": [
+            {
+              "name": "Prosecution authoritys identity"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAII29SEeqa34g-QYI2IQ": "authenticatingProsecutionAuthority"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAII29SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAIIm9SEeqa34g-QYI2IQ",
+          "name": "Authenticating prosecution authority"
+        },
+        {
+          "assets": [
+            {
+              "name": "Video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAIIW9SEeqa34g-QYI2IQ": "explicitlyGrantingAccessToRawVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAIIW9SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAIIG9SEeqa34g-QYI2IQ",
+          "name": "Explicitly granting access to raw video"
+        },
+        {
+          "assets": [
+            {
+              "name": "Anonymized video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAvM29SEeqa34g-QYI2IQ": "downloadingAnonymizedVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAvM29SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAvMm9SEeqa34g-QYI2IQ",
+          "name": "Downloading anonymized video"
+        },
+        {
+          "assets": [
+            {
+              "name": "Video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAvNW9SEeqa34g-QYI2IQ": "receivingVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAvNW9SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAvNG9SEeqa34g-QYI2IQ",
+          "name": "Receiving video"
+        },
+        {
+          "assets": [
+            {
+              "name": "Video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAvN29SEeqa34g-QYI2IQ": "storingVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAvN29SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAvNm9SEeqa34g-QYI2IQ",
+          "name": "Storing video"
+        },
+        {
+          "assets": [
+            {
+              "name": "Anonymized video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAvOW9SEeqa34g-QYI2IQ": "anonymizingVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAvOW9SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAvOG9SEeqa34g-QYI2IQ",
+          "name": "Anonymizing video"
+        },
+        {
+          "assets": [
+            {
+              "name": "Anonymized video"
+            }
+          ],
+          "operationSignatures": {
+            "_CsAvO29SEeqa34g-QYI2IQ": "storingAnonymizedVideo"
+          },
+          "assetsInOperationSignatures": {
+            "_CsAvO29SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsAvOm9SEeqa34g-QYI2IQ",
+          "name": "Storing anonymized video"
+        },
+        {
+          "assets": [
+            {
+              "name": "Crash cam operators user accounts"
+            }
+          ],
+          "operationSignatures": {
+            "_CsBWQW9SEeqa34g-QYI2IQ": "authenticatingCrashCamOperator"
+          },
+          "assetsInOperationSignatures": {
+            "_CsBWQW9SEeqa34g-QYI2IQ": []
+          },
+          "id": "_CsBWQG9SEeqa34g-QYI2IQ",
+          "name": "Authenticating crash cam operator"
+        }
+      ],
+      "id": "_CsEZkW9SEeqa34g-QYI2IQ",
+      "name": "Anonymization service"
+    }
+  ],
+  "extensionTrackingElements": [
+    {
+      "joanaFlowId": "0",
+      "source": {
+        "componentId": "_CsDLcG9SEeqa34g-QYI2IQ",
+        "interfaceId": "_Cr8dwG9SEeqa34g-QYI2IQ",
+        "signatureId": "_Cr9r4G9SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsFAoW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsFAo29SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "2",
+      "source": {
+        "componentId": "_CsDLcG9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsBWQm9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsBWQ29SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsFAoW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsFAo29SEeqa34g-QYI2IQ"
+        },
+        {
+          "componentId": "_CsFnwW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOwG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "3",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAIIm9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAII29SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsEZk29SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsEZlG9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsEZlW9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "4",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAIIG9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAIIW9SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsFApW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFApm9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsFAp29SEeqa34g-QYI2IQ"
+        },
+        {
+          "componentId": "_CsGOxm9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOyG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "5",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAvMm9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAvM29SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsFnwW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOwG9SEeqa34g-QYI2IQ"
+        },
+        {
+          "componentId": "_CsGOxm9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOyG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "6",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAvNG9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAvNW9SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsFAoW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsFAo29SEeqa34g-QYI2IQ"
+        },
+        {
+          "componentId": "_CsFnwW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFnwm9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOwG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "7",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAvNm9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAvN29SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsFAoW9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsFAom9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsFAo29SEeqa34g-QYI2IQ"
+        },
+        {
+          "componentId": "_CsGOxm9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOyG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "8",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAvOG9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAvOW9SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsGOxm9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOyG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "9",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsAvOm9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsAvO29SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsGOxm9SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsGOx29SEeqa34g-QYI2IQ",
+          "signatureId": "_CsGOyG9SEeqa34g-QYI2IQ"
+        }
+      ]
+    },
+    {
+      "joanaFlowId": "10",
+      "source": {
+        "componentId": "_CsEZkW9SEeqa34g-QYI2IQ",
+        "interfaceId": "_CsBWQG9SEeqa34g-QYI2IQ",
+        "signatureId": "_CsBWQW9SEeqa34g-QYI2IQ"
+      },
+      "sinks": [
+        {
+          "componentId": "_CsEZk29SEeqa34g-QYI2IQ",
+          "interfaceId": "_CsEZlG9SEeqa34g-QYI2IQ",
+          "signatureId": "_CsEZlW9SEeqa34g-QYI2IQ"
+        }
+      ]
+    }
+  ]
+}

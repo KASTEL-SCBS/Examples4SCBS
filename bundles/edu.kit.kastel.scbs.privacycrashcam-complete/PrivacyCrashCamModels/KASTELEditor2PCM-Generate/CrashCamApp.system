@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_CsB9UG9SEeqa34g-QYI2IQ" entityName="CrashCamApp">
+  <assemblyContexts__ComposedStructure id="_CsDygG9SEeqa34g-QYI2IQ" entityName="CrashCamApp">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsDLcG9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsVfUW9SEeqa34g-QYI2IQ" entityName="HybridEncryption">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsFAoW9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_CsWGYm9SEeqa34g-QYI2IQ" entityName="CryptographicHashFunction">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="PCC.repository#_CsFnwW9SEeqa34g-QYI2IQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsM8cG9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsMVYG9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsDygG9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsMVYW9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsScAm9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsScAG9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsDygG9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsScAW9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CsTDEG9SEeqa34g-QYI2IQ" outerProvidedRole_ProvidedDelegationConnector="_CsScBm9SEeqa34g-QYI2IQ" assemblyContext_ProvidedDelegationConnector="_CsDygG9SEeqa34g-QYI2IQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="PCC.repository#_CsScB29SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGYG9SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsDygG9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsVfUW9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsFApG9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsVfUG9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CsWGY29SEeqa34g-QYI2IQ" requiringAssemblyContext_AssemblyConnector="_CsDygG9SEeqa34g-QYI2IQ" providingAssemblyContext_AssemblyConnector="_CsWGYm9SEeqa34g-QYI2IQ">
+    <providedRole_AssemblyConnector href="PCC.repository#_CsGOwW9SEeqa34g-QYI2IQ"/>
+    <requiredRole_AssemblyConnector href="PCC.repository#_CsWGYW9SEeqa34g-QYI2IQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsMVYG9SEeqa34g-QYI2IQ" entityName="iAuthenticatingCrashCamOperator_CrashCamApp">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsAvMG9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsScAG9SEeqa34g-QYI2IQ" entityName="iRecordingVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_Cr8dwG9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CsScBm9SEeqa34g-QYI2IQ" entityName="iUploadingVideo">
+    <providedInterface__OperationProvidedRole href="PCC.repository#_CsBWQm9SEeqa34g-QYI2IQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

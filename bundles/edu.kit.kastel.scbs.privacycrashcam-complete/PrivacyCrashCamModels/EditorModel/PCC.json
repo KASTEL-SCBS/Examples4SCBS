@@ -1,0 +1,713 @@
+{
+    "Actor Roles": [
+        "External",
+        "User",
+        "Admin",
+        "No Role"
+    ],
+    "Actors": {
+        "External Person (unauthorized user)": {
+            "attackers": [
+                "Privacy Attacker",
+                "Outsider Attacker"
+            ],
+            "details": [
+                {
+                    "component": "Crash cam app",
+                    "role": "User"
+                },
+                {
+                    "component": "Anonymization service",
+                    "role": "External"
+                }
+            ]
+        },
+        "Privileged User": {
+            "attackers": [],
+            "details": [
+                {
+                    "component": "Anonymization service",
+                    "role": "User"
+                }
+            ]
+        },
+        "Service Operator": {
+            "attackers": [],
+            "details": [
+                {
+                    "component": "Anonymization service",
+                    "role": "Admin"
+                }
+            ]
+        },
+        "User": {
+            "attackers": [
+                "Privacy Attacker",
+                "Modifying Attacker"
+            ],
+            "details": [
+                {
+                    "component": "Crash cam app",
+                    "role": "User"
+                },
+                {
+                    "component": "Anonymization service",
+                    "role": "User"
+                }
+            ]
+        }
+    },
+    "Asset and Stakeholder Relationships": {
+        "Anonymized video": [
+            "Operator of the crash cam"
+        ],
+        "Crash cam operators' user accounts": [
+            "Operator of the crash cam",
+            "Provider of the anonymization service",
+            "Prosecution authority"
+        ],
+        "Video": [
+            "Potential video subject",
+            "Operator of the crash cam",
+            "Prosecution authority"
+        ],
+        "Prosecution authority's identity": [
+            "Potential video subject",
+            "Operator of the crash cam",
+            "Provider of the anonymization service",
+            "Prosecution authority"
+        ]
+    },
+    "Assets": [
+        "Video",
+        "Anonymized video",
+        "Crash cam operators' user accounts",
+        "Prosecution authority's identity"
+    ],
+    "Assumptions": [
+        "Process Security",
+        "Implementation Correctness",
+        "Signature Key Trustworthiness",
+        "Authenticity of the Authentication Characteristics",
+        "Security of the Runtime Environment",
+        "Encryption keys Authenticity",
+        "Private Key Secrecy",
+        "Protection fo the Shared Secret",
+        "Security of the Scheme",
+        "Authenticity of the Authentication Features",
+        "Secrecy of the Shared Secret",
+        "The User's Public Key (Certificate) is Authentic"
+    ],
+    "Attackers": [
+        "Privacy Attacker",
+        "Modifying Attacker",
+        "Destructive Attacker",
+        "Outsider Attacker"
+    ],
+    "Attackers and Soft Goal Relationships": {
+        "Destructive Attacker": {
+            "authenticity": [],
+            "confidentiality": [],
+            "integrity": [
+                "Integrity of Video",
+                "Integrity of Anonymized video"
+            ]
+        },
+        "Modifying Attacker": {
+            "authenticity": [
+                "Authenticity of Anonymized video",
+                "Authenticity of Video"
+            ],
+            "confidentiality": [],
+            "integrity": [
+                "Integrity of Video",
+                "Integrity of Anonymized video"
+            ]
+        },
+        "Outsider Attacker": {
+            "authenticity": [],
+            "confidentiality": [
+                "Confidentiality of Video"
+            ],
+            "integrity": []
+        },
+        "Privacy Attacker": {
+            "authenticity": [
+                "Authenticity of Crash cam operators' user accounts"
+            ],
+            "confidentiality": [
+                "Confidentiality of Video"
+            ],
+            "integrity": []
+        }
+    },
+    "Black Box And Assumptions Relationship": {
+        "Access Control": [
+            "Implementation Correctness",
+            "Signature Key Trustworthiness",
+            "Security of the Runtime Environment"
+        ],
+        "Anonymization of Protection Worthy Image Areas": [
+            "Implementation Correctness"
+        ],
+        "Asymmetric Crypto Authentication Scheme": [
+            "The User's Public Key (Certificate) is Authentic"
+        ],
+        "Asymmetric Cryptography": [
+            "Security of the Scheme",
+            "Implementation Correctness",
+            "Private Key Secrecy"
+        ],
+        "Asymmetric or Hybrid Cryptography": [
+            "Process Security",
+            "Implementation Correctness"
+        ],
+        "Authentication Procedure": [
+            "Process Security",
+            "Implementation Correctness",
+            "Security of the Scheme"
+        ],
+        "Cryptographic Hash Function": [
+            "Process Security",
+            "Implementation Correctness",
+            "Security of the Scheme"
+        ],
+        "Detection of Protection Worthy Image Areas": [
+            "Implementation Correctness"
+        ],
+        "Digital Signature": [
+            "Implementation Correctness",
+            "Signature Key Trustworthiness"
+        ],
+        "Hybrid Cryptography": [
+            "Security of the Scheme",
+            "Implementation Correctness",
+            "Private Key Secrecy"
+        ],
+        "Password Authentication": [
+            "Implementation Correctness"
+        ],
+        "Strong Authentication Procedure": [
+            "Process Security",
+            "Implementation Correctness",
+            "Authenticity of the Authentication Characteristics",
+            "Authenticity of the Authentication Features",
+            "Security of the Scheme"
+        ]
+    },
+    "Black Box Mechanisms": {
+        "Access Control": {
+            "base": {
+                "authenticity": false,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": false
+            },
+            "role": [
+                "Admin"
+            ]
+        },
+        "Anonymization of Protection Worthy Image Areas": {
+            "base": {
+                "authenticity": false,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": false
+            },
+            "role": [
+                "No Role"
+            ]
+        },
+        "Asymmetric Crypto Authentication Scheme": {
+            "base": {
+                "authenticity": true,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": true
+            },
+            "role": [
+                "Admin"
+            ]
+        },
+        "Asymmetric Cryptography": {
+            "base": {
+                "authenticity": false,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": true
+            },
+            "role": [
+                "User"
+            ]
+        },
+        "Asymmetric or Hybrid Cryptography": {
+            "base": {
+                "authenticity": false,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": true
+            },
+            "role": [
+                "User"
+            ]
+        },
+        "Authentication Procedure": {
+            "base": {
+                "authenticity": true,
+                "confidentiality": false,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": false
+            },
+            "role": [
+                "Admin"
+            ]
+        },
+        "Cryptographic Hash Function": {
+            "base": {
+                "authenticity": true,
+                "confidentiality": false,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": true
+            },
+            "role": [
+                "User"
+            ]
+        },
+        "Detection of Protection Worthy Image Areas": {
+            "base": {
+                "authenticity": false,
+                "confidentiality": false,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": true
+            },
+            "role": []
+        },
+        "Digital Signature": {
+            "base": {
+                "authenticity": true,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": false
+            },
+            "role": [
+                "External"
+            ]
+        },
+        "Hybrid Cryptography": {
+            "base": {
+                "authenticity": false,
+                "confidentiality": true,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": true
+            },
+            "role": [
+                "User"
+            ]
+        },
+        "Password Authentication": {
+            "base": {
+                "authenticity": true,
+                "confidentiality": false,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": false
+            },
+            "role": [
+                "User"
+            ]
+        },
+        "Strong Authentication Procedure": {
+            "base": {
+                "authenticity": true,
+                "confidentiality": false,
+                "extra_asset": [],
+                "extra_functional_requirement": [],
+                "extra_softgoals": [],
+                "integrity": false
+            },
+            "role": []
+        }
+    },
+    "Contact Info": "pascal.birnstill@partner.kit.edu",
+    "Final Assumptions Signed": true,
+    "Functional Requirements": [
+        "Recording video",
+        "Uploading video",
+        "Authenticating crash cam operator",
+        "Anonymizing video",
+        "Storing anonymized video",
+        "Downloading anonymized video",
+        "Explicitly granting access to raw video",
+        "Authenticating prosecution authority",
+        "Storing video",
+        "Receiving video"
+    ],
+    "Functional Requirements and Services Relationships": {
+        "Anonymizing video": [
+            "Anonymization service"
+        ],
+        "Authenticating crash cam operator": [
+            "Crash cam app",
+            "Anonymization service"
+        ],
+        "Authenticating prosecution authority": [
+            "Anonymization service"
+        ],
+        "Downloading anonymized video": [
+            "Anonymization service"
+        ],
+        "Explicitly granting access to raw video": [
+            "Anonymization service"
+        ],
+        "Receiving video": [
+            "Anonymization service"
+        ],
+        "Recording video": [
+            "Crash cam app"
+        ],
+        "Storing anonymized video": [
+            "Anonymization service"
+        ],
+        "Storing video": [
+            "Anonymization service"
+        ],
+        "Uploading video": [
+            "Crash cam app"
+        ]
+    },
+    "Hard Goals": {
+        "Anonymization service ensures the Authenticity of Anonymized video during the process of Downloading anonymized video": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Downloading anonymized video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Anonymized video",
+            "unique_id": "HGP1F6C2SG1T300919171444514752"
+        },
+        "Anonymization service ensures the Authenticity of Anonymized video during the process of Storing anonymized video": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Storing anonymized video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Anonymized video",
+            "unique_id": "HGP1F5C2SG1T300919171444485856"
+        },
+        "Anonymization service ensures the Authenticity of Crash cam operators' user accounts during the process of Authenticating crash cam operator": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Authenticating crash cam operator",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Crash cam operators' user accounts",
+            "unique_id": "HGP1F3C2SG2T300919171444570702"
+        },
+        "Anonymization service ensures the Authenticity of Video during the process of Explicitly granting access to raw video": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Explicitly granting access to raw video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Video",
+            "unique_id": "HGP1F7C2SG3T300919171444653532"
+        },
+        "Anonymization service ensures the Authenticity of Video during the process of Receiving video": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Receiving video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Video",
+            "unique_id": "HGP2F19C4SG9T250320144053542054"
+        },
+        "Anonymization service ensures the Authenticity of Video during the process of Storing video": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Storing video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Video",
+            "unique_id": "HGP1F9C2SG3T300919171444677939"
+        },
+        "Anonymization service ensures the Authenticity of Prosecution authority's identity during the process of Authenticating prosecution authority": {
+            "authenticity": "yes",
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Authenticating prosecution authority",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Prosecution authority's identity",
+            "unique_id": "HGP2F17C4SG13T250320152343766841"
+        },
+        "Anonymization service ensures the Confidentiality of Video during the process of Explicitly granting access to raw video": {
+            "component_id": "Anonymization service",
+            "confidentiality": "yes",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Explicitly granting access to raw video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Confidentiality of Video",
+            "unique_id": "HGP1F7C2SG4T300919171444755535"
+        },
+        "Anonymization service ensures the Confidentiality of Video during the process of Receiving video": {
+            "component_id": "Anonymization service",
+            "confidentiality": "yes",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Receiving video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Confidentiality of Video",
+            "unique_id": "HGP2F19C4SG10T250320144053614717"
+        },
+        "Anonymization service ensures the Confidentiality of Video during the process of Storing video": {
+            "component_id": "Anonymization service",
+            "confidentiality": "yes",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Storing video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Confidentiality of Video",
+            "unique_id": "HGP1F9C2SG4T300919171444807150"
+        },
+        "Anonymization service ensures the Integrity of Anonymized video during the process of Anonymizing video": {
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Anonymizing video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Anonymized video",
+            "unique_id": "HGP1F4C2SG5T300919171444830877"
+        },
+        "Anonymization service ensures the Integrity of Anonymized video during the process of Downloading anonymized video": {
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Downloading anonymized video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Anonymized video",
+            "unique_id": "HGP1F6C2SG5T300919171444880070"
+        },
+        "Anonymization service ensures the Integrity of Anonymized video during the process of Storing anonymized video": {
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Storing anonymized video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Anonymized video",
+            "unique_id": "HGP1F5C2SG5T300919171444855800"
+        },
+        "Anonymization service ensures the Integrity of Video during the process of Explicitly granting access to raw video": {
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Explicitly granting access to raw video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Video",
+            "unique_id": "HGP1F7C2SG6T300919171444978013"
+        },
+        "Anonymization service ensures the Integrity of Video during the process of Receiving video": {
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Receiving video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Video",
+            "unique_id": "HGP2F19C4SG12T250320144053683486"
+        },
+        "Anonymization service ensures the Integrity of Video during the process of Storing video": {
+            "component_id": "Anonymization service",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Storing video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Video",
+            "unique_id": "HGP1F9C2SG6T300919171445003927"
+        },
+        "Crash cam app ensures the Authenticity of Video during the process of Uploading video": {
+            "authenticity": "yes",
+            "component_id": "Crash cam app",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Uploading video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Authenticity of Video",
+            "unique_id": "HGP1F2C1SG3T300919171444623001"
+        },
+        "Crash cam app ensures the Confidentiality of Video during the process of Recording video": {
+            "component_id": "Crash cam app",
+            "confidentiality": "yes",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Recording video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Confidentiality of Video",
+            "unique_id": "HGP1F1C1SG4T300919171444703299"
+        },
+        "Crash cam app ensures the Confidentiality of Video during the process of Uploading video": {
+            "component_id": "Crash cam app",
+            "confidentiality": "yes",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Uploading video",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Confidentiality of Video",
+            "unique_id": "HGP1F2C1SG4T300919171444730740"
+        },
+        "Crash cam app ensures the Integrity of Video during the process of Uploading video": {
+            "component_id": "Crash cam app",
+            "extra_hg": null,
+            "extra_hg_used": null,
+            "freq_id": "Uploading video",
+            "integrity": "yes",
+            "original_hg": null,
+            "priority": false,
+            "sg_id": "Integrity of Video",
+            "unique_id": "HGP1F2C1SG6T300919171444953720"
+        }
+    },
+    "Hard Mechanism Relationship": {
+        "base": {
+            "Anonymization service ensures the Authenticity of Anonymized video during the process of Downloading anonymized video": "Digital Signature",
+            "Anonymization service ensures the Authenticity of Anonymized video during the process of Storing anonymized video": "Digital Signature",
+            "Anonymization service ensures the Authenticity of Crash cam operators' user accounts during the process of Authenticating crash cam operator": "Password Authentication",
+            "Anonymization service ensures the Authenticity of Video during the process of Explicitly granting access to raw video": "Digital Signature",
+            "Anonymization service ensures the Authenticity of Video during the process of Receiving video": "Cryptographic Hash Function",
+            "Anonymization service ensures the Authenticity of Video during the process of Storing video": "Digital Signature",
+            "Anonymization service ensures the Authenticity of Prosecution authority's identity during the process of Authenticating prosecution authority": "Password Authentication",
+            "Anonymization service ensures the Confidentiality of Video during the process of Explicitly granting access to raw video": "Access Control",
+            "Anonymization service ensures the Confidentiality of Video during the process of Receiving video": "Hybrid Cryptography",
+            "Anonymization service ensures the Confidentiality of Video during the process of Storing video": "Hybrid Cryptography",
+            "Anonymization service ensures the Integrity of Anonymized video during the process of Anonymizing video": "Digital Signature",
+            "Anonymization service ensures the Integrity of Anonymized video during the process of Downloading anonymized video": "Cryptographic Hash Function",
+            "Anonymization service ensures the Integrity of Anonymized video during the process of Storing anonymized video": "Digital Signature",
+            "Anonymization service ensures the Integrity of Video during the process of Explicitly granting access to raw video": "Digital Signature",
+            "Anonymization service ensures the Integrity of Video during the process of Receiving video": "Cryptographic Hash Function",
+            "Anonymization service ensures the Integrity of Video during the process of Storing video": "Digital Signature",
+            "Crash cam app ensures the Authenticity of Video during the process of Uploading video": "Cryptographic Hash Function",
+            "Crash cam app ensures the Confidentiality of Video during the process of Recording video": "Hybrid Cryptography",
+            "Crash cam app ensures the Confidentiality of Video during the process of Uploading video": "Hybrid Cryptography",
+            "Crash cam app ensures the Integrity of Video during the process of Uploading video": "Cryptographic Hash Function"
+        },
+        "status": {
+            "Anonymization service ensures the Authenticity of Anonymized video during the process of Downloading anonymized video": 3,
+            "Anonymization service ensures the Authenticity of Anonymized video during the process of Storing anonymized video": 4,
+            "Anonymization service ensures the Authenticity of Crash cam operators' user accounts during the process of Authenticating crash cam operator": 0,
+            "Anonymization service ensures the Authenticity of Video during the process of Explicitly granting access to raw video": 3,
+            "Anonymization service ensures the Authenticity of Video during the process of Receiving video": 3,
+            "Anonymization service ensures the Authenticity of Video during the process of Storing video": 4,
+            "Anonymization service ensures the Authenticity of Prosecution authority's identity during the process of Authenticating prosecution authority": 0,
+            "Anonymization service ensures the Confidentiality of Video during the process of Explicitly granting access to raw video": 1,
+            "Anonymization service ensures the Confidentiality of Video during the process of Receiving video": 2,
+            "Anonymization service ensures the Confidentiality of Video during the process of Storing video": 4,
+            "Anonymization service ensures the Integrity of Anonymized video during the process of Anonymizing video": 4,
+            "Anonymization service ensures the Integrity of Anonymized video during the process of Downloading anonymized video": 3,
+            "Anonymization service ensures the Integrity of Anonymized video during the process of Storing anonymized video": 4,
+            "Anonymization service ensures the Integrity of Video during the process of Explicitly granting access to raw video": 4,
+            "Anonymization service ensures the Integrity of Video during the process of Receiving video": 4,
+            "Anonymization service ensures the Integrity of Video during the process of Storing video": 4,
+            "Crash cam app ensures the Authenticity of Video during the process of Uploading video": 4,
+            "Crash cam app ensures the Confidentiality of Video during the process of Recording video": 4,
+            "Crash cam app ensures the Confidentiality of Video during the process of Uploading video": 4,
+            "Crash cam app ensures the Integrity of Video during the process of Uploading video": 4
+        }
+    },
+    "Project": "PCC",
+    "Project Creator": "rb8801",
+    "Project Editors": [
+        "rb8801"
+    ],
+    "Public": null,
+    "Services": [
+        "Crash cam app",
+        "Anonymization service"
+    ],
+    "Soft Goals": {
+        "Authenticity of Anonymized video": {
+            "cb_value": "authenticity\u00a1Anonymized video",
+            "priority": false
+        },
+        "Authenticity of Crash cam operators' user accounts": {
+            "cb_value": "authenticity\u00a1Crash cam operators' user accounts",
+            "priority": false
+        },
+        "Authenticity of Video": {
+            "cb_value": "authenticity\u00a1Video",
+            "priority": true
+        },
+        "Authenticity of Prosecution authority's identity": {
+            "cb_value": "authenticity\u00a1Prosecution authority's identity",
+            "priority": null
+        },
+        "Confidentiality of Video": {
+            "cb_value": "confidentiality\u00a1Video",
+            "priority": true
+        },
+        "Integrity of Anonymized video": {
+            "cb_value": "integrity\u00a1Anonymized video",
+            "priority": false
+        },
+        "Integrity of Video": {
+            "cb_value": "integrity\u00a1Video",
+            "priority": true
+        }
+    },
+    "Stakeholders": [
+        "Potential video subject",
+        "Operator of the crash cam",
+        "Provider of the anonymization service",
+        "Prosecution authority"
+    ]
+}
